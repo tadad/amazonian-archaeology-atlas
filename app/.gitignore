@@ -6,3 +6,5 @@ out/
 .DS_Store
 .playwright-cli/
 output/
+.vercel/
+.env*.local
