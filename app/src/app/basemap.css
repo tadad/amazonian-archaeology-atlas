@@ -1,5 +1,6 @@
 .leaflet-atlas .basemap-osm {
-  filter: grayscale(0.72) saturate(0.52) contrast(0.95) brightness(1.05);
+  filter: grayscale(0.78) sepia(0.08) saturate(0.62) contrast(1.16)
+    brightness(1.03);
 }
 
 .lidar-footprint {

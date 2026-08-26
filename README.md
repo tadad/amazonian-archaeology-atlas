@@ -65,10 +65,10 @@ The discovery command regenerates machine-discovered records,
 `_data/manifest.json`, and `INDEX.md`. Manually curated source records and the
 field guide are separate so they are not overwritten.
 
-Build and audit the Acre graph from the workspace root:
+Audit the Acre graph from the workspace root:
 
 ```bash
-python3 andes-amazon/tools/build_acre_graph.py
+python3 andes-amazon/tools/audit_vault_graph.py
 python3 andes-amazon/tools/audit_vault_graph.py --max-size 10
 ```
 

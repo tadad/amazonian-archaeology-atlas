@@ -1,0 +1,11 @@
+.notice {
+  margin: 18px 0;
+  padding: 10px 12px;
+  border-left: 2px solid #3f718b;
+  color: #555;
+  background: #f5f7f8;
+  font-family: var(--font-sans, "Helvetica Neue", Arial, sans-serif);
+  font-size: 0.75rem;
+  font-style: normal;
+  line-height: 1.45;
+}

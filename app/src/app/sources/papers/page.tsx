@@ -1,41 +1,46 @@
 import type { Metadata } from "next";
 import { LibraryShell } from "@/components/library-shell";
+import { formatMessage, getDictionary } from "@/i18n";
+import { localeTag } from "@/i18n/config";
+import { getRequestLocale } from "@/i18n/server";
 import { getPapers } from "@/lib/vault";
 import styles from "../library.module.css";
 
-export const metadata: Metadata = {
-  title: "Papers | Acre Archaeology Atlas",
-  description: "Browse the papers in the Acre archaeology research vault.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const messages = getDictionary(await getRequestLocale());
+  return {
+    title: `${messages.papers.title} | ${messages.metadata.siteTitle}`,
+    description: messages.metadata.papersDescription,
+  };
+}
 
-export default function PapersIndexPage() {
+export default async function PapersIndexPage() {
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
   const papers = getPapers();
   const pageCount = papers.reduce((total, paper) => total + paper.pages, 0);
 
   return (
-    <LibraryShell collection="papers">
+    <LibraryShell collection="papers" locale={locale} messages={messages}>
       <div className={styles.indexPage}>
-        <p className={styles.eyebrow}>The paper record</p>
-        <h2>{papers.length} studies, source-linked.</h2>
-        <p className={styles.indexLead}>
-          Articles, theses, books, chapters, and reports on Acre geoglyphs, earthworks, managed
-          forests, roads, ceramics, and mound villages. Each record preserves its source and credits.
-        </p>
+        <p className={styles.eyebrow}>{messages.papers.eyebrow}</p>
+        <h2>{formatMessage(messages.papers.indexTitle, { count: papers.length })}</h2>
+        <p className={styles.indexLead}>{messages.papers.indexLead}</p>
         <dl className={styles.indexStats}>
           <div>
-            <dt>Documents</dt>
+            <dt>{messages.papers.documents}</dt>
             <dd>{papers.length}</dd>
           </div>
           <div>
-            <dt>PDF pages</dt>
-            <dd>{pageCount.toLocaleString("en-US")}</dd>
+            <dt>{messages.papers.pdfPages}</dt>
+            <dd>{pageCount.toLocaleString(localeTag(locale))}</dd>
           </div>
           <div>
-            <dt>Collections</dt>
+            <dt>{messages.papers.collections}</dt>
             <dd>{new Set(papers.map((paper) => paper.collection)).size}</dd>
           </div>
         </dl>
-        <p className={styles.indexInstruction}>Choose a paper from the catalogue to begin reading.</p>
+        <p className={styles.indexInstruction}>{messages.papers.instruction}</p>
       </div>
     </LibraryShell>
   );

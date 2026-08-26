@@ -1,4 +1,4 @@
-# Acre Research Library
+# Amazonian Archaeology Research Library
 
 This bibliography is an exhaustive first-pass discovery set, not a claim that every item has been fully read. Access status separates restricted local PDFs, open links, publisher records, unpublished reports, and bibliographic leads. Restricted PDFs are preserved outside the navigable vault because source articles can contain exact archaeological coordinates.
 
@@ -38,7 +38,9 @@ This bibliography is an exhaustive first-pass discovery set, not a claim that ev
 | 2012 | [[Papers/2012-saunaluoma-schaan-monumentality|Monumentality in Western Amazonian Formative Societies: Geometric Ditched Enclosures in the Brazilian State of Acre]] | en | article | open-access |
 | 2012 | [[Papers/2012-schaan-et-al-new-radiometric-dates|New Radiometric Dates for Precolumbian (2000-700 B.P.) Earthworks in Western Amazonia, Brazil]] | en | article | publisher-record |
 | 2012 | [[Papers/2012-carmo-relacoes-geoambientais-geoglifos|Relações geoambientais nos geoglifos do sudeste do estado do Acre]] | pt | thesis | open-access |
+| 2012 | [[Papers/2012-asner-colombia-carbon-mapping|High-resolution mapping of forest carbon stocks in the Colombian Amazon]] | en | article | open-access |
 | 2010 | [[Papers/2010-schaan-et-al-construindo-paisagens|Construindo paisagens como espaços sociais: o caso dos geoglifos do Acre]] | pt | article | open-access |
+| 2010 | [[Papers/2010-asner-peru-carbon-mapping|High-resolution forest carbon stocks and emissions in the Amazon]] | en | article | open-access |
 | 2009 | [[Papers/2009-parssinen-schaan-ranzi-upper-purus|Pre-Columbian Geometric Earthworks in the Upper Purús: A Complex Society in Western Amazonia]] | en | article | open-access |
 | 2008 | [[Papers/2008-schaan-ranzi-parssinen-arqueologia-amazonia-ocidental|Arqueologia da Amazônia Ocidental: os geoglifos do Acre]] | pt | edited-book | open-access |
 | 2007 | [[Papers/2007-schaan-parssinen-ranzi-piccoli-complexidade|Geoglifos da Amazônia Ocidental: evidência de complexidade social entre povos de terra firme]] | pt | article | open-access |

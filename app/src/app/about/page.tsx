@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LanguageToggle } from "@/components/language-toggle";
+import { OriginalLanguageNotice } from "@/components/original-language-notice";
+import { getDictionary } from "@/i18n";
+import { localePath } from "@/i18n/config";
+import { getRequestLocale } from "@/i18n/server";
 import { getVaultCollections } from "@/lib/vault-catalogue";
 import styles from "@/app/sources/library.module.css";
 
-export const metadata: Metadata = {
-  title: "About | Amazonian Archaeology Atlas",
-  description:
-    "Scope, evidence standards, source handling, and coordinate policy for the Amazonian LiDAR atlas and Acre research corpus.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const messages = getDictionary(await getRequestLocale());
+  return {
+    title: `${messages.nav.about} | ${messages.metadata.siteTitle}`,
+    description: messages.metadata.siteDescription,
+  };
+}
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
   const counts = Object.fromEntries(
     getVaultCollections().map((collection) => [collection.slug, collection.records.length]),
   );
@@ -17,13 +26,14 @@ export default function AboutPage() {
   return (
     <main className={styles.libraryPage}>
       <header className={styles.masthead}>
-        <Link className={styles.wordmark} href="/">
-          Archaeology of Amazonia
+        <Link className={styles.wordmark} href={localePath(locale, "/")}>
+          {messages.nav.siteName}
         </Link>
-        <nav className={styles.primaryNav} aria-label="Primary navigation">
-          <Link href="/">Atlas</Link>
-          <Link href="/sources/places">Wiki</Link>
-          <span aria-current="page">About</span>
+        <nav className={styles.primaryNav} aria-label={messages.nav.primaryLabel}>
+          <Link href={localePath(locale, "/")}>{messages.nav.atlas}</Link>
+          <Link href={localePath(locale, "/sources/lidar-scans")}>{messages.nav.wiki}</Link>
+          <span aria-current="page">{messages.nav.about}</span>
+          <LanguageToggle locale={locale} messages={messages.language} />
         </nav>
       </header>
 
@@ -43,7 +53,10 @@ export default function AboutPage() {
         </aside>
 
         <section className={styles.reader}>
-          <article className={styles.document}>
+          <article className={styles.document} lang="en">
+            <OriginalLanguageNotice locale={locale}>
+              {messages.originalLanguage.about}
+            </OriginalLanguageNotice>
             <header className={styles.documentHeader}>
               <p className={styles.eyebrow}>Scope and method</p>
               <h2>A Pan-Amazon LiDAR atlas anchored by the Acre knowledge graph.</h2>
@@ -53,7 +66,9 @@ export default function AboutPage() {
               </p>
 
               <dl className={styles.metadataGrid} aria-label="Corpus record counts">
-                <div><dt>Place records</dt><dd>{counts.places ?? 0}</dd></div>
+                <div><dt>LiDAR scans</dt><dd>{counts["lidar-scans"] ?? 0}</dd></div>
+                <div><dt>Investigations</dt><dd>{counts.investigations ?? 0}</dd></div>
+                <div><dt>Archaeological sites</dt><dd>{counts["archaeological-sites"] ?? 0}</dd></div>
                 <div><dt>Paper records</dt><dd>{counts.papers ?? 0}</dd></div>
                 <div><dt>Authors</dt><dd>{counts.authors ?? 0}</dd></div>
                 <div><dt>Organizations</dt><dd>{counts.organizations ?? 0}</dd></div>
@@ -66,18 +81,19 @@ export default function AboutPage() {
                 The map tracks published archaeological LiDAR results, archaeologically screened
                 legacy surveys, unscreened data archives, preliminary programs, and community-led
                 documentation across Amazonia. The navigable knowledge graph remains centered on
-                Acre while new regional sources are incorporated with the same six-entity schema.
+                Acre while new regional sources are incorporated through the same research-centered schema.
               </p>
 
-              <h2 id="ontology">One graph, six record types</h2>
+              <h2 id="ontology">Research activity is the center of the graph</h2>
               <p>
-                <strong>Places</strong> link to <strong>Periods</strong>, <strong>Cultures</strong>,
-                and directly supporting <strong>Papers</strong>. Papers link to canonical
-                <strong> Authors</strong> and credited <strong>Organizations</strong>. Organization
-                records connect institutions to affiliated people, papers, and places. Culture
-                records include archaeological traditions, named Indigenous peoples, and the
-                explicitly interpretive Aquiry model without treating those categories as
-                interchangeable. Backlinks supply the reverse relationships.
+                <strong>LiDAR scans</strong> represent acquisitions or coherent campaigns and link
+                to the papers and organizations that produced, hold, or analyzed them.
+                <strong> Investigations</strong> represent excavation, pedestrian survey, coring,
+                paleoecology, community research, and other non-LiDAR fieldwork. Named
+                <strong> archaeological sites</strong> are retained as the subjects of that work;
+                regional corridors and survey centroids are not treated as sites. Papers link to
+                canonical <strong>Authors</strong> and credited <strong>Organizations</strong>.
+                Periods and cultures remain supporting vocabularies rather than the graph’s center.
               </p>
 
               <h2 id="evidence">How to read the evidence</h2>
@@ -94,11 +110,10 @@ export default function AboutPage() {
 
               <h2 id="coordinates">Map coordinates</h2>
               <p>
-                Public markers are deliberately coarse research-area placements. The atlas renders
-                a coordinate only when its record explicitly declares both
-                <code> regional-centroid</code> precision and <code>public-generalized</code>
-                visibility. Exact archaeological coordinates and access points are withheld; a
-                policy mismatch stops the build instead of silently publishing a marker.
+                Archaeological-site records retain only deliberately generalized research-area
+                placements. Exact coordinates and access points are withheld. Sites are not used
+                as a map coverage layer; the atlas centers LiDAR acquisition footprints and
+                source-fitted ancient-work evidence cells.
               </p>
               <p>
                 LiDAR geometry follows a separate provenance system. Solid footprints come from
@@ -117,7 +132,8 @@ export default function AboutPage() {
                 publication before reuse.
               </p>
               <p>
-                <Link href="/">Explore the atlas</Link> or <Link href="/sources/places">browse the wiki</Link>.
+                <Link href={localePath(locale, "/")}>Explore the atlas</Link> or{" "}
+                <Link href={localePath(locale, "/sources/lidar-scans")}>browse the wiki</Link>.
               </p>
             </div>
           </article>

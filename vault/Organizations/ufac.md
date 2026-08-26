@@ -21,12 +21,8 @@ papers:
   - "[[Papers/2020-silva-etnogeometria-geoglifos-acre|Etnogeometria: geometrias das antigas civilizações e os geoglifos dos povos ancestrais que viveram no estado do Acre]]"
   - "[[Papers/2021-parssinen-et-al-domestication-motion|Domestication in Motion: Macrofossils of Pre-Colonial Brazilian Nuts, Palms and Other Amazonian Planted Tree Species Found in the Upper Purus]]"
   - "[[Papers/2026-parssinen-et-al-over-20000-earthworks|Over 20,000 Precolonial Earthworks in the Southwest Amazonia]]"
-places:
-  - "[[Places/acre-geoglyph-landscape|Acre Geoglyph Landscape]]"
-  - "[[Places/tequinho|Tequinho]]"
-  - "[[Places/bujari-porto-acre-earthwork-corridor|Bujari-Porto Acre Earthwork Corridor]]"
-  - "[[Places/sena-madureira-iaco-geoglyph-zone|Sena Madureira-Iaco Geoglyph Zone]]"
-  - "[[Places/manoel-urbano-upper-purus-frontier|Manoel Urbano-Upper Purus Frontier]]"
+sites:
+  - "[[Archaeological Sites/tequinho|Tequinho]]"
 ---
 # Universidade Federal do Acre
 

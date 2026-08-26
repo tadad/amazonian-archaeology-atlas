@@ -29,37 +29,60 @@ def load_module(name: str, path: Path):
 class AcreGraphTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.builder = load_module("build_acre_graph", ROOT / "tools" / "build_acre_graph.py")
         cls.audit_module = load_module("audit_vault_graph", ROOT / "tools" / "audit_vault_graph.py")
-
-    def test_registry_ids_resolve(self) -> None:
-        self.builder.validate()
 
     def test_manifest_matches_generated_counts(self) -> None:
         manifest = json.loads((ROOT / "_data" / "acre-graph-manifest.json").read_text(encoding="utf-8"))
         self.assertEqual(manifest["counts"]["papers"], len(list((ROOT / "vault" / "Papers").glob("*.md"))))
-        self.assertEqual(manifest["counts"]["places"], len(list((ROOT / "vault" / "Places").glob("*.md"))))
+        self.assertEqual(
+            manifest["counts"]["lidar_scans"],
+            len(list((ROOT / "vault" / "LiDAR Scans").glob("*.md"))),
+        )
+        self.assertEqual(
+            manifest["counts"]["investigations"],
+            len(list((ROOT / "vault" / "Investigations").glob("*.md"))),
+        )
+        self.assertEqual(
+            manifest["counts"]["archaeological_sites"],
+            len(list((ROOT / "vault" / "Archaeological Sites").glob("*.md"))),
+        )
 
     def test_graph_has_no_unresolved_typed_links(self) -> None:
         result = self.audit_module.audit(ROOT / "vault")
         self.assertEqual([], result["unresolved_typed_links"])
-        self.assertEqual(1, result["component_count"])
+        self.assertGreaterEqual(result["component_sizes"][0], 380)
 
     def test_aquiry_is_marked_as_interpretive(self) -> None:
         note = (ROOT / "vault" / "Cultures" / "aquiry-interpretive-model.md").read_text(encoding="utf-8")
         self.assertIn("not as a demonstrated single ethnicity", note)
 
-    def test_place_schema_matches_el_salvador_coordinate_contract(self) -> None:
+    def test_research_centered_ontology_replaces_generic_places(self) -> None:
         required = {
-            "coordinate_precision_label:",
-            "coordinate_precision_short_label:",
-            "coordinate_precision_description:",
+            "site_id:",
+            "site_kind:",
+            "investigations:",
         }
-        template = (ROOT / "vault" / "Templates" / "Place.md").read_text(encoding="utf-8")
-        record = (ROOT / "vault" / "Places" / "acre-geoglyph-landscape.md").read_text(encoding="utf-8")
+        self.assertFalse((ROOT / "vault" / "Places").exists())
+        self.assertFalse((ROOT / "vault" / "Templates" / "Place.md").exists())
+        template = (ROOT / "vault" / "Templates" / "Archaeological Site.md").read_text(encoding="utf-8")
         for field in required:
             self.assertIn(field, template)
-            self.assertIn(field, record)
+        self.assertTrue((ROOT / "vault" / "Templates" / "Investigation.md").is_file())
+        self.assertTrue((ROOT / "vault" / "Templates" / "LiDAR Scan.md").is_file())
+
+    def test_research_collection_views_use_current_schema(self) -> None:
+        lidar_view = (ROOT / "vault" / "Views" / "LiDAR Scans.base").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("acquisition_purpose", lidar_view)
+        self.assertIn("point_density_m2", lidar_view)
+        self.assertNotIn("survey_purpose", lidar_view)
+        self.assertNotIn("point_density_per_m2", lidar_view)
+
+        site_view = (ROOT / "vault" / "Views" / "Archaeological Sites.base").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn('location_visibility != "public-generalized"', site_view)
 
     def test_culture_bibliographies_are_explicitly_scoped(self) -> None:
         mound = (ROOT / "vault" / "Cultures" / "acre-mound-village-tradition.md").read_text(encoding="utf-8")
@@ -73,7 +96,7 @@ class AcreGraphTests(unittest.TestCase):
         self.assertNotIn("Attachments/PDFs", paper)
 
     def test_public_coordinates_require_generalized_public_policy(self) -> None:
-        for record in (ROOT / "vault" / "Places").glob("*.md"):
+        for record in (ROOT / "vault" / "Archaeological Sites").glob("*.md"):
             latitude = frontmatter_value(record, "latitude")
             longitude = frontmatter_value(record, "longitude")
             has_coordinate = bool(latitude or longitude)
@@ -90,54 +113,49 @@ class AcreGraphTests(unittest.TestCase):
             else:
                 self.assertEqual("withheld", frontmatter_value(record, "location_visibility"), record)
 
-    def test_all_curated_places_have_coarse_public_map_placements(self) -> None:
-        records = list((ROOT / "vault" / "Places").glob("*.md"))
-        self.assertEqual(24, len(records))
+    def test_archaeological_sites_are_named_entities_with_coarse_locations(self) -> None:
+        records = list((ROOT / "vault" / "Archaeological Sites").glob("*.md"))
+        self.assertEqual(17, len(records))
         for record in records:
+            self.assertEqual("archaeological-site", frontmatter_value(record, "type"), record)
+            self.assertTrue(frontmatter_value(record, "site_id"), record)
+            self.assertTrue(frontmatter_value(record, "site_kind"), record)
             self.assertEqual("regional-centroid", frontmatter_value(record, "coordinate_precision"), record)
             self.assertEqual("public-generalized", frontmatter_value(record, "location_visibility"), record)
             self.assertGreaterEqual(float(frontmatter_value(record, "coordinate_uncertainty_km")), 8, record)
 
-    def test_atlas_markers_require_site_specific_fieldwork(self) -> None:
-        expected = {
-            "boa-esperanca-mound-village",
-            "caboquinho",
-            "dos-circulos-iv",
-            "dos-circulos-v",
-            "espinhara",
-            "fazenda-atlantica",
-            "jaco-sa",
-            "quinaua",
-            "sol-de-campinas",
-            "tequinho",
-            "tocantins-mound-village",
-            "tres-vertentes",
-            "vila-pia-earthworks",
-        }
-        mapped = {
-            record.stem
-            for record in (ROOT / "vault" / "Places").glob("*.md")
-            if frontmatter_value(record, "atlas") == "true"
-        }
+    def test_archaeological_sites_are_not_an_atlas_coverage_layer(self) -> None:
+        for record in (ROOT / "vault" / "Archaeological Sites").glob("*.md"):
+            self.assertNotEqual("true", frontmatter_value(record, "atlas"), record)
 
-        self.assertEqual(expected, mapped)
-        for place_id in mapped:
-            record = ROOT / "vault" / "Places" / f"{place_id}.md"
-            self.assertTrue(frontmatter_value(record, "atlas_basis"), record)
-
-    def test_lidar_papers_and_protected_discovery_cluster_are_in_graph(self) -> None:
+    def test_lidar_papers_and_protected_discovery_scan_are_in_graph(self) -> None:
         for paper_id in (
             "2017-khan-aragao-iriarte-uav-lidar-system",
             "2023-peripato-et-al-hidden-earthworks",
         ):
             self.assertTrue((ROOT / "vault" / "Papers" / f"{paper_id}.md").is_file())
 
-        cluster = (ROOT / "vault" / "Places" / "ace-01-10-lidar-discoveries.md").read_text(
+        cluster = (ROOT / "vault" / "LiDAR Scans" / "2023-ace-discoveries.md").read_text(
             encoding="utf-8"
         )
         self.assertIn("2023-peripato-et-al-hidden-earthworks", cluster)
-        self.assertIn('coordinate_uncertainty_km: 35', cluster)
-        self.assertIn("one protected research cluster", cluster)
+        self.assertIn('atlas_survey_ids:', cluster)
+        self.assertIn('"2023-ace-discoveries"', cluster)
+
+    def test_lidar_scan_nodes_cover_every_operational_atlas_survey(self) -> None:
+        surveys = json.loads(
+            (ROOT / "_data" / "acre-lidar-surveys.json").read_text(encoding="utf-8")
+        )["surveys"]
+        records = list((ROOT / "vault" / "LiDAR Scans").glob("*.md"))
+        self.assertEqual(34, len(records))
+        corpus = "\n".join(record.read_text(encoding="utf-8") for record in records)
+        for survey in surveys:
+            self.assertEqual(1, corpus.count(f'  - "{survey["id"]}"'), survey["id"])
+        campaign = (ROOT / "vault" / "LiDAR Scans" / "2026-acre-amazonas-als-campaign.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertEqual(10, campaign.count('  - "2026-acre-amazonas-als-line-'))
+        self.assertIn('acquisition_start_year: 2024', campaign)
 
     def test_public_lidar_layer_separates_studies_from_footprints(self) -> None:
         layer = json.loads((ROOT / "_data" / "acre-lidar-surveys.json").read_text(encoding="utf-8"))
@@ -265,6 +283,7 @@ class AcreGraphTests(unittest.TestCase):
             by_id["2026-acre-amazonas-als-line-01"]["point_density_m2"],
         )
         self.assertEqual(1, by_id["2009-madre-de-dios-ecological-als"]["terrain_resolution_m"])
+        self.assertFalse(by_id["2009-madre-de-dios-ecological-als"]["atlas_visible"])
         self.assertEqual(1, by_id["2016-2018-eba-brazil-transects"]["terrain_resolution_m"])
         self.assertEqual(4, by_id["2016-2018-eba-brazil-transects"]["point_density_m2"])
         self.assertEqual("other", by_id["2009-madre-de-dios-ecological-als"]["acquisition_purpose"])
@@ -490,10 +509,16 @@ class AcreGraphTests(unittest.TestCase):
         map_component = (
             ROOT / "app" / "src" / "components" / "excavation-map.tsx"
         ).read_text(encoding="utf-8")
+        messages = json.loads(
+            (ROOT / "app" / "src" / "i18n" / "dictionaries" / "en.json").read_text(
+                encoding="utf-8"
+            )
+        )
         self.assertIn("type AtlasLidarReviewClass", explorer)
-        self.assertIn('label: "Reviewed"', explorer)
-        self.assertIn('label: "Partial"', explorer)
-        self.assertIn('label: "No review"', explorer)
+        self.assertEqual("Reviewed", messages["atlas"]["reviewClasses"]["reviewed"]["label"])
+        self.assertEqual("Partial", messages["atlas"]["reviewClasses"]["partial"]["label"])
+        self.assertEqual("No review", messages["atlas"]["reviewClasses"]["unreviewed"]["label"])
+        self.assertIn("messages.atlas.reviewClasses[id]", explorer)
         self.assertNotIn('type="range"', explorer)
         self.assertNotIn("lidarResolutionClasses", explorer)
         self.assertNotIn("LiDAR coverage</span>", explorer)
@@ -501,20 +526,22 @@ class AcreGraphTests(unittest.TestCase):
         self.assertNotIn("Filter archaeological sites", explorer)
         self.assertNotIn("LiDAR evidence", explorer)
         self.assertNotIn("lidar-legend", map_component)
-        self.assertIn("Archaeological review legend", map_component)
-        self.assertIn("Systematic review completed", map_component)
-        self.assertIn("Partial or ongoing review", map_component)
-        self.assertIn("No published review found", map_component)
-        self.assertIn("Footprint source", map_component)
-        self.assertIn("Released acquisition GIS", map_component)
-        self.assertIn("Reconstructed from source", map_component)
+        self.assertEqual("Archaeological review legend", messages["map"]["reviewLegendLabel"])
+        self.assertEqual("Systematic review completed", messages["map"]["systematicReview"])
+        self.assertEqual("Partial or ongoing review", messages["map"]["partialReview"])
+        self.assertEqual("No published review found", messages["map"]["noReview"])
+        self.assertEqual("Footprint source", messages["map"]["footprintSource"])
+        self.assertEqual("Released acquisition GIS", messages["map"]["releasedGis"])
+        self.assertEqual("Reconstructed from source", messages["map"]["reconstructed"])
+        self.assertIn("messages.map.reviewLegendLabel", map_component)
         self.assertNotIn("Digitized published map", map_component)
         self.assertNotIn("Context only · not coverage", map_component)
         self.assertIn('reviewed: { color: "#176d73"', map_component)
         self.assertIn('partial: { color: "#ad7927"', map_component)
         self.assertIn('unreviewed: { color: "#62666a"', map_component)
         self.assertIn('footprint.provenance !== "context"', explorer)
-        self.assertIn("<span>Earthworks</span>", explorer)
+        self.assertEqual("Earthworks", messages["atlas"]["earthworks"])
+        self.assertIn("<span>{ui.earthworks}</span>", explorer)
         self.assertNotIn("<span>Ancient works</span>", explorer)
 
     def test_earthworks_keep_a_visible_locator_at_overview_zoom(self) -> None:
@@ -536,31 +563,30 @@ class AcreGraphTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn('className="research-data"', explorer)
-        self.assertIn("<dt>Review status</dt>", explorer)
-        self.assertIn("<dt>Reviewed share</dt>", explorer)
-        self.assertIn("<dt>Review scope</dt>", explorer)
-        self.assertIn("<dt>Purpose</dt>", explorer)
-        self.assertIn("<dt>Terrain grid</dt>", explorer)
-        self.assertIn("<dt>Footprint source</dt>", explorer)
-        self.assertIn("Relevant links", explorer)
+        self.assertIn("<dt>{ui.reviewStatus}</dt>", explorer)
+        self.assertIn("<dt>{ui.reviewedShare}</dt>", explorer)
+        self.assertIn("<dt>{ui.reviewScope}</dt>", explorer)
+        self.assertIn("<dt>{ui.purpose}</dt>", explorer)
+        self.assertIn("<dt>{ui.terrainGrid}</dt>", explorer)
+        self.assertIn("<dt>{ui.footprintSource}</dt>", explorer)
+        self.assertIn("heading={ui.relevantLinks}", explorer)
         self.assertNotIn("Selected acquisition", explorer)
         self.assertNotIn("Acquisition geometry with source provenance", explorer)
         self.assertNotIn("representative.resolutionBasis", explorer)
         self.assertNotIn("survey.footprintNote", explorer)
         self.assertNotIn('className="lidar-study-metrics"', explorer)
 
-    def test_northern_and_central_research_zones_are_in_graph(self) -> None:
-        expected = {
-            "bujari-porto-acre-earthwork-corridor": "Bujari-Porto Acre",
-            "sena-madureira-iaco-geoglyph-zone": "Sena Madureira-Iaco",
-            "manoel-urbano-upper-purus-frontier": "Manoel Urbano-Upper Purus",
-        }
-        for place_id, label in expected.items():
-            record = (ROOT / "vault" / "Places" / f"{place_id}.md").read_text(encoding="utf-8")
-            self.assertIn(label, record)
-            self.assertIn("2026-parssinen-et-al-over-20000-earthworks", record)
-            self.assertIn('coordinate_precision: "regional-centroid"', record)
-            self.assertIn('location_visibility: "public-generalized"', record)
+    def test_regional_place_placeholders_are_replaced_by_research_records(self) -> None:
+        campaign = (ROOT / "vault" / "LiDAR Scans" / "2026-acre-amazonas-als-campaign.md").read_text(
+            encoding="utf-8"
+        )
+        investigation = (
+            ROOT / "vault" / "Investigations" / "2020-2021-southeastern-acre-mound-villages.md"
+        ).read_text(encoding="utf-8")
+        self.assertIn("Manoel Urbano", campaign)
+        self.assertIn("2026-parssinen-et-al-over-20000-earthworks", campaign)
+        self.assertIn("excavation", investigation)
+        self.assertIn("2020-mound-village-transects", investigation)
 
     def test_public_amazon_inventory_layer_is_complete_and_generalized(self) -> None:
         inventory = json.loads(

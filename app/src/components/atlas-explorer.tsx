@@ -3,9 +3,19 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { AtlasSearchBox } from "@/components/atlas-search-box";
+import { LanguageToggle } from "@/components/language-toggle";
+import { OriginalLanguageNotice } from "@/components/original-language-notice";
 import { VaultMarkdown } from "@/components/vault-markdown";
+import en from "@/i18n/dictionaries/en.json";
+import {
+  formatMessage,
+  localizedControlledText,
+  localizedGeneratedLabel,
+  type Dictionary,
+} from "@/i18n";
+import { localePath, localeTag, type Locale } from "@/i18n/config";
 import {
   type AtlasAncientFeatureCell,
   type AtlasData,
@@ -15,51 +25,37 @@ import {
   type AtlasLidarSurvey,
   type AtlasPlace,
   type AtlasSearchResult,
-  coordinateMethodMeta,
   lidarReviewClassForStatus,
   lidarReviewClassForSurveys,
   locationStatusFor,
-  locationStatusMeta,
 } from "@/lib/atlas-types";
+
+const AtlasLoadingContext = createContext(en.atlas);
+
+function MapLoading() {
+  const messages = useContext(AtlasLoadingContext);
+  return (
+    <div className="map-loading" role="status">
+      <span className="loading-mark" aria-hidden="true" />
+      {messages.loadingMap}
+    </div>
+  );
+}
 
 const ExcavationMap = dynamic(() => import("./excavation-map"), {
   ssr: false,
-  loading: () => (
-    <div className="map-loading" role="status">
-      <span className="loading-mark" aria-hidden="true" />
-      Loading map…
-    </div>
-  ),
+  loading: MapLoading,
 });
 
 const siteQueryParam = "place";
 const noMapSites: AtlasPlace[] = [];
 
-const lidarReviewClasses: readonly {
+type LidarReviewOption = {
   id: AtlasLidarReviewClass;
   label: string;
   detail: string;
   title: string;
-}[] = [
-  {
-    id: "reviewed",
-    label: "Reviewed",
-    detail: "systematic screen",
-    title: "Toggle LiDAR coverage with a published systematic archaeological review",
-  },
-  {
-    id: "partial",
-    label: "Partial",
-    detail: "or ongoing",
-    title: "Toggle LiDAR coverage with partial or ongoing archaeological review",
-  },
-  {
-    id: "unreviewed",
-    label: "No review",
-    detail: "found",
-    title: "Toggle LiDAR coverage for which no published archaeological review was found",
-  },
-];
+};
 
 function lidarFootprintReviewClass(
   footprint: AtlasLidarFootprint,
@@ -70,13 +66,6 @@ function lidarFootprintReviewClass(
     .filter((survey): survey is AtlasLidarSurvey => Boolean(survey));
   return lidarReviewClassForSurveys(surveys);
 }
-
-const lidarReviewLabels = {
-  systematic: "Systematic review completed",
-  partial: "Partially reviewed",
-  ongoing: "Archaeological review ongoing",
-  "none-found": "No published review found",
-} as const;
 
 function siteIdFromUrl(places: AtlasPlace[]) {
   const siteId = new URL(window.location.href).searchParams.get(siteQueryParam);
@@ -113,19 +102,27 @@ function dedupeResearchLinks(links: readonly ResearchLink[]): ResearchLink[] {
   return [...new Map(links.map((link) => [link.href, link])).values()];
 }
 
-function ResearchLinks({ links }: { links: readonly ResearchLink[] }) {
+function ResearchLinks({
+  links,
+  locale,
+  heading,
+}: {
+  links: readonly ResearchLink[];
+  locale: Locale;
+  heading: string;
+}) {
   if (!links.length) return null;
 
   return (
     <div className="research-links">
-      <h3>Relevant links</h3>
+      <h3>{heading}</h3>
       <ul>
         {links.map((link) => (
           <li key={link.href}>
             {link.external ? (
               <a href={link.href} target="_blank" rel="noreferrer">{link.label} ↗</a>
             ) : (
-              <Link href={link.href}>{link.label} →</Link>
+              <Link href={localePath(locale, link.href)}>{link.label} →</Link>
             )}
           </li>
         ))}
@@ -135,12 +132,6 @@ function ResearchLinks({ links }: { links: readonly ResearchLink[] }) {
 }
 
 type LidarDisplayProvenance = "released" | "source-derived" | "context";
-
-const lidarProvenanceLabels: Record<LidarDisplayProvenance, string> = {
-  released: "Released GIS",
-  "source-derived": "Reconstructed from source",
-  context: "Context only",
-};
 
 function lidarDisplayProvenance(
   provenance: AtlasLidarGeometryProvenance,
@@ -159,6 +150,12 @@ function groupLidarStudies(surveys: readonly AtlasLidarSurvey[]): LidarStudyGrou
   }
 
   return [...groups.values()].sort((left, right) => right.year - left.year);
+}
+
+function lidarScanRecordId(surveyId: string): string {
+  return surveyId.startsWith("2026-acre-amazonas-als-line-")
+    ? "2026-acre-amazonas-als-campaign"
+    : surveyId;
 }
 
 function surveyOverlapsFeatureCell(
@@ -196,12 +193,42 @@ function boundsForFootprints(
   ];
 }
 
-export function AtlasExplorer({ data }: { data: AtlasData }) {
+type AtlasExplorerProps = {
+  data: AtlasData;
+  locale: Locale;
+  messages: Dictionary;
+};
+
+export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
   const router = useRouter();
+  const ui = messages.atlas;
+  const lidarReviewClasses = (["reviewed", "partial", "unreviewed"] as const).map(
+    (id): LidarReviewOption => ({ id, ...messages.atlas.reviewClasses[id] }),
+  );
   const digs = data.places;
-  const findLabels = Object.fromEntries(data.finds.map((find) => [find.id, find.name]));
+  const findLabels = Object.fromEntries(
+    data.finds.map((find) => [
+      find.id,
+      (messages.finds as Record<string, string>)[find.id] ?? find.name,
+    ]),
+  );
   const techniqueLabels = Object.fromEntries(
-    data.techniques.map((technique) => [technique.id, technique.name]),
+    data.techniques.map((technique) => [
+      technique.id,
+      (messages.siteKinds as Record<string, string>)[technique.id] ?? technique.name,
+    ]),
+  );
+  const periodLabels = Object.fromEntries(
+    data.periods.map((period) => [
+      period.name,
+      (messages.periods as Record<string, string>)[period.id] ?? period.name,
+    ]),
+  );
+  const cultureLabels = Object.fromEntries(
+    data.cultures.map((culture) => [
+      culture.name,
+      (messages.cultures as Record<string, string>)[culture.id] ?? culture.name,
+    ]),
   );
   const panelRef = useRef<HTMLElement>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -306,7 +333,7 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
             href: survey.sourceUrl ?? `/sources/papers/${encodeURIComponent(study.paperId)}`,
             label: survey.sourceUrl
               ? survey.sourceLabel
-              : `Atlas paper record: ${survey.sourceLabel}`,
+              : `${messages.papers.paper}: ${survey.sourceLabel}`,
             external: Boolean(survey.sourceUrl),
           })),
         ),
@@ -397,7 +424,7 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
   function selectSearchResult(result: AtlasSearchResult) {
     const target = result.target;
     if (target.kind === "knowledge-record") {
-      router.push(target.href);
+      router.push(localePath(locale, target.href));
       return;
     }
 
@@ -432,28 +459,29 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
   return (
     <main className="atlas-shell">
       <header className="masthead">
-        <h1>Archaeology of Amazonia</h1>
-        <nav className="masthead-nav" aria-label="Primary navigation">
-          <span aria-current="page">Atlas</span>
-          <Link href="/sources/places">Wiki</Link>
-          <Link href="/about">About</Link>
+        <h1>{messages.nav.siteName}</h1>
+        <nav className="masthead-nav" aria-label={messages.nav.primaryLabel}>
+          <span aria-current="page">{messages.nav.atlas}</span>
+          <Link href={localePath(locale, "/sources/lidar-scans")}>{messages.nav.wiki}</Link>
+          <Link href={localePath(locale, "/about")}>{messages.nav.about}</Link>
+          <LanguageToggle locale={locale} messages={messages.language} />
         </nav>
       </header>
 
-      <section className="atlas-workspace" aria-label="Amazonian archaeology atlas">
+      <section className="atlas-workspace" aria-label={ui.workspaceLabel}>
         <div className="map-column">
           <div className="map-toolbar">
-              <div className="location-filters" aria-label="Map visibility and archaeological review controls">
+              <div className="location-filters" aria-label={ui.mapControlsLabel}>
                 <button
                   className="location-filter layer-filter"
                   type="button"
                   aria-pressed={showAncientFeatures}
-                  aria-label={`Earthworks layer: ${data.ancientFeatureCells.length} source-fitted evidence cells`}
+                  aria-label={formatMessage(ui.earthworksLayer, { count: data.ancientFeatureCells.length })}
                   onClick={toggleAncientFeatures}
-                  title="Toggle source-fitted cells where research documents Amazonian earthworks"
+                  title={ui.earthworksTitle}
                 >
                   <span className="layer-symbol earthworks-symbol" aria-hidden="true" />
-                  <span>Earthworks</span>
+                  <span>{ui.earthworks}</span>
                   <span className="filter-count">{data.ancientFeatureCells.length}</span>
                 </button>
                 {lidarReviewClasses.map((review) => (
@@ -461,7 +489,11 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                     className={`location-filter layer-filter review-layer-filter review-${review.id}`}
                     type="button"
                     aria-pressed={visibleLidarReviews[review.id]}
-                    aria-label={`${review.label}, ${review.detail}: ${lidarFootprintCountsByReview[review.id]} LiDAR acquisition footprints`}
+                    aria-label={formatMessage(ui.reviewFootprintsLabel, {
+                      label: review.label,
+                      detail: review.detail,
+                      count: lidarFootprintCountsByReview[review.id],
+                    })}
                     onClick={() => toggleLidarReview(review.id)}
                     title={review.title}
                     key={review.id}
@@ -472,32 +504,38 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                       <small>{review.detail}</small>
                     </span>
                     <span className="filter-count">
-                      {lidarFootprintCountsByReview[review.id].toLocaleString()}
+                      {lidarFootprintCountsByReview[review.id].toLocaleString(localeTag(locale))}
                     </span>
                   </button>
                 ))}
               </div>
             <p className="visible-count" aria-live="polite">
-              {filteredLidarFootprints.length.toLocaleString()} footprints · {filteredLidarSurveys.length} studies
+              {formatMessage(ui.visibleSummary, {
+                footprints: filteredLidarFootprints.length.toLocaleString(localeTag(locale)),
+                studies: filteredLidarSurveys.length.toLocaleString(localeTag(locale)),
+              })}
             </p>
           </div>
 
           <div className="map-frame">
-            <ExcavationMap
-              digs={noMapSites}
-              ancientFeatureCells={data.ancientFeatureCells}
-              lidarSurveys={filteredLidarSurveys}
-              lidarFootprints={filteredLidarFootprints}
-              showAncientFeatures={showAncientFeatures}
-              showLidar={filteredLidarFootprints.length > 0}
-              selected={null}
-              selectedLidarFootprintIds={selectedLidarFootprintIds}
-              selectedAncientFeatureId={selectedAncientFeatureId}
-              focusBounds={focusBounds}
-              onSelect={selectDig}
-              onSelectLidar={selectLidarSurveys}
-              onSelectAncientFeature={selectAncientFeature}
-            />
+            <AtlasLoadingContext.Provider value={ui}>
+              <ExcavationMap
+                digs={noMapSites}
+                ancientFeatureCells={data.ancientFeatureCells}
+                lidarSurveys={filteredLidarSurveys}
+                lidarFootprints={filteredLidarFootprints}
+                showAncientFeatures={showAncientFeatures}
+                showLidar={filteredLidarFootprints.length > 0}
+                selected={null}
+                selectedLidarFootprintIds={selectedLidarFootprintIds}
+                selectedAncientFeatureId={selectedAncientFeatureId}
+                focusBounds={focusBounds}
+                onSelect={selectDig}
+                onSelectLidar={selectLidarSurveys}
+                onSelectAncientFeature={selectAncientFeature}
+                messages={messages}
+              />
+            </AtlasLoadingContext.Provider>
           </div>
 
         </div>
@@ -505,29 +543,34 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
         <aside
           ref={panelRef}
           className="research-panel"
-          aria-label="Selected map details"
+          aria-label={ui.selectedDetails}
         >
-          <AtlasSearchBox onSelect={selectSearchResult} />
+          <AtlasSearchBox onSelect={selectSearchResult} messages={messages} />
 
           {selected && selectedLocationStatus ? (
             <article className="site-record" key={selected.id}>
-              <p className="record-kind">{selected.kind}</p>
+              <p className="record-kind">
+                {techniqueLabels[selected.techniques[0]] ?? selected.kind}
+              </p>
               <h2>{selected.name}</h2>
               <div className={`location-badge location-${selectedLocationStatus}`}>
                 <span className="location-symbol" aria-hidden="true" />
-                {locationStatusMeta[selectedLocationStatus].label}
+                {messages.locationStatuses[selectedLocationStatus].label}
               </div>
+              <OriginalLanguageNotice locale={locale}>
+                {messages.originalLanguage.research}
+              </OriginalLanguageNotice>
 
               <div className="location-context">
                 <p
                   className="location-method"
-                  title={coordinateMethodMeta[selected.coordinateMethod].description}
+                  title={messages.coordinateMethods[selected.coordinateMethod].description}
                 >
-                  {coordinateMethodMeta[selected.coordinateMethod].label}
+                  {messages.coordinateMethods[selected.coordinateMethod].label}
                 </p>
                 <p className="location-basis">{selected.basis}</p>
                 <p className="location-uncertainty">
-                  Display uncertainty: approximately {selected.uncertaintyKm} km radius
+                  {formatMessage(ui.displayUncertainty, { distance: selected.uncertaintyKm })}
                 </p>
                 {selected.note ? <p className="location-note">{selected.note}</p> : null}
                 <a
@@ -535,107 +578,115 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                   href={googleMapsUrlFor(selected)}
                   target="_blank"
                   rel="noreferrer"
-                  aria-label={`Open the generalized ${selected.name} research area in Google Maps (opens in a new tab)`}
+                  aria-label={formatMessage(ui.openGeneralizedAreaLabel, { name: selected.name })}
                 >
-                  Open generalized area in Google Maps <span aria-hidden="true">↗</span>
+                  {ui.openGeneralizedArea} <span aria-hidden="true">↗</span>
                 </a>
               </div>
 
               <dl className="record-classification">
                 <div>
-                  <dt>Chronology</dt>
+                  <dt>{ui.chronology}</dt>
                   <dd>
                     {selected.periods.length ? (
                       selected.periods.map((period) => (
-                        <span className="classification-tag" key={period}>{period}</span>
+                        <span className="classification-tag" key={period}>{periodLabels[period] ?? period}</span>
                       ))
                     ) : (
-                      <span className="classification-empty">Not securely assigned</span>
+                      <span className="classification-empty">{ui.notSecurelyAssigned}</span>
                     )}
                   </dd>
                 </div>
                 <div>
-                  <dt>Tradition / model</dt>
+                  <dt>{ui.traditionModel}</dt>
                   <dd>
                     {selected.cultures.length ? (
                       selected.cultures.map((culture) => (
-                        <span className="classification-tag" key={culture}>{culture}</span>
+                        <span className="classification-tag" key={culture}>{cultureLabels[culture] ?? culture}</span>
                       ))
                     ) : (
-                      <span className="classification-empty">Not securely assigned</span>
+                      <span className="classification-empty">{ui.notSecurelyAssigned}</span>
                     )}
                   </dd>
                 </div>
                 <div>
-                  <dt>What was found here</dt>
+                  <dt>{ui.whatWasFound}</dt>
                   <dd>
                     {selected.finds.length ? (
                       selected.finds.map((find) => findLabels[find]).join(", ")
                     ) : (
-                      <span className="classification-empty">Not described</span>
+                      <span className="classification-empty">{ui.notDescribed}</span>
                     )}
                   </dd>
                 </div>
                 <div>
-                  <dt>Place type</dt>
+                  <dt>{ui.placeType}</dt>
                   <dd>
                     {selected.techniques.length ? (
                       selected.techniques
                         .map((technique) => techniqueLabels[technique])
                         .join(", ")
                     ) : (
-                      <span className="classification-empty">Not described</span>
+                      <span className="classification-empty">{ui.notDescribed}</span>
                     )}
                   </dd>
                 </div>
                 <div>
-                  <dt>Latest study</dt>
+                  <dt>{ui.latestStudy}</dt>
                   <dd>
                     {selected.latestStudyLabel ? (
                       selected.latestStudyLabel
                     ) : (
                       selected.lastFieldworkLabel ??
-                      "Not documented in the cited papers"
+                      ui.notDocumented
                     )}
                   </dd>
                 </div>
                 <div>
-                  <dt>Last field investigation</dt>
+                  <dt>{ui.lastFieldInvestigation}</dt>
                   <dd>
                     {selected.lastFieldworkLabel ??
-                      "Not documented in the cited papers"}
+                      ui.notDocumented}
                   </dd>
                 </div>
               </dl>
 
               <div className="place-document">
-                <VaultMarkdown>{selected.body}</VaultMarkdown>
+                <VaultMarkdown locale={locale}>{selected.body}</VaultMarkdown>
               </div>
               <p className="place-record-link">
-                <Link href={`/sources/places/${encodeURIComponent(selected.id)}`}>Open wiki record →</Link>
+                <Link href={localePath(locale, `/sources/archaeological-sites/${encodeURIComponent(selected.id)}`)}>
+                  {ui.openWikiRecord}
+                </Link>
               </p>
             </article>
           ) : selectedAncientFeature ? (
             <article className="site-record ancient-feature-record" key={selectedAncientFeature.id}>
-              <h2>{selectedAncientFeature.region}</h2>
+              <h2>{localizedGeneratedLabel(messages, selectedAncientFeature.region)}</h2>
+              <OriginalLanguageNotice locale={locale}>
+                {messages.originalLanguage.research}
+              </OriginalLanguageNotice>
               <dl className="research-data">
                 <div>
-                  <dt>Features</dt>
-                  <dd>{selectedAncientFeature.featureTypes.join(", ")}</dd>
+                  <dt>{ui.features}</dt>
+                  <dd>{localizedControlledText(messages, selectedAncientFeature.featureTypes.join(", "))}</dd>
                 </div>
                 <div>
-                  <dt>Identified by</dt>
-                  <dd>{selectedAncientFeature.discoveryMethods.join(", ")}</dd>
+                  <dt>{ui.identifiedBy}</dt>
+                  <dd>{localizedControlledText(messages, selectedAncientFeature.discoveryMethods.join(", "))}</dd>
                 </div>
                 {selectedAncientFeatureStudies.length ? (
                   <div>
-                    <dt>Associated research</dt>
+                    <dt>{ui.associatedResearch}</dt>
                     <dd>
                       {selectedAncientFeatureStudies
                         .map((study) => {
                           const label = study.surveys[0].sourceLabel;
                           const count = study.surveys.length;
-                          return `${label} · ${count} overlapping mapped ${count === 1 ? "zone" : "zones"}`;
+                          return `${label} · ${formatMessage(
+                            count === 1 ? ui.overlappingZone : ui.overlappingZones,
+                            { count },
+                          )}`;
                         })
                         .join("; ")}
                     </dd>
@@ -643,26 +694,33 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                 ) : null}
               </dl>
               <p className="research-description">{selectedAncientFeature.contextNote}</p>
-              <ResearchLinks links={selectedAncientFeatureLinks} />
+              <ResearchLinks
+                links={selectedAncientFeatureLinks}
+                locale={locale}
+                heading={ui.relevantLinks}
+              />
             </article>
           ) : selectedLidarStudies.length ? (
             <article className="site-record lidar-research-record" key={selectedLidarSurveyIds.join(":")}>
               <h2>
                 {selectedLidarStudies.length === 1
                   ? selectedLidarStudies[0].surveys.map((survey) => survey.name).join(" + ")
-                  : `${selectedLidarStudies.length} LiDAR studies overlap here`}
+                  : formatMessage(ui.lidarStudiesOverlap, { count: selectedLidarStudies.length })}
               </h2>
+              <OriginalLanguageNotice locale={locale}>
+                {messages.originalLanguage.research}
+              </OriginalLanguageNotice>
               <div className="lidar-research-list">
                 {selectedLidarStudies.map((study) => {
                   const countries = [...new Set(study.surveys.map((survey) => survey.country))];
                   const regions = [...new Set(study.surveys.map((survey) => survey.region))];
                   const purposes = [...new Set(study.surveys.map((survey) =>
                     survey.acquisitionPurpose === "archaeology"
-                      ? "Archaeology"
-                      : "Other purpose, later reused",
+                      ? ui.archaeology
+                      : ui.otherPurpose,
                   ))];
                   const reviewStatuses = [...new Set(study.surveys.map((survey) =>
-                    lidarReviewLabels[survey.archaeologyReviewStatus],
+                    messages.atlas.reviewStatuses[survey.archaeologyReviewStatus],
                   ))];
                   const reviewScopes = [...new Set(study.surveys.map((survey) =>
                     survey.archaeologyReviewScope,
@@ -673,13 +731,13 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                     .map((fraction) => `${Math.round(fraction * 100)}%`))];
                   const terrainGrids = [...new Set(study.surveys.map((survey) =>
                     survey.terrainResolutionM === null
-                      ? "Unknown"
+                      ? ui.unknown
                       : `${survey.terrainResolutionM.toFixed(2)} m/pixel`,
                   ))];
                   const pointDensities = [...new Set(study.surveys.map((survey) =>
                     survey.pointDensityM2 === null
-                      ? "Not reported"
-                      : `${survey.pointDensityM2.toLocaleString()} points/m²`,
+                      ? ui.notReported
+                      : `${survey.pointDensityM2.toLocaleString(localeTag(locale))} ${ui.pointsPerSquareMeter}`,
                   ))];
                   const representative = study.surveys[0];
                   const studySurveyIds = new Set(study.surveys.map((survey) => survey.id));
@@ -688,7 +746,7 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                   );
                   const provenanceLabels = [...new Set(
                     studyFootprints.map((footprint) => lidarDisplayProvenance(footprint.provenance)),
-                  )].map((provenance) => lidarProvenanceLabels[provenance]);
+                  )].map((provenance) => messages.atlas.provenance[provenance]);
                   const footprintSources = [...new Map(
                     studyFootprints.map((footprint) => [
                       `${footprint.sourceLabel}:${footprint.sourceUrl ?? ""}`,
@@ -696,6 +754,19 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                     ]),
                   ).values()];
                   const relevantLinks = [...new Map([
+                    ...study.surveys.map((survey) => {
+                      const scanId = lidarScanRecordId(survey.id);
+                      return [
+                        `/sources/lidar-scans/${encodeURIComponent(scanId)}`,
+                        {
+                          href: `/sources/lidar-scans/${encodeURIComponent(scanId)}`,
+                          label: formatMessage(ui.scanRecord, {
+                            name: survey.name.replace(/\s+line\s+L\d+$/i, ""),
+                          }),
+                          external: false,
+                        },
+                      ] as const;
+                    }),
                     ...study.surveys.map((survey) => [
                       survey.sourceUrl ?? `/sources/papers/${encodeURIComponent(study.paperId)}`,
                       {
@@ -710,7 +781,7 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                         survey.archaeologyReviewUrl as string,
                         {
                           href: survey.archaeologyReviewUrl as string,
-                          label: "Archaeological review evidence",
+                          label: ui.reviewEvidence,
                           external: true,
                         },
                       ] as const),
@@ -731,29 +802,32 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
                         <h3>{study.surveys.map((survey) => survey.name).join(" + ")}</h3>
                       ) : null}
                       <dl className="research-data">
-                        <div><dt>Year</dt><dd>{study.year}</dd></div>
-                        <div><dt>Location</dt><dd>{regions.join("; ")} · {countries.join(" + ")}</dd></div>
-                        <div><dt>Review status</dt><dd>{reviewStatuses.join(" + ")}</dd></div>
+                        <div><dt>{ui.year}</dt><dd>{study.year}</dd></div>
+                        <div><dt>{ui.location}</dt><dd>{regions.join("; ")} · {countries.join(" + ")}</dd></div>
+                        <div><dt>{ui.reviewStatus}</dt><dd>{reviewStatuses.join(" + ")}</dd></div>
                         {reviewShares.length ? (
-                          <div><dt>Reviewed share</dt><dd>{reviewShares.join(" + ")}</dd></div>
+                          <div><dt>{ui.reviewedShare}</dt><dd>{reviewShares.join(" + ")}</dd></div>
                         ) : null}
-                        <div><dt>Review scope</dt><dd>{reviewScopes.join(" ")}</dd></div>
-                        <div><dt>Purpose</dt><dd>{purposes.join(" + ")}</dd></div>
-                        <div><dt>Terrain grid</dt><dd>{terrainGrids.join(" + ")}</dd></div>
-                        <div><dt>Point density</dt><dd>{pointDensities.join(" + ")}</dd></div>
+                        <div><dt>{ui.reviewScope}</dt><dd>{reviewScopes.join(" ")}</dd></div>
+                        <div><dt>{ui.purpose}</dt><dd>{purposes.join(" + ")}</dd></div>
+                        <div><dt>{ui.terrainGrid}</dt><dd>{terrainGrids.join(" + ")}</dd></div>
+                        <div><dt>{ui.pointDensity}</dt><dd>{pointDensities.join(" + ")}</dd></div>
                         <div>
-                          <dt>Coverage</dt>
+                          <dt>{ui.coverage}</dt>
                           <dd>
-                            {study.surveys.length.toLocaleString()} {study.surveys.length === 1 ? "mapped zone" : "mapped zones"}
-                            {studyFootprints.length ? ` · ${studyFootprints.length.toLocaleString()} selected ${studyFootprints.length === 1 ? "footprint" : "footprints"}` : ""}
+                            {study.surveys.length.toLocaleString(localeTag(locale))}{" "}
+                            {study.surveys.length === 1 ? ui.mappedZone : ui.mappedZones}
+                            {studyFootprints.length
+                              ? ` · ${studyFootprints.length.toLocaleString(localeTag(locale))} ${studyFootprints.length === 1 ? ui.selectedFootprint : ui.selectedFootprints}`
+                              : ""}
                           </dd>
                         </div>
                         {provenanceLabels.length ? (
-                          <div><dt>Footprint source</dt><dd>{provenanceLabels.join(" + ")}</dd></div>
+                          <div><dt>{ui.footprintSource}</dt><dd>{provenanceLabels.join(" + ")}</dd></div>
                         ) : null}
                       </dl>
                       <p className="research-description">{representative.description}</p>
-                      <ResearchLinks links={relevantLinks} />
+                      <ResearchLinks links={relevantLinks} locale={locale} heading={ui.relevantLinks} />
                     </section>
                   );
                 })}
@@ -762,7 +836,7 @@ export function AtlasExplorer({ data }: { data: AtlasData }) {
           ) : (
             <div className="no-site-selected">
               <span aria-hidden="true">◎</span>
-              <p>Select a LiDAR zone or red earthwork cell to read its associated research.</p>
+              <p>{ui.selectPrompt}</p>
             </div>
           )}
 

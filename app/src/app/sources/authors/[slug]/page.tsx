@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LibraryShell } from "@/components/library-shell";
+import { OriginalLanguageNotice } from "@/components/original-language-notice";
 import { VaultMarkdown } from "@/components/vault-markdown";
+import { dictionaryValue, formatMessage, getDictionary } from "@/i18n";
+import { localePath } from "@/i18n/config";
+import { getRequestLocale } from "@/i18n/server";
 import { getAuthor, getAuthorPapers, getAuthors } from "@/lib/vault";
 import styles from "../../library.module.css";
 
@@ -18,10 +22,11 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: AuthorPageProps): Promise<Metadata> {
   const author = getAuthor((await params).slug);
+  const messages = getDictionary(await getRequestLocale());
   return author
     ? {
-        title: `${author.name} | Authors`,
-        description: `Papers credited to ${author.name} in the Acre archaeology vault.`,
+        title: `${author.name} | ${messages.authors.title}`,
+        description: formatMessage(messages.metadata.authorDescription, { name: author.name }),
       }
     : {};
 }
@@ -30,25 +35,37 @@ export default async function AuthorPage({ params }: AuthorPageProps) {
   const author = getAuthor((await params).slug);
   if (!author) notFound();
   const papers = getAuthorPapers(author.slug);
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
 
   return (
-    <LibraryShell collection="authors" activeSlug={author.slug}>
+    <LibraryShell collection="authors" activeSlug={author.slug} locale={locale} messages={messages}>
       <article className={styles.authorDocument}>
         <header className={styles.authorHeader}>
-          <p className={styles.eyebrow}>Author · {author.kind}</p>
+          <p className={styles.eyebrow}>
+            {messages.authors.author}{" · "}
+            {dictionaryValue(messages.controlledValues, author.kind)}
+          </p>
           <h2>{author.name}</h2>
           {author.aliases.length > 0 && (
             <p className={styles.aliases}>
-              <strong>Also catalogued as</strong> {author.aliases.join(" · ")}
+              <strong>{messages.authors.alsoCataloguedAs}</strong> {author.aliases.join(" · ")}
             </p>
           )}
         </header>
 
-        {author.body ? <VaultMarkdown>{author.body}</VaultMarkdown> : null}
+        {author.body ? (
+          <>
+            <OriginalLanguageNotice locale={locale}>
+              {messages.originalLanguage.research}
+            </OriginalLanguageNotice>
+            <VaultMarkdown locale={locale}>{author.body}</VaultMarkdown>
+          </>
+        ) : null}
 
         <section className={styles.linkedPapers}>
           <div className={styles.sectionHeading}>
-            <h3>Linked papers</h3>
+            <h3>{messages.authors.linkedPapers}</h3>
             <span>{papers.length}</span>
           </div>
           <ol>
@@ -56,9 +73,11 @@ export default async function AuthorPage({ params }: AuthorPageProps) {
               <li key={paper.slug}>
                 <span className={styles.paperOrdinal}>{String(index + 1).padStart(2, "0")}</span>
                 <div>
-                  <Link href={`/sources/papers/${encodeURIComponent(paper.slug)}`}>{paper.title}</Link>
+                  <Link href={localePath(locale, `/sources/papers/${encodeURIComponent(paper.slug)}`)}>{paper.title}</Link>
                   <p>
-                    {paper.year || "Undated"} · {roles.join(" · ")} · {paper.workType.replaceAll("-", " ")}
+                    {paper.year || messages.authors.undated}{" · "}
+                    {roles.map((role) => dictionaryValue(messages.controlledValues, role)).join(" · ")}{" · "}
+                    {dictionaryValue(messages.controlledValues, paper.workType)}
                   </p>
                 </div>
               </li>

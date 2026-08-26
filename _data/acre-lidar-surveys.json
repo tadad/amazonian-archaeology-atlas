@@ -1861,6 +1861,7 @@
     {
       "id": "2009-madre-de-dios-ecological-als",
       "name": "Madre de Dios ecological ALS archive",
+      "atlas_visible": false,
       "year": 2010,
       "paper_id": "2010-asner-peru-carbon-mapping",
       "kind": "unscreened-archive",

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LibraryShell } from "@/components/library-shell";
+import { formatMessage, getDictionary } from "@/i18n";
+import { localeTag } from "@/i18n/config";
+import { getRequestLocale } from "@/i18n/server";
 import { getVaultCollection, getVaultCollections } from "@/lib/vault-catalogue";
 import styles from "../library.module.css";
 
@@ -18,10 +21,18 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: CollectionPageProps): Promise<Metadata> {
   const collection = getVaultCollection((await params).collection);
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
+  const collectionName = collection
+    ? (messages.collections as Record<string, string>)[collection.slug] ?? collection.name
+    : "";
   return collection
     ? {
-        title: `${collection.name} | Acre Archaeology Wiki`,
-        description: `Browse ${collection.records.length} ${collection.name.toLocaleLowerCase()} records from the archaeology vault.`,
+        title: `${collectionName} | ${messages.metadata.wikiTitle}`,
+        description: formatMessage(messages.metadata.collectionDescription, {
+          count: collection.records.length,
+          collection: collectionName.toLocaleLowerCase(localeTag(locale)),
+        }),
       }
     : {};
 }
@@ -29,19 +40,28 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
 export default async function CollectionPage({ params }: CollectionPageProps) {
   const collection = getVaultCollection((await params).collection);
   if (!collection || ["papers", "authors"].includes(collection.slug)) notFound();
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
+  const collectionName =
+    (messages.collections as Record<string, string>)[collection.slug] ?? collection.name;
+  const collectionNameLower = collectionName.toLocaleLowerCase(localeTag(locale));
+  const recordType =
+    (messages.recordTypes as Record<string, string>)[collection.type] ?? collection.type;
 
   return (
-    <LibraryShell collection={collection.slug}>
+    <LibraryShell collection={collection.slug} locale={locale} messages={messages}>
       <div className={styles.indexPage}>
-        <p className={styles.eyebrow}>{collection.type} records</p>
-        <h2>{collection.records.length} {collection.name.toLocaleLowerCase()}.</h2>
-        <p className={styles.indexLead}>
-          This index is generated directly from typed Markdown records in the Obsidian vault.
-          New records and properties appear on the next build without application-specific pages.
+        <p className={styles.eyebrow}>
+          {formatMessage(messages.wiki.indexEyebrow, { type: recordType })}
         </p>
-        <p className={styles.indexInstruction}>
-          Choose a record from the catalogue to read its properties, document, and backlinks.
-        </p>
+        <h2>
+          {formatMessage(messages.wiki.indexTitle, {
+            count: collection.records.length,
+            collection: collectionNameLower,
+          })}
+        </h2>
+        <p className={styles.indexLead}>{messages.wiki.indexLead}</p>
+        <p className={styles.indexInstruction}>{messages.wiki.indexInstruction}</p>
       </div>
     </LibraryShell>
   );

@@ -15,8 +15,7 @@ people:
   - "[[Authors/ondemar-ferreira-dias-jr|Ondemar Ferreira Dias Jr.]]"
 papers:
   - "[[Papers/1988-dias-carvalho-estruturas-terra-acre|As estruturas de terra na arqueologia do Acre]]"
-places:
-  - "[[Places/acre-geoglyph-landscape|Acre Geoglyph Landscape]]"
+sites:
 ---
 # Smithsonian Institution
 

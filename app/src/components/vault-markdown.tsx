@@ -1,8 +1,9 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { localePath, type Locale } from "@/i18n/config";
 import styles from "@/app/sources/library.module.css";
 
-export function VaultMarkdown({ children }: { children: string }) {
+export function VaultMarkdown({ children, locale }: { children: string; locale: Locale }) {
   return (
     <div className={styles.markdown}>
       <ReactMarkdown
@@ -10,8 +11,9 @@ export function VaultMarkdown({ children }: { children: string }) {
         components={{
           a: ({ href, children: linkChildren }) => {
             const external = href?.startsWith("http://") || href?.startsWith("https://");
+            const localizedHref = href && !external ? localePath(locale, href) : href;
             return (
-              <a href={href} target={external ? "_blank" : undefined} rel={external ? "noreferrer" : undefined}>
+              <a href={localizedHref} target={external ? "_blank" : undefined} rel={external ? "noreferrer" : undefined}>
                 {linkChildren}
               </a>
             );

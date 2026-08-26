@@ -11,12 +11,14 @@ type RankedCandidate = {
 };
 
 const categoryLabels: Record<string, string> = {
+  "archaeological-sites": "Archaeological sites",
   authors: "Authors",
   cultures: "Cultures",
+  investigations: "Investigations",
+  "lidar-scans": "LiDAR scans",
   organizations: "Organizations",
   papers: "Papers",
   periods: "Periods",
-  places: "Places",
 };
 
 function normalizeSearchText(value: string): string {
@@ -149,7 +151,8 @@ function atlasSearchCandidates(): RankedCandidate[] {
       },
     },
     searchText: record.searchText,
-    priority: record.collectionSlug === "places" || record.collectionSlug === "papers" ? 8 : 14,
+    priority: ["lidar-scans", "investigations", "archaeological-sites", "papers"]
+      .includes(record.collectionSlug) ? 8 : 14,
   }));
   return [...lidar, ...ancientFeatures, ...knowledgeGraph];
 }

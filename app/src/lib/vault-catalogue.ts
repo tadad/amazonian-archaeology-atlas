@@ -45,12 +45,14 @@ type VaultCatalogue = {
 };
 
 const preferredCollectionOrder = [
-  "places",
-  "periods",
-  "cultures",
+  "lidar-scans",
+  "investigations",
+  "archaeological-sites",
   "papers",
   "authors",
   "organizations",
+  "periods",
+  "cultures",
 ];
 const ignoredDirectories = new Set(["Attachments", "Templates", "Views"]);
 const ignoredSearchProperties = new Set([
@@ -70,7 +72,7 @@ function vaultRoot(): string {
   return match;
 }
 
-function routeSlug(value: string): string {
+export function vaultRouteSlug(value: string): string {
   return value
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -98,14 +100,17 @@ export function vaultLinkLabel(value: string): string {
 
 function recordSubtitle(type: string, data: Record<string, unknown>): string {
   const parts: string[] = [];
-  const year = data.publication_year ?? data.latest_study_year;
-  const kind = data.place_kind ?? data.author_kind ?? data.organization_kind ?? data.work_type;
+  const year = data.publication_year ?? data.source_year ?? data.fieldwork_end_year ?? data.latest_study_year;
+  const kind = data.scan_kind ?? data.investigation_kind ?? data.site_kind ??
+    data.author_kind ?? data.organization_kind ?? data.work_type;
   if (typeof year === "number" || typeof year === "string") parts.push(String(year));
   if (typeof kind === "string" && kind) parts.push(kind.replaceAll("-", " "));
 
   const linked = [
     ...stringList(data.authors),
     ...stringList(data.organizations),
+    ...stringList(data.sites),
+    ...stringList(data.lidar_scans),
     ...stringList(data.periods),
     ...stringList(data.cultures),
   ]
@@ -137,12 +142,12 @@ function loadCatalogue(): VaultCatalogue {
     .readdirSync(root, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && !entry.name.startsWith(".") && !ignoredDirectories.has(entry.name));
   const collectionSlugsByDirectory = new Map(
-    directories.map((entry) => [entry.name.toLocaleLowerCase(), routeSlug(entry.name)]),
+    directories.map((entry) => [entry.name.toLocaleLowerCase(), vaultRouteSlug(entry.name)]),
   );
   const indexedCollections: Array<{ directory: string; slug: string; records: IndexedRecord[] }> = [];
 
   for (const directory of directories) {
-    const collectionSlug = routeSlug(directory.name);
+    const collectionSlug = vaultRouteSlug(directory.name);
     const records = markdownFiles(path.join(root, directory.name)).flatMap((filename): IndexedRecord[] => {
       const parsed = matter(fs.readFileSync(filename, "utf8"));
       const type = typeof parsed.data.type === "string" ? parsed.data.type : "";

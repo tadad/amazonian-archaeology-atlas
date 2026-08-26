@@ -11,13 +11,16 @@ import type {
   AtlasPlace,
   TaxonomyEntry,
 } from "@/lib/atlas-types";
+import { vaultRouteSlug } from "@/lib/vault-catalogue";
 
 let atlasCache: AtlasData | undefined;
 const collator = new Intl.Collator("pt", { sensitivity: "base", numeric: true });
 
 function vaultRoot(): string {
   const candidates = [path.resolve(process.cwd(), "..", "vault"), path.resolve(process.cwd(), "vault")];
-  const match = candidates.find((candidate) => fs.existsSync(path.join(candidate, "Places")));
+  const match = candidates.find((candidate) =>
+    fs.existsSync(path.join(candidate, "Archaeological Sites")),
+  );
   if (!match) throw new Error(`Could not locate the Acre vault from ${process.cwd()}`);
   return match;
 }
@@ -53,7 +56,7 @@ function webMarkdown(markdown: string): string {
       const [filename, heading] = target.split("#", 2);
       const slash = filename.indexOf("/");
       if (slash < 1) return label || path.basename(filename);
-      const collection = filename.slice(0, slash).toLocaleLowerCase();
+      const collection = vaultRouteSlug(filename.slice(0, slash));
       const slug = filename.slice(slash + 1);
       const anchor = heading?.match(/^Page (\d+)$/)?.[1];
       return `[${label || path.basename(filename)}](/sources/${collection}/${encodeURIComponent(slug)}${anchor ? `#page-${anchor}` : ""})`;
@@ -84,9 +87,11 @@ function humanize(value: string): string {
 
 function placeRecord(filename: string): AtlasPlace | null {
   const parsed = matter(fs.readFileSync(filename, "utf8"));
-  if (parsed.data.type !== "place") throw new Error(`Expected place record in ${filename}`);
+  if (parsed.data.type !== "archaeological-site") {
+    throw new Error(`Expected archaeological-site record in ${filename}`);
+  }
 
-  const id = String(parsed.data.place_id || path.basename(filename, ".md"));
+  const id = String(parsed.data.site_id || path.basename(filename, ".md"));
   const coordinatePrecision = String(parsed.data.coordinate_precision || "withheld");
   const locationVisibility = String(parsed.data.location_visibility || "withheld");
   const lat = typeof parsed.data.latitude === "number" ? parsed.data.latitude : null;
@@ -114,7 +119,7 @@ function placeRecord(filename: string): AtlasPlace | null {
     throw new Error(`Atlas site ${id} requires atlas_basis`);
   }
 
-  const kind = String(parsed.data.place_kind || "archaeological-place");
+  const kind = String(parsed.data.site_kind || "archaeological-site");
   return {
     id,
     name: String(parsed.data.name || id),
@@ -378,7 +383,9 @@ function panAmazonAncientFeatureLayer(
   });
 }
 
-function lidarLayer(root: string): { surveys: AtlasLidarSurvey[]; coordinatePolicy: string } {
+type SourceLidarSurvey = AtlasLidarSurvey & { atlasVisible: boolean };
+
+function lidarLayer(root: string): { surveys: SourceLidarSurvey[]; coordinatePolicy: string } {
   const filename = path.join(path.dirname(root), "_data", "acre-lidar-surveys.json");
   const parsed = JSON.parse(fs.readFileSync(filename, "utf8")) as {
     coordinate_policy?: unknown;
@@ -412,6 +419,10 @@ function lidarLayer(root: string): { surveys: AtlasLidarSurvey[]; coordinatePoli
     if (
       typeof survey.id !== "string" ||
       typeof survey.name !== "string" ||
+      !(
+        survey.atlas_visible === undefined ||
+        typeof survey.atlas_visible === "boolean"
+      ) ||
       typeof survey.year !== "number" ||
       typeof survey.paper_id !== "string" ||
       typeof survey.kind !== "string" ||
@@ -463,6 +474,7 @@ function lidarLayer(root: string): { surveys: AtlasLidarSurvey[]; coordinatePoli
     return {
       id: survey.id,
       name: survey.name,
+      atlasVisible: survey.atlas_visible !== false,
       year: survey.year,
       paperId: survey.paper_id,
       kind: survey.kind,
@@ -484,7 +496,7 @@ function lidarLayer(root: string): { surveys: AtlasLidarSurvey[]; coordinatePoli
       positions: survey.positions,
       metrics: survey.metrics,
       description: survey.description,
-    } as AtlasLidarSurvey;
+    } as SourceLidarSurvey;
   });
 
   return { surveys, coordinatePolicy: parsed.coordinate_policy };
@@ -562,7 +574,7 @@ function validateAtlas(data: AtlasData): void {
   const periodNames = new Set(data.periods.map((entry) => entry.name));
   const cultureNames = new Set(data.cultures.map((entry) => entry.name));
   for (const place of data.places) {
-    if (ids.has(place.id)) throw new Error(`Duplicate place_id: ${place.id}`);
+    if (ids.has(place.id)) throw new Error(`Duplicate site_id: ${place.id}`);
     ids.add(place.id);
     for (const period of place.periods) {
       if (!periodNames.has(period)) throw new Error(`Unknown period ${period} on ${place.id}`);
@@ -578,9 +590,19 @@ export function getAtlasData(): AtlasData {
   const root = vaultRoot();
   const lidar = lidarLayer(root);
   const lidarFootprints = lidarFootprintLayer(root, lidar.surveys);
+  const atlasLidarSurveys = lidar.surveys
+    .filter((survey) => survey.atlasVisible)
+    .map(({ atlasVisible: _atlasVisible, ...survey }) => survey);
+  const atlasLidarSurveyIds = new Set(atlasLidarSurveys.map((survey) => survey.id));
+  const atlasLidarFootprints = lidarFootprints.footprints
+    .map((footprint) => ({
+      ...footprint,
+      surveyIds: footprint.surveyIds.filter((surveyId) => atlasLidarSurveyIds.has(surveyId)),
+    }))
+    .filter((footprint) => footprint.surveyIds.length > 0);
   const inventoryAncientFeatures = amazonEarthworkInventoryLayer(root);
   const acreAmazonasAlsEarthworks = acreAmazonasAlsEarthworkLayer(root);
-  const panAmazonAncientFeatures = panAmazonAncientFeatureLayer(root, lidar.surveys);
+  const panAmazonAncientFeatures = panAmazonAncientFeatureLayer(root, atlasLidarSurveys);
   const specificAncientFeatures = [...acreAmazonasAlsEarthworks, ...panAmazonAncientFeatures];
   const unsupersededInventoryFeatures = inventoryAncientFeatures.filter(
     (inventoryCell) =>
@@ -588,7 +610,7 @@ export function getAtlasData(): AtlasData {
         cellsOverlap(inventoryCell.bounds, specificCell.bounds),
       ),
   );
-  const places = markdownFiles(path.join(root, "Places"))
+  const places = markdownFiles(path.join(root, "Archaeological Sites"))
     .map(placeRecord)
     .filter((place): place is AtlasPlace => place !== null)
     .sort((left, right) => collator.compare(left.name, right.name));
@@ -599,8 +621,8 @@ export function getAtlasData(): AtlasData {
     finds: facets(places.flatMap((place) => place.finds), humanize),
     techniques: facets(places.flatMap((place) => place.techniques), humanize),
     ancientFeatureCells: [...unsupersededInventoryFeatures, ...specificAncientFeatures],
-    lidarSurveys: lidar.surveys,
-    lidarFootprints: lidarFootprints.footprints,
+    lidarSurveys: atlasLidarSurveys,
+    lidarFootprints: atlasLidarFootprints,
     lidarCoordinatePolicy: lidar.coordinatePolicy,
     lidarFootprintPolicy: lidarFootprints.coordinatePolicy,
   };

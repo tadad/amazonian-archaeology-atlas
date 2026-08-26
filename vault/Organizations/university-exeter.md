@@ -22,10 +22,7 @@ papers:
   - "[[Papers/2020-iriarte-et-al-geometry-by-design|Geometry by Design: Contribution of LiDAR to the Understanding of Settlement Patterns of the Mound Villages in SW Amazonia]]"
   - "[[Papers/2021-iriarte-et-al-mound-village-chronology|Refining the Chronology and Occupation Dynamics of the Mound Villages of South-Eastern Acre, Brazil]]"
   - "[[Papers/2023-peripato-et-al-hidden-earthworks|More than 10,000 Pre-Columbian Earthworks Are Still Hidden throughout Amazonia]]"
-places:
-  - "[[Places/sanna-uav-lidar-test-landscape|Sanna UAV-LiDAR Test Landscape]]"
-  - "[[Places/southeastern-acre-mound-villages|Southeastern Acre Mound Villages]]"
-  - "[[Places/ace-01-10-lidar-discoveries|ACE-01-ACE-10 LiDAR Discoveries]]"
+sites:
 ---
 # University of Exeter
 

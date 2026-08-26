@@ -161,7 +161,7 @@ function loadIndex(): VaultIndex {
         year: typeof parsed.data.publication_year === "number" ? parsed.data.publication_year : null,
         workType: String(parsed.data.work_type || "paper"),
         languages: strings(parsed.data.languages),
-        collection: String(parsed.data.collection || "Unclassified"),
+        collection: String(parsed.data.collection || "unclassified"),
         sourceUrl,
         pages: Number(parsed.data.pages || 0),
         accessStatus: String(parsed.data.access_status || "unknown"),
@@ -200,10 +200,10 @@ export function getAuthorPapers(authorSlug: string): AuthorPaper[] {
   return getPapers()
     .map((paper) => {
       const roles = [
-        paper.authors.some((author) => author.slug === authorSlug) ? "Author" : "",
-        paper.contributors.some((author) => author.slug === authorSlug) ? "Contributor" : "",
-        paper.editors.some((author) => author.slug === authorSlug) ? "Editor" : "",
-        paper.translators.some((author) => author.slug === authorSlug) ? "Translator" : "",
+        paper.authors.some((author) => author.slug === authorSlug) ? "author-role" : "",
+        paper.contributors.some((author) => author.slug === authorSlug) ? "contributor-role" : "",
+        paper.editors.some((author) => author.slug === authorSlug) ? "editor-role" : "",
+        paper.translators.some((author) => author.slug === authorSlug) ? "translator-role" : "",
       ].filter(Boolean);
       return { paper, roles };
     })

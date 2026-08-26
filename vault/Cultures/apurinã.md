@@ -7,7 +7,7 @@ aliases:
   - "Ipurinã"
 papers:
   - "[[Papers/2026-parssinen-et-al-over-20000-earthworks|Over 20,000 Precolonial Earthworks in the Southwest Amazonia]]"
-places: []
+sites: []
 ---
 # Apurinã
 

@@ -13,7 +13,9 @@ predecessors: []
 successors: []
 people: []
 papers: []
-places: []
+sites: []
+investigations: []
+lidar_scans: []
 ---
 
 # Organization name

@@ -2,6 +2,12 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
+  formatMessage,
+  localizedControlledText,
+  localizedGeneratedLabel,
+  type Dictionary,
+} from "@/i18n";
+import {
   type CircleMarker as LeafletCircleMarker,
   divIcon,
   type DivIcon,
@@ -46,6 +52,7 @@ type ExcavationMapProps = {
   onSelect: (dig: AtlasPlace) => void;
   onSelectLidar: (surveys: AtlasLidarSurvey[], footprints: AtlasLidarFootprint[]) => void;
   onSelectAncientFeature: (cell: AtlasAncientFeatureCell) => void;
+  messages: Dictionary;
 };
 
 const lidarStyles: Record<
@@ -80,13 +87,15 @@ const lidarProvenanceOrder: Record<AtlasLidarGeometryProvenance, number> = {
   released: 3,
 };
 
-const osmAttribution =
-  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-
-function makeIcon(status: LocationStatus, selected: boolean, count = 1): DivIcon {
+function makeIcon(
+  status: LocationStatus,
+  selected: boolean,
+  recordsLabel: string,
+  count = 1,
+): DivIcon {
   return divIcon({
     className: "dig-marker-wrap",
-    html: `<span class="dig-marker location-${status}${selected ? " is-selected" : ""}"><span></span>${count > 1 ? `<b class="marker-count" aria-label="${count} records">${count}</b>` : ""}</span>`,
+    html: `<span class="dig-marker location-${status}${selected ? " is-selected" : ""}"><span></span>${count > 1 ? `<b class="marker-count" aria-label="${count} ${recordsLabel}">${count}</b>` : ""}</span>`,
     iconSize: selected ? [34, 34] : [26, 26],
     iconAnchor: selected ? [17, 17] : [13, 13],
   });
@@ -176,6 +185,7 @@ function SelectableLidarPolygon({
   allSurveys,
   selected,
   onSelect,
+  messages,
 }: {
   footprint: AtlasLidarFootprint;
   surveys: readonly AtlasLidarSurvey[];
@@ -183,6 +193,7 @@ function SelectableLidarPolygon({
   allSurveys: readonly AtlasLidarSurvey[];
   selected: boolean;
   onSelect: (surveys: AtlasLidarSurvey[], footprints: AtlasLidarFootprint[]) => void;
+  messages: Dictionary;
 }) {
   const layerRef = useRef<LeafletPolygon | null>(null);
   const primarySurvey = surveys[0];
@@ -198,7 +209,18 @@ function SelectableLidarPolygon({
     element.setAttribute("role", "button");
     element.setAttribute(
       "aria-label",
-      `${primarySurvey.year} ${primarySurvey.name}, ${primarySurvey.region}, ${primarySurvey.country}. ${review} archaeological review. ${footprint.provenance} acquisition geometry. Open LiDAR study details.`,
+      formatMessage(messages.map.lidarAreaLabel, {
+        year: primarySurvey.year,
+        name: primarySurvey.name,
+        region: primarySurvey.region,
+        country: primarySurvey.country,
+        review: messages.atlas.reviewClasses[review].label,
+        provenance: messages.atlas.provenance[
+          footprint.provenance === "released" || footprint.provenance === "context"
+            ? footprint.provenance
+            : "source-derived"
+        ],
+      }),
     );
     element.setAttribute("aria-pressed", String(selected));
 
@@ -217,7 +239,7 @@ function SelectableLidarPolygon({
 
     element.addEventListener("keydown", selectWithKeyboard);
     return () => element.removeEventListener("keydown", selectWithKeyboard);
-  }, [allFootprints, allSurveys, footprint, onSelect, primarySurvey, review, selected]);
+  }, [allFootprints, allSurveys, footprint, messages, onSelect, primarySurvey, review, selected]);
 
   function selectAtPoint(point: [number, number]) {
     const selection = lidarSelectionAtPoint(footprint, allFootprints, allSurveys, point);
@@ -252,11 +274,13 @@ function SelectableAncientFeatureRectangle({
   selected,
   zoom,
   onSelect,
+  messages,
 }: {
   cell: AtlasAncientFeatureCell;
   selected: boolean;
   zoom: number;
   onSelect: (cell: AtlasAncientFeatureCell) => void;
+  messages: Dictionary;
 }) {
   const hitTargetRef = useRef<LeafletCircleMarker | null>(null);
   const center: [number, number] = [
@@ -274,7 +298,10 @@ function SelectableAncientFeatureRectangle({
     element.setAttribute("role", "button");
     element.setAttribute(
       "aria-label",
-      `${cell.region}. Ancient human-made features: ${cell.featureTypes.join(", ")}. Open evidence details.`,
+      formatMessage(messages.map.featureAreaLabel, {
+        region: localizedGeneratedLabel(messages, cell.region),
+        features: localizedControlledText(messages, cell.featureTypes.join(", ")),
+      }),
     );
     element.setAttribute("aria-pressed", String(selected));
 
@@ -287,7 +314,7 @@ function SelectableAncientFeatureRectangle({
 
     element.addEventListener("keydown", selectWithKeyboard);
     return () => element.removeEventListener("keydown", selectWithKeyboard);
-  }, [cell, onSelect, selected]);
+  }, [cell, messages, onSelect, selected]);
 
   return (
     <>
@@ -325,10 +352,12 @@ function AncientFeatureLayer({
   cells,
   selectedId,
   onSelect,
+  messages,
 }: {
   cells: readonly AtlasAncientFeatureCell[];
   selectedId: string | null;
   onSelect: (cell: AtlasAncientFeatureCell) => void;
+  messages: Dictionary;
 }) {
   const map = useMap();
   const [zoom, setZoom] = useState(() => map.getZoom());
@@ -344,6 +373,7 @@ function AncientFeatureLayer({
       selected={cell.id === selectedId}
       zoom={zoom}
       onSelect={onSelect}
+      messages={messages}
     />
   ));
 }
@@ -362,6 +392,7 @@ export default function ExcavationMap({
   onSelect,
   onSelectLidar,
   onSelectAncientFeature,
+  messages,
 }: ExcavationMapProps) {
   const markerGroups = useMemo(() => {
     const groups = new Map<string, AtlasPlace[]>();
@@ -411,16 +442,9 @@ export default function ExcavationMap({
         scrollWheelZoom
       >
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png"
-          attribution={`${osmAttribution} &copy; <a href="https://carto.com/attributions">CARTO</a>`}
-          className="basemap-positron"
-          opacity={0.82}
-        />
-        <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}@2x.png"
-          attribution=""
-          className="basemap-positron-labels"
-          opacity={0.56}
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution={`&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ${messages.map.contributors}`}
+          className="basemap-osm"
         />
         <ZoomControl position="bottomright" />
         <ScaleControl position="bottomleft" imperial={false} />
@@ -440,6 +464,7 @@ export default function ExcavationMap({
                 allSurveys={lidarSurveys}
                 selected={selectedLidarFootprintIds.includes(footprint.id)}
                 onSelect={onSelectLidar}
+                messages={messages}
               />
               );
             })
@@ -449,6 +474,7 @@ export default function ExcavationMap({
             cells={ancientFeatureCells}
             selectedId={selectedAncientFeatureId}
             onSelect={onSelectAncientFeature}
+            messages={messages}
           />
         ) : null}
         {digs.map((dig) => (
@@ -472,7 +498,12 @@ export default function ExcavationMap({
           const activeDig = isSelected ? colocatedDigs[selectedIndex] : colocatedDigs[0];
           const hasAlternates = colocatedDigs.length > 1;
           const locationStatus = locationStatusFor(activeDig.coordinateMethod);
-          const markerIcon = makeIcon(locationStatus, isSelected, colocatedDigs.length);
+          const markerIcon = makeIcon(
+            locationStatus,
+            isSelected,
+            messages.map.records,
+            colocatedDigs.length,
+          );
 
           function selectNextDig() {
             if (!hasAlternates || selectedIndex < 0) {
@@ -493,28 +524,28 @@ export default function ExcavationMap({
           );
         })}
       </MapContainer>
-      <div className="lidar-review-key" aria-label="Archaeological review legend">
-        <strong>Archaeological review</strong>
+      <div className="lidar-review-key" aria-label={messages.map.reviewLegendLabel}>
+        <strong>{messages.map.reviewLegendTitle}</strong>
         <span>
           <i className="lidar-review-line review-reviewed" aria-hidden="true" />
-          Systematic review completed
+          {messages.map.systematicReview}
         </span>
         <span>
           <i className="lidar-review-line review-partial" aria-hidden="true" />
-          Partial or ongoing review
+          {messages.map.partialReview}
         </span>
         <span>
           <i className="lidar-review-line review-unreviewed" aria-hidden="true" />
-          No published review found
+          {messages.map.noReview}
         </span>
-        <strong className="survey-coverage-heading">Footprint source</strong>
+        <strong className="survey-coverage-heading">{messages.map.footprintSource}</strong>
         <span>
           <i className="survey-coverage-swatch provenance-released" aria-hidden="true" />
-          Released acquisition GIS
+          {messages.map.releasedGis}
         </span>
         <span>
           <i className="survey-coverage-swatch provenance-derived" aria-hidden="true" />
-          Reconstructed from source
+          {messages.map.reconstructed}
         </span>
       </div>
     </>

@@ -1,0 +1,25 @@
+filters:
+  and:
+    - 'type == "investigation"'
+    - 'file.inFolder("Investigations")'
+properties:
+  name:
+    displayName: Investigation
+  investigation_kind:
+    displayName: Kind
+  fieldwork_start_year:
+    displayName: Started
+  fieldwork_end_year:
+    displayName: Ended
+  sites:
+    displayName: Sites
+  lidar_scans:
+    displayName: LiDAR scans
+  papers:
+    displayName: Papers
+  organizations:
+    displayName: Organizations
+views:
+  - type: table
+    name: Investigations
+    order: [name, investigation_kind, fieldwork_start_year, fieldwork_end_year, sites, lidar_scans, papers, organizations]

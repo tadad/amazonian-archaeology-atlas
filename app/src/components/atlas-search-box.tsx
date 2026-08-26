@@ -1,12 +1,19 @@
 "use client";
 
 import { useEffect, useMemo, useState, type KeyboardEvent } from "react";
+import {
+  localizedGeneratedLabel,
+  localizedRecordSubtitle,
+  type Dictionary,
+} from "@/i18n";
 import type { AtlasSearchResult } from "@/lib/atlas-types";
 
 export function AtlasSearchBox({
   onSelect,
+  messages,
 }: {
   onSelect: (result: AtlasSearchResult) => void;
+  messages: Dictionary;
 }) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<AtlasSearchResult[]>([]);
@@ -81,7 +88,7 @@ export function AtlasSearchBox({
 
   return (
     <div className="panel-search">
-      <label htmlFor="atlas-search">Search the atlas</label>
+      <label htmlFor="atlas-search">{messages.search.label}</label>
       <div className="search-field">
         <span aria-hidden="true">⌕</span>
         <input
@@ -94,7 +101,7 @@ export function AtlasSearchBox({
           }}
           onBlur={() => setOpen(false)}
           onKeyDown={handleKeyDown}
-          placeholder="Survey, place, paper, or keyword…"
+          placeholder={messages.search.placeholder}
           role="combobox"
           aria-autocomplete="list"
           aria-expanded={open}
@@ -106,14 +113,14 @@ export function AtlasSearchBox({
       </div>
       {open ? (
         <div className="atlas-search-results" id="atlas-search-results" role="listbox">
-          {loading ? <p className="atlas-search-status">Searching…</p> : null}
+          {loading ? <p className="atlas-search-status">{messages.search.searching}</p> : null}
           {!loading && !results.length ? (
-            <p className="atlas-search-status">No matching atlas records.</p>
+            <p className="atlas-search-status">{messages.search.noResults}</p>
           ) : null}
           {!loading
             ? resultGroups.map(([category, groupedResults]) => (
                 <section className="atlas-search-group" key={category}>
-                  <h3>{category}</h3>
+                  <h3>{(messages.search.categories as Record<string, string>)[category] ?? category}</h3>
                   {groupedResults.map(({ result, index }) => (
                     <button
                       id={`atlas-search-result-${index}`}
@@ -125,8 +132,8 @@ export function AtlasSearchBox({
                       onClick={() => select(result)}
                       key={result.id}
                     >
-                      <strong>{result.title}</strong>
-                      <span>{result.subtitle}</span>
+                      <strong>{localizedGeneratedLabel(messages, result.title)}</strong>
+                      <span>{localizedRecordSubtitle(messages, result.subtitle)}</span>
                     </button>
                   ))}
                 </section>

@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LibraryShell } from "@/components/library-shell";
+import { OriginalLanguageNotice } from "@/components/original-language-notice";
 import { VaultMarkdown } from "@/components/vault-markdown";
+import { dictionaryValue, formatMessage, getDictionary } from "@/i18n";
+import { localePath, type Locale } from "@/i18n/config";
+import { getRequestLocale } from "@/i18n/server";
 import { getPaper, getPapers, type ContributorLink } from "@/lib/vault";
 import styles from "../../library.module.css";
 
@@ -19,17 +23,21 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PaperPageProps): Promise<Metadata> {
   const paper = getPaper((await params).slug);
   if (!paper) return {};
+  const messages = getDictionary(await getRequestLocale());
   return {
-    title: `${paper.title} | Papers`,
-    description: `${paper.year || "Undated"} ${paper.workType} in the Acre archaeology vault.`,
+    title: `${paper.title} | ${messages.papers.title}`,
+    description: formatMessage(messages.metadata.paperDescription, {
+      year: paper.year || messages.papers.undated,
+      type: dictionaryValue(messages.controlledValues, paper.workType),
+    }),
   };
 }
 
-function ContributorList({ contributors }: { contributors: ContributorLink[] }) {
+function ContributorList({ contributors, locale }: { contributors: ContributorLink[]; locale: Locale }) {
   return contributors.map((contributor, index) => (
     <span key={`${contributor.collection}/${contributor.slug}`}>
       {index > 0 ? ", " : ""}
-      <Link href={`/sources/${contributor.collection}/${encodeURIComponent(contributor.slug)}`}>
+      <Link href={localePath(locale, `/sources/${contributor.collection}/${encodeURIComponent(contributor.slug)}`)}>
         {contributor.name}
       </Link>
     </span>
@@ -39,37 +47,41 @@ function ContributorList({ contributors }: { contributors: ContributorLink[] }) 
 export default async function PaperPage({ params }: PaperPageProps) {
   const paper = getPaper((await params).slug);
   if (!paper) notFound();
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
 
   return (
-    <LibraryShell collection="papers" activeSlug={paper.slug}>
+    <LibraryShell collection="papers" activeSlug={paper.slug} locale={locale} messages={messages}>
       <article className={styles.document}>
         <header className={styles.documentHeader}>
           <p className={styles.eyebrow}>
-            Paper · {paper.collection} · {paper.year || "Undated"}
+            {messages.papers.paper}{" · "}{paper.collection}{" · "}
+            {paper.year || messages.papers.undated}
           </p>
           <h2>{paper.title}</h2>
           <p className={styles.byline}>
-            <ContributorList contributors={[...paper.authors, ...paper.organizations]} />
+            <ContributorList contributors={[...paper.authors, ...paper.organizations]} locale={locale} />
           </p>
 
           <dl className={styles.metadataGrid}>
             <div>
-              <dt>Type</dt>
-              <dd>{paper.workType.replaceAll("-", " ")}</dd>
+              <dt>{messages.papers.type}</dt>
+              <dd>{dictionaryValue(messages.controlledValues, paper.workType)}</dd>
             </div>
             <div>
-              <dt>Languages</dt>
+              <dt>{messages.papers.languages}</dt>
               <dd>{paper.languages.join(" · ").toUpperCase()}</dd>
             </div>
             <div>
-              <dt>Local pagination</dt>
+              <dt>{messages.papers.localPagination}</dt>
               <dd>
-                {paper.pages} PDF page{paper.pages === 1 ? "" : "s"}
+                {paper.pages}{" "}
+                {paper.pages === 1 ? messages.papers.pdfPage : messages.papers.pdfPagesPlural}
               </dd>
             </div>
             <div>
-              <dt>Text</dt>
-              <dd>{paper.extractionStatus}</dd>
+              <dt>{messages.papers.text}</dt>
+              <dd>{dictionaryValue(messages.controlledValues, paper.extractionStatus)}</dd>
             </div>
           </dl>
 
@@ -77,18 +89,20 @@ export default async function PaperPage({ params }: PaperPageProps) {
             <div className={styles.creditLines}>
               {paper.contributors.length > 0 && (
                 <p>
-                  <strong>With contributions by</strong>{" "}
-                  <ContributorList contributors={paper.contributors} />
+                  <strong>{messages.papers.contributionsBy}</strong>{" "}
+                  <ContributorList contributors={paper.contributors} locale={locale} />
                 </p>
               )}
               {paper.editors.length > 0 && (
                 <p>
-                  <strong>Edited by</strong> <ContributorList contributors={paper.editors} />
+                  <strong>{messages.papers.editedBy}</strong>{" "}
+                  <ContributorList contributors={paper.editors} locale={locale} />
                 </p>
               )}
               {paper.translators.length > 0 && (
                 <p>
-                  <strong>Translated by</strong> <ContributorList contributors={paper.translators} />
+                  <strong>{messages.papers.translatedBy}</strong>{" "}
+                  <ContributorList contributors={paper.translators} locale={locale} />
                 </p>
               )}
             </div>
@@ -96,12 +110,15 @@ export default async function PaperPage({ params }: PaperPageProps) {
 
           {paper.sourceUrl && (
             <a className={styles.sourceButton} href={paper.sourceUrl} target="_blank" rel="noreferrer">
-              Open source record <span aria-hidden="true">↗</span>
+              {messages.papers.openSource} <span aria-hidden="true">↗</span>
             </a>
           )}
         </header>
 
-        <VaultMarkdown>{paper.body}</VaultMarkdown>
+        <OriginalLanguageNotice locale={locale}>
+          {messages.originalLanguage.research}
+        </OriginalLanguageNotice>
+        <VaultMarkdown locale={locale}>{paper.body}</VaultMarkdown>
       </article>
     </LibraryShell>
   );

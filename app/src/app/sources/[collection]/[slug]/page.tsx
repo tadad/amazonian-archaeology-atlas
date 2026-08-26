@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LibraryShell } from "@/components/library-shell";
 import { VaultRecordDocument } from "@/components/vault-record";
+import { formatMessage, getDictionary, localizedRecordTitle } from "@/i18n";
+import { getRequestLocale } from "@/i18n/server";
 import { getVaultCollections, getVaultRecord } from "@/lib/vault-catalogue";
 
 type RecordPageProps = {
@@ -22,10 +24,19 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: RecordPageProps): Promise<Metadata> {
   const { collection, slug } = await params;
   const record = getVaultRecord(collection, slug);
+  const messages = getDictionary(await getRequestLocale());
+  const recordType = record
+    ? (messages.recordTypes as Record<string, string>)[record.type] ?? record.type
+    : "";
   return record
     ? {
-        title: `${record.title} | Acre Archaeology Wiki`,
-        description: `${record.type} record generated from the archaeology vault.`,
+        title: `${localizedRecordTitle(
+          messages,
+          record.collectionSlug,
+          record.slug,
+          record.title,
+        )} | ${messages.metadata.wikiTitle}`,
+        description: formatMessage(messages.metadata.recordDescription, { type: recordType }),
       }
     : {};
 }
@@ -35,10 +46,12 @@ export default async function RecordPage({ params }: RecordPageProps) {
   if (["papers", "authors"].includes(collection)) notFound();
   const record = getVaultRecord(collection, slug);
   if (!record) notFound();
+  const locale = await getRequestLocale();
+  const messages = getDictionary(locale);
 
   return (
-    <LibraryShell collection={collection} activeSlug={record.slug}>
-      <VaultRecordDocument record={record} />
+    <LibraryShell collection={collection} activeSlug={record.slug} locale={locale} messages={messages}>
+      <VaultRecordDocument record={record} locale={locale} messages={messages} />
     </LibraryShell>
   );
 }

@@ -1,0 +1,30 @@
+filters:
+  and:
+    - 'type == "archaeological-site"'
+    - 'file.inFolder("Archaeological Sites")'
+properties:
+  name:
+    displayName: Site
+  site_kind:
+    displayName: Kind
+  periods:
+    displayName: Periods
+  cultures:
+    displayName: Cultures
+  coordinate_precision:
+    displayName: Coordinate
+  papers:
+    displayName: Papers
+  investigations:
+    displayName: Investigations
+views:
+  - type: table
+    name: Archaeological sites
+    order: [name, site_kind, periods, cultures, coordinate_precision, investigations, papers]
+  - type: table
+    name: Location review
+    filters:
+      or:
+        - 'coordinate_precision == "withheld"'
+        - 'location_visibility != "public-generalized"'
+    order: [name, site_kind, coordinate_precision, coordinate_basis, coordinate_note]

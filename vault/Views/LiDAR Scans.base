@@ -1,0 +1,36 @@
+filters:
+  and:
+    - 'type == "lidar-scan"'
+    - 'file.inFolder("LiDAR Scans")'
+properties:
+  name:
+    displayName: LiDAR scan
+  source_year:
+    displayName: Source year
+  acquisition_start_year:
+    displayName: Acquired from
+  acquisition_end_year:
+    displayName: Acquired through
+  acquisition_purpose:
+    displayName: Purpose
+  terrain_resolution_m:
+    displayName: Terrain grid (m)
+  archaeology_review_status:
+    displayName: Archaeology review
+  data_access_status:
+    displayName: Data access
+  papers:
+    displayName: Papers
+  organizations:
+    displayName: Organizations
+views:
+  - type: table
+    name: LiDAR scans
+    order: [name, source_year, acquisition_start_year, acquisition_end_year, acquisition_purpose, terrain_resolution_m, archaeology_review_status, data_access_status, papers, organizations]
+  - type: table
+    name: Unreviewed data
+    filters:
+      or:
+        - 'archaeology_review_status == "not reviewed"'
+        - 'archaeology_review_status == "unknown"'
+    order: [name, country, region, terrain_resolution_m, point_density_m2, data_access_status, organizations]

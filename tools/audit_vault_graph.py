@@ -11,7 +11,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-COLLECTIONS = ("Places", "Periods", "Cultures", "Papers", "Authors", "Organizations")
+COLLECTIONS = (
+    "LiDAR Scans",
+    "Investigations",
+    "Archaeological Sites",
+    "Periods",
+    "Cultures",
+    "Papers",
+    "Authors",
+    "Organizations",
+)
 WIKILINK = re.compile(r"!?\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]")
 
 

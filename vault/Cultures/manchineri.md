@@ -7,7 +7,7 @@ aliases:
   - "Manchineri people"
 papers:
   - "[[Papers/2017-virtanen-saunaluoma-visualization-movement|Visualization and Movement as Configurations of Human-Nonhuman Engagements: Precolonial Geometric Earthwork Landscapes of the Upper Purus, Brazil]]"
-places: []
+sites: []
 ---
 # Manchineri
 

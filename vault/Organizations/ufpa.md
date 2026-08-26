@@ -21,9 +21,8 @@ papers:
   - "[[Papers/2010-schaan-et-al-construindo-paisagens|Construindo paisagens como espaços sociais: o caso dos geoglifos do Acre]]"
   - "[[Papers/2014-barbosa-analise-espacial-sitios-monumentais|Análise espacial dos sítios monumentais do leste da Amazônia Ocidental]]"
   - "[[Papers/2024-de-souza-tequinho-roads|The Pre-Colombian Roads of Geoglyph Sites in the State of Acre: The Tequinho Site Road Complex]]"
-places:
-  - "[[Places/acre-geoglyph-landscape|Acre Geoglyph Landscape]]"
-  - "[[Places/tequinho|Tequinho]]"
+sites:
+  - "[[Archaeological Sites/tequinho|Tequinho]]"
 ---
 # Universidade Federal do Pará
 

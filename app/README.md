@@ -23,7 +23,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-The basemap uses OpenStreetMap and requires an internet connection. Source
-buttons open canonical publisher or repository pages. Restricted local PDFs
-are preserved outside the navigable vault because source articles may contain
-exact archaeological coordinates.
+The basemap uses OpenStreetMap's standard raster tiles with an atlas-specific
+CSS color treatment and requires an internet connection. Source buttons open
+canonical publisher or repository pages. Restricted local PDFs are preserved
+outside the navigable vault because source articles may contain exact
+archaeological coordinates.

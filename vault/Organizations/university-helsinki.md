@@ -21,12 +21,8 @@ papers:
   - "[[Papers/2009-parssinen-schaan-ranzi-upper-purus|Pre-Columbian Geometric Earthworks in the Upper Purús: A Complex Society in Western Amazonia]]"
   - "[[Papers/2017-virtanen-saunaluoma-visualization-movement|Visualization and Movement as Configurations of Human-Nonhuman Engagements: Precolonial Geometric Earthwork Landscapes of the Upper Purus, Brazil]]"
   - "[[Papers/2026-parssinen-et-al-over-20000-earthworks|Over 20,000 Precolonial Earthworks in the Southwest Amazonia]]"
-places:
-  - "[[Places/acre-geoglyph-landscape|Acre Geoglyph Landscape]]"
-  - "[[Places/tequinho|Tequinho]]"
-  - "[[Places/bujari-porto-acre-earthwork-corridor|Bujari-Porto Acre Earthwork Corridor]]"
-  - "[[Places/sena-madureira-iaco-geoglyph-zone|Sena Madureira-Iaco Geoglyph Zone]]"
-  - "[[Places/manoel-urbano-upper-purus-frontier|Manoel Urbano-Upper Purus Frontier]]"
+sites:
+  - "[[Archaeological Sites/tequinho|Tequinho]]"
 ---
 # University of Helsinki
 

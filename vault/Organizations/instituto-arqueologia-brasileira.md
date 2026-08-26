@@ -17,8 +17,7 @@ people:
 papers:
   - "[[Papers/1988-dias-carvalho-estruturas-terra-acre|As estruturas de terra na arqueologia do Acre]]"
   - "[[Papers/2006-dias-estruturas-arqueologicas-terra-acre|As estruturas arqueológicas de terra no estado do Acre - Amazônia Ocidental, Brasil: um caso de resiliência?]]"
-places:
-  - "[[Places/acre-geoglyph-landscape|Acre Geoglyph Landscape]]"
+sites:
 ---
 # Instituto de Arqueologia Brasileira
 

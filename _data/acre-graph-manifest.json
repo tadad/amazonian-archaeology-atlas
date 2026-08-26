@@ -1,22 +1,28 @@
 {
-  "scope": "Acre archaeology",
+  "scope": "Amazonian LiDAR and Acre archaeology",
   "ontology": [
-    "Places",
-    "Periods",
-    "Cultures",
+    "LiDAR Scans",
+    "Investigations",
+    "Archaeological Sites",
     "Papers",
     "Authors",
-    "Organizations"
+    "Organizations",
+    "Periods",
+    "Cultures"
   ],
   "counts": {
-    "papers": 46,
+    "papers": 48,
     "authors": 299,
-    "places": 24,
+    "lidar_scans": 34,
+    "investigations": 7,
+    "archaeological_sites": 17,
     "periods": 3,
     "cultures": 6,
-    "organizations": 9
+    "organizations": 11
   },
   "paper_ids": [
+    "2010-asner-peru-carbon-mapping",
+    "2012-asner-colombia-carbon-mapping",
     "1988-dias-carvalho-estruturas-terra-acre",
     "2001-ranzi-aguiar-registro-geoglifos",
     "2003-parssinen-ranzi-saunaluoma-siiriainen-rio-branco",

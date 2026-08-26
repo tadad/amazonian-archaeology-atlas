@@ -1,0 +1,53 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-left: 2px;
+  padding-left: 12px;
+  border-left: 1px solid currentColor;
+  color: inherit;
+  font-family: var(--font-sans, "Helvetica Neue", Arial, sans-serif);
+  font-size: 0.68rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.toggle a {
+  min-width: 27px;
+  padding: 5px 6px;
+  border: 1px solid transparent;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.toggle a:hover {
+  border-color: currentColor;
+}
+
+.toggle a[aria-current="true"] {
+  border-color: currentColor;
+  background: #111;
+  color: #fff;
+}
+
+.divider {
+  color: #aaa;
+  font-weight: 400;
+}
+
+@media (max-width: 520px) {
+  .toggle {
+    margin-left: 0;
+    padding-left: 8px;
+  }
+
+  .toggle a {
+    min-width: 25px;
+    padding-inline: 4px;
+  }
+}
