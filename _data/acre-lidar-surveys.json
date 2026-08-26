@@ -1,0 +1,2230 @@
+{
+  "schema_version": 4,
+  "coordinate_policy": "Public LiDAR acquisition geography only; never protected archaeological-site coordinates or community-controlled locations. Study metadata is separate from map geometry. Each footprint is labeled as released GIS, digitized from a published map, reconstructed from published evidence, or contextual only. A ground footprint is not a literal aircraft GNSS trajectory.",
+  "surveys": [
+    {
+      "id": "2017-uav-lidar-prototype",
+      "name": "UAV-LiDAR prototype tests",
+      "year": 2017,
+      "paper_id": "2017-khan-aragao-iriarte-uav-lidar-system",
+      "kind": "prototype",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The prototype test area was evaluated for archaeological remote sensing, but no publishable acquisition footprint is mapped.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Eastern Acre",
+      "source_label": "Khan, Aragão & Iriarte 2017",
+      "source_url": null,
+      "footprint_note": "Generalized test landscape; not an exact flight footprint.",
+      "positions": [
+        [
+          -9.55,
+          -67.75
+        ],
+        [
+          -9.55,
+          -67.05
+        ],
+        [
+          -10.15,
+          -67.05
+        ],
+        [
+          -10.15,
+          -67.75
+        ]
+      ],
+      "metrics": [
+        "Survey-grade UAV platform",
+        "LiDAR + multispectral imaging"
+      ],
+      "description": "Generalized eastern Acre test landscape for the platform that preceded dedicated archaeological LiDAR surveys.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The 2017 paper documents the UAV-LiDAR platform, but does not publish a terrain-raster cell size or a public terrain product for this test area."
+    },
+    {
+      "id": "2020-mound-village-transects",
+      "name": "Mound-village LiDAR transects",
+      "year": 2020,
+      "paper_id": "2020-iriarte-et-al-geometry-by-design",
+      "kind": "survey",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The published archaeological study analyzed all three mapped acquisition transects.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Southeastern Acre",
+      "source_label": "Iriarte et al. 2020",
+      "source_url": null,
+      "footprint_note": "Three acquisition polygons digitized from Figure 2 against its published graticule and normalized to the reported 65.61 km² total; no flight-centerline file was released.",
+      "positions": [
+        [
+          -9.55,
+          -67.85
+        ],
+        [
+          -9.45,
+          -67.05
+        ],
+        [
+          -10.35,
+          -66.95
+        ],
+        [
+          -10.45,
+          -67.85
+        ]
+      ],
+      "metrics": [
+        "65.61 km² scanned",
+        "3 helicopter transects",
+        "Flights completed in 2018"
+      ],
+      "description": "Generalized southeastern Acre study region for the Dona Maria, Estrela do Norte, and Dois Círculos transects.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The open paper documents its flight and processing workflow but does not report the exported DEM cell size; no public raster or LAS/LAZ deposit was identified."
+    },
+    {
+      "id": "2016-2018-eba-brazil-transects",
+      "name": "EBA–Sustainable Landscapes released transects",
+      "year": 2018,
+      "paper_id": "dataset-eba-l3a-transects",
+      "kind": "unscreened-archive",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "partial",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Peripato et al. screened 861 lines drawn from EBA, MSA, and TREES, but no public crosswalk identifies which of these 1,002 EBA polygon parts were included.",
+      "archaeology_review_url": "https://eprints.whiterose.ac.uk/id/eprint/203912/1/ade2541_CombinedPDF.pdf",
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "901 distributed transect records across the Brazilian Amazon",
+      "source_label": "EBA L3A transect archive",
+      "source_url": "https://zenodo.org/records/4968706",
+      "footprint_note": "The public L3A shapefile releases 901 acquisition records, represented by 1,002 polygon parts, from the 2016 and 2017–2018 campaigns. They are ground-coverage boundaries, not aircraft GPS trajectories, and should not be conflated one-for-one with the 861 transects screened by Peripato et al.",
+      "positions": [
+        [
+          5.3,
+          -73.9
+        ],
+        [
+          5.3,
+          -47.2
+        ],
+        [
+          -18.1,
+          -47.2
+        ],
+        [
+          -18.1,
+          -73.9
+        ]
+      ],
+      "metrics": [
+        "901 released acquisition records",
+        "1,002 polygon parts",
+        "2016 and 2017–2018 campaigns",
+        "Public vector footprints and point-cloud archive"
+      ],
+      "description": "The public EBA archive exposes the actual distributed acquisition footprints behind a large part of Brazil’s ecological LiDAR coverage. Some of these data were later repurposed for archaeology, but the archive itself is not an archaeological screen.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": 4,
+      "resolution_basis": "The EBA campaign methods document classification of ground returns and interpolation of each transect into a 1 m digital terrain model. The public release provides point clouds and acquisition footprints; the nominal density of about 4 returns/m² is a separate acquisition measure."
+    },
+    {
+      "id": "2022-dtm-anomaly-samples",
+      "name": "Forest-covered geoglyph samples",
+      "year": 2022,
+      "paper_id": "2022-wagner-et-al-fast-dtm-geoglyph-detection",
+      "kind": "method",
+      "coverage_mode": "context",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The published method study analyzed both protected LiDAR example tiles.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Eastern Acre",
+      "source_label": "Wagner et al. 2022",
+      "source_url": null,
+      "footprint_note": "Broad context only; the publication altered example coordinates.",
+      "positions": [
+        [
+          -9.65,
+          -68.05
+        ],
+        [
+          -9.6,
+          -67.25
+        ],
+        [
+          -10.25,
+          -67.2
+        ],
+        [
+          -10.3,
+          -68
+        ]
+      ],
+      "metrics": [
+        "2 protected LiDAR examples",
+        "1 m terrain models",
+        "2014–2018 source flights"
+      ],
+      "description": "Broad eastern Acre context for two protected example tiles. The publication altered their coordinates, so this is not a footprint.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": null,
+      "resolution_basis": "The study used published 1 m terrain models."
+    },
+    {
+      "id": "2023-ace-discoveries",
+      "name": "ACE-01–ACE-10 discoveries",
+      "year": 2023,
+      "paper_id": "2023-peripato-et-al-hidden-earthworks",
+      "kind": "discovery",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "Manual archaeological inspection covered the study's mapped LiDAR lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Senador Guiomard, Acre",
+      "source_label": "Peripato et al. 2023",
+      "source_url": null,
+      "footprint_note": "Protected discovery cluster, not individual site locations.",
+      "positions": [
+        [
+          -9.65,
+          -68.05
+        ],
+        [
+          -9.65,
+          -67.35
+        ],
+        [
+          -10.3,
+          -67.3
+        ],
+        [
+          -10.3,
+          -68
+        ]
+      ],
+      "metrics": [
+        "10 newly reported Acre earthworks",
+        "Rio Branco–Senador Guiomard zone",
+        "Individual locations protected"
+      ],
+      "description": "Generalized discovery zone for ACE-01 through ACE-10, including forest-covered enclosures and road features.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": null,
+      "resolution_basis": "The archaeological screen interpolated ground returns into 0.5 m DEM products."
+    },
+    {
+      "id": "2023-upper-xingu-screened-legacy",
+      "name": "Upper Xingu legacy ALS screen",
+      "year": 2023,
+      "paper_id": "2023-peripato-et-al-hidden-earthworks",
+      "kind": "screened-legacy",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "Manual archaeological inspection covered the study's mapped LiDAR lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Upper Xingu, Mato Grosso",
+      "source_label": "Peripato et al. 2023",
+      "source_url": null,
+      "footprint_note": "Generalized search region assembled from distributed legacy flight lines.",
+      "positions": [
+        [
+          -10.3,
+          -55.2
+        ],
+        [
+          -10.1,
+          -51.4
+        ],
+        [
+          -14.3,
+          -51.3
+        ],
+        [
+          -14.5,
+          -54.9
+        ]
+      ],
+      "metrics": [
+        "Part of 5,315 km² archaeologically screened",
+        "Legacy ecological/topographic ALS",
+        "Previously unrecorded earthworks identified"
+      ],
+      "description": "Pre-existing airborne LiDAR was reprocessed specifically to search for archaeological earthworks.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": null,
+      "resolution_basis": "The archaeological screen interpolated ground returns into 0.5 m DEM products."
+    },
+    {
+      "id": "2023-amapa-screened-legacy",
+      "name": "Amapá legacy ALS screen",
+      "year": 2023,
+      "paper_id": "2023-peripato-et-al-hidden-earthworks",
+      "kind": "screened-legacy",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "Manual archaeological inspection covered the study's mapped LiDAR lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Jari–Ferreira Gomes–Oiapoque, Amapá",
+      "source_label": "Peripato et al. 2023",
+      "source_url": null,
+      "footprint_note": "Generalized regional envelope, not continuous coverage or site coordinates.",
+      "positions": [
+        [
+          4.8,
+          -52.5
+        ],
+        [
+          4.7,
+          -50
+        ],
+        [
+          0.2,
+          -49.6
+        ],
+        [
+          -0.2,
+          -53.5
+        ],
+        [
+          2,
+          -54
+        ]
+      ],
+      "metrics": [
+        "Part of 5,315 km² archaeologically screened",
+        "Legacy ALS flight lines",
+        "New earthworks reported"
+      ],
+      "description": "Generalized envelope for screened legacy LiDAR near Laranjal do Jari, Ferreira Gomes, and Oiapoque.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": null,
+      "resolution_basis": "The archaeological screen interpolated ground returns into 0.5 m DEM products."
+    },
+    {
+      "id": "2023-boa-vista-do-ramos-screened-legacy",
+      "name": "Boa Vista do Ramos legacy ALS screen",
+      "year": 2023,
+      "paper_id": "2023-peripato-et-al-hidden-earthworks",
+      "kind": "screened-legacy",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "Manual archaeological inspection covered the study's mapped LiDAR lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Boa Vista do Ramos, Amazonas",
+      "source_label": "Peripato et al. 2023",
+      "source_url": null,
+      "footprint_note": "Municipality-scale public placement, not a flight footprint.",
+      "positions": [
+        [
+          -1.6,
+          -58.4
+        ],
+        [
+          -1.5,
+          -55.8
+        ],
+        [
+          -4.1,
+          -55.8
+        ],
+        [
+          -4.2,
+          -58.3
+        ]
+      ],
+      "metrics": [
+        "Legacy ALS archaeologically screened",
+        "Previously unknown earthworks reported"
+      ],
+      "description": "Central Amazonas search region represented at municipality scale because exact flight lines and discoveries are not published here.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": null,
+      "resolution_basis": "The archaeological screen interpolated ground returns into 0.5 m DEM products."
+    },
+    {
+      "id": "2023-obidos-screened-legacy",
+      "name": "Óbidos legacy ALS screen",
+      "year": 2023,
+      "paper_id": "2023-peripato-et-al-hidden-earthworks",
+      "kind": "screened-legacy",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "Manual archaeological inspection covered the study's mapped LiDAR lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Óbidos, Pará",
+      "source_label": "Peripato et al. 2023",
+      "source_url": null,
+      "footprint_note": "Municipality-scale public placement, not a flight footprint.",
+      "positions": [
+        [
+          -0.7,
+          -57.1
+        ],
+        [
+          -0.7,
+          -54.4
+        ],
+        [
+          -2.8,
+          -54.5
+        ],
+        [
+          -2.8,
+          -56.9
+        ]
+      ],
+      "metrics": [
+        "Legacy ALS archaeologically screened",
+        "Previously unknown earthworks reported"
+      ],
+      "description": "Generalized western Pará search region where legacy LiDAR was screened for archaeological features.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": null,
+      "resolution_basis": "The archaeological screen interpolated ground returns into 0.5 m DEM products."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-01",
+      "name": "2024 Acre–Amazonas ALS line L01",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -7.640105,
+          -64.480432
+        ],
+        [
+          -10.190525,
+          -67.591269
+        ],
+        [
+          -10.183546,
+          -67.597053
+        ],
+        [
+          -7.633126,
+          -64.486216
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-02",
+      "name": "2024 Acre–Amazonas ALS line L02",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -10.118191,
+          -67.663821
+        ],
+        [
+          -7.569997,
+          -64.543136
+        ],
+        [
+          -7.576987,
+          -64.537368
+        ],
+        [
+          -10.125182,
+          -67.658053
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-03",
+      "name": "2024 Acre–Amazonas ALS line L03",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -10.050977,
+          -67.721811
+        ],
+        [
+          -7.492973,
+          -64.601951
+        ],
+        [
+          -7.499953,
+          -64.59617
+        ],
+        [
+          -10.057956,
+          -67.71603
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-04",
+      "name": "2024 Acre–Amazonas ALS line L04",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -9.979393,
+          -67.775946
+        ],
+        [
+          -7.427052,
+          -64.66191
+        ],
+        [
+          -7.434033,
+          -64.656132
+        ],
+        [
+          -9.986374,
+          -67.770169
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-05",
+      "name": "2024 Acre–Amazonas ALS line L05",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -9.908946,
+          -67.83533
+        ],
+        [
+          -7.357181,
+          -64.71813
+        ],
+        [
+          -7.364166,
+          -64.712359
+        ],
+        [
+          -9.915931,
+          -67.829559
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-06",
+      "name": "2024 Acre–Amazonas ALS line L06",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Rio Branco–Lábrea systematic transect",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -9.844074,
+          -67.892937
+        ],
+        [
+          -7.282511,
+          -64.781508
+        ],
+        [
+          -7.289481,
+          -64.775718
+        ],
+        [
+          -9.851044,
+          -67.887148
+        ]
+      ],
+      "metrics": [
+        "6 parallel 1-km swaths about 10 km apart",
+        "347 structures in the systematic block",
+        "320 toward Rio Branco; 27 toward Lábrea"
+      ],
+      "description": "One of six parallel systematic ALS lines between the Rio Branco and Lábrea regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-07",
+      "name": "2024 Acre–Amazonas ALS line L07",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Carauari–Lábrea route",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -4.877996,
+          -66.896618
+        ],
+        [
+          -7.295666,
+          -64.747282
+        ],
+        [
+          -7.304125,
+          -64.743508
+        ],
+        [
+          -7.436061,
+          -64.631562
+        ],
+        [
+          -7.484023,
+          -64.589594
+        ],
+        [
+          -7.489977,
+          -64.596406
+        ],
+        [
+          -7.441939,
+          -64.638438
+        ],
+        [
+          -7.309875,
+          -64.750492
+        ],
+        [
+          -7.301667,
+          -64.754051
+        ],
+        [
+          -4.884004,
+          -66.903382
+        ]
+      ],
+      "metrics": [
+        "4,497 km² across Acre + Amazonas",
+        "10 airborne survey lines",
+        "432 documented; 396 previously unknown",
+        "406 public coordinates mapped; 26 Indigenous-territory locations withheld"
+      ],
+      "description": "The source-numbered route between Carauari and the Lábrea region.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-08",
+      "name": "2024 Acre–Amazonas ALS line L08",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Manoel Urbano–Lábrea route",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -8.840316,
+          -69.234326
+        ],
+        [
+          -8.723819,
+          -68.950729
+        ],
+        [
+          -7.83974,
+          -66.798521
+        ],
+        [
+          -7.250663,
+          -64.796285
+        ],
+        [
+          -7.259337,
+          -64.793715
+        ],
+        [
+          -7.84826,
+          -66.795479
+        ],
+        [
+          -8.732181,
+          -68.947271
+        ],
+        [
+          -8.848677,
+          -69.230868
+        ]
+      ],
+      "metrics": [
+        "4,497 km² across Acre + Amazonas",
+        "10 airborne survey lines",
+        "432 documented; 396 previously unknown",
+        "406 public coordinates mapped; 26 Indigenous-territory locations withheld"
+      ],
+      "description": "The source-numbered route from west of Manoel Urbano toward Lábrea.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-09",
+      "name": "2024 Acre–Amazonas ALS line L09",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Carauari–Boca do Acre–Rio Branco route",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -4.898299,
+          -66.902975
+        ],
+        [
+          -8.757588,
+          -67.30449
+        ],
+        [
+          -9.086982,
+          -67.455912
+        ],
+        [
+          -9.262571,
+          -67.55201
+        ],
+        [
+          -9.561183,
+          -67.717016
+        ],
+        [
+          -9.578691,
+          -67.727345
+        ],
+        [
+          -9.58642,
+          -67.735881
+        ],
+        [
+          -9.604389,
+          -67.739367
+        ],
+        [
+          -9.62049,
+          -67.751703
+        ],
+        [
+          -9.661133,
+          -67.776989
+        ],
+        [
+          -9.710608,
+          -67.800492
+        ],
+        [
+          -9.974323,
+          -67.819463
+        ],
+        [
+          -9.973677,
+          -67.828537
+        ],
+        [
+          -9.709392,
+          -67.809508
+        ],
+        [
+          -9.656867,
+          -67.785011
+        ],
+        [
+          -9.61551,
+          -67.759297
+        ],
+        [
+          -9.600611,
+          -67.747633
+        ],
+        [
+          -9.58258,
+          -67.744119
+        ],
+        [
+          -9.573309,
+          -67.734655
+        ],
+        [
+          -9.556817,
+          -67.724984
+        ],
+        [
+          -9.258229,
+          -67.55999
+        ],
+        [
+          -9.083018,
+          -67.464088
+        ],
+        [
+          -8.756412,
+          -67.31351
+        ],
+        [
+          -4.897368,
+          -66.912025
+        ]
+      ],
+      "metrics": [
+        "4,497 km² across Acre + Amazonas",
+        "10 airborne survey lines",
+        "432 documented; 396 previously unknown",
+        "406 public coordinates mapped; 26 Indigenous-territory locations withheld"
+      ],
+      "description": "The source-numbered route from Carauari through Boca do Acre toward Rio Branco.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2026-acre-amazonas-als-line-10",
+      "name": "2024 Acre–Amazonas ALS line L10",
+      "year": 2026,
+      "paper_id": "2026-parssinen-et-al-over-20000-earthworks",
+      "kind": "regional-survey",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The archaeological detection campaign analyzed all ten mapped acquisition lines.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Manoel Urbano–Rio Branco route",
+      "source_label": "Pärssinen et al. 2026",
+      "source_url": null,
+      "footprint_note": "Source-derived 1-km corridor reconstructed from Pärssinen et al. 2026 Supplementary Table 2 line identifiers and Extended Data Fig. 1; not a released aircraft GNSS track.",
+      "positions": [
+        [
+          -8.921946,
+          -69.302551
+        ],
+        [
+          -8.969463,
+          -69.144161
+        ],
+        [
+          -9.26678,
+          -68.8658
+        ],
+        [
+          -9.587524,
+          -68.512585
+        ],
+        [
+          -9.625876,
+          -68.431131
+        ],
+        [
+          -9.663838,
+          -68.341219
+        ],
+        [
+          -9.751825,
+          -68.132251
+        ],
+        [
+          -9.756391,
+          -68.117255
+        ],
+        [
+          -10.05996,
+          -67.720664
+        ],
+        [
+          -10.082177,
+          -67.70444
+        ],
+        [
+          -10.153174,
+          -67.645443
+        ],
+        [
+          -10.170243,
+          -67.633388
+        ],
+        [
+          -10.196145,
+          -67.612133
+        ],
+        [
+          -10.201855,
+          -67.6192
+        ],
+        [
+          -10.175757,
+          -67.640612
+        ],
+        [
+          -10.158826,
+          -67.652557
+        ],
+        [
+          -10.087823,
+          -67.71156
+        ],
+        [
+          -10.06704,
+          -67.726336
+        ],
+        [
+          -9.763609,
+          -68.122745
+        ],
+        [
+          -9.760175,
+          -68.135749
+        ],
+        [
+          -9.672162,
+          -68.344781
+        ],
+        [
+          -9.634124,
+          -68.434869
+        ],
+        [
+          -9.594476,
+          -68.518415
+        ],
+        [
+          -9.27322,
+          -68.8722
+        ],
+        [
+          -8.976537,
+          -69.149839
+        ],
+        [
+          -8.930607,
+          -69.305171
+        ]
+      ],
+      "metrics": [
+        "4,497 km² across Acre + Amazonas",
+        "10 airborne survey lines",
+        "432 documented; 396 previously unknown",
+        "406 public coordinates mapped; 26 Indigenous-territory locations withheld"
+      ],
+      "description": "The source-numbered southwestern route between the Manoel Urbano and Rio Branco regions.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 31.2,
+      "resolution_basis": "The published methods specify a 50 cm target DTM and an average density of 31.2 points/m² (15–60 points/m² across survey lines)."
+    },
+    {
+      "id": "2018-tapajos-national-forest",
+      "name": "Tapajós National Forest LiDAR plot",
+      "year": 2018,
+      "paper_id": "2018-stenborg-et-al-santarem-water-management",
+      "kind": "survey",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The complete mapped plot was interpreted and followed by archaeological field survey.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Santarém–Tapajós, Pará",
+      "source_label": "Stenborg et al. 2018",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/00934690.2017.1417198",
+      "footprint_note": "Ten released LiDAR tile polygons from the ORNL DAAC TAP_A footprint archive replace the former regional-scale placeholder.",
+      "positions": [
+        [
+          -2.936,
+          -54.97
+        ],
+        [
+          -2.936,
+          -54.943
+        ],
+        [
+          -2.963,
+          -54.943
+        ],
+        [
+          -2.963,
+          -54.97
+        ]
+      ],
+      "metrics": [
+        "9 km² LiDAR plot",
+        "Patterned depressions and water-management features",
+        "Archaeological field survey followed"
+      ],
+      "description": "A 2012 LiDAR plot revealed patterned terrain features that were subsequently investigated archaeologically.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": 51.71,
+      "resolution_basis": "ORNL DAAC documents 1 m DTM products and 51.71 points/m² for TAP_A01."
+    },
+    {
+      "id": "2026-amazonia-revelada-acre-001",
+      "name": "Amazônia Revelada: ACRE 001",
+      "year": 2026,
+      "paper_id": "2026-mapbiomas-amazonia-revelada-samples",
+      "kind": "preliminary-program",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Acquired for archaeology; the published hydrology analysis does not document a completed archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Lábrea, Amazonas",
+      "source_label": "MapBiomas Amazônia 2026 technical note",
+      "source_url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/01/Nota-Tecnica-BR319-Recursos-Hidricos-22.01.26.pdf",
+      "footprint_note": "Area-equivalent placement reconstructed from the technical note's overview map and normalized to its reported 52.05 km²; no georeferenced boundary is released.",
+      "positions": [
+        [
+          -8.287,
+          -65.997
+        ],
+        [
+          -8.287,
+          -65.923
+        ],
+        [
+          -8.353,
+          -65.923
+        ],
+        [
+          -8.353,
+          -65.997
+        ]
+      ],
+      "metrics": [
+        "52.05 km² LiDAR sample",
+        "Public sample-area map",
+        "Hydrology analysis published; archaeological detection coordinates not published"
+      ],
+      "description": "One of four publicly mapped Amazônia Revelada sample areas in Acre and southern Amazonas. The 2026 technical note analyzes hydrology, not archaeological detections.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The note describes a high-density airborne-LiDAR DTM but does not report its terrain-grid cell size or point density."
+    },
+    {
+      "id": "2026-amazonia-revelada-acre-003",
+      "name": "Amazônia Revelada: ACRE 003",
+      "year": 2026,
+      "paper_id": "2026-mapbiomas-amazonia-revelada-samples",
+      "kind": "preliminary-program",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Acquired for archaeology; the published hydrology analysis does not document a completed archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Boca do Acre, Amazonas",
+      "source_label": "MapBiomas Amazônia 2026 technical note",
+      "source_url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/01/Nota-Tecnica-BR319-Recursos-Hidricos-22.01.26.pdf",
+      "footprint_note": "Area-equivalent placement reconstructed from the technical note's overview map and normalized to its reported 25.91 km²; no georeferenced boundary is released.",
+      "positions": [
+        [
+          -8.787,
+          -67.403
+        ],
+        [
+          -8.787,
+          -67.357
+        ],
+        [
+          -8.833,
+          -67.357
+        ],
+        [
+          -8.833,
+          -67.403
+        ]
+      ],
+      "metrics": [
+        "25.91 km² LiDAR sample",
+        "Public sample-area map",
+        "Hydrology analysis published; archaeological detection coordinates not published"
+      ],
+      "description": "One of four publicly mapped Amazônia Revelada sample areas in Acre and southern Amazonas. The 2026 technical note analyzes hydrology, not archaeological detections.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The note describes a high-density airborne-LiDAR DTM but does not report its terrain-grid cell size or point density."
+    },
+    {
+      "id": "2026-amazonia-revelada-acre-004",
+      "name": "Amazônia Revelada: ACRE 004",
+      "year": 2026,
+      "paper_id": "2026-mapbiomas-amazonia-revelada-samples",
+      "kind": "preliminary-program",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Acquired for archaeology; the published hydrology analysis does not document a completed archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Sena Madureira, Acre",
+      "source_label": "MapBiomas Amazônia 2026 technical note",
+      "source_url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/01/Nota-Tecnica-BR319-Recursos-Hidricos-22.01.26.pdf",
+      "footprint_note": "Area-equivalent placement reconstructed from the technical note's overview map and normalized to its reported 24.28 km²; no georeferenced boundary is released.",
+      "positions": [
+        [
+          -8.838,
+          -68.493
+        ],
+        [
+          -8.838,
+          -68.447
+        ],
+        [
+          -8.882,
+          -68.447
+        ],
+        [
+          -8.882,
+          -68.493
+        ]
+      ],
+      "metrics": [
+        "24.28 km² LiDAR sample",
+        "Public sample-area map",
+        "Hydrology analysis published; archaeological detection coordinates not published"
+      ],
+      "description": "One of four publicly mapped Amazônia Revelada sample areas in Acre and southern Amazonas. The 2026 technical note analyzes hydrology, not archaeological detections.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The note describes a high-density airborne-LiDAR DTM but does not report its terrain-grid cell size or point density."
+    },
+    {
+      "id": "2026-amazonia-revelada-acre-005",
+      "name": "Amazônia Revelada: ACRE 005",
+      "year": 2026,
+      "paper_id": "2026-mapbiomas-amazonia-revelada-samples",
+      "kind": "preliminary-program",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Acquired for archaeology; the published hydrology analysis does not document a completed archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Sena Madureira, Acre",
+      "source_label": "MapBiomas Amazônia 2026 technical note",
+      "source_url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/01/Nota-Tecnica-BR319-Recursos-Hidricos-22.01.26.pdf",
+      "footprint_note": "Area-equivalent placement reconstructed from the technical note's overview map and normalized to its reported 25.78 km²; no georeferenced boundary is released.",
+      "positions": [
+        [
+          -9.247,
+          -68.183
+        ],
+        [
+          -9.247,
+          -68.137
+        ],
+        [
+          -9.293,
+          -68.137
+        ],
+        [
+          -9.293,
+          -68.183
+        ]
+      ],
+      "metrics": [
+        "25.78 km² LiDAR sample",
+        "Public sample-area map",
+        "Hydrology analysis published; archaeological detection coordinates not published"
+      ],
+      "description": "One of four publicly mapped Amazônia Revelada sample areas in Acre and southern Amazonas. The 2026 technical note analyzes hydrology, not archaeological detections.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The note describes a high-density airborne-LiDAR DTM but does not report its terrain-grid cell size or point density."
+    },
+    {
+      "id": "2024-amazonia-revelada-guapore",
+      "name": "Amazônia Revelada: Middle Guaporé",
+      "year": 2024,
+      "paper_id": "2024-amazonia-revelada-first-phase",
+      "kind": "preliminary-program",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "The archaeological program has published preliminary results, not a completed block-by-block review.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Middle Guaporé, Rondônia",
+      "source_label": "Amazônia Revelada first phase",
+      "source_url": "https://revistapesquisa.fapesp.br/en/laser-technology-reveals-millennia-of-human-occupation-in-the-amazon/",
+      "footprint_note": "Program region only; exact flight polygons and finds are not yet fully published.",
+      "positions": [
+        [
+          -9.9,
+          -65.2
+        ],
+        [
+          -9.9,
+          -60.9
+        ],
+        [
+          -14.1,
+          -60.9
+        ],
+        [
+          -14.1,
+          -65.2
+        ]
+      ],
+      "metrics": [
+        "Part of ~1,600 km² first phase",
+        "Blocks, roads, and colonial remains reported",
+        "Preliminary public results"
+      ],
+      "description": "First-phase airborne survey region in Rondônia, shown schematically pending detailed publication.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The first-phase project report publishes findings and regional coverage, but no terrain-grid cell size or downloadable elevation product."
+    },
+    {
+      "id": "2024-amazonia-revelada-tapajos",
+      "name": "Amazônia Revelada: Tapajós",
+      "year": 2024,
+      "paper_id": "2024-amazonia-revelada-first-phase",
+      "kind": "preliminary-program",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "The archaeological program remains ongoing; no completed block-by-block review is published.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Tapajós basin, Pará",
+      "source_label": "Amazônia Revelada first phase",
+      "source_url": "https://revistapesquisa.fapesp.br/en/laser-technology-reveals-millennia-of-human-occupation-in-the-amazon/",
+      "footprint_note": "Program region only; exact flight polygons and finds are not yet fully published.",
+      "positions": [
+        [
+          -1.8,
+          -59
+        ],
+        [
+          -1.8,
+          -54.1
+        ],
+        [
+          -7.7,
+          -54.1
+        ],
+        [
+          -7.7,
+          -59
+        ]
+      ],
+      "metrics": [
+        "Part of ~1,600 km² first phase",
+        "Archaeological airborne LiDAR",
+        "Detailed results pending"
+      ],
+      "description": "Broad program geography for the Tapajós component of Amazônia Revelada.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The first-phase project report publishes findings and regional coverage, but no terrain-grid cell size or downloadable elevation product."
+    },
+    {
+      "id": "2026-amazonia-revelada-terra-do-meio-005-006",
+      "name": "Amazônia Revelada: Terra do Meio 005 + 006",
+      "year": 2026,
+      "paper_id": "2026-mapbiomas-amazonia-revelada-samples",
+      "kind": "preliminary-program",
+      "coverage_mode": "corridor",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Acquired for archaeology; the published hydrology analysis does not document a completed archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Altamira, Pará",
+      "source_label": "MapBiomas Amazônia 2026 technical note",
+      "source_url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2026/01/Nota-Tecnica-BR319-Recursos-Hidricos-22.01.26.pdf",
+      "footprint_note": "Schematic cross-shaped footprint centered on the technical note's overview-map marker (approximately 4.53°S, 55.05°W) and normalized to the reported 84.56 km²; no georeferenced boundary is released.",
+      "positions": [
+        [
+          -4.478604,
+          -55.097327
+        ],
+        [
+          -4.478604,
+          -55.070627
+        ],
+        [
+          -4.514204,
+          -55.070626
+        ],
+        [
+          -4.514205,
+          -54.954924
+        ],
+        [
+          -4.540905,
+          -54.954925
+        ],
+        [
+          -4.540905,
+          -55.035026
+        ],
+        [
+          -4.603206,
+          -55.035026
+        ],
+        [
+          -4.603206,
+          -55.061726
+        ],
+        [
+          -4.540905,
+          -55.061726
+        ],
+        [
+          -4.540905,
+          -55.115127
+        ],
+        [
+          -4.514205,
+          -55.115127
+        ],
+        [
+          -4.514205,
+          -55.097327
+        ]
+      ],
+      "metrics": [
+        "84.56 km² across samples 005 + 006",
+        "Public sample-area map",
+        "High-density airborne-LiDAR terrain model used for hydrological analysis"
+      ],
+      "description": "The technical note places samples 005 and 006 in western Altamira and analyzes their hydrology. It does not publish a georeferenced acquisition boundary or locate archaeological findings within these samples.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The note describes a high-density airborne-LiDAR DTM but does not report its terrain-grid cell size or point density."
+    },
+    {
+      "id": "2024-amazonia-revelada-marajo",
+      "name": "Amazônia Revelada: Marajó",
+      "year": 2024,
+      "paper_id": "2024-amazonia-revelada-first-phase",
+      "kind": "preliminary-program",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "The archaeological program remains ongoing; no completed block-by-block review is published.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Marajó, Pará",
+      "source_label": "Amazônia Revelada first phase",
+      "source_url": "https://revistapesquisa.fapesp.br/en/laser-technology-reveals-millennia-of-human-occupation-in-the-amazon/",
+      "footprint_note": "Program region only; exact flight polygons and finds are not yet fully published.",
+      "positions": [
+        [
+          0.8,
+          -51.1
+        ],
+        [
+          0.8,
+          -47.7
+        ],
+        [
+          -2,
+          -47.7
+        ],
+        [
+          -2,
+          -51.1
+        ]
+      ],
+      "metrics": [
+        "Part of ~1,600 km² first phase",
+        "Archaeological airborne LiDAR",
+        "Detailed results pending"
+      ],
+      "description": "Broad project geography for the Marajó component of the first-phase campaign.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The first-phase project report publishes findings and regional coverage, but no terrain-grid cell size or downloadable elevation product."
+    },
+    {
+      "id": "2022-casarabe-llanos-de-mojos",
+      "name": "Casarabe low-density urbanism survey",
+      "year": 2022,
+      "paper_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "kind": "regional-survey",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "All six mapped acquisition areas were analyzed for archaeological landscape features.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Bolivia",
+      "region": "Llanos de Mojos, Beni",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4",
+      "footprint_note": "Six separate scan blocks digitized against the UTM grid and normalized together to the published 204 km² total; the regional envelope was not scanned continuously.",
+      "positions": [
+        [
+          -12,
+          -66.6
+        ],
+        [
+          -12,
+          -62.8
+        ],
+        [
+          -16,
+          -62.8
+        ],
+        [
+          -16,
+          -66.6
+        ]
+      ],
+      "metrics": [
+        "204 km² across 6 survey areas",
+        "2 large and 24 smaller settlements",
+        "11 settlements previously unknown"
+      ],
+      "description": "Airborne LiDAR documented monumental centers, smaller settlements, causeways, canals, and reservoirs.",
+      "terrain_resolution_m": 0.5,
+      "point_density_m2": 18,
+      "resolution_basis": "The paper reports 0.5 m/pixel DEMs, generally 18 million raw points/km²."
+    },
+    {
+      "id": "2024-upano-valley",
+      "name": "Upano Valley urban network",
+      "year": 2024,
+      "paper_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "kind": "regional-survey",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "partial",
+      "archaeology_review_fraction": 0.5,
+      "archaeology_review_scope": "The study reports intensive analysis of 300 km² within the 600 km² acquisition.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Ecuador",
+      "region": "Upper Amazon / eastern Andean foothills",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf",
+      "footprint_note": "Irregular acquisition boundary reconstructed from the published regional map and normalized to the reported 600 km²; it is not an aircraft trajectory.",
+      "positions": [
+        [
+          -1.3,
+          -79.5
+        ],
+        [
+          -1.3,
+          -77
+        ],
+        [
+          -3.7,
+          -77
+        ],
+        [
+          -3.7,
+          -79.5
+        ]
+      ],
+      "metrics": [
+        "600 km² acquired",
+        "300 km² intensively analyzed",
+        ">6,000 platforms and 15 urban centers"
+      ],
+      "description": "In the forested Upper Amazon drainage at the eastern foot of the Andes, LiDAR exposed a connected landscape of platforms, plazas, roads, drainage works, and agricultural terraces.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": null,
+      "resolution_basis": "The supplementary methods report a preprocessed 1 m DEM."
+    },
+    {
+      "id": "onf-guyane-acquisition-archive",
+      "name": "ONF French Guiana acquisition archive",
+      "year": 2024,
+      "paper_id": "dataset-onf-guyane-lidar",
+      "kind": "unscreened-archive",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "partial",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Selected acquisitions have archaeological studies, but no comprehensive review of all 79 polygon parts is published.",
+      "archaeology_review_url": "https://journals.openedition.org/adlfi/pdf/114456",
+      "archaeology_usable": true,
+      "country": "French Guiana",
+      "region": "Public ONF acquisition extents across French Guiana",
+      "source_label": "GéoGuyane ONF LiDAR acquisition synthesis",
+      "source_url": "https://catalogue.geoguyane.fr/geosource/panierDownloadFrontalParametrage?LAYERIDTS=92260",
+      "footprint_note": "The public WFS exposes 66 acquisition records represented by 79 polygon parts. These are released ground-coverage boundaries, not flight-centerline trajectories.",
+      "positions": [
+        [
+          5.9,
+          -54.7
+        ],
+        [
+          5.9,
+          -51.6
+        ],
+        [
+          2.0,
+          -51.6
+        ],
+        [
+          2.0,
+          -54.7
+        ]
+      ],
+      "metrics": [
+        "66 public acquisition records",
+        "79 released polygon parts",
+        "Public vector coverage synthesis"
+      ],
+      "description": "A public forestry LiDAR acquisition archive with potential archaeological reuse. The atlas maps only released acquisition polygons and does not imply that every polygon has been archaeologically screened.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The public acquisition synthesis supplies geometry and campaign metadata, but not one comparable terrain-grid resolution for every polygon."
+    },
+    {
+      "id": "2020-saul-mont-galbao",
+      "name": "Saül–Mont Galbao forest survey",
+      "year": 2020,
+      "paper_id": "2020-parc-amazonien-saul-mont-galbao",
+      "kind": "survey",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "partial",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Project reporting identifies about a dozen sites in more than 15,000 ha without documenting a complete archaeological screen.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "French Guiana",
+      "region": "Saül and Mont Galbao",
+      "source_label": "Parc amazonien de Guyane 2020",
+      "source_url": "https://www.parc-amazonien-guyane.fr/fr/actualites/les-secrets-caches-sous-les-forets-de-saul-en-partie-devoiles",
+      "footprint_note": "Generalized named-area envelope rather than exact acquisition boundaries.",
+      "positions": [
+        [
+          4.8,
+          -54.6
+        ],
+        [
+          4.8,
+          -52
+        ],
+        [
+          2.4,
+          -52
+        ],
+        [
+          2.4,
+          -54.6
+        ]
+      ],
+      "metrics": [
+        ">15,000 ha scanned",
+        "About a dozen ring-ditch or crowned-mountain sites",
+        "Dense forest canopy"
+      ],
+      "description": "Public project reporting describes airborne LiDAR detection of hilltop and ring-ditch features under forest.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The park reports metric-precision surface, terrain, and height models, but does not state their raster cell size; positional precision is not treated as pixel resolution."
+    },
+    {
+      "id": "2024-nouragues-crowned-mountains",
+      "name": "Nouragues crowned-mountain study",
+      "year": 2024,
+      "paper_id": "2024-plos-one-french-guiana-crowned-mountains",
+      "kind": "site-documentation",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The study interpreted LiDAR terrain models at its three named archaeological sites.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "French Guiana",
+      "region": "MC87, Nouragues, and Mont Galbao",
+      "source_label": "PLOS ONE 2024 crowned-mountain study",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298714",
+      "footprint_note": "Two released ONF acquisition extents contain MC87 and Nouragues. The paper credits separate PAG LiDAR for Mont Galbao, but no public acquisition boundary was identified.",
+      "positions": [
+        [
+          5,
+          -53.5
+        ],
+        [
+          5,
+          -51.5
+        ],
+        [
+          3.3,
+          -51.5
+        ],
+        [
+          3.3,
+          -53.5
+        ]
+      ],
+      "metrics": [
+        "LiDAR DTMs at 3 study sites",
+        "2 sites matched to released ONF acquisition GIS",
+        "Mont Galbao boundary not publicly resolved"
+      ],
+      "description": "Research combined LiDAR-derived terrain evidence with archaeological interpretation of modified hilltops.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": null,
+      "resolution_basis": "Published mapping of the 2012 Nouragues ALS uses a 1 m raster DEM."
+    },
+    {
+      "id": "2019-rio-abiseo-gran-pajaten",
+      "name": "Río Abiseo–Gran Pajatén survey",
+      "year": 2019,
+      "paper_id": "2019-peru-cultura-rio-abiseo-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The mapped acquisition was analyzed as an archaeological documentation survey.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Peru",
+      "region": "Río Abiseo National Park, San Martín",
+      "source_label": "Peru Ministry of Culture",
+      "source_url": "https://www.gob.pe/institucion/cultura/noticias/48718-una-nueva-era-para-la-arqueologia-se-abre-en-el-peru-con-el-uso-de-la-tecnologia-lidar-en-el-estudio-de-machu-picchu-y-el-gran-pajaten",
+      "footprint_note": "Unfilled park-scale context. The reported airborne scan covered about 4,000 ha, not the entire park outline.",
+      "positions": [
+        [
+          -6.4,
+          -78.3
+        ],
+        [
+          -6.4,
+          -76
+        ],
+        [
+          -8.8,
+          -76
+        ],
+        [
+          -8.8,
+          -78.3
+        ]
+      ],
+      "metrics": [
+        "~4,000 ha airborne scan",
+        "2016 acquisition",
+        ">100 structures documented through later integrated work"
+      ],
+      "description": "Airborne LiDAR and later close-range and field mapping expanded documentation of the Gran Pajatén landscape.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The public project sources describe the airborne scan and resulting 3D terrain model but do not publish its cell size or point density."
+    },
+    {
+      "id": "2020-kuelap-drone-lidar",
+      "name": "Kuélap drone-LiDAR documentation",
+      "year": 2020,
+      "paper_id": "2020-kuelap-drone-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "continuous",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The mapped acquisition was analyzed as an archaeological documentation survey.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Peru",
+      "region": "Kuélap, Amazonas",
+      "source_label": "Journal of Field Archaeology 2020",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/00934690.2020.1713287",
+      "footprint_note": "Site-scale envelope aligned to Peru's public IDEP Kuélap drone-imagery layer; the exact 2020 LiDAR flight boundary is not released.",
+      "positions": [
+        [
+          -6.401,
+          -77.9292
+        ],
+        [
+          -6.401,
+          -77.915
+        ],
+        [
+          -6.4335,
+          -77.915
+        ],
+        [
+          -6.4335,
+          -77.9292
+        ]
+      ],
+      "metrics": [
+        "Drone-based LiDAR",
+        "About 2,000 points/m²",
+        "Known monumental stone complex documented—not a new regional discovery"
+      ],
+      "description": "A site-scale project documented Kuélap’s monumental walls, hundreds of circular structures, and terrain rather than surveying a broad lowland landscape.",
+      "terrain_resolution_m": null,
+      "point_density_m2": 2000,
+      "resolution_basis": "The paper reports approximately 2,000 points/m² but describes bare-earth model resolution as variable, so no DTM cell size is assigned."
+    },
+    {
+      "id": "2009-madre-de-dios-ecological-als",
+      "name": "Madre de Dios ecological ALS archive",
+      "year": 2010,
+      "paper_id": "2010-asner-peru-carbon-mapping",
+      "kind": "unscreened-archive",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "none-found",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "No published archaeological screen of this exact ecological ALS archive was found in English or Spanish searches.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Peru",
+      "region": "Madre de Dios",
+      "source_label": "Asner et al. 2010",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2944749/",
+      "footprint_note": "Thirteen documented 2009 CAO blocks are digitized from Marvin et al. 2013 Figure 1 and normalized individually to the per-block areas in Table 1 (1,254.21 km² when its rows are summed). They are a published subset of the broader 27-area archive.",
+      "positions": [
+        [
+          -8.8,
+          -72
+        ],
+        [
+          -8.8,
+          -67
+        ],
+        [
+          -14.5,
+          -67
+        ],
+        [
+          -14.5,
+          -72
+        ]
+      ],
+      "metrics": [
+        "514,317 ha of actual ALS in 27 separate areas",
+        "1 m or finer acquisition",
+        "0 published archaeological screens or ancient-work detections"
+      ],
+      "description": "A forest-carbon sampling archive, not a wall-to-wall scan. No archaeological screening or ancient structures from these 27 samples have been published, and the raw point cloud was not deposited with the paper.",
+      "terrain_resolution_m": 1,
+      "point_density_m2": null,
+      "resolution_basis": "The primary study reports LiDAR acquisition at 1 m spatial resolution or finer across its 27 survey areas."
+    },
+    {
+      "id": "2011-colombia-ecological-als",
+      "name": "Colombian forest-carbon ALS archive",
+      "year": 2012,
+      "paper_id": "2012-asner-colombia-carbon-mapping",
+      "kind": "unscreened-archive",
+      "coverage_mode": "distributed",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "none-found",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "No published archaeological screen of this exact forest-carbon archive was found in English or Spanish searches.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Colombia",
+      "region": "Distributed lowland forest blocks",
+      "source_label": "Asner et al. 2012",
+      "source_url": "https://bg.copernicus.org/articles/9/2683/2012/",
+      "footprint_note": "Thirty-two unobscured flight blocks are digitized from the published overview and width-normalized proportionally to the reported 465,622 ha total. Six of the 38 blocks cannot be resolved independently.",
+      "positions": [
+        [
+          4.2,
+          -75
+        ],
+        [
+          4.2,
+          -65.5
+        ],
+        [
+          -4.8,
+          -65.5
+        ],
+        [
+          -4.8,
+          -75
+        ]
+      ],
+      "metrics": [
+        "465,622 ha of ALS",
+        "38 survey blocks",
+        "No published archaeological screen found"
+      ],
+      "description": "Airborne LiDAR collected for forest carbon. It is mapped as research potential, not as evidence that earthworks were found.",
+      "terrain_resolution_m": null,
+      "point_density_m2": 1.6,
+      "resolution_basis": "The primary paper reports 1.12 m laser-spot spacing and about two returns per spot (approximately 1.6 returns/m²), but no archaeological terrain-grid cell size."
+    },
+    {
+      "id": "2022-guyana-base-mapping",
+      "name": "Guyana national LiDAR base mapping",
+      "year": 2022,
+      "paper_id": "2022-guyana-lidar-base-mapping",
+      "kind": "unscreened-archive",
+      "coverage_mode": "context",
+      "acquisition_purpose": "other",
+      "archaeology_review_status": "none-found",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "No published archaeological review was found, and the available mapping is not treated as archaeology-usable coverage.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Guyana",
+      "region": "Targeted rural and urban areas",
+      "source_label": "Guyana Lands and Surveys Commission / FAO",
+      "source_url": "https://dpi.gov.gy/glsc-fao-commences-lidar-aerial-survey-of-guyana/",
+      "footprint_note": "Country-scale program geography; the public notice does not provide exact target polygons.",
+      "positions": [
+        [
+          8.6,
+          -61.7
+        ],
+        [
+          8.6,
+          -56
+        ],
+        [
+          1,
+          -56
+        ],
+        [
+          1,
+          -61.7
+        ]
+      ],
+      "metrics": [
+        ">15,000 km² rural mapping planned",
+        ">500 km² urban mapping planned",
+        "No archaeological screening published"
+      ],
+      "description": "A government base-mapping campaign with potential terrain data for archaeology, but no confirmed archaeological analysis.",
+      "terrain_resolution_m": null,
+      "point_density_m2": 2,
+      "resolution_basis": "The FAO procurement specifies 2 points/m² in rural areas and 10 points/m² in urban areas, but the delivered terrain-grid cell size is not public. The stored density is the rural specification."
+    },
+    {
+      "id": "2023-kuikuro-community-lidar",
+      "name": "Kuikuro community-led drone LiDAR",
+      "year": 2023,
+      "paper_id": "2023-kuikuro-community-drone-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The mapped site-scale acquisition was analyzed as part of community-led archaeological research.",
+      "archaeology_review_url": null,
+      "archaeology_usable": true,
+      "country": "Brazil",
+      "region": "Upper Xingu, Mato Grosso",
+      "source_label": "Science report on Kuikuro mapping",
+      "source_url": "https://doi.org/10.1126/science.aed6115",
+      "footprint_note": "Community-controlled project geography; exact villages, excavations, and data are not mapped.",
+      "positions": [
+        [
+          -10,
+          -55.6
+        ],
+        [
+          -10,
+          -51
+        ],
+        [
+          -14.8,
+          -51
+        ],
+        [
+          -14.8,
+          -55.6
+        ]
+      ],
+      "metrics": [
+        "Drone LiDAR and excavation mapping",
+        "Two former villages discussed",
+        "Exact data remain community controlled"
+      ],
+      "description": "Collaborative Kuikuro research uses drone LiDAR at site scale. Only a broad Upper Xingu context is shown.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The Science report describes community-controlled drone LiDAR; it publishes neither a terrain-grid cell size nor an open data product."
+    },
+    {
+      "id": "2025-vozes-upper-rio-negro",
+      "name": "Vozes: Upper Rio Negro",
+      "year": 2025,
+      "paper_id": "2025-vozes-amazonia-indigena-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Community-led archaeological documentation is ongoing; the acquisition geometry is not public.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Upper Rio Negro, Amazonas",
+      "source_label": "Museu Paraense Emílio Goeldi",
+      "source_url": "https://www.gov.br/museugoeldi/pt-br/arquivos/noticias/vozes-da-amazonia-indigena-achado-rupestre",
+      "footprint_note": "Named project region only; Indigenous partners control sensitive locations and data.",
+      "positions": [
+        [
+          2.8,
+          -70.4
+        ],
+        [
+          2.8,
+          -64.5
+        ],
+        [
+          -2.2,
+          -64.5
+        ],
+        [
+          -2.2,
+          -70.4
+        ]
+      ],
+      "metrics": [
+        "Community-partnered LiDAR research",
+        "Project launched in 2025",
+        "Detailed footprints unpublished or sensitive"
+      ],
+      "description": "One of three named regions in a program combining LiDAR, archaeology, and Indigenous knowledge.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The 2025 program announcement names the region but does not publish an acquisition specification or terrain-grid product."
+    },
+    {
+      "id": "2025-vozes-kayapo",
+      "name": "Vozes: Kayapó region",
+      "year": 2025,
+      "paper_id": "2025-vozes-amazonia-indigena-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Community-led archaeological documentation is ongoing; the acquisition geometry is not public.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Kayapó region, Pará",
+      "source_label": "Museu Paraense Emílio Goeldi",
+      "source_url": "https://www.gov.br/museugoeldi/pt-br/arquivos/noticias/vozes-da-amazonia-indigena-achado-rupestre",
+      "footprint_note": "Named project region only; Indigenous partners control sensitive locations and data.",
+      "positions": [
+        [
+          -4.8,
+          -56
+        ],
+        [
+          -4.8,
+          -50
+        ],
+        [
+          -10.5,
+          -50
+        ],
+        [
+          -10.5,
+          -56
+        ]
+      ],
+      "metrics": [
+        "Community-partnered LiDAR research",
+        "Project launched in 2025",
+        "Detailed footprints unpublished or sensitive"
+      ],
+      "description": "Broad context for the Kayapó component; no exact archaeological positions are shown.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The 2025 program announcement names the region but does not publish an acquisition specification or terrain-grid product."
+    },
+    {
+      "id": "2025-vozes-xingu",
+      "name": "Vozes: Xingu region",
+      "year": 2025,
+      "paper_id": "2025-vozes-amazonia-indigena-lidar",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "ongoing",
+      "archaeology_review_fraction": null,
+      "archaeology_review_scope": "Community-led archaeological documentation is ongoing; the acquisition geometry is not public.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Brazil",
+      "region": "Xingu region, Mato Grosso",
+      "source_label": "Museu Paraense Emílio Goeldi",
+      "source_url": "https://www.gov.br/museugoeldi/pt-br/arquivos/noticias/vozes-da-amazonia-indigena-achado-rupestre",
+      "footprint_note": "Named project region only; Indigenous partners control sensitive locations and data.",
+      "positions": [
+        [
+          -9.6,
+          -56
+        ],
+        [
+          -9.6,
+          -50.8
+        ],
+        [
+          -15,
+          -50.8
+        ],
+        [
+          -15,
+          -56
+        ]
+      ],
+      "metrics": [
+        "Community-partnered LiDAR research",
+        "Project launched in 2025",
+        "Detailed footprints unpublished or sensitive"
+      ],
+      "description": "Broad context for the Xingu component; no exact archaeological positions are shown.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "The 2025 program announcement names the region but does not publish an acquisition specification or terrain-grid product."
+    },
+    {
+      "id": "2024-la-lindosa-terrestrial-lidar",
+      "name": "La Lindosa terrestrial 3D documentation",
+      "year": 2024,
+      "paper_id": "2024-la-lindosa-laser-scanner-thesis",
+      "kind": "site-documentation",
+      "coverage_mode": "context",
+      "acquisition_purpose": "archaeology",
+      "archaeology_review_status": "systematic",
+      "archaeology_review_fraction": 1,
+      "archaeology_review_scope": "The documented rock-art panels were analyzed archaeologically, but this is terrestrial recording rather than mapped airborne coverage.",
+      "archaeology_review_url": null,
+      "archaeology_usable": false,
+      "country": "Colombia",
+      "region": "Serranía de La Lindosa, Guaviare",
+      "source_label": "Universidad Distrital laser-scanner thesis",
+      "source_url": "https://repository.udistrital.edu.co/items/533086d4-074d-4f41-a57b-8b5bb9742bb7",
+      "footprint_note": "Regional placement for terrestrial recording, not an airborne forest-floor survey.",
+      "positions": [
+        [
+          3,
+          -73.7
+        ],
+        [
+          3,
+          -71.2
+        ],
+        [
+          0.9,
+          -71.2
+        ],
+        [
+          0.9,
+          -73.7
+        ]
+      ],
+      "metrics": [
+        "Terrestrial 3D LiDAR",
+        "Rock-art documentation",
+        "Not an airborne canopy-penetrating survey"
+      ],
+      "description": "Included to distinguish high-resolution terrestrial documentation from landscape-scale airborne scanning.",
+      "terrain_resolution_m": null,
+      "point_density_m2": null,
+      "resolution_basis": "This is terrestrial rock-art documentation rather than an airborne bare-earth terrain grid, so m/pixel is not a comparable measure."
+    }
+  ]
+}

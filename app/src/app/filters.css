@@ -1,0 +1,114 @@
+.map-toolbar {
+  align-items: flex-start;
+}
+
+.review-layer-filter {
+  min-height: 42px;
+  padding-block: 5px;
+}
+
+.review-button-label {
+  display: grid;
+  gap: 1px;
+  line-height: 1;
+  text-align: left;
+}
+
+.review-button-label strong {
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.review-button-label small {
+  color: var(--ink-soft);
+  font-size: 0.54rem;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.lidar-review-symbol {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #176d73;
+  background: rgba(23, 109, 115, 0.16);
+}
+
+.review-partial .lidar-review-symbol {
+  border-color: #ad7927;
+  background: rgba(173, 121, 39, 0.16);
+}
+
+.review-unreviewed .lidar-review-symbol {
+  border-color: #62666a;
+  background: rgba(98, 102, 106, 0.14);
+}
+
+.review-layer-filter[aria-pressed="false"] .lidar-review-symbol {
+  background: transparent;
+}
+
+.review-layer-filter[aria-pressed="false"] .review-button-label strong,
+.review-layer-filter[aria-pressed="false"] .review-button-label small {
+  color: inherit;
+}
+
+.review-layer-filter .filter-count {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+}
+
+.record-classification {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 18px 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.record-classification > div {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-classification dt {
+  padding-top: 3px;
+  color: var(--ink-soft);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.record-classification dd {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  color: var(--ink);
+  font-size: 0.73rem;
+  line-height: 1.4;
+}
+
+.classification-tag {
+  padding: 2px 6px;
+  border: 1px solid var(--line);
+  background: #fafafa;
+}
+
+.classification-empty {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+@media (max-width: 780px) {
+  .review-layer-filter {
+    min-height: 38px;
+  }
+}

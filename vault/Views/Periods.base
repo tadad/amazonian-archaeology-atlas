@@ -1,0 +1,19 @@
+filters:
+  and:
+    - 'type == "period"'
+    - 'file.inFolder("Periods")'
+properties:
+  name:
+    displayName: Period
+  sort_order:
+    displayName: Order
+  start_year:
+    displayName: Start
+  end_year:
+    displayName: End
+  aliases:
+    displayName: Aliases
+views:
+  - type: table
+    name: Periods
+    order: [name, start_year, end_year, aliases]

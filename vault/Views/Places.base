@@ -1,0 +1,30 @@
+filters:
+  and:
+    - 'type == "place"'
+    - 'file.inFolder("Places")'
+properties:
+  name:
+    displayName: Place
+  place_kind:
+    displayName: Kind
+  periods:
+    displayName: Periods
+  cultures:
+    displayName: Cultures
+  coordinate_precision:
+    displayName: Coordinate
+  latest_study_year:
+    displayName: Latest research
+  papers:
+    displayName: Papers
+views:
+  - type: table
+    name: Acre places
+    order: [name, place_kind, periods, cultures, coordinate_precision, latest_study_year, papers]
+  - type: table
+    name: Location review
+    filters:
+      or:
+        - 'coordinate_precision == "withheld"'
+        - 'location_visibility != "public"'
+    order: [name, place_kind, coordinate_precision, coordinate_basis, coordinate_note]

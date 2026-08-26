@@ -1,0 +1,546 @@
+.libraryPage {
+  height: 100svh;
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+  color: #111;
+  background: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.masthead {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+
+.wordmark {
+  color: inherit;
+  font-weight: bold;
+}
+
+.primaryNav {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.primaryNav a,
+.primaryNav span {
+  color: inherit;
+}
+
+.libraryWorkspace {
+  width: min(100%, 1120px);
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  margin: 28px auto 0;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.catalogue {
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  border-right: 1px solid #ddd;
+}
+
+.catalogueHeader {
+  padding: 0 20px 18px 0;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #666;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.catalogueHeader h1 {
+  margin: 0 0 18px;
+  font-family: inherit;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.kindNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.kindNav a {
+  color: inherit;
+}
+
+.kindNav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.kindNav span {
+  color: #666;
+  font-size: 0.85em;
+  font-weight: normal;
+}
+
+.recordDrawer summary {
+  display: none;
+}
+
+.recordDrawer {
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.recordListViewport {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.recordList {
+  margin: 0;
+  padding: 0 20px 0 0;
+  list-style: none;
+}
+
+.recordList li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.recordList a {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 7px;
+  padding: 11px 4px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.recordList a:hover strong,
+.recordList a[aria-current="page"] strong {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.recordList a[aria-current="page"] {
+  font-weight: bold;
+}
+
+.recordNumber {
+  color: #777;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.65rem;
+}
+
+.recordList strong {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+.recordList small {
+  display: block;
+  margin-top: 4px;
+  overflow: hidden;
+  color: #666;
+  font-size: 0.72rem;
+  font-weight: normal;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.reader {
+  min-width: 0;
+  min-height: 0;
+  padding: 0 0 80px 36px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
+
+.indexPage,
+.document,
+.authorDocument {
+  width: min(100%, 760px);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.indexPage h2,
+.documentHeader h2,
+.authorHeader h2 {
+  margin: 0.83em 0;
+  font-family: inherit;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.indexLead {
+  max-width: 62ch;
+}
+
+.indexStats {
+  display: flex;
+  gap: 32px;
+  margin: 2rem 0;
+}
+
+.indexStats div {
+  min-width: 90px;
+}
+
+.indexStats dt,
+.metadataGrid dt {
+  color: #555;
+  font-size: 0.75rem;
+}
+
+.indexStats dd {
+  margin: 3px 0 0;
+  font-size: 1.35rem;
+}
+
+.indexInstruction {
+  color: #555;
+  font-style: italic;
+}
+
+.documentHeader,
+.authorHeader {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #ccc;
+}
+
+.atlasLink {
+  margin: -0.75rem 0 0;
+  font-size: 0.9rem;
+}
+
+.atlasLink a {
+  color: inherit;
+}
+
+.byline {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+}
+
+.byline a,
+.creditLines a,
+.markdown a,
+.linkedPapers a {
+  color: inherit;
+}
+
+.metadataGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+.metadataGrid dd {
+  margin: 3px 0 0;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.propertyGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+  margin: 1.75rem 0 0;
+}
+
+.propertyGrid > div {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: clamp(170px, 29%, 210px) minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  padding: 2px 0;
+}
+
+.propertyGrid > div > dt {
+  color: #666;
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.propertyGrid dd {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.nestedProperties dt {
+  color: #555;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.propertyGrid a,
+.nestedProperties a {
+  color: inherit;
+}
+
+.propertyList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
+.propertyList > span:not(:last-child)::after {
+  margin-left: 10px;
+  color: #aaa;
+  content: "·";
+}
+
+.nestedProperties {
+  margin: 0;
+}
+
+.nestedProperties div + div {
+  margin-top: 8px;
+}
+
+.nestedProperties dd {
+  margin: 2px 0 0;
+}
+
+.emptyValue {
+  color: #888;
+}
+
+.creditLines {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.creditLines p {
+  margin: 0.4rem 0;
+}
+
+.sourceButton {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.markdown {
+  padding-top: 28px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+.markdown h2 {
+  margin: 3rem 0 1rem;
+  font-size: 1.5rem;
+  scroll-margin-top: 1rem;
+}
+
+.markdown h2[id^="page-"] {
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.markdown h3 {
+  margin: 2rem 0 1rem;
+  font-size: 1.17rem;
+}
+
+.markdown p,
+.markdown li {
+  max-width: 74ch;
+}
+
+.markdown blockquote {
+  margin-left: 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid #ccc;
+  color: #555;
+}
+
+.markdown pre {
+  max-width: 100%;
+  padding: 12px;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+}
+
+.markdown code,
+.markdown pre {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.85em;
+}
+
+.markdown table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.markdown th,
+.markdown td {
+  padding: 7px 9px;
+  border: 1px solid #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+
+.aliases {
+  color: #555;
+}
+
+.aliases strong {
+  color: #111;
+}
+
+.linkedPapers {
+  margin-top: 2.5rem;
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sectionHeading h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.sectionHeading span {
+  color: #666;
+}
+
+.linkedPapers ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.linkedPapers li {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 10px;
+  padding: 16px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.paperOrdinal {
+  color: #777;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.7rem;
+}
+
+.linkedPapers a {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.linkedPapers p {
+  margin: 5px 0 0;
+  color: #555;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+@media (max-width: 760px) {
+  .libraryPage {
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
+
+  .masthead,
+  .libraryWorkspace {
+    padding-inline: 16px;
+  }
+
+  .libraryWorkspace {
+    display: block;
+    overflow: visible;
+  }
+
+  .catalogue {
+    display: block;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .catalogueHeader {
+    padding-right: 0;
+  }
+
+  .recordDrawer summary {
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+  .recordListViewport {
+    position: static;
+    max-height: 35svh;
+  }
+
+  .recordList {
+    padding-right: 0;
+  }
+
+  .recordDrawer {
+    position: static;
+    overflow: visible;
+  }
+
+  .reader {
+    padding: 28px 0 80px;
+    overflow: visible;
+    overscroll-behavior-y: auto;
+    scrollbar-gutter: auto;
+  }
+
+  .metadataGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  .primaryNav {
+    flex-wrap: wrap;
+  }
+
+  .indexStats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}

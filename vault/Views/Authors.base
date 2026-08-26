@@ -1,0 +1,21 @@
+filters:
+  and:
+    - 'type == "author"'
+    - 'file.inFolder("Authors")'
+formulas:
+  paper_count: 'file.backlinks.length'
+properties:
+  name:
+    displayName: Author
+  sort_name:
+    displayName: Sort name
+  author_kind:
+    displayName: Kind
+  aliases:
+    displayName: Aliases
+  formula.paper_count:
+    displayName: Papers
+views:
+  - type: table
+    name: Authors
+    order: [name, author_kind, aliases, formula.paper_count]

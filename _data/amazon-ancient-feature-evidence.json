@@ -1,0 +1,1144 @@
+{
+  "schema_version": 4,
+  "title": "Source-fitted Pan-Amazon ancient-work evidence cells",
+  "coordinate_policy": "Cells use the smallest defensible footprint supported by each cited source: occupied 0.01-degree cells for published coordinates and 0.02-degree cells for settlements located only through published figures. They are evidence footprints, not exact sites or access points. Broad program geography is excluded. Rock art, stone architecture, and modern infrastructure are excluded.",
+  "cells": [
+    {
+      "id": "upper-xingu-earthworks",
+      "bounds": [
+        [
+          -11.87,
+          -53.68
+        ],
+        [
+          -11.86,
+          -53.67
+        ]
+      ],
+      "region": "Upper Xingu earthworks, Mato Grosso, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 4 LiDAR detections in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "upper-xingu-earthworks-west",
+      "bounds": [
+        [
+          -11.87,
+          -53.69
+        ],
+        [
+          -11.86,
+          -53.68
+        ]
+      ],
+      "region": "Upper Xingu earthworks, Mato Grosso, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "upper-xingu-earthworks-south",
+      "bounds": [
+        [
+          -11.88,
+          -53.68
+        ],
+        [
+          -11.87,
+          -53.67
+        ]
+      ],
+      "region": "Upper Xingu earthworks, Mato Grosso, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "amapa-jari-earthworks",
+      "bounds": [
+        [
+          0.06,
+          -52.86
+        ],
+        [
+          0.07,
+          -52.85
+        ]
+      ],
+      "region": "Laranjal do Jari, Amapá, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "amapa-ferreira-gomes-earthworks",
+      "bounds": [
+        [
+          0.88,
+          -51.6
+        ],
+        [
+          0.89,
+          -51.59
+        ]
+      ],
+      "region": "Ferreira Gomes, Amapá, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 2 LiDAR detections in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "amapa-ferreira-gomes-earthworks-north",
+      "bounds": [
+        [
+          0.89,
+          -51.6
+        ],
+        [
+          0.9,
+          -51.59
+        ]
+      ],
+      "region": "Ferreira Gomes, Amapá, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "amapa-oiapoque-earthworks",
+      "bounds": [
+        [
+          2.91,
+          -51.68
+        ],
+        [
+          2.92,
+          -51.67
+        ]
+      ],
+      "region": "Oiapoque, Amapá, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 2 LiDAR detections in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "boa-vista-do-ramos-earthworks",
+      "bounds": [
+        [
+          -3.26,
+          -58.02
+        ],
+        [
+          -3.25,
+          -58.01
+        ]
+      ],
+      "region": "Boa Vista do Ramos, Amazonas, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "obidos-earthworks",
+      "bounds": [
+        [
+          -1.98,
+          -55.61
+        ],
+        [
+          -1.97,
+          -55.6
+        ]
+      ],
+      "region": "Óbidos, Pará, Brazil",
+      "source_id": "2023-peripato-et-al-hidden-earthworks",
+      "feature_types": [
+        "earthwork enclosures and associated landscape features"
+      ],
+      "discovery_methods": [
+        "legacy LiDAR screen"
+      ],
+      "context_note": "The public reproducibility dataset places 1 LiDAR detection in this occupied 0.01-degree cell.",
+      "source_label": "Peripato et al. 2023 reproducibility dataset",
+      "source_url": "https://zenodo.org/records/10214943"
+    },
+    {
+      "id": "tapajos-bom-futuro",
+      "bounds": [
+        [
+          -2.57,
+          -55.4
+        ],
+        [
+          -2.55,
+          -55.38
+        ]
+      ],
+      "region": "Bom Futuro, Belterra Plateau, Pará, Brazil",
+      "source_id": "2018-stenborg-et-al-santarem-water-management",
+      "feature_types": [
+        "patterned depressions",
+        "ponds",
+        "trodden roads"
+      ],
+      "discovery_methods": [
+        "field survey",
+        "excavation",
+        "topographic mapping"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the published Bom Futuro settlement geography. The mapped settlement transect is about 640 × 550 m, but no public site GIS was located.",
+      "source_label": "Stenborg et al. 2018",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/00934690.2017.1417198"
+    },
+    {
+      "id": "tapajos-cedro",
+      "bounds": [
+        [
+          -2.65,
+          -54.79
+        ],
+        [
+          -2.64,
+          -54.78
+        ]
+      ],
+      "region": "Cedro, Belterra Plateau, Pará, Brazil",
+      "source_id": "2018-stenborg-et-al-santarem-water-management",
+      "feature_types": [
+        "settlement earthworks",
+        "pond",
+        "anthropogenic soils"
+      ],
+      "discovery_methods": [
+        "field survey",
+        "excavation",
+        "topographic mapping"
+      ],
+      "context_note": "The published Cedro UTM coordinate falls within this occupied 0.01-degree cell.",
+      "source_label": "Stenborg et al. 2018",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/00934690.2017.1417198"
+    },
+    {
+      "id": "casarabe-lidar-area-a",
+      "bounds": [
+        [
+          -14.43,
+          -64.61
+        ],
+        [
+          -14.42,
+          -64.6
+        ]
+      ],
+      "region": "Casarabe Site 53 (La Punta mound 2), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 53 (la punta mound 2) in this occupied 0.01-degree cell within published LiDAR area A.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-a-54",
+      "bounds": [
+        [
+          -14.43,
+          -64.6
+        ],
+        [
+          -14.42,
+          -64.59
+        ]
+      ],
+      "region": "Casarabe Site 54 (La Punta site 3), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 54 (la punta site 3) in this occupied 0.01-degree cell within published LiDAR area A.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-b",
+      "bounds": [
+        [
+          -14.51,
+          -64.61
+        ],
+        [
+          -14.5,
+          -64.6
+        ]
+      ],
+      "region": "Casarabe Site 48 (San Nicolas site 3), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 48 (san nicolas site 3) in this occupied 0.01-degree cell within published LiDAR area B.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-b-49",
+      "bounds": [
+        [
+          -14.49,
+          -64.61
+        ],
+        [
+          -14.48,
+          -64.6
+        ]
+      ],
+      "region": "Casarabe Site 49 (San Nicolas site 2), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 49 (san nicolas site 2) in this occupied 0.01-degree cell within published LiDAR area B.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-b-51",
+      "bounds": [
+        [
+          -14.47,
+          -64.61
+        ],
+        [
+          -14.46,
+          -64.6
+        ]
+      ],
+      "region": "Casarabe Site 51 (San Nicolas mound 2), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 51 (san nicolas mound 2) in this occupied 0.01-degree cell within published LiDAR area B.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c",
+      "bounds": [
+        [
+          -14.83,
+          -64.57
+        ],
+        [
+          -14.82,
+          -64.56
+        ]
+      ],
+      "region": "Casarabe Site 32 (Loma 1), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 32 (loma 1) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-33",
+      "bounds": [
+        [
+          -14.8,
+          -64.59
+        ],
+        [
+          -14.79,
+          -64.58
+        ]
+      ],
+      "region": "Casarabe Site 33 (Cerrito), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 33 (cerrito) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-36",
+      "bounds": [
+        [
+          -14.81,
+          -64.59
+        ],
+        [
+          -14.8,
+          -64.58
+        ]
+      ],
+      "region": "Casarabe Site 36 (Cerrito–Loma del puente), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 36 (cerrito–loma del puente) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-39",
+      "bounds": [
+        [
+          -14.84,
+          -64.58
+        ],
+        [
+          -14.83,
+          -64.57
+        ]
+      ],
+      "region": "Casarabe Site 39 (Cerrito mound 3), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 39 (cerrito mound 3) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-41",
+      "bounds": [
+        [
+          -14.84,
+          -64.65
+        ],
+        [
+          -14.83,
+          -64.64
+        ]
+      ],
+      "region": "Casarabe Site 41 (Cerrito mound 41), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 41 (cerrito mound 41) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-42",
+      "bounds": [
+        [
+          -14.8,
+          -64.64
+        ],
+        [
+          -14.79,
+          -64.63
+        ]
+      ],
+      "region": "Casarabe Site 42 (Cerrito mound 42), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 42 (cerrito mound 42) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-84",
+      "bounds": [
+        [
+          -14.82,
+          -64.6
+        ],
+        [
+          -14.81,
+          -64.59
+        ]
+      ],
+      "region": "Casarabe Site 84 (Cerrito mound 4), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 84 (cerrito mound 4) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-c-106",
+      "bounds": [
+        [
+          -14.85,
+          -64.61
+        ],
+        [
+          -14.84,
+          -64.6
+        ]
+      ],
+      "region": "Casarabe Site 106 (Cerrito mound 3), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 106 (cerrito mound 3) in this occupied 0.01-degree cell within published LiDAR area C.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-d",
+      "bounds": [
+        [
+          -14.89,
+          -64.49
+        ],
+        [
+          -14.88,
+          -64.48
+        ]
+      ],
+      "region": "Casarabe Site 108 (Salvatierra), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 108 (salvatierra) in this occupied 0.01-degree cell within published LiDAR area D.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-40",
+      "bounds": [
+        [
+          -14.99,
+          -64.63
+        ],
+        [
+          -14.98,
+          -64.62
+        ]
+      ],
+      "region": "Casarabe Site 40 (Cerrito mound 40), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 40 (cerrito mound 40) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-181",
+      "bounds": [
+        [
+          -15.01,
+          -64.72
+        ],
+        [
+          -15.0,
+          -64.71
+        ]
+      ],
+      "region": "Casarabe Site 181 (Belleza), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 181 (belleza) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-cotoca",
+      "bounds": [
+        [
+          -14.99,
+          -64.6
+        ],
+        [
+          -14.98,
+          -64.59
+        ]
+      ],
+      "region": "Casarabe Site 185 (Cotoca), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 185 (cotoca) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-186",
+      "bounds": [
+        [
+          -14.98,
+          -64.64
+        ],
+        [
+          -14.97,
+          -64.63
+        ]
+      ],
+      "region": "Casarabe Site 186 (Sirari), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 186 (sirari) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-187",
+      "bounds": [
+        [
+          -14.97,
+          -64.64
+        ],
+        [
+          -14.96,
+          -64.63
+        ]
+      ],
+      "region": "Casarabe Site 187 (Samuray), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 187 (samuray) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-189",
+      "bounds": [
+        [
+          -14.96,
+          -64.66
+        ],
+        [
+          -14.95,
+          -64.65
+        ]
+      ],
+      "region": "Casarabe Site 189 (Cotoca area), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 189 (cotoca area) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-190-191",
+      "bounds": [
+        [
+          -14.95,
+          -64.67
+        ],
+        [
+          -14.94,
+          -64.66
+        ]
+      ],
+      "region": "Casarabe Sites 190–191 (Somopae and Miraflores), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places sites 190–191 (somopae and miraflores) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-192",
+      "bounds": [
+        [
+          -14.96,
+          -64.68
+        ],
+        [
+          -14.95,
+          -64.67
+        ]
+      ],
+      "region": "Casarabe Site 192 (Loma de Juan Rivera), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 192 (loma de juan rivera) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-193",
+      "bounds": [
+        [
+          -14.97,
+          -64.7
+        ],
+        [
+          -14.96,
+          -64.69
+        ]
+      ],
+      "region": "Casarabe Site 193 (Santa María), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 193 (santa maría) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-lidar-area-e-195",
+      "bounds": [
+        [
+          -14.99,
+          -64.67
+        ],
+        [
+          -14.98,
+          -64.66
+        ]
+      ],
+      "region": "Casarabe Site 195 (Cotoca mound 195), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 195 (cotoca mound 195) in this occupied 0.01-degree cell within published LiDAR area E.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "casarabe-landivar",
+      "bounds": [
+        [
+          -15.21,
+          -64.47
+        ],
+        [
+          -15.2,
+          -64.46
+        ]
+      ],
+      "region": "Casarabe Site 168 (Landívar), Beni, Bolivia",
+      "source_id": "2022-prumers-et-al-casarabe-low-density-urbanism",
+      "feature_types": [
+        "platform-mound settlement",
+        "causeways and related earthworks"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological inventory"
+      ],
+      "context_note": "Supplementary Table 1 places site 168 (landívar) in this occupied 0.01-degree cell within published LiDAR area F.",
+      "source_label": "Prümers et al. 2022",
+      "source_url": "https://www.nature.com/articles/s41586-022-04780-4"
+    },
+    {
+      "id": "upano-kunquints",
+      "bounds": [
+        [
+          -1.99,
+          -78.09
+        ],
+        [
+          -1.97,
+          -78.07
+        ]
+      ],
+      "region": "Kunquints, Upano Valley, Ecuador",
+      "source_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "feature_types": [
+        "earthen platforms",
+        "roads",
+        "drainage"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological survey"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the named Kunquints settlement shown in Rostain et al. 2024, Fig. 1. No public site GIS was located.",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf"
+    },
+    {
+      "id": "upano-junguna",
+      "bounds": [
+        [
+          -2.11,
+          -78.19
+        ],
+        [
+          -2.09,
+          -78.17
+        ]
+      ],
+      "region": "Junguna, Upano Valley, Ecuador",
+      "source_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "feature_types": [
+        "earthen platforms",
+        "roads",
+        "plazas"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological survey"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the named Junguna settlement shown in Rostain et al. 2024, Fig. 1. No public site GIS was located.",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf"
+    },
+    {
+      "id": "upano-sangay",
+      "bounds": [
+        [
+          -2.14,
+          -78.12
+        ],
+        [
+          -2.12,
+          -78.1
+        ]
+      ],
+      "region": "Sangay, Upano Valley, Ecuador",
+      "source_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "feature_types": [
+        "earthen platforms",
+        "plazas",
+        "roads"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "excavation"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the named Sangay settlement shown in Rostain et al. 2024, Fig. 1. No public site GIS was located.",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf"
+    },
+    {
+      "id": "upano-copueno",
+      "bounds": [
+        [
+          -2.2,
+          -78.16
+        ],
+        [
+          -2.18,
+          -78.14
+        ]
+      ],
+      "region": "Copueno, Upano Valley, Ecuador",
+      "source_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "feature_types": [
+        "earthen platforms",
+        "roads",
+        "drainage"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "archaeological survey"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the named Copueno settlement shown in Rostain et al. 2024, Fig. 1. No public site GIS was located.",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf"
+    },
+    {
+      "id": "upano-kilamope",
+      "bounds": [
+        [
+          -2.24,
+          -78.13
+        ],
+        [
+          -2.22,
+          -78.11
+        ]
+      ],
+      "region": "Kilamope, Upano Valley, Ecuador",
+      "source_id": "2024-rostain-et-al-upano-garden-urbanism",
+      "feature_types": [
+        "earthen platforms",
+        "drained fields",
+        "roads"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "excavation"
+      ],
+      "context_note": "A 0.02-degree source-figure cell contains the named Kilamope settlement shown in Rostain et al. 2024, Fig. 1. No public site GIS was located.",
+      "source_label": "Rostain et al. 2024",
+      "source_url": "https://archimer.ifremer.fr/doc/00872/98412/118237.pdf"
+    },
+    {
+      "id": "french-guiana-mc87",
+      "bounds": [
+        [
+          4.05,
+          -52.09
+        ],
+        [
+          4.06,
+          -52.08
+        ]
+      ],
+      "region": "MC87 ring ditch, French Guiana",
+      "source_id": "2024-plos-one-french-guiana-crowned-mountains",
+      "feature_types": [
+        "ring ditch",
+        "modified hilltop"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "field investigation",
+        "radiocarbon dating"
+      ],
+      "context_note": "The study’s published WGS84 coordinate for MC87 ring ditch falls within this occupied 0.01-degree cell.",
+      "source_label": "PLOS ONE 2024 crowned-mountain study",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298714"
+    },
+    {
+      "id": "french-guiana-nouragues",
+      "bounds": [
+        [
+          4.07,
+          -52.68
+        ],
+        [
+          4.08,
+          -52.67
+        ]
+      ],
+      "region": "Nouragues ring ditch, French Guiana",
+      "source_id": "2024-plos-one-french-guiana-crowned-mountains",
+      "feature_types": [
+        "ring ditch",
+        "modified hilltop"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "field investigation",
+        "radiocarbon dating"
+      ],
+      "context_note": "The study’s published WGS84 coordinate for Nouragues ring ditch falls within this occupied 0.01-degree cell.",
+      "source_label": "PLOS ONE 2024 crowned-mountain study",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298714"
+    },
+    {
+      "id": "french-guiana-mont-galbao",
+      "bounds": [
+        [
+          3.59,
+          -53.3
+        ],
+        [
+          3.6,
+          -53.29
+        ]
+      ],
+      "region": "Mont Galbao ring ditches, French Guiana",
+      "source_id": "2024-plos-one-french-guiana-crowned-mountains",
+      "feature_types": [
+        "ring ditches",
+        "modified hilltops"
+      ],
+      "discovery_methods": [
+        "airborne LiDAR",
+        "field investigation"
+      ],
+      "context_note": "The study’s published WGS84 coordinate for Mont Galbao ring ditches falls within this occupied 0.01-degree cell.",
+      "source_label": "PLOS ONE 2024 crowned-mountain study",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298714"
+    }
+  ]
+}

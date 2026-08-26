@@ -1,0 +1,21 @@
+filters:
+  and:
+    - 'type == "organization"'
+    - 'file.inFolder("Organizations")'
+formulas:
+  connection_count: 'file.backlinks.length'
+properties:
+  name:
+    displayName: Organization
+  organization_kind:
+    displayName: Kind
+  status:
+    displayName: Status
+  country:
+    displayName: Country
+  formula.connection_count:
+    displayName: Backlinks
+views:
+  - type: table
+    name: Organizations
+    order: [name, organization_kind, status, country, formula.connection_count]

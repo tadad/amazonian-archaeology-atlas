@@ -1,0 +1,33 @@
+filters:
+  and:
+    - 'type == "paper"'
+    - 'file.inFolder("Papers")'
+properties:
+  title:
+    displayName: Title
+  authors:
+    displayName: Authors
+  publication_year:
+    displayName: Year
+  work_type:
+    displayName: Type
+  languages:
+    displayName: Languages
+  access_status:
+    displayName: Access
+  extraction_status:
+    displayName: Extraction
+  pdf:
+    displayName: PDF
+views:
+  - type: table
+    name: Library
+    order: [title, authors, publication_year, work_type, languages, access_status, extraction_status, pdf]
+  - type: table
+    name: Acquisition queue
+    filters:
+      or:
+        - 'access_status == "publisher-record"'
+        - 'access_status == "bibliographic-lead"'
+        - 'access_status == "unpublished-report"'
+    order: [title, publication_year, access_status, source_url]

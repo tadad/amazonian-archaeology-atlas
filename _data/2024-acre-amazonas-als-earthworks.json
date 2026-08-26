@@ -1,0 +1,5883 @@
+{
+  "schema_version": 1,
+  "title": "Generalized public earthwork detections from the 2024 Acre–Amazonas ALS campaign",
+  "grid_degrees": 0.01,
+  "campaign_records": 432,
+  "public_coordinate_records": 406,
+  "withheld_indigenous_territory_records": 26,
+  "aquiry_records": 284,
+  "other_records": 122,
+  "displayed_cells": 292,
+  "source_id": "2026-parssinen-et-al-over-20000-earthworks",
+  "source_label": "Pärssinen et al. 2026",
+  "source_url": "https://www.nature.com/articles/s41586-026-10835-7",
+  "coordinate_policy": "The 406 coordinates published in Supplementary Table 2 are generalized to occupied 0.01-degree cells. Site names and exact coordinates are not reproduced. The 26 campaign detections whose coordinates the authors omit because they are in contemporary Indigenous territories remain unmapped.",
+  "cells": [
+    {
+      "id": "-1021:-6762",
+      "bounds": [
+        [
+          -10.21,
+          -67.62
+        ],
+        [
+          -10.2,
+          -67.61
+        ]
+      ],
+      "record_count": 4,
+      "aquiry_record_count": 0,
+      "other_record_count": 4,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1020:-6762",
+      "bounds": [
+        [
+          -10.2,
+          -67.62
+        ],
+        [
+          -10.19,
+          -67.61
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1019:-6762",
+      "bounds": [
+        [
+          -10.19,
+          -67.62
+        ],
+        [
+          -10.18,
+          -67.61
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1019:-6760",
+      "bounds": [
+        [
+          -10.19,
+          -67.6
+        ],
+        [
+          -10.18,
+          -67.59
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1018:-6764",
+      "bounds": [
+        [
+          -10.18,
+          -67.64
+        ],
+        [
+          -10.17,
+          -67.63
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 0,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1018:-6758",
+      "bounds": [
+        [
+          -10.18,
+          -67.58
+        ],
+        [
+          -10.17,
+          -67.57
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-1016:-6765",
+      "bounds": [
+        [
+          -10.16,
+          -67.65
+        ],
+        [
+          -10.15,
+          -67.64
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1014:-6753",
+      "bounds": [
+        [
+          -10.14,
+          -67.53
+        ],
+        [
+          -10.13,
+          -67.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-1009:-6771",
+      "bounds": [
+        [
+          -10.09,
+          -67.71
+        ],
+        [
+          -10.08,
+          -67.7
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1007:-6773",
+      "bounds": [
+        [
+          -10.07,
+          -67.73
+        ],
+        [
+          -10.06,
+          -67.72
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1007:-6772",
+      "bounds": [
+        [
+          -10.07,
+          -67.72
+        ],
+        [
+          -10.06,
+          -67.71
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1006:-6759",
+      "bounds": [
+        [
+          -10.06,
+          -67.59
+        ],
+        [
+          -10.05,
+          -67.58
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1006:-6758",
+      "bounds": [
+        [
+          -10.06,
+          -67.58
+        ],
+        [
+          -10.05,
+          -67.57
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 2,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1004:-6757",
+      "bounds": [
+        [
+          -10.04,
+          -67.57
+        ],
+        [
+          -10.03,
+          -67.56
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1003:-6740",
+      "bounds": [
+        [
+          -10.03,
+          -67.4
+        ],
+        [
+          -10.02,
+          -67.39
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-1000:-6751",
+      "bounds": [
+        [
+          -10.0,
+          -67.51
+        ],
+        [
+          -9.99,
+          -67.5
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-999:-6750",
+      "bounds": [
+        [
+          -9.99,
+          -67.5
+        ],
+        [
+          -9.98,
+          -67.49
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-999:-6735",
+      "bounds": [
+        [
+          -9.99,
+          -67.35
+        ],
+        [
+          -9.98,
+          -67.34
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-997:-6747",
+      "bounds": [
+        [
+          -9.97,
+          -67.47
+        ],
+        [
+          -9.96,
+          -67.46
+        ]
+      ],
+      "record_count": 4,
+      "aquiry_record_count": 2,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-997:-6733",
+      "bounds": [
+        [
+          -9.97,
+          -67.33
+        ],
+        [
+          -9.96,
+          -67.32
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-997:-6732",
+      "bounds": [
+        [
+          -9.97,
+          -67.32
+        ],
+        [
+          -9.96,
+          -67.31
+        ]
+      ],
+      "record_count": 7,
+      "aquiry_record_count": 5,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-996:-6760",
+      "bounds": [
+        [
+          -9.96,
+          -67.6
+        ],
+        [
+          -9.95,
+          -67.59
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-996:-6747",
+      "bounds": [
+        [
+          -9.96,
+          -67.47
+        ],
+        [
+          -9.95,
+          -67.46
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-996:-6733",
+      "bounds": [
+        [
+          -9.96,
+          -67.33
+        ],
+        [
+          -9.95,
+          -67.32
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-995:-6745",
+      "bounds": [
+        [
+          -9.95,
+          -67.45
+        ],
+        [
+          -9.94,
+          -67.44
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-994:-6757",
+      "bounds": [
+        [
+          -9.94,
+          -67.57
+        ],
+        [
+          -9.93,
+          -67.56
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-992:-6755",
+      "bounds": [
+        [
+          -9.92,
+          -67.55
+        ],
+        [
+          -9.91,
+          -67.54
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-990:-6781",
+      "bounds": [
+        [
+          -9.9,
+          -67.81
+        ],
+        [
+          -9.89,
+          -67.8
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-988:-6736",
+      "bounds": [
+        [
+          -9.88,
+          -67.36
+        ],
+        [
+          -9.87,
+          -67.35
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-987:-6721",
+      "bounds": [
+        [
+          -9.87,
+          -67.21
+        ],
+        [
+          -9.86,
+          -67.2
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-986:-6763",
+      "bounds": [
+        [
+          -9.86,
+          -67.63
+        ],
+        [
+          -9.85,
+          -67.62
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-985:-6791",
+      "bounds": [
+        [
+          -9.85,
+          -67.91
+        ],
+        [
+          -9.84,
+          -67.9
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-985:-6790",
+      "bounds": [
+        [
+          -9.85,
+          -67.9
+        ],
+        [
+          -9.84,
+          -67.89
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-985:-6789",
+      "bounds": [
+        [
+          -9.85,
+          -67.89
+        ],
+        [
+          -9.84,
+          -67.88
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-984:-6717",
+      "bounds": [
+        [
+          -9.84,
+          -67.17
+        ],
+        [
+          -9.83,
+          -67.16
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 0,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-983:-6774",
+      "bounds": [
+        [
+          -9.83,
+          -67.74
+        ],
+        [
+          -9.82,
+          -67.73
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-982:-6730",
+      "bounds": [
+        [
+          -9.82,
+          -67.3
+        ],
+        [
+          -9.81,
+          -67.29
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-980:-6755",
+      "bounds": [
+        [
+          -9.8,
+          -67.55
+        ],
+        [
+          -9.79,
+          -67.54
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 0,
+      "other_record_count": 3,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-976:-6814",
+      "bounds": [
+        [
+          -9.76,
+          -68.14
+        ],
+        [
+          -9.75,
+          -68.13
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-976:-6812",
+      "bounds": [
+        [
+          -9.76,
+          -68.12
+        ],
+        [
+          -9.75,
+          -68.11
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-976:-6708",
+      "bounds": [
+        [
+          -9.76,
+          -67.08
+        ],
+        [
+          -9.75,
+          -67.07
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-975:-6763",
+      "bounds": [
+        [
+          -9.75,
+          -67.63
+        ],
+        [
+          -9.74,
+          -67.62
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-975:-6720",
+      "bounds": [
+        [
+          -9.75,
+          -67.2
+        ],
+        [
+          -9.74,
+          -67.19
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-975:-6707",
+      "bounds": [
+        [
+          -9.75,
+          -67.07
+        ],
+        [
+          -9.74,
+          -67.06
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-975:-6706",
+      "bounds": [
+        [
+          -9.75,
+          -67.06
+        ],
+        [
+          -9.74,
+          -67.05
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-975:-6705",
+      "bounds": [
+        [
+          -9.75,
+          -67.05
+        ],
+        [
+          -9.74,
+          -67.04
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-974:-6734",
+      "bounds": [
+        [
+          -9.74,
+          -67.34
+        ],
+        [
+          -9.73,
+          -67.33
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-973:-6775",
+      "bounds": [
+        [
+          -9.73,
+          -67.75
+        ],
+        [
+          -9.72,
+          -67.74
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-973:-6747",
+      "bounds": [
+        [
+          -9.73,
+          -67.47
+        ],
+        [
+          -9.72,
+          -67.46
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-973:-6746",
+      "bounds": [
+        [
+          -9.73,
+          -67.46
+        ],
+        [
+          -9.72,
+          -67.45
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-972:-6781",
+      "bounds": [
+        [
+          -9.72,
+          -67.81
+        ],
+        [
+          -9.71,
+          -67.8
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-972:-6745",
+      "bounds": [
+        [
+          -9.72,
+          -67.45
+        ],
+        [
+          -9.71,
+          -67.44
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-972:-6702",
+      "bounds": [
+        [
+          -9.72,
+          -67.02
+        ],
+        [
+          -9.71,
+          -67.01
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-971:-6715",
+      "bounds": [
+        [
+          -9.71,
+          -67.15
+        ],
+        [
+          -9.7,
+          -67.14
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-971:-6701",
+      "bounds": [
+        [
+          -9.71,
+          -67.01
+        ],
+        [
+          -9.7,
+          -67.0
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-970:-6742",
+      "bounds": [
+        [
+          -9.7,
+          -67.42
+        ],
+        [
+          -9.69,
+          -67.41
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-970:-6730",
+      "bounds": [
+        [
+          -9.7,
+          -67.3
+        ],
+        [
+          -9.69,
+          -67.29
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-970:-6729",
+      "bounds": [
+        [
+          -9.7,
+          -67.29
+        ],
+        [
+          -9.69,
+          -67.28
+        ]
+      ],
+      "record_count": 7,
+      "aquiry_record_count": 4,
+      "other_record_count": 3,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-970:-6728",
+      "bounds": [
+        [
+          -9.7,
+          -67.28
+        ],
+        [
+          -9.69,
+          -67.27
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 2,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-969:-6728",
+      "bounds": [
+        [
+          -9.69,
+          -67.28
+        ],
+        [
+          -9.68,
+          -67.27
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 1,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-969:-6727",
+      "bounds": [
+        [
+          -9.69,
+          -67.27
+        ],
+        [
+          -9.68,
+          -67.26
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-968:-6740",
+      "bounds": [
+        [
+          -9.68,
+          -67.4
+        ],
+        [
+          -9.67,
+          -67.39
+        ]
+      ],
+      "record_count": 5,
+      "aquiry_record_count": 3,
+      "other_record_count": 2,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-968:-6727",
+      "bounds": [
+        [
+          -9.68,
+          -67.27
+        ],
+        [
+          -9.67,
+          -67.26
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-967:-6835",
+      "bounds": [
+        [
+          -9.67,
+          -68.35
+        ],
+        [
+          -9.66,
+          -68.34
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-967:-6740",
+      "bounds": [
+        [
+          -9.67,
+          -67.4
+        ],
+        [
+          -9.66,
+          -67.39
+        ]
+      ],
+      "record_count": 7,
+      "aquiry_record_count": 3,
+      "other_record_count": 4,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-967:-6739",
+      "bounds": [
+        [
+          -9.67,
+          -67.39
+        ],
+        [
+          -9.66,
+          -67.38
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-967:-6725",
+      "bounds": [
+        [
+          -9.67,
+          -67.25
+        ],
+        [
+          -9.66,
+          -67.24
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-967:-6724",
+      "bounds": [
+        [
+          -9.67,
+          -67.24
+        ],
+        [
+          -9.66,
+          -67.23
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-966:-6779",
+      "bounds": [
+        [
+          -9.66,
+          -67.79
+        ],
+        [
+          -9.65,
+          -67.78
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-966:-6739",
+      "bounds": [
+        [
+          -9.66,
+          -67.39
+        ],
+        [
+          -9.65,
+          -67.38
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-966:-6724",
+      "bounds": [
+        [
+          -9.66,
+          -67.24
+        ],
+        [
+          -9.65,
+          -67.23
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-966:-6723",
+      "bounds": [
+        [
+          -9.66,
+          -67.23
+        ],
+        [
+          -9.65,
+          -67.22
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-966:-6709",
+      "bounds": [
+        [
+          -9.66,
+          -67.09
+        ],
+        [
+          -9.65,
+          -67.08
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-965:-6737",
+      "bounds": [
+        [
+          -9.65,
+          -67.37
+        ],
+        [
+          -9.64,
+          -67.36
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-965:-6722",
+      "bounds": [
+        [
+          -9.65,
+          -67.22
+        ],
+        [
+          -9.64,
+          -67.21
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-964:-6844",
+      "bounds": [
+        [
+          -9.64,
+          -68.44
+        ],
+        [
+          -9.63,
+          -68.43
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-964:-6736",
+      "bounds": [
+        [
+          -9.64,
+          -67.36
+        ],
+        [
+          -9.63,
+          -67.35
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-963:-6776",
+      "bounds": [
+        [
+          -9.63,
+          -67.76
+        ],
+        [
+          -9.62,
+          -67.75
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-963:-6706",
+      "bounds": [
+        [
+          -9.63,
+          -67.06
+        ],
+        [
+          -9.62,
+          -67.05
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-962:-6776",
+      "bounds": [
+        [
+          -9.62,
+          -67.76
+        ],
+        [
+          -9.61,
+          -67.75
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-961:-6775",
+      "bounds": [
+        [
+          -9.61,
+          -67.75
+        ],
+        [
+          -9.6,
+          -67.74
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-960:-6853",
+      "bounds": [
+        [
+          -9.6,
+          -68.53
+        ],
+        [
+          -9.59,
+          -68.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-960:-6687",
+      "bounds": [
+        [
+          -9.6,
+          -66.87
+        ],
+        [
+          -9.59,
+          -66.86
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-959:-6851",
+      "bounds": [
+        [
+          -9.59,
+          -68.51
+        ],
+        [
+          -9.58,
+          -68.5
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-959:-6774",
+      "bounds": [
+        [
+          -9.59,
+          -67.74
+        ],
+        [
+          -9.58,
+          -67.73
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-959:-6744",
+      "bounds": [
+        [
+          -9.59,
+          -67.44
+        ],
+        [
+          -9.58,
+          -67.43
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-959:-6730",
+      "bounds": [
+        [
+          -9.59,
+          -67.3
+        ],
+        [
+          -9.58,
+          -67.29
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-959:-6729",
+      "bounds": [
+        [
+          -9.59,
+          -67.29
+        ],
+        [
+          -9.58,
+          -67.28
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-959:-6700",
+      "bounds": [
+        [
+          -9.59,
+          -67.0
+        ],
+        [
+          -9.58,
+          -66.99
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-958:-6774",
+      "bounds": [
+        [
+          -9.58,
+          -67.74
+        ],
+        [
+          -9.57,
+          -67.73
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-958:-6728",
+      "bounds": [
+        [
+          -9.58,
+          -67.28
+        ],
+        [
+          -9.57,
+          -67.27
+        ]
+      ],
+      "record_count": 4,
+      "aquiry_record_count": 4,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-958:-6700",
+      "bounds": [
+        [
+          -9.58,
+          -67.0
+        ],
+        [
+          -9.57,
+          -66.99
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-957:-6773",
+      "bounds": [
+        [
+          -9.57,
+          -67.73
+        ],
+        [
+          -9.56,
+          -67.72
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-957:-6740",
+      "bounds": [
+        [
+          -9.57,
+          -67.4
+        ],
+        [
+          -9.56,
+          -67.39
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 1,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-957:-6698",
+      "bounds": [
+        [
+          -9.57,
+          -66.98
+        ],
+        [
+          -9.56,
+          -66.97
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-956:-6772",
+      "bounds": [
+        [
+          -9.56,
+          -67.72
+        ],
+        [
+          -9.55,
+          -67.71
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-956:-6755",
+      "bounds": [
+        [
+          -9.56,
+          -67.55
+        ],
+        [
+          -9.55,
+          -67.54
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-956:-6754",
+      "bounds": [
+        [
+          -9.56,
+          -67.54
+        ],
+        [
+          -9.55,
+          -67.53
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-956:-6741",
+      "bounds": [
+        [
+          -9.56,
+          -67.41
+        ],
+        [
+          -9.55,
+          -67.4
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 1,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-956:-6712",
+      "bounds": [
+        [
+          -9.56,
+          -67.12
+        ],
+        [
+          -9.55,
+          -67.11
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-956:-6711",
+      "bounds": [
+        [
+          -9.56,
+          -67.11
+        ],
+        [
+          -9.55,
+          -67.1
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 2,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-956:-6698",
+      "bounds": [
+        [
+          -9.56,
+          -66.98
+        ],
+        [
+          -9.55,
+          -66.97
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-955:-6753",
+      "bounds": [
+        [
+          -9.55,
+          -67.53
+        ],
+        [
+          -9.54,
+          -67.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-955:-6724",
+      "bounds": [
+        [
+          -9.55,
+          -67.24
+        ],
+        [
+          -9.54,
+          -67.23
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-955:-6711",
+      "bounds": [
+        [
+          -9.55,
+          -67.11
+        ],
+        [
+          -9.54,
+          -67.1
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-955:-6710",
+      "bounds": [
+        [
+          -9.55,
+          -67.1
+        ],
+        [
+          -9.54,
+          -67.09
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-955:-6695",
+      "bounds": [
+        [
+          -9.55,
+          -66.95
+        ],
+        [
+          -9.54,
+          -66.94
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-954:-6680",
+      "bounds": [
+        [
+          -9.54,
+          -66.8
+        ],
+        [
+          -9.53,
+          -66.79
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-953:-6722",
+      "bounds": [
+        [
+          -9.53,
+          -67.22
+        ],
+        [
+          -9.52,
+          -67.21
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-952:-6707",
+      "bounds": [
+        [
+          -9.52,
+          -67.07
+        ],
+        [
+          -9.51,
+          -67.06
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-952:-6692",
+      "bounds": [
+        [
+          -9.52,
+          -66.92
+        ],
+        [
+          -9.51,
+          -66.91
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-952:-6679",
+      "bounds": [
+        [
+          -9.52,
+          -66.79
+        ],
+        [
+          -9.51,
+          -66.78
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-952:-6678",
+      "bounds": [
+        [
+          -9.52,
+          -66.78
+        ],
+        [
+          -9.51,
+          -66.77
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-951:-6706",
+      "bounds": [
+        [
+          -9.51,
+          -67.06
+        ],
+        [
+          -9.5,
+          -67.05
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-951:-6705",
+      "bounds": [
+        [
+          -9.51,
+          -67.05
+        ],
+        [
+          -9.5,
+          -67.04
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-951:-6692",
+      "bounds": [
+        [
+          -9.51,
+          -66.92
+        ],
+        [
+          -9.5,
+          -66.91
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-950:-6732",
+      "bounds": [
+        [
+          -9.5,
+          -67.32
+        ],
+        [
+          -9.49,
+          -67.31
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-950:-6705",
+      "bounds": [
+        [
+          -9.5,
+          -67.05
+        ],
+        [
+          -9.49,
+          -67.04
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-950:-6690",
+      "bounds": [
+        [
+          -9.5,
+          -66.9
+        ],
+        [
+          -9.49,
+          -66.89
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-949:-6689",
+      "bounds": [
+        [
+          -9.49,
+          -66.89
+        ],
+        [
+          -9.48,
+          -66.88
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-949:-6674",
+      "bounds": [
+        [
+          -9.49,
+          -66.74
+        ],
+        [
+          -9.48,
+          -66.73
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 2,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-947:-6729",
+      "bounds": [
+        [
+          -9.47,
+          -67.29
+        ],
+        [
+          -9.46,
+          -67.28
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-947:-6714",
+      "bounds": [
+        [
+          -9.47,
+          -67.14
+        ],
+        [
+          -9.46,
+          -67.13
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-947:-6687",
+      "bounds": [
+        [
+          -9.47,
+          -66.87
+        ],
+        [
+          -9.46,
+          -66.86
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-947:-6671",
+      "bounds": [
+        [
+          -9.47,
+          -66.71
+        ],
+        [
+          -9.46,
+          -66.7
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-946:-6699",
+      "bounds": [
+        [
+          -9.46,
+          -66.99
+        ],
+        [
+          -9.45,
+          -66.98
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-946:-6685",
+      "bounds": [
+        [
+          -9.46,
+          -66.85
+        ],
+        [
+          -9.45,
+          -66.84
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-946:-6684",
+      "bounds": [
+        [
+          -9.46,
+          -66.84
+        ],
+        [
+          -9.45,
+          -66.83
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-946:-6671",
+      "bounds": [
+        [
+          -9.46,
+          -66.71
+        ],
+        [
+          -9.45,
+          -66.7
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-946:-6670",
+      "bounds": [
+        [
+          -9.46,
+          -66.7
+        ],
+        [
+          -9.45,
+          -66.69
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-945:-6727",
+      "bounds": [
+        [
+          -9.45,
+          -67.27
+        ],
+        [
+          -9.44,
+          -67.26
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-945:-6684",
+      "bounds": [
+        [
+          -9.45,
+          -66.84
+        ],
+        [
+          -9.44,
+          -66.83
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-944:-6726",
+      "bounds": [
+        [
+          -9.44,
+          -67.26
+        ],
+        [
+          -9.43,
+          -67.25
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-944:-6725",
+      "bounds": [
+        [
+          -9.44,
+          -67.25
+        ],
+        [
+          -9.43,
+          -67.24
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-943:-6725",
+      "bounds": [
+        [
+          -9.43,
+          -67.25
+        ],
+        [
+          -9.42,
+          -67.24
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-943:-6724",
+      "bounds": [
+        [
+          -9.43,
+          -67.24
+        ],
+        [
+          -9.42,
+          -67.23
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-943:-6709",
+      "bounds": [
+        [
+          -9.43,
+          -67.09
+        ],
+        [
+          -9.42,
+          -67.08
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-942:-6723",
+      "bounds": [
+        [
+          -9.42,
+          -67.23
+        ],
+        [
+          -9.41,
+          -67.22
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-942:-6708",
+      "bounds": [
+        [
+          -9.42,
+          -67.08
+        ],
+        [
+          -9.41,
+          -67.07
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-942:-6680",
+      "bounds": [
+        [
+          -9.42,
+          -66.8
+        ],
+        [
+          -9.41,
+          -66.79
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-941:-6722",
+      "bounds": [
+        [
+          -9.41,
+          -67.22
+        ],
+        [
+          -9.4,
+          -67.21
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-940:-6706",
+      "bounds": [
+        [
+          -9.4,
+          -67.06
+        ],
+        [
+          -9.39,
+          -67.05
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-940:-6663",
+      "bounds": [
+        [
+          -9.4,
+          -66.63
+        ],
+        [
+          -9.39,
+          -66.62
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-939:-6676",
+      "bounds": [
+        [
+          -9.39,
+          -66.76
+        ],
+        [
+          -9.38,
+          -66.75
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-939:-6663",
+      "bounds": [
+        [
+          -9.39,
+          -66.63
+        ],
+        [
+          -9.38,
+          -66.62
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-939:-6662",
+      "bounds": [
+        [
+          -9.39,
+          -66.62
+        ],
+        [
+          -9.38,
+          -66.61
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-938:-6732",
+      "bounds": [
+        [
+          -9.38,
+          -67.32
+        ],
+        [
+          -9.37,
+          -67.31
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-937:-6731",
+      "bounds": [
+        [
+          -9.37,
+          -67.31
+        ],
+        [
+          -9.36,
+          -67.3
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-936:-6730",
+      "bounds": [
+        [
+          -9.36,
+          -67.3
+        ],
+        [
+          -9.35,
+          -67.29
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-936:-6701",
+      "bounds": [
+        [
+          -9.36,
+          -67.01
+        ],
+        [
+          -9.35,
+          -67.0
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-936:-6700",
+      "bounds": [
+        [
+          -9.36,
+          -67.0
+        ],
+        [
+          -9.35,
+          -66.99
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-936:-6659",
+      "bounds": [
+        [
+          -9.36,
+          -66.59
+        ],
+        [
+          -9.35,
+          -66.58
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-936:-6658",
+      "bounds": [
+        [
+          -9.36,
+          -66.58
+        ],
+        [
+          -9.35,
+          -66.57
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 0,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-935:-6700",
+      "bounds": [
+        [
+          -9.35,
+          -67.0
+        ],
+        [
+          -9.34,
+          -66.99
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-935:-6658",
+      "bounds": [
+        [
+          -9.35,
+          -66.58
+        ],
+        [
+          -9.34,
+          -66.57
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 1,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-935:-6657",
+      "bounds": [
+        [
+          -9.35,
+          -66.57
+        ],
+        [
+          -9.34,
+          -66.56
+        ]
+      ],
+      "record_count": 4,
+      "aquiry_record_count": 3,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-934:-6657",
+      "bounds": [
+        [
+          -9.34,
+          -66.57
+        ],
+        [
+          -9.33,
+          -66.56
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-934:-6656",
+      "bounds": [
+        [
+          -9.34,
+          -66.56
+        ],
+        [
+          -9.33,
+          -66.55
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 0,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-933:-6697",
+      "bounds": [
+        [
+          -9.33,
+          -66.97
+        ],
+        [
+          -9.32,
+          -66.96
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-933:-6696",
+      "bounds": [
+        [
+          -9.33,
+          -66.96
+        ],
+        [
+          -9.32,
+          -66.95
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-933:-6683",
+      "bounds": [
+        [
+          -9.33,
+          -66.83
+        ],
+        [
+          -9.32,
+          -66.82
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-933:-6669",
+      "bounds": [
+        [
+          -9.33,
+          -66.69
+        ],
+        [
+          -9.32,
+          -66.68
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-933:-6655",
+      "bounds": [
+        [
+          -9.33,
+          -66.55
+        ],
+        [
+          -9.32,
+          -66.54
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-933:-6654",
+      "bounds": [
+        [
+          -9.33,
+          -66.54
+        ],
+        [
+          -9.32,
+          -66.53
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-932:-6696",
+      "bounds": [
+        [
+          -9.32,
+          -66.96
+        ],
+        [
+          -9.31,
+          -66.95
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-932:-6654",
+      "bounds": [
+        [
+          -9.32,
+          -66.54
+        ],
+        [
+          -9.31,
+          -66.53
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-932:-6653",
+      "bounds": [
+        [
+          -9.32,
+          -66.53
+        ],
+        [
+          -9.31,
+          -66.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-931:-6696",
+      "bounds": [
+        [
+          -9.31,
+          -66.96
+        ],
+        [
+          -9.3,
+          -66.95
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-931:-6667",
+      "bounds": [
+        [
+          -9.31,
+          -66.67
+        ],
+        [
+          -9.3,
+          -66.66
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-931:-6653",
+      "bounds": [
+        [
+          -9.31,
+          -66.53
+        ],
+        [
+          -9.3,
+          -66.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-930:-6695",
+      "bounds": [
+        [
+          -9.3,
+          -66.95
+        ],
+        [
+          -9.29,
+          -66.94
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-930:-6680",
+      "bounds": [
+        [
+          -9.3,
+          -66.8
+        ],
+        [
+          -9.29,
+          -66.79
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-930:-6651",
+      "bounds": [
+        [
+          -9.3,
+          -66.51
+        ],
+        [
+          -9.29,
+          -66.5
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-929:-6651",
+      "bounds": [
+        [
+          -9.29,
+          -66.51
+        ],
+        [
+          -9.28,
+          -66.5
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-929:-6650",
+      "bounds": [
+        [
+          -9.29,
+          -66.5
+        ],
+        [
+          -9.28,
+          -66.49
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-929:-6649",
+      "bounds": [
+        [
+          -9.29,
+          -66.49
+        ],
+        [
+          -9.28,
+          -66.48
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-928:-6677",
+      "bounds": [
+        [
+          -9.28,
+          -66.77
+        ],
+        [
+          -9.27,
+          -66.76
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-928:-6663",
+      "bounds": [
+        [
+          -9.28,
+          -66.63
+        ],
+        [
+          -9.27,
+          -66.62
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-928:-6662",
+      "bounds": [
+        [
+          -9.28,
+          -66.62
+        ],
+        [
+          -9.27,
+          -66.61
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-928:-6649",
+      "bounds": [
+        [
+          -9.28,
+          -66.49
+        ],
+        [
+          -9.27,
+          -66.48
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-928:-6648",
+      "bounds": [
+        [
+          -9.28,
+          -66.48
+        ],
+        [
+          -9.27,
+          -66.47
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-927:-6887",
+      "bounds": [
+        [
+          -9.27,
+          -68.87
+        ],
+        [
+          -9.26,
+          -68.86
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-927:-6756",
+      "bounds": [
+        [
+          -9.27,
+          -67.56
+        ],
+        [
+          -9.26,
+          -67.55
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-927:-6691",
+      "bounds": [
+        [
+          -9.27,
+          -66.91
+        ],
+        [
+          -9.26,
+          -66.9
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-927:-6662",
+      "bounds": [
+        [
+          -9.27,
+          -66.62
+        ],
+        [
+          -9.26,
+          -66.61
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-927:-6648",
+      "bounds": [
+        [
+          -9.27,
+          -66.48
+        ],
+        [
+          -9.26,
+          -66.47
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-926:-6756",
+      "bounds": [
+        [
+          -9.26,
+          -67.56
+        ],
+        [
+          -9.25,
+          -67.55
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-926:-6689",
+      "bounds": [
+        [
+          -9.26,
+          -66.89
+        ],
+        [
+          -9.25,
+          -66.88
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-926:-6660",
+      "bounds": [
+        [
+          -9.26,
+          -66.6
+        ],
+        [
+          -9.25,
+          -66.59
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-925:-6658",
+      "bounds": [
+        [
+          -9.25,
+          -66.58
+        ],
+        [
+          -9.24,
+          -66.57
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-925:-6646",
+      "bounds": [
+        [
+          -9.25,
+          -66.46
+        ],
+        [
+          -9.24,
+          -66.45
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-924:-6755",
+      "bounds": [
+        [
+          -9.24,
+          -67.55
+        ],
+        [
+          -9.23,
+          -67.54
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-924:-6701",
+      "bounds": [
+        [
+          -9.24,
+          -67.01
+        ],
+        [
+          -9.23,
+          -67.0
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-924:-6658",
+      "bounds": [
+        [
+          -9.24,
+          -66.58
+        ],
+        [
+          -9.23,
+          -66.57
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-922:-6698",
+      "bounds": [
+        [
+          -9.22,
+          -66.98
+        ],
+        [
+          -9.21,
+          -66.97
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-922:-6655",
+      "bounds": [
+        [
+          -9.22,
+          -66.55
+        ],
+        [
+          -9.21,
+          -66.54
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-921:-6711",
+      "bounds": [
+        [
+          -9.21,
+          -67.11
+        ],
+        [
+          -9.2,
+          -67.1
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-921:-6698",
+      "bounds": [
+        [
+          -9.21,
+          -66.98
+        ],
+        [
+          -9.2,
+          -66.97
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-920:-6711",
+      "bounds": [
+        [
+          -9.2,
+          -67.11
+        ],
+        [
+          -9.19,
+          -67.1
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-920:-6639",
+      "bounds": [
+        [
+          -9.2,
+          -66.39
+        ],
+        [
+          -9.19,
+          -66.38
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-919:-6695",
+      "bounds": [
+        [
+          -9.19,
+          -66.95
+        ],
+        [
+          -9.18,
+          -66.94
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 2,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-919:-6694",
+      "bounds": [
+        [
+          -9.19,
+          -66.94
+        ],
+        [
+          -9.18,
+          -66.93
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-919:-6681",
+      "bounds": [
+        [
+          -9.19,
+          -66.81
+        ],
+        [
+          -9.18,
+          -66.8
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-919:-6680",
+      "bounds": [
+        [
+          -9.19,
+          -66.8
+        ],
+        [
+          -9.18,
+          -66.79
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-918:-6694",
+      "bounds": [
+        [
+          -9.18,
+          -66.94
+        ],
+        [
+          -9.17,
+          -66.93
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 1,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-918:-6637",
+      "bounds": [
+        [
+          -9.18,
+          -66.37
+        ],
+        [
+          -9.17,
+          -66.36
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-916:-6750",
+      "bounds": [
+        [
+          -9.16,
+          -67.5
+        ],
+        [
+          -9.15,
+          -67.49
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-916:-6705",
+      "bounds": [
+        [
+          -9.16,
+          -67.05
+        ],
+        [
+          -9.15,
+          -67.04
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-915:-6704",
+      "bounds": [
+        [
+          -9.15,
+          -67.04
+        ],
+        [
+          -9.14,
+          -67.03
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-915:-6648",
+      "bounds": [
+        [
+          -9.15,
+          -66.48
+        ],
+        [
+          -9.14,
+          -66.47
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-914:-6689",
+      "bounds": [
+        [
+          -9.14,
+          -66.89
+        ],
+        [
+          -9.13,
+          -66.88
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-914:-6646",
+      "bounds": [
+        [
+          -9.14,
+          -66.46
+        ],
+        [
+          -9.13,
+          -66.45
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-913:-6687",
+      "bounds": [
+        [
+          -9.13,
+          -66.87
+        ],
+        [
+          -9.12,
+          -66.86
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-913:-6630",
+      "bounds": [
+        [
+          -9.13,
+          -66.3
+        ],
+        [
+          -9.12,
+          -66.29
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-912:-6686",
+      "bounds": [
+        [
+          -9.12,
+          -66.86
+        ],
+        [
+          -9.11,
+          -66.85
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-911:-6699",
+      "bounds": [
+        [
+          -9.11,
+          -66.99
+        ],
+        [
+          -9.1,
+          -66.98
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 1,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-911:-6671",
+      "bounds": [
+        [
+          -9.11,
+          -66.71
+        ],
+        [
+          -9.1,
+          -66.7
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-911:-6628",
+      "bounds": [
+        [
+          -9.11,
+          -66.28
+        ],
+        [
+          -9.1,
+          -66.27
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-910:-6684",
+      "bounds": [
+        [
+          -9.1,
+          -66.84
+        ],
+        [
+          -9.09,
+          -66.83
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 1,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks",
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-910:-6671",
+      "bounds": [
+        [
+          -9.1,
+          -66.71
+        ],
+        [
+          -9.09,
+          -66.7
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-909:-6746",
+      "bounds": [
+        [
+          -9.09,
+          -67.46
+        ],
+        [
+          -9.08,
+          -67.45
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-909:-6683",
+      "bounds": [
+        [
+          -9.09,
+          -66.83
+        ],
+        [
+          -9.08,
+          -66.82
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-909:-6653",
+      "bounds": [
+        [
+          -9.09,
+          -66.53
+        ],
+        [
+          -9.08,
+          -66.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-906:-6680",
+      "bounds": [
+        [
+          -9.06,
+          -66.8
+        ],
+        [
+          -9.05,
+          -66.79
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-905:-6678",
+      "bounds": [
+        [
+          -9.05,
+          -66.78
+        ],
+        [
+          -9.04,
+          -66.77
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-904:-6691",
+      "bounds": [
+        [
+          -9.04,
+          -66.91
+        ],
+        [
+          -9.03,
+          -66.9
+        ]
+      ],
+      "record_count": 3,
+      "aquiry_record_count": 3,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-904:-6677",
+      "bounds": [
+        [
+          -9.04,
+          -66.77
+        ],
+        [
+          -9.03,
+          -66.76
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-904:-6620",
+      "bounds": [
+        [
+          -9.04,
+          -66.2
+        ],
+        [
+          -9.03,
+          -66.19
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-903:-6690",
+      "bounds": [
+        [
+          -9.03,
+          -66.9
+        ],
+        [
+          -9.02,
+          -66.89
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-902:-6645",
+      "bounds": [
+        [
+          -9.02,
+          -66.45
+        ],
+        [
+          -9.01,
+          -66.44
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-901:-6645",
+      "bounds": [
+        [
+          -9.01,
+          -66.45
+        ],
+        [
+          -9.0,
+          -66.44
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-901:-6644",
+      "bounds": [
+        [
+          -9.01,
+          -66.44
+        ],
+        [
+          -9.0,
+          -66.43
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-900:-6686",
+      "bounds": [
+        [
+          -9.0,
+          -66.86
+        ],
+        [
+          -8.99,
+          -66.85
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-900:-6615",
+      "bounds": [
+        [
+          -9.0,
+          -66.15
+        ],
+        [
+          -8.99,
+          -66.14
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-898:-6915",
+      "bounds": [
+        [
+          -8.98,
+          -69.15
+        ],
+        [
+          -8.97,
+          -69.14
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-898:-6669",
+      "bounds": [
+        [
+          -8.98,
+          -66.69
+        ],
+        [
+          -8.97,
+          -66.68
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-897:-6669",
+      "bounds": [
+        [
+          -8.97,
+          -66.69
+        ],
+        [
+          -8.96,
+          -66.68
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-897:-6668",
+      "bounds": [
+        [
+          -8.97,
+          -66.68
+        ],
+        [
+          -8.96,
+          -66.67
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-894:-6664",
+      "bounds": [
+        [
+          -8.94,
+          -66.64
+        ],
+        [
+          -8.93,
+          -66.63
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-892:-6604",
+      "bounds": [
+        [
+          -8.92,
+          -66.04
+        ],
+        [
+          -8.91,
+          -66.03
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-891:-6675",
+      "bounds": [
+        [
+          -8.91,
+          -66.75
+        ],
+        [
+          -8.9,
+          -66.74
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-890:-6659",
+      "bounds": [
+        [
+          -8.9,
+          -66.59
+        ],
+        [
+          -8.89,
+          -66.58
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-889:-6673",
+      "bounds": [
+        [
+          -8.89,
+          -66.73
+        ],
+        [
+          -8.88,
+          -66.72
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-889:-6672",
+      "bounds": [
+        [
+          -8.89,
+          -66.72
+        ],
+        [
+          -8.88,
+          -66.71
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-887:-6628",
+      "bounds": [
+        [
+          -8.87,
+          -66.28
+        ],
+        [
+          -8.86,
+          -66.27
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-886:-6668",
+      "bounds": [
+        [
+          -8.86,
+          -66.68
+        ],
+        [
+          -8.85,
+          -66.67
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-885:-6653",
+      "bounds": [
+        [
+          -8.85,
+          -66.53
+        ],
+        [
+          -8.84,
+          -66.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-884:-6608",
+      "bounds": [
+        [
+          -8.84,
+          -66.08
+        ],
+        [
+          -8.83,
+          -66.07
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-883:-6652",
+      "bounds": [
+        [
+          -8.83,
+          -66.52
+        ],
+        [
+          -8.82,
+          -66.51
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-883:-6637",
+      "bounds": [
+        [
+          -8.83,
+          -66.37
+        ],
+        [
+          -8.82,
+          -66.36
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-882:-6650",
+      "bounds": [
+        [
+          -8.82,
+          -66.5
+        ],
+        [
+          -8.81,
+          -66.49
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-881:-6648",
+      "bounds": [
+        [
+          -8.81,
+          -66.48
+        ],
+        [
+          -8.8,
+          -66.47
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-881:-6634",
+      "bounds": [
+        [
+          -8.81,
+          -66.34
+        ],
+        [
+          -8.8,
+          -66.33
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-880:-6605",
+      "bounds": [
+        [
+          -8.8,
+          -66.05
+        ],
+        [
+          -8.79,
+          -66.04
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-880:-6589",
+      "bounds": [
+        [
+          -8.8,
+          -65.89
+        ],
+        [
+          -8.79,
+          -65.88
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-879:-6660",
+      "bounds": [
+        [
+          -8.79,
+          -66.6
+        ],
+        [
+          -8.78,
+          -66.59
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-878:-6659",
+      "bounds": [
+        [
+          -8.78,
+          -66.59
+        ],
+        [
+          -8.77,
+          -66.58
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-878:-6658",
+      "bounds": [
+        [
+          -8.78,
+          -66.58
+        ],
+        [
+          -8.77,
+          -66.57
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-878:-6588",
+      "bounds": [
+        [
+          -8.78,
+          -65.88
+        ],
+        [
+          -8.77,
+          -65.87
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-876:-6731",
+      "bounds": [
+        [
+          -8.76,
+          -67.31
+        ],
+        [
+          -8.75,
+          -67.3
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-874:-6897",
+      "bounds": [
+        [
+          -8.74,
+          -68.97
+        ],
+        [
+          -8.73,
+          -68.96
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-873:-6894",
+      "bounds": [
+        [
+          -8.73,
+          -68.94
+        ],
+        [
+          -8.72,
+          -68.93
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-872:-6637",
+      "bounds": [
+        [
+          -8.72,
+          -66.37
+        ],
+        [
+          -8.71,
+          -66.36
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-871:-6636",
+      "bounds": [
+        [
+          -8.71,
+          -66.36
+        ],
+        [
+          -8.7,
+          -66.35
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-863:-6613",
+      "bounds": [
+        [
+          -8.63,
+          -66.13
+        ],
+        [
+          -8.62,
+          -66.12
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-861:-6625",
+      "bounds": [
+        [
+          -8.61,
+          -66.25
+        ],
+        [
+          -8.6,
+          -66.24
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-852:-6585",
+      "bounds": [
+        [
+          -8.52,
+          -65.85
+        ],
+        [
+          -8.51,
+          -65.84
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-844:-6618",
+      "bounds": [
+        [
+          -8.44,
+          -66.18
+        ],
+        [
+          -8.43,
+          -66.17
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-832:-6560",
+      "bounds": [
+        [
+          -8.32,
+          -65.6
+        ],
+        [
+          -8.31,
+          -65.59
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-826:-6595",
+      "bounds": [
+        [
+          -8.26,
+          -65.95
+        ],
+        [
+          -8.25,
+          -65.94
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-817:-6556",
+      "bounds": [
+        [
+          -8.17,
+          -65.56
+        ],
+        [
+          -8.16,
+          -65.55
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-815:-6511",
+      "bounds": [
+        [
+          -8.15,
+          -65.11
+        ],
+        [
+          -8.14,
+          -65.1
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-813:-6508",
+      "bounds": [
+        [
+          -8.13,
+          -65.08
+        ],
+        [
+          -8.12,
+          -65.07
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-808:-6516",
+      "bounds": [
+        [
+          -8.08,
+          -65.16
+        ],
+        [
+          -8.07,
+          -65.15
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-806:-6557",
+      "bounds": [
+        [
+          -8.06,
+          -65.57
+        ],
+        [
+          -8.05,
+          -65.56
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-806:-6556",
+      "bounds": [
+        [
+          -8.06,
+          -65.56
+        ],
+        [
+          -8.05,
+          -65.55
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-789:-6509",
+      "bounds": [
+        [
+          -7.89,
+          -65.09
+        ],
+        [
+          -7.88,
+          -65.08
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-789:-6508",
+      "bounds": [
+        [
+          -7.89,
+          -65.08
+        ],
+        [
+          -7.88,
+          -65.07
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-785:-6680",
+      "bounds": [
+        [
+          -7.85,
+          -66.8
+        ],
+        [
+          -7.84,
+          -66.79
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-767:-6453",
+      "bounds": [
+        [
+          -7.67,
+          -64.53
+        ],
+        [
+          -7.66,
+          -64.52
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-764:-6506",
+      "bounds": [
+        [
+          -7.64,
+          -65.06
+        ],
+        [
+          -7.63,
+          -65.05
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 0,
+      "other_record_count": 2,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-762:-6504",
+      "bounds": [
+        [
+          -7.62,
+          -65.04
+        ],
+        [
+          -7.61,
+          -65.03
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-762:-6503",
+      "bounds": [
+        [
+          -7.62,
+          -65.03
+        ],
+        [
+          -7.61,
+          -65.02
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-750:-6504",
+      "bounds": [
+        [
+          -7.5,
+          -65.04
+        ],
+        [
+          -7.49,
+          -65.03
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 0,
+      "other_record_count": 1,
+      "partial_record_count": 0,
+      "feature_types": [
+        "other ancient earthwork structures"
+      ]
+    },
+    {
+      "id": "-749:-6460",
+      "bounds": [
+        [
+          -7.49,
+          -64.6
+        ],
+        [
+          -7.48,
+          -64.59
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-744:-6464",
+      "bounds": [
+        [
+          -7.44,
+          -64.64
+        ],
+        [
+          -7.43,
+          -64.63
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-731:-6475",
+      "bounds": [
+        [
+          -7.31,
+          -64.75
+        ],
+        [
+          -7.3,
+          -64.74
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-730:-6476",
+      "bounds": [
+        [
+          -7.3,
+          -64.76
+        ],
+        [
+          -7.29,
+          -64.75
+        ]
+      ],
+      "record_count": 2,
+      "aquiry_record_count": 2,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-730:-6475",
+      "bounds": [
+        [
+          -7.3,
+          -64.75
+        ],
+        [
+          -7.29,
+          -64.74
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-729:-6479",
+      "bounds": [
+        [
+          -7.29,
+          -64.79
+        ],
+        [
+          -7.28,
+          -64.78
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-490:-6692",
+      "bounds": [
+        [
+          -4.9,
+          -66.92
+        ],
+        [
+          -4.89,
+          -66.91
+        ]
+      ],
+      "record_count": 1,
+      "aquiry_record_count": 1,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    },
+    {
+      "id": "-490:-6691",
+      "bounds": [
+        [
+          -4.9,
+          -66.91
+        ],
+        [
+          -4.89,
+          -66.9
+        ]
+      ],
+      "record_count": 5,
+      "aquiry_record_count": 5,
+      "other_record_count": 0,
+      "partial_record_count": 0,
+      "feature_types": [
+        "Aquiry geometric earthworks"
+      ]
+    }
+  ]
+}

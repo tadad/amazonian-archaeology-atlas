@@ -1,0 +1,2202 @@
+# Corpus Index
+
+Generated 2026-08-06 from English, Spanish, and Portuguese Wikipedia discovery paths.
+
+**988 deduplicated subject records.** Machine discovery is broad and noisy; `unassessed` is not a verification label.
+
+## Counts by evidence status
+
+- `archaeologically-corroborated`: 13
+- `debunked-or-pseudoscientific`: 1
+- `disputed`: 1
+- `legendary`: 2
+- `mixed`: 4
+- `unassessed`: 967
+
+## Counts by record kind
+
+- `artifact`: 4
+- `culture`: 67
+- `expedition`: 2
+- `landscape`: 6
+- `legend`: 245
+- `other`: 216
+- `person`: 11
+- `site`: 436
+- `tradition`: 1
+
+## Geographic index
+
+### Argentina
+
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Chancho verde](topics/q136336743-chancho-verde.md): `legend`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Época preincaica](topics/q2837789-epoca-preincaica.md): `other`, `unassessed`
+- [Guerra del Collao](topics/q24961265-guerra-del-collao.md): `legend`, `unassessed`
+- [Incas en Argentina](topics/q140771710-incas-en-argentina.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial no Brasil](topics/q94165-lista-do-patrimonio-mundial-no-brasil.md): `other`, `unassessed`
+- [Mitologia guarani](topics/q2748289-mitologia-guarani.md): `legend`, `unassessed`
+- [Negrito pastor](topics/q3892942-negrito-pastor.md): `legend`, `unassessed`
+- [Sitio arqueológico de San Miguel Arcángel](topics/q503828-sitio-arqueologico-de-san-miguel-arcangel.md): `site`, `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): `other`, `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): `site`, `archaeologically-corroborated`
+- [Tradição Humaitá](topics/q25935853-tradicao-humaita.md): `other`, `unassessed`
+- [Tradição Umbu](topics/q18281137-tradicao-umbu.md): `other`, `unassessed`
+- [Tradição Vieira](topics/q10390537-tradicao-vieira.md): `other`, `unassessed`
+
+### Bolivia
+
+- [Achikay](topics/q13189060-achikay.md): `legend`, `unassessed`
+- [Acre](topics/q40780-acre.md): `other`, `unassessed`
+- [Akakor](topics/q2527244-akakor.md): `legend`, `debunked-or-pseudoscientific`
+- [Alcaya](topics/q69385190-alcaya.md): `other`, `unassessed`
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Andira guazú](topics/q136327980-andira-guazu.md): `legend`, `unassessed`
+- [Aullagas (centro arqueológico)](topics/q109313523-aullagas-centro-arqueologico.md): `other`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Cantua buxifolia](topics/q290394-cantua-buxifolia.md): `legend`, `unassessed`
+- [Cementerio de Incahuasi](topics/q123408724-cementerio-de-incahuasi.md): `site`, `unassessed`
+- [Chancho verde](topics/q136336743-chancho-verde.md): `legend`, `unassessed`
+- [Chinkana](topics/q16957825-chinkana.md): `site`, `unassessed`
+- [Chipaya (village)](topics/q1074525-chipaya-village.md): `site`, `unassessed`
+- [Chullpas del río Lauca](topics/q50685265-chullpas-del-rio-lauca.md): `other`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Cóndor Amaya](topics/q17074933-condor-amaya.md): `site`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Cotapachi](topics/q119157458-cotapachi.md): `other`, `unassessed`
+- [Cultura chiripa](topics/q567752-cultura-chiripa.md): `culture`, `unassessed`
+- [Cultura de Bolivia](topics/q3306313-cultura-de-bolivia.md): `culture`, `unassessed`
+- [Cultura hidráulica de las Lomas](topics/q2035965-cultura-hidraulica-de-las-lomas.md): `culture`, `unassessed`
+- [Cultura mollo](topics/q2493437-cultura-mollo.md): `culture`, `unassessed`
+- [Cultura Tarija](topics/q96337601-cultura-tarija.md): `culture`, `unassessed`
+- [Cultura wankarani](topics/q2065259-cultura-wankarani.md): `culture`, `unassessed`
+- [Dios de los báculos](topics/q7596551-dios-de-los-baculos.md): `legend`, `unassessed`
+- [Ekeko](topics/q544590-ekeko.md): `legend`, `unassessed`
+- [El Carretón de la Otra Vida](topics/q5821256-el-carreton-de-la-otra-vida.md): `legend`, `unassessed`
+- [Fortaleza de Ixiamas](topics/q2076118-fortaleza-de-ixiamas.md): `site`, `unassessed`
+- [Fortaleza de Jachaphasa](topics/q38214-fortaleza-de-jachaphasa.md): `site`, `unassessed`
+- [Fortaleza Victoria](topics/q125253520-fortaleza-victoria.md): `site`, `unassessed`
+- [Fuente Magna](topics/q13140356-fuente-magna.md): `person`, `unassessed`
+- [Fuerte de Samaipata](topics/q876451-fuerte-de-samaipata.md): `site`, `unassessed`
+- [Geoglifo](topics/q45791-geoglifo.md): `landscape`, `unassessed`
+- [Guerra del Collao](topics/q24961265-guerra-del-collao.md): `legend`, `unassessed`
+- [Horizonte cultural](topics/q5902097-horizonte-cultural.md): `culture`, `unassessed`
+- [Huaqueo](topics/q18236489-huaqueo.md): `other`, `unassessed`
+- [Huiracocha (dios)](topics/q209605-huiracocha-dios.md): `legend`, `unassessed`
+- [Iñaq Uyu](topics/q890380-inaq-uyu.md): `site`, `unassessed`
+- [Inca architecture](topics/q2004258-inca-architecture.md): `site`, `unassessed`
+- [Incallajta](topics/q970713-incallajta.md): `site`, `unassessed`
+- [Incamachay (Bolivia)](topics/q15702559-incamachay-bolivia.md): `site`, `unassessed`
+- [Incarracay (Bolivia)](topics/q13189605-incarracay-bolivia.md): `site`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Inka Murata](topics/q17073756-inka-murata.md): `site`, `unassessed`
+- [Inkachaka](topics/q13189603-inkachaka.md): `site`, `unassessed`
+- [Iskanwaya](topics/q1674009-iskanwaya.md): `site`, `unassessed`
+- [Isla del Sol](topics/q600282-isla-del-sol.md): `site`, `unassessed`
+- [Ixiamas](topics/q2068157-ixiamas.md): `site`, `unassessed`
+- [Jichi](topics/q16581596-jichi.md): `legend`, `unassessed`
+- [Kalasasaya](topics/q1722063-kalasasaya.md): `site`, `unassessed`
+- [Khonkho Wankane](topics/q868737-khonkho-wankane.md): `site`, `unassessed`
+- [La La La (canción de Naughty Boy)](topics/q13631062-la-la-la-cancion-de-naughty-boy.md): `legend`, `unassessed`
+- [La Viudita (leyenda boliviana)](topics/q137927317-la-viudita-leyenda-boliviana.md): `legend`, `unassessed`
+- [Laguna Isireri](topics/q938500-laguna-isireri.md): `legend`, `unassessed`
+- [Laqaya](topics/q17075425-laqaya.md): `site`, `unassessed`
+- [Líneas de Sajama](topics/q3832880-lineas-de-sajama.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Llorona](topics/q1866923-llorona.md): `legend`, `unassessed`
+- [Lobisón](topics/q2365859-lobison.md): `legend`, `unassessed`
+- [Loma](topics/q5069269-loma.md): `other`, `unassessed`
+- [Mitologia guarani](topics/q2748289-mitologia-guarani.md): `legend`, `unassessed`
+- [Mojón con cara](topics/q61998130-mojon-con-cara.md): `legend`, `unassessed`
+- [Momias de Coqueza](topics/q123422963-momias-de-coqueza.md): `other`, `unassessed`
+- [Museo Necrópolis Kausay Wasi](topics/q123436665-museo-necropolis-kausay-wasi.md): `other`, `unassessed`
+- [Oroncota](topics/q13191074-oroncota.md): `site`, `unassessed`
+- [Pachataka](topics/q13190190-pachataka.md): `site`, `unassessed`
+- [Paititi](topics/q1664177-paititi.md): `legend`, `legendary`
+- [Palaspata](topics/q135428388-palaspata.md): `culture`, `unassessed`
+- [Paria, Oruro](topics/q2052242-paria-oruro.md): `site`, `unassessed`
+- [Pasaje Santa Teresa](topics/q136333199-pasaje-santa-teresa.md): `legend`, `unassessed`
+- [Pilkokaina](topics/q18388603-pilkokaina.md): `site`, `unassessed`
+- [Pirámide Circular de Mairana](topics/q24938832-piramide-circular-de-mairana.md): `other`, `unassessed`
+- [Pirámide de Akapana](topics/q9060091-piramide-de-akapana.md): `site`, `unassessed`
+- [Porta do Sol (Tiauanaco)](topics/q2669375-porta-do-sol-tiauanaco.md): `site`, `unassessed`
+- [Pueblo colla](topics/q1779257-pueblo-colla.md): `other`, `unassessed`
+- [Puma Punku](topics/q665223-puma-punku.md): `site`, `unassessed`
+- [Qala Qala](topics/q15704620-qala-qala.md): `site`, `unassessed`
+- [Qati qati](topics/q136238537-qati-qati.md): `legend`, `unassessed`
+- [Sagrada serranía de los urus](topics/q6116835-sagrada-serrania-de-los-urus.md): `legend`, `unassessed`
+- [Samaipata, Bolivia](topics/q1014461-samaipata-bolivia.md): `site`, `unassessed`
+- [Santa Cruz la Vieja](topics/q16628736-santa-cruz-la-vieja.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Serra do Sabarabuçu](topics/q10370502-serra-do-sabarabucu.md): `legend`, `unassessed`
+- [Silbaco](topics/q135326106-silbaco.md): `legend`, `unassessed`
+- [Silos de Tukipaya](topics/q88775723-silos-de-tukipaya.md): `other`, `unassessed`
+- [Sonia Alconini](topics/q22003065-sonia-alconini.md): `culture`, `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): `other`, `unassessed`
+- [Tama Chullpa](topics/q123417149-tama-chullpa.md): `site`, `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): `site`, `archaeologically-corroborated`
+- [Tío Pachamama](topics/q6154569-tio-pachamama.md): `legend`, `unassessed`
+- [Tokjuaj](topics/q136238534-tokjuaj.md): `legend`, `unassessed`
+- [Tumbas de Chacoma](topics/q123439766-tumbas-de-chacoma.md): `other`, `unassessed`
+- [Viuda (mitología)](topics/q6164109-viuda-mitologia.md): `legend`, `unassessed`
+- [Yirogüee](topics/q136333264-yiroguee.md): `legend`, `unassessed`
+
+### Brazil
+
+- [A Emparedada da Rua Nova](topics/q9556994-a-emparedada-da-rua-nova.md): `legend`, `unassessed`
+- [A História Sob a Terra](topics/q106542244-a-historia-sob-a-terra.md): `other`, `unassessed`
+- [Abrigo de Santa Elina](topics/q98115650-abrigo-de-santa-elina.md): `site`, `unassessed`
+- [Acervo arqueológico de cerâmica marajoara](topics/q111920761-acervo-arqueologico-de-ceramica-marajoara.md): `other`, `unassessed`
+- [Acre](topics/q40780-acre.md): `other`, `unassessed`
+- [Acuntsus](topics/q423752-acuntsus.md): `other`, `unassessed`
+- [Akakor](topics/q2527244-akakor.md): `legend`, `debunked-or-pseudoscientific`
+- [Alenquer (Pará)](topics/q2289869-alenquer-para.md): `other`, `unassessed`
+- [Amanaiés](topics/q1832976-amanaies.md): `other`, `unassessed`
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Amazônia Legal](topics/q4740925-amazonia-legal.md): `other`, `unassessed`
+- [América precolombina](topics/q202390-america-precolombina.md): `culture`, `unassessed`
+- [Ana Jansen](topics/q16489958-ana-jansen.md): `legend`, `unassessed`
+- [Anna Curtenius Roosevelt](topics/q560079-anna-curtenius-roosevelt.md): `person`, `unassessed`
+- [Antes o Mundo Não Existia](topics/q122111395-antes-o-mundo-nao-existia.md): `legend`, `unassessed`
+- [Araés](topics/q9627533-araes.md): `legend`, `unassessed`
+- [Arqueologia brasileira](topics/q19723627-arqueologia-brasileira.md): `other`, `unassessed`
+- [Arte pré-histórica no Brasil](topics/q9631167-arte-pre-historica-no-brasil.md): `other`, `unassessed`
+- [Arte rupestre da Serra do Lenheiro](topics/q138546990-arte-rupestre-da-serra-do-lenheiro.md): `other`, `unassessed`
+- [Artefatos arqueológicos no metrô de São Paulo](topics/q106542567-artefatos-arqueologicos-no-metro-de-sao-paulo.md): `artifact`, `unassessed`
+- [Artefatos arqueológicos no metrô do Rio de Janeiro](topics/q106542572-artefatos-arqueologicos-no-metro-do-rio-de-janeiro.md): `artifact`, `unassessed`
+- [Avantesma da Lagoinha](topics/q140299355-avantesma-da-lagoinha.md): `legend`, `unassessed`
+- [Barás](topics/q86731100-baras.md): `other`, `unassessed`
+- [Betty Meggers](topics/q4898926-betty-meggers.md): `other`, `unassessed`
+- [Bicho da fortaleza](topics/q7011794-bicho-da-fortaleza.md): `legend`, `unassessed`
+- [Boi Vaquim](topics/q9660336-boi-vaquim.md): `legend`, `unassessed`
+- [Boitatá](topics/q3844911-boitata.md): `legend`, `unassessed`
+- [Boyuna](topics/q3774458-boyuna.md): `legend`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Bruxa Silvina](topics/q140299351-bruxa-silvina.md): `legend`, `unassessed`
+- [Bufeo colorado](topics/q5855508-bufeo-colorado.md): `legend`, `unassessed`
+- [Cabeça de Cuia](topics/q12350399-cabeca-de-cuia.md): `legend`, `unassessed`
+- [Caboclo de agua](topics/q8254552-caboclo-de-agua.md): `legend`, `unassessed`
+- [Cabra Cabriola](topics/q12350459-cabra-cabriola.md): `legend`, `unassessed`
+- [Caipora](topics/q1025905-caipora.md): `legend`, `unassessed`
+- [Capelobo](topics/q9696177-capelobo.md): `legend`, `unassessed`
+- [Capeta do Vilarinho](topics/q18242390-capeta-do-vilarinho.md): `legend`, `unassessed`
+- [Cataratas do Iguaçu](topics/q36332-cataratas-do-iguacu.md): `legend`, `unassessed`
+- [Cavalo-d'água](topics/q18242885-cavalo-d-agua.md): `legend`, `unassessed`
+- [Caverna da Pedra Pintada](topics/q5055053-caverna-da-pedra-pintada.md): `site`, `unassessed`
+- [Chácara Rosane](topics/q124485506-chacara-rosane.md): `other`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Ciudad Laberinto](topics/q5770672-ciudad-laberinto.md): `site`, `unassessed`
+- [Cobra Norato (folclore)](topics/q25446664-cobra-norato-folclore.md): `legend`, `unassessed`
+- [Colômbia](topics/q739-colombia.md): `other`, `unassessed`
+- [Comadre Fulozinha](topics/q9822617-comadre-fulozinha.md): `legend`, `unassessed`
+- [Coordenação das Organizações Indígenas da Amazônia Brasileira](topics/q5168036-coordenacao-das-organizacoes-indigenas-da-amazonia-brasileira.md): `other`, `unassessed`
+- [Corpo-seco](topics/q8351120-corpo-seco.md): `legend`, `unassessed`
+- [Crómlech de Calçoene](topics/q1855906-cromlech-de-calcoene.md): `site`, `unassessed`
+- [Cuca](topics/q30491044-cuca.md): `legend`, `unassessed`
+- [Cultura de Iquitos](topics/q5474959-cultura-de-iquitos.md): `culture`, `unassessed`
+- [Cultura hidráulica de las Lomas](topics/q2035965-cultura-hidraulica-de-las-lomas.md): `culture`, `unassessed`
+- [Cumacanga](topics/q8352644-cumacanga.md): `legend`, `unassessed`
+- [Curupira](topics/q38419-curupira.md): `legend`, `unassessed`
+- [Engenho Murutucu](topics/q56346686-engenho-murutucu.md): `other`, `unassessed`
+- [Festa de Iaci](topics/q10281772-festa-de-iaci.md): `legend`, `unassessed`
+- [Festa do Boi Falô](topics/q10281792-festa-do-boi-falo.md): `legend`, `unassessed`
+- [Flecheiros](topics/q25238369-flecheiros.md): `other`, `unassessed`
+- [Folclore brasileiro](topics/q140848798-folclore-brasileiro.md): `tradition`, `unassessed`
+- [Fortaleza del Río Madeira](topics/q5864182-fortaleza-del-rio-madeira.md): `site`, `unassessed`
+- [Frade e a Freira](topics/q10284424-frade-e-a-freira.md): `legend`, `unassessed`
+- [Fundação Nacional dos Povos Indígenas](topics/q731206-fundacao-nacional-dos-povos-indigenas.md): `other`, `unassessed`
+- [Gaín Pañan e a Origem da Pupunheira](topics/q110964209-gain-panan-e-a-origem-da-pupunheira.md): `legend`, `unassessed`
+- [Gavião-mondé](topics/q10288535-gaviao-monde.md): `other`, `unassessed`
+- [Geoglifo](topics/q45791-geoglifo.md): `landscape`, `unassessed`
+- [Geoglifos do Acre](topics/q16571176-geoglifos-do-acre.md): `landscape`, `archaeologically-corroborated`
+- [Gralha-azul](topics/q55119113-gralha-azul.md): `legend`, `unassessed`
+- [Grotto of the Gentio](topics/q4179464-grotto-of-the-gentio.md): `site`, `unassessed`
+- [Guacaris](topics/q10292342-guacaris.md): `legend`, `unassessed`
+- [Guajupiá](topics/q140053830-guajupia.md): `legend`, `unassessed`
+- [Harákmbuts](topics/q3696210-harakmbuts.md): `other`, `unassessed`
+- [Historia precabralina de Brasil](topics/q2511364-historia-precabralina-de-brasil.md): `other`, `unassessed`
+- [Homem dos Pés de Louça](topics/q10297983-homem-dos-pes-de-louca.md): `legend`, `unassessed`
+- [Iara (folclore)](topics/q1518398-iara-folclore.md): `legend`, `unassessed`
+- [Icamiabas](topics/q1656060-icamiabas.md): `legend`, `unassessed`
+- [Ídolo de Iguape](topics/q10396389-idolo-de-iguape.md): `other`, `unassessed`
+- [Igarapé das Almas](topics/q119186924-igarape-das-almas.md): `legend`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Instituto de Arqueologia Brasileira](topics/q56351515-instituto-de-arqueologia-brasileira.md): `other`, `unassessed`
+- [Interesse arqueológico sobre a Pedra da Gávea](topics/q17985582-interesse-arqueologico-sobre-a-pedra-da-gavea.md): `other`, `unassessed`
+- [Ipupiara (lenda)](topics/q4189308-ipupiara-lenda.md): `legend`, `unassessed`
+- [Irapuru (lenda)](topics/q10303560-irapuru-lenda.md): `legend`, `unassessed`
+- [Isolados do igarapé Xinane](topics/q131563298-isolados-do-igarape-xinane.md): `other`, `unassessed`
+- [Isolados do Rio Bóia](topics/q131310561-isolados-do-rio-boia.md): `other`, `unassessed`
+- [Isolados do Rio Coari](topics/q131310567-isolados-do-rio-coari.md): `other`, `unassessed`
+- [Isolados do Rio Envira](topics/q131389244-isolados-do-rio-envira.md): `other`, `unassessed`
+- [Isolados do Rio Esquerdo](topics/q131310564-isolados-do-rio-esquerdo.md): `other`, `unassessed`
+- [Isolados do Rio Itaquaí](topics/q131310566-isolados-do-rio-itaquai.md): `other`, `unassessed`
+- [Isolados do Rio Jandiatuba](topics/q131310558-isolados-do-rio-jandiatuba.md): `other`, `unassessed`
+- [Isolados do Rio Pedra](topics/q131310563-isolados-do-rio-pedra.md): `other`, `unassessed`
+- [Isolados do Rio Quixito](topics/q131310562-isolados-do-rio-quixito.md): `other`, `unassessed`
+- [Isolados do São José](topics/q131310557-isolados-do-sao-jose.md): `other`, `unassessed`
+- [Jaci](topics/q117086947-jaci.md): `legend`, `unassessed`
+- [João Barbosa Rodrigues](topics/q45374-joao-barbosa-rodrigues.md): `person`, `unassessed`
+- [João Galafuz](topics/q10311535-joao-galafuz.md): `legend`, `unassessed`
+- [Jupi-pari](topics/q10313058-jupi-pari.md): `legend`, `unassessed`
+- [Jurupari](topics/q10313123-jurupari.md): `legend`, `unassessed`
+- [Jurupari (mitologia)](topics/q10313122-jurupari-mitologia.md): `legend`, `unassessed`
+- [Justino (sítio arqueológico)](topics/q130458599-justino-sitio-arqueologico.md): `site`, `unassessed`
+- [Kuhikugu](topics/q6442109-kuhikugu.md): `site`, `archaeologically-corroborated`
+- [Lago Parima](topics/q6477288-lago-parima.md): `legend`, `unassessed`
+- [Lagoa do Abaeté](topics/q10315780-lagoa-do-abaete.md): `legend`, `unassessed`
+- [Lagoa Santa](topics/q178667-lagoa-santa.md): `site`, `unassessed`
+- [Lajedos de Corumbá](topics/q134304336-lajedos-de-corumba.md): `other`, `unassessed`
+- [Lapa do Boquete](topics/q134304334-lapa-do-boquete.md): `other`, `unassessed`
+- [Lapa do Caboclo](topics/q134304333-lapa-do-caboclo.md): `other`, `unassessed`
+- [Lapa do Santo](topics/q56678621-lapa-do-santo.md): `site`, `unassessed`
+- [Lenda da Amorosa](topics/q10317170-lenda-da-amorosa.md): `legend`, `unassessed`
+- [Lenda da vitória-régia](topics/q10317196-lenda-da-vitoria-regia.md): `legend`, `unassessed`
+- [Lenda de Nossa Senhora da Luz](topics/q10317207-lenda-de-nossa-senhora-da-luz.md): `legend`, `unassessed`
+- [Lenda do Minhocão](topics/q4295304-lenda-do-minhocao.md): `legend`, `unassessed`
+- [Lenda do pássaro azul](topics/q18470670-lenda-do-passaro-azul.md): `legend`, `unassessed`
+- [Lendas de Mairiporã](topics/q48876972-lendas-de-mairipora.md): `legend`, `unassessed`
+- [Leticia (Colômbia)](topics/q214913-leticia-colombia.md): `expedition`, `unassessed`
+- [Lista de bens tombados pelo IPHAN](topics/q45823285-lista-de-bens-tombados-pelo-iphan.md): `other`, `unassessed`
+- [Lista de bens tombados pelo IPHAN na Região Norte do Brasil](topics/q48865681-lista-de-bens-tombados-pelo-iphan-na-regiao-norte-do-brasil.md): `other`, `unassessed`
+- [Lista de povos indígenas do Brasil](topics/q578208-lista-de-povos-indigenas-do-brasil.md): `other`, `unassessed`
+- [Lista do Património Mundial na América](topics/q324034-lista-do-patrimonio-mundial-na-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial no Brasil](topics/q94165-lista-do-patrimonio-mundial-no-brasil.md): `other`, `unassessed`
+- [Lobisón](topics/q2365859-lobison.md): `legend`, `unassessed`
+- [Loira do Bonfim](topics/q10319562-loira-do-bonfim.md): `legend`, `unassessed`
+- [Loma](topics/q5069269-loma.md): `other`, `unassessed`
+- [Luzia](topics/q1815054-luzia.md): `other`, `unassessed`
+- [Macu-hupdás](topics/q587300-macu-hupdas.md): `other`, `unassessed`
+- [Mãe do ouro](topics/q10334648-mae-do-ouro.md): `legend`, `unassessed`
+- [Mão de Luva](topics/q10334657-mao-de-luva.md): `legend`, `unassessed`
+- [Mão Pelada](topics/q10334655-mao-pelada.md): `legend`, `unassessed`
+- [Marajoaras](topics/q2624476-marajoaras.md): `culture`, `archaeologically-corroborated`
+- [Maria Caninana](topics/q131698205-maria-caninana.md): `legend`, `unassessed`
+- [Maria Papuda](topics/q112078886-maria-papuda.md): `legend`, `unassessed`
+- [Maria Perpétua](topics/q20048214-maria-perpetua.md): `legend`, `unassessed`
+- [Mazagão (Amapá)](topics/q1800704-mazagao-amapa.md): `other`, `unassessed`
+- [Mito do Ataíde](topics/q122850700-mito-do-ataide.md): `legend`, `unassessed`
+- [Mitologia guarani](topics/q2748289-mitologia-guarani.md): `legend`, `unassessed`
+- [Monge João Maria](topics/q10331823-monge-joao-maria.md): `legend`, `unassessed`
+- [Monte de Teso dos Bichos](topics/q10332069-monte-de-teso-dos-bichos.md): `site`, `unassessed`
+- [Monte Roraima](topics/q4777-monte-roraima.md): `other`, `unassessed`
+- [Monumento Natural dos Monólitos de Quixadá](topics/q10332136-monumento-natural-dos-monolitos-de-quixada.md): `other`, `unassessed`
+- [Movimentos indígenas na Amazônia](topics/q131914490-movimentos-indigenas-na-amazonia.md): `other`, `unassessed`
+- [Muelle de Valongo](topics/q20048515-muelle-de-valongo.md): `site`, `unassessed`
+- [Muiraquitã](topics/q589111-muiraquita.md): `legend`, `unassessed`
+- [Mula sin cabeza](topics/q3847470-mula-sin-cabeza.md): `legend`, `unassessed`
+- [Múmias do Mosteiro da Luz](topics/q97183933-mumias-do-mosteiro-da-luz.md): `other`, `unassessed`
+- [Museu Arqueológico, Histórico, Cultural e Ambiental de Conceição dos Ouros](topics/q139922178-museu-arqueologico-historico-cultural-e-ambiental-de-conceicao-dos-ouros.md): `culture`, `unassessed`
+- [Museu de Arqueologia e Etnologia da Universidade de São Paulo](topics/q2046360-museu-de-arqueologia-e-etnologia-da-universidade-de-sao-paulo.md): `artifact`, `unassessed`
+- [Museu do Homem Americano](topics/q10333901-museu-do-homem-americano.md): `site`, `unassessed`
+- [Museu do Ipiranga](topics/q371803-museu-do-ipiranga.md): `other`, `unassessed`
+- [Museu Nacional (Rio de Janeiro)](topics/q1850416-museu-nacional-rio-de-janeiro.md): `other`, `unassessed`
+- [Museu Paraense Emílio Goeldi](topics/q3328425-museu-paraense-emilio-goeldi.md): `other`, `unassessed`
+- [Negão do Caixão](topics/q10335999-negao-do-caixao.md): `legend`, `unassessed`
+- [Negrito pastor](topics/q3892942-negrito-pastor.md): `legend`, `unassessed`
+- [Negro-d'Água](topics/q10335992-negro-d-agua.md): `legend`, `unassessed`
+- [Nereyana](topics/q12638670-nereyana.md): `other`, `unassessed`
+- [Nhamini-wi](topics/q7023330-nhamini-wi.md): `site`, `unassessed`
+- [Nhanderequeí](topics/q120334894-nhanderequei.md): `legend`, `unassessed`
+- [Noiva entre túmulos: a história da Loira do Bonfim](topics/q130716727-noiva-entre-tumulos-a-historia-da-loira-do-bonfim.md): `legend`, `unassessed`
+- [Obirici](topics/q135397840-obirici.md): `legend`, `unassessed`
+- [Ondemar Dias](topics/q125523646-ondemar-dias.md): `other`, `unassessed`
+- [Pai do mato](topics/q10343548-pai-do-mato.md): `legend`, `unassessed`
+- [Paititi](topics/q1664177-paititi.md): `legend`, `legendary`
+- [Papa-figo](topics/q10344281-papa-figo.md): `legend`, `unassessed`
+- [Parajás](topics/q10344572-parajas.md): `legend`, `unassessed`
+- [Parque Arqueológico da Serra de Santo Antônio](topics/q10344887-parque-arqueologico-da-serra-de-santo-antonio.md): `other`, `unassessed`
+- [Parque Indígena do Xingu](topics/q183444-parque-indigena-do-xingu.md): `other`, `unassessed`
+- [Parque Nacional da Tijuca construções e ruínas históricas](topics/q97182535-parque-nacional-da-tijuca-construcoes-e-ruinas-historicas.md): `site`, `unassessed`
+- [Parque Nacional do Catimbau](topics/q2043976-parque-nacional-do-catimbau.md): `site`, `unassessed`
+- [Parque Nacional Serra da Capivara](topics/q267394-parque-nacional-serra-da-capivara.md): `site`, `mixed`
+- [Pedra do Ingá](topics/q3076249-pedra-do-inga.md): `other`, `unassessed`
+- [Pedra Furada](topics/q2473573-pedra-furada.md): `site`, `unassessed`
+- [Pedra Pintada](topics/q1397385-pedra-pintada.md): `site`, `unassessed`
+- [Pedra Ramalhuda](topics/q136053019-pedra-ramalhuda.md): `site`, `unassessed`
+- [Percy Fawcett](topics/q370705-percy-fawcett.md): `other`, `unassessed`
+- [Peter Paul Hilbert](topics/q10348955-peter-paul-hilbert.md): `person`, `unassessed`
+- [Pisadeira](topics/q9060100-pisadeira.md): `legend`, `unassessed`
+- [Pombero](topics/q2639209-pombero.md): `legend`, `unassessed`
+- [Porto Belo (sítio arqueológico)](topics/q130467990-porto-belo-sitio-arqueologico.md): `site`, `unassessed`
+- [Potira](topics/q131634400-potira.md): `legend`, `unassessed`
+- [Pre-Columbian painting](topics/q3533292-pre-columbian-painting.md): `other`, `unassessed`
+- [Projeto Arqueológico de Xingó](topics/q130458598-projeto-arqueologico-de-xingo.md): `other`, `unassessed`
+- [Pueblos indígenas de Brasil](topics/q1363781-pueblos-indigenas-de-brasil.md): `other`, `unassessed`
+- [Ratanabá](topics/q112683795-ratanaba.md): `other`, `unassessed`
+- [Rebordello](topics/q140157631-rebordello.md): `site`, `unassessed`
+- [Romãozinho](topics/q3892862-romaozinho.md): `legend`, `unassessed`
+- [Rudá](topics/q10365186-ruda.md): `legend`, `unassessed`
+- [Sací](topics/q1760117-saci.md): `legend`, `unassessed`
+- [Sambaqui](topics/q1152199-sambaqui.md): `other`, `unassessed`
+- [Sambaqui de Monte Castelo](topics/q135456528-sambaqui-de-monte-castelo.md): `site`, `unassessed`
+- [Sambaqui do Pindai](topics/q134446199-sambaqui-do-pindai.md): `site`, `unassessed`
+- [Sambaquieiros](topics/q135668101-sambaquieiros.md): `artifact`, `unassessed`
+- [Sambaquis no Brasil](topics/q56350558-sambaquis-no-brasil.md): `other`, `unassessed`
+- [Sateré](topics/q10368504-satere.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Serra das Esmeraldas](topics/q139969821-serra-das-esmeraldas.md): `legend`, `unassessed`
+- [Serra do Sabarabuçu](topics/q10370502-serra-do-sabarabucu.md): `legend`, `unassessed`
+- [Sirianos](topics/q2259852-sirianos.md): `other`, `unassessed`
+- [Sítio Arqueológico de Hatahara](topics/q108167985-sitio-arqueologico-de-hatahara.md): `site`, `unassessed`
+- [Sitio arqueológico de San Miguel Arcángel](topics/q503828-sitio-arqueologico-de-san-miguel-arcangel.md): `site`, `unassessed`
+- [Sítio Arqueológico de Santarém](topics/q113332088-sitio-arqueologico-de-santarem.md): `site`, `unassessed`
+- [Sítio Arqueológico do Bisnau](topics/q10376488-sitio-arqueologico-do-bisnau.md): `site`, `unassessed`
+- [Sítio Arqueológico Fazenda Santa Dalmácia](topics/q10376481-sitio-arqueologico-fazenda-santa-dalmacia.md): `site`, `unassessed`
+- [Sítio Arqueológico Rio Ivinhema 1](topics/q108124311-sitio-arqueologico-rio-ivinhema-1.md): `site`, `unassessed`
+- [Sítio arqueológico Teotônio](topics/q94848191-sitio-arqueologico-teotonio.md): `site`, `unassessed`
+- [Sítios arqueológicos de Lagoa Santa](topics/q120740054-sitios-arqueologicos-de-lagoa-santa.md): `other`, `unassessed`
+- [Sítios Rupestres de Alcinópolis](topics/q94706799-sitios-rupestres-de-alcinopolis.md): `other`, `unassessed`
+- [Sociedade de Arqueologia Brasileira](topics/q10372822-sociedade-de-arqueologia-brasileira.md): `person`, `unassessed`
+- [Teiniaguá](topics/q10379114-teiniagua.md): `legend`, `unassessed`
+- [Teju Jagua](topics/q3318877-teju-jagua.md): `legend`, `unassessed`
+- [Teoria da presença de fenícios no Brasil](topics/q7782427-teoria-da-presenca-de-fenicios-no-brasil.md): `other`, `unassessed`
+- [Terra sem males](topics/q10394811-terra-sem-males.md): `legend`, `unassessed`
+- [Terras indígenas do Brasil](topics/q6024666-terras-indigenas-do-brasil.md): `other`, `unassessed`
+- [Toca da Onça (Goiás)](topics/q10382832-toca-da-onca-goias.md): `other`, `unassessed`
+- [Toca da Tira Peia](topics/q17054520-toca-da-tira-peia.md): `site`, `unassessed`
+- [Tradição Aratu](topics/q112982645-tradicao-aratu.md): `landscape`, `unassessed`
+- [Tradição Humaitá](topics/q25935853-tradicao-humaita.md): `other`, `unassessed`
+- [Tradição Umbu](topics/q18281137-tradicao-umbu.md): `other`, `unassessed`
+- [Tradição Vieira](topics/q10390537-tradicao-vieira.md): `other`, `unassessed`
+- [Uirapuru (mito)](topics/q10387184-uirapuru-mito.md): `legend`, `unassessed`
+- [Ururau da Lapa (lenda)](topics/q10388317-ururau-da-lapa-lenda.md): `legend`, `unassessed`
+- [Uso de plantas medicinais](topics/q131426581-uso-de-plantas-medicinais.md): `other`, `unassessed`
+- [Velho do saco](topics/q3267913-velho-do-saco.md): `legend`, `unassessed`
+- [Vila Bela da Santíssima Trindade](topics/q732088-vila-bela-da-santissima-trindade.md): `other`, `unassessed`
+- [Vinhais Velho](topics/q56352128-vinhais-velho.md): `site`, `unassessed`
+- [Visagens e Assombrações de Belém](topics/q10391792-visagens-e-assombracoes-de-belem.md): `legend`, `unassessed`
+- [Yebá Bëló](topics/q28680471-yeba-belo.md): `legend`, `unassessed`
+- [Yorixiriamori](topics/q48871636-yorixiriamori.md): `legend`, `unassessed`
+- [Zaori](topics/q133462555-zaori.md): `legend`, `unassessed`
+- [Zoólito](topics/q6171765-zoolito.md): `other`, `unassessed`
+
+### Chile
+
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Conquest of Chile](topics/q1055950-conquest-of-chile.md): `other`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Cultura chinchorro](topics/q775089-cultura-chinchorro.md): `culture`, `unassessed`
+- [El camino del Inca en Chile](topics/q7722511-el-camino-del-inca-en-chile.md): `person`, `unassessed`
+- [Época preincaica](topics/q2837789-epoca-preincaica.md): `other`, `unassessed`
+- [Geoglifo](topics/q45791-geoglifo.md): `landscape`, `unassessed`
+- [Guerra del Collao](topics/q24961265-guerra-del-collao.md): `legend`, `unassessed`
+- [History of the Incas](topics/q3410943-history-of-the-incas.md): `other`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Monte Verde](topics/q975775-monte-verde.md): `site`, `unassessed`
+- [Pucará del cerro La Muralla](topics/q3649412-pucara-del-cerro-la-muralla.md): `other`, `unassessed`
+- [Pukará de Quitor](topics/q2988995-pukara-de-quitor.md): `site`, `unassessed`
+- [Religión incaica](topics/q3238302-religion-incaica.md): `legend`, `unassessed`
+- [Soldado del Zigzag](topics/q30905469-soldado-del-zigzag.md): `other`, `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): `other`, `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): `site`, `archaeologically-corroborated`
+
+### Colombia
+
+- [Achikay](topics/q13189060-achikay.md): `legend`, `unassessed`
+- [Aguazuque](topics/q28163522-aguazuque.md): `site`, `unassessed`
+- [Akakor](topics/q2527244-akakor.md): `legend`, `debunked-or-pseudoscientific`
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Araracuara, Colombia](topics/q138720318-araracuara-colombia.md): `site`, `unassessed`
+- [Archaeology Museum, Pasca](topics/q3329453-archaeology-museum-pasca.md): `site`, `unassessed`
+- [Barás](topics/q86731100-baras.md): `other`, `unassessed`
+- [Betty Meggers](topics/q4898926-betty-meggers.md): `other`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Catequilla](topics/q5051882-catequilla.md): `site`, `unassessed`
+- [Checua (sitio arqueológico)](topics/q130101099-checua-sitio-arqueologico.md): `site`, `unassessed`
+- [Chorrito de San Camilo](topics/q124412760-chorrito-de-san-camilo.md): `site`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Ciudad Perdida](topics/q1094367-ciudad-perdida.md): `legend`, `unassessed`
+- [Civilización caral](topics/q153836-civilizacion-caral.md): `culture`, `archaeologically-corroborated`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Cojines del Zaque](topics/q5776597-cojines-del-zaque.md): `site`, `unassessed`
+- [Colômbia](topics/q739-colombia.md): `other`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Cultura Chancay](topics/q1061632-cultura-chancay.md): `culture`, `unassessed`
+- [Cultura Malagana](topics/q6740983-cultura-malagana.md): `culture`, `unassessed`
+- [El Abra](topics/q2629521-el-abra.md): `site`, `unassessed`
+- [Florencia (Caquetá)](topics/q849859-florencia-caqueta.md): `other`, `unassessed`
+- [Fuerte de Samaipata](topics/q876451-fuerte-de-samaipata.md): `site`, `unassessed`
+- [Historia de Colombia](topics/q1044401-historia-de-colombia.md): `other`, `unassessed`
+- [Historia del Ecuador](topics/q926416-historia-del-ecuador.md): `other`, `unassessed`
+- [Inca-Caranqui](topics/q30622792-inca-caranqui.md): `site`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Leticia (Colômbia)](topics/q214913-leticia-colombia.md): `expedition`, `unassessed`
+- [List of archaeological sites in Colombia](topics/q3485477-list-of-archaeological-sites-in-colombia.md): `site`, `unassessed`
+- [List of shell ring sites](topics/q6638332-list-of-shell-ring-sites.md): `site`, `unassessed`
+- [Lista de culturas pré-colombianas](topics/q16821484-lista-de-culturas-pre-colombianas.md): `culture`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial no Brasil](topics/q94165-lista-do-patrimonio-mundial-no-brasil.md): `other`, `unassessed`
+- [Loma](topics/q5069269-loma.md): `other`, `unassessed`
+- [Macu-hupdás](topics/q587300-macu-hupdas.md): `other`, `unassessed`
+- [Morro del Tulcán](topics/q3050102-morro-del-tulcan.md): `site`, `unassessed`
+- [Museu de Arqueologia e Etnologia da Universidade de São Paulo](topics/q2046360-museu-de-arqueologia-e-etnologia-da-universidade-de-sao-paulo.md): `artifact`, `unassessed`
+- [Necrópolis del Macizo colombiano](topics/q5392541-necropolis-del-macizo-colombiano.md): `other`, `unassessed`
+- [Parque Arqueológico de Monquirá](topics/q1987940-parque-arqueologico-de-monquira.md): `other`, `unassessed`
+- [Parque arqueológico de San Agustín](topics/q2887224-parque-arqueologico-de-san-agustin.md): `site`, `unassessed`
+- [Parque Arqueológico Nacional de Tierradentro](topics/q179506-parque-arqueologico-nacional-de-tierradentro.md): `site`, `unassessed`
+- [Peña Roja](topics/q18418038-pena-roja.md): `other`, `unassessed`
+- [Piaroas](topics/q1179410-piaroas.md): `other`, `unassessed`
+- [Puerto Hormiga](topics/q762517-puerto-hormiga.md): `site`, `unassessed`
+- [Quito](topics/q2900-quito.md): `other`, `unassessed`
+- [San Agustín, Huila](topics/q1010129-san-agustin-huila.md): `site`, `unassessed`
+- [Santa María la Antigua del Darién](topics/q2573380-santa-maria-la-antigua-del-darien.md): `site`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Sirianos](topics/q2259852-sirianos.md): `other`, `unassessed`
+- [Sitio arqueológico de Tequendama](topics/q3485396-sitio-arqueologico-de-tequendama.md): `site`, `unassessed`
+- [SS Prinz August Wilhelm](topics/q124608896-ss-prinz-august-wilhelm.md): `site`, `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): `other`, `unassessed`
+- [Terra preta](topics/q1807448-terra-preta.md): `landscape`, `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): `site`, `archaeologically-corroborated`
+
+### Ecuador
+
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Catequilla](topics/q5051882-catequilla.md): `site`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Cochasquí](topics/q5103621-cochasqui.md): `site`, `unassessed`
+- [Cojitambo](topics/q5141675-cojitambo.md): `site`, `unassessed`
+- [Colômbia](topics/q739-colombia.md): `other`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Cueva negra de Chobshi](topics/q138330725-cueva-negra-de-chobshi.md): `other`, `unassessed`
+- [Cultura de Ecuador](topics/q2668789-cultura-de-ecuador.md): `culture`, `unassessed`
+- [Cultura mayo-chinchipe-marañón](topics/q58216521-cultura-mayo-chinchipe-maranon.md): `culture`, `unassessed`
+- [El Inga (sitio arqueológico)](topics/q123472465-el-inga-sitio-arqueologico.md): `site`, `unassessed`
+- [Época preincaica](topics/q2837789-epoca-preincaica.md): `other`, `unassessed`
+- [Federico Kauffmann Doig](topics/q5441022-federico-kauffmann-doig.md): `culture`, `unassessed`
+- [Historia del Ecuador](topics/q926416-historia-del-ecuador.md): `other`, `unassessed`
+- [Inca-Caranqui](topics/q30622792-inca-caranqui.md): `site`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Ingapirca](topics/q1478056-ingapirca.md): `site`, `unassessed`
+- [Isla de la Plata](topics/q1548043-isla-de-la-plata.md): `other`, `unassessed`
+- [La Tolita (sitio arqueológico)](topics/q112819145-la-tolita-sitio-arqueologico.md): `site`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Museo de sitio La Florida](topics/q122840060-museo-de-sitio-la-florida.md): `other`, `unassessed`
+- [Pachakutic](topics/q3888469-pachakutic.md): `legend`, `unassessed`
+- [Pambamarca](topics/q7129059-pambamarca.md): `site`, `unassessed`
+- [Pambamarca Fortress Complex](topics/q30624955-pambamarca-fortress-complex.md): `site`, `unassessed`
+- [Petroglifo de Anganuma](topics/q16618504-petroglifo-de-anganuma.md): `other`, `unassessed`
+- [Petroglifos de Catazho](topics/q110998514-petroglifos-de-catazho.md): `other`, `unassessed`
+- [Puñay](topics/q7262719-punay.md): `site`, `unassessed`
+- [Quillusara](topics/q138422448-quillusara.md): `other`, `unassessed`
+- [Quito](topics/q2900-quito.md): `other`, `unassessed`
+- [Real Alto](topics/q122746372-real-alto.md): `site`, `unassessed`
+- [Real Alto](topics/q56394705-real-alto.md): `other`, `unassessed`
+- [Rumicucho](topics/q6090782-rumicucho.md): `site`, `unassessed`
+- [Santa Ana-La Florida](topics/q25247942-santa-ana-la-florida.md): `site`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Tesoro de la Llanganatis](topics/q2400516-tesoro-de-la-llanganatis.md): `legend`, `unassessed`
+- [Tulipe](topics/q116753992-tulipe.md): `other`, `unassessed`
+- [Tumebamba](topics/q1014957-tumebamba.md): `site`, `unassessed`
+- [Tuncahuán](topics/q17090554-tuncahuan.md): `site`, `unassessed`
+- [Vilcabamba, Peru](topics/q827432-vilcabamba-peru.md): `legend`, `unassessed`
+- [Yacimientos arqueológicos del valle de Upano](topics/q124260053-yacimientos-arqueologicos-del-valle-de-upano.md): `site`, `archaeologically-corroborated`
+
+### French Guiana
+
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+
+### Guyana
+
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Curupira](topics/q38419-curupira.md): `legend`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+
+### Peru
+
+- [1491: New Revelations of the Americas Before Columbus](topics/q2310343-1491-new-revelations-of-the-americas-before-columbus.md): `other`, `unassessed`
+- [Acaray](topics/q2822644-acaray.md): `site`, `unassessed`
+- [Achikay](topics/q13189060-achikay.md): `legend`, `unassessed`
+- [Acre](topics/q40780-acre.md): `other`, `unassessed`
+- [Akakor](topics/q2527244-akakor.md): `legend`, `debunked-or-pseudoscientific`
+- [Alonso de Alvarado](topics/q1372895-alonso-de-alvarado.md): `person`, `unassessed`
+- [Amaru Aranway](topics/q5671908-amaru-aranway.md): `legend`, `unassessed`
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Antisuyo](topics/q546921-antisuyo.md): `other`, `unassessed`
+- [Aramu Muru](topics/q10950151-aramu-muru.md): `other`, `unassessed`
+- [Arqueología del Perú](topics/q5705078-arqueologia-del-peru.md): `other`, `unassessed`
+- [Ataguju](topics/q137272770-ataguju.md): `legend`, `unassessed`
+- [Awkimarka (Apurímac)](topics/q19872903-awkimarka-apurimac.md): `site`, `unassessed`
+- [Azucena (leyenda urbana)](topics/q76848911-azucena-leyenda-urbana.md): `legend`, `unassessed`
+- [Band of Holes](topics/q16837586-band-of-holes.md): `site`, `unassessed`
+- [Bandurria (Peru)](topics/q2045821-bandurria-peru.md): `site`, `unassessed`
+- [Batán Grande](topics/q13189531-batan-grande.md): `site`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Buena Vista (Peru)](topics/q2038153-buena-vista-peru.md): `site`, `unassessed`
+- [Bufeo colorado](topics/q5855508-bufeo-colorado.md): `legend`, `unassessed`
+- [Caballo Muerto](topics/q5492342-caballo-muerto.md): `site`, `unassessed`
+- [Cabeza de Vaca, Tumbes](topics/q26823172-cabeza-de-vaca-tumbes.md): `site`, `unassessed`
+- [Cachiche](topics/q5015991-cachiche.md): `legend`, `unassessed`
+- [Cadejo](topics/q5016347-cadejo.md): `legend`, `unassessed`
+- [Cahuachi](topics/q1025802-cahuachi.md): `site`, `unassessed`
+- [Cajamarquilla](topics/q3394965-cajamarquilla.md): `site`, `unassessed`
+- [Cantalloc Aqueducts](topics/q3604727-cantalloc-aqueducts.md): `site`, `unassessed`
+- [Cantamarca](topics/q29047507-cantamarca.md): `other`, `unassessed`
+- [Cantua buxifolia](topics/q290394-cantua-buxifolia.md): `legend`, `unassessed`
+- [Carachupa](topics/q17086596-carachupa.md): `site`, `unassessed`
+- [Carajía](topics/q1728918-carajia.md): `site`, `unassessed`
+- [Caral](topics/q219279-caral.md): `site`, `archaeologically-corroborated`
+- [Carbunclo (mitología)](topics/q17239653-carbunclo-mitologia.md): `legend`, `unassessed`
+- [Casa Matusita](topics/q3661126-casa-matusita.md): `legend`, `unassessed`
+- [Catalina Huanca](topics/q15617908-catalina-huanca.md): `legend`, `unassessed`
+- [Catequilla](topics/q5051882-catequilla.md): `site`, `unassessed`
+- [Cerro Baú](topics/q8344227-cerro-bau.md): `other`, `unassessed`
+- [Cerro Pátapo ruins](topics/q2660321-cerro-patapo-ruins.md): `site`, `unassessed`
+- [Cerro Sechín](topics/q2045790-cerro-sechin.md): `site`, `unassessed`
+- [Chacamarca Historic Sanctuary](topics/q5066053-chacamarca-historic-sanctuary.md): `site`, `unassessed`
+- [Chachapoia](topics/q752688-chachapoia.md): `culture`, `unassessed`
+- [Chan Chan](topics/q277540-chan-chan.md): `site`, `unassessed`
+- [Chankillo](topics/q1062357-chankillo.md): `site`, `unassessed`
+- [Chauchilla Cemetery](topics/q2390928-chauchilla-cemetery.md): `site`, `unassessed`
+- [Chavín de Huántar](topics/q732554-chavin-de-huantar.md): `site`, `archaeologically-corroborated`
+- [Chawaytiri](topics/q16257841-chawaytiri.md): `site`, `unassessed`
+- [Cheqollo](topics/q28163321-cheqollo.md): `site`, `unassessed`
+- [Chichakuri](topics/q16957440-chichakuri.md): `site`, `unassessed`
+- [Chipaw Marka](topics/q19879439-chipaw-marka.md): `site`, `unassessed`
+- [Chiribaya Dog](topics/q4353517-chiribaya-dog.md): `site`, `unassessed`
+- [Chivateros](topics/q5102577-chivateros.md): `site`, `unassessed`
+- [Choquepuquio](topics/q5103701-choquepuquio.md): `site`, `unassessed`
+- [Choquequirao](topics/q1076285-choquequirao.md): `site`, `unassessed`
+- [Choquequirao Puquio](topics/q15950113-choquequirao-puquio.md): `site`, `unassessed`
+- [Chorrillos Itapalluni](topics/q117190524-chorrillos-itapalluni.md): `site`, `unassessed`
+- [Chotuna-Chornancap](topics/q20014052-chotuna-chornancap.md): `site`, `unassessed`
+- [Chullachaqui](topics/q5116118-chullachaqui.md): `legend`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Civilización caral](topics/q153836-civilizacion-caral.md): `culture`, `archaeologically-corroborated`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): `culture`, `unassessed`
+- [Cochabamba (archaeological site)](topics/q17086599-cochabamba-archaeological-site.md): `site`, `unassessed`
+- [Cochapata](topics/q15950080-cochapata.md): `site`, `unassessed`
+- [Colcampata](topics/q5776671-colcampata.md): `site`, `unassessed`
+- [Collor (Peru)](topics/q17086615-collor-peru.md): `site`, `unassessed`
+- [Colo Colo (Lupaca)](topics/q5662935-colo-colo-lupaca.md): `site`, `unassessed`
+- [Colômbia](topics/q739-colombia.md): `other`, `unassessed`
+- [Complejo Arqueológico de Caniche](topics/q13189747-complejo-arqueologico-de-caniche.md): `site`, `unassessed`
+- [Complejo arqueológico San José de Moro](topics/q16491296-complejo-arqueologico-san-jose-de-moro.md): `site`, `unassessed`
+- [Condorcaga](topics/q17074967-condorcaga.md): `site`, `unassessed`
+- [Conquest of Chile](topics/q1055950-conquest-of-chile.md): `other`, `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): `other`, `unassessed`
+- [Coricancha](topics/q817594-coricancha.md): `site`, `unassessed`
+- [Cuchimachay](topics/q18388079-cuchimachay.md): `site`, `unassessed`
+- [Cueva del Guitarrero](topics/q1554172-cueva-del-guitarrero.md): `site`, `unassessed`
+- [Cuevas de Toquepala](topics/q568661-cuevas-de-toquepala.md): `site`, `unassessed`
+- [Cultura cajamarca](topics/q5794450-cultura-cajamarca.md): `culture`, `unassessed`
+- [Cultura casma](topics/q96108113-cultura-casma.md): `culture`, `unassessed`
+- [Cultura Chancay](topics/q1061632-cultura-chancay.md): `culture`, `unassessed`
+- [Cultura Chavín](topics/q13341477-cultura-chavin.md): `culture`, `unassessed`
+- [Cultura Chincha](topics/q2460357-cultura-chincha.md): `culture`, `unassessed`
+- [Cultura chinchorro](topics/q775089-cultura-chinchorro.md): `culture`, `unassessed`
+- [Cultura cupisnique](topics/q212414-cultura-cupisnique.md): `culture`, `unassessed`
+- [Cultura del Perú](topics/q2739669-cultura-del-peru.md): `culture`, `unassessed`
+- [Cultura huarpa](topics/q5412507-cultura-huarpa.md): `culture`, `unassessed`
+- [Cultura manchay](topics/q128539304-cultura-manchay.md): `culture`, `unassessed`
+- [Cultura mayo-chinchipe-marañón](topics/q58216521-cultura-mayo-chinchipe-maranon.md): `culture`, `unassessed`
+- [Cultura nazca](topics/q210570-cultura-nazca.md): `culture`, `archaeologically-corroborated`
+- [Cultura paracas](topics/q1127723-cultura-paracas.md): `culture`, `archaeologically-corroborated`
+- [Cultura salinar](topics/q4246665-cultura-salinar.md): `culture`, `unassessed`
+- [Cultura sechín](topics/q10869329-cultura-sechin.md): `culture`, `unassessed`
+- [Cultura Tumpis](topics/q136214399-cultura-tumpis.md): `culture`, `unassessed`
+- [Cumbe Mayo](topics/q973833-cumbe-mayo.md): `other`, `unassessed`
+- [Cusco](topics/q5582862-cusco.md): `site`, `unassessed`
+- [Cusichaca River](topics/q3408326-cusichaca-river.md): `site`, `unassessed`
+- [Cutimbo](topics/q13189900-cutimbo.md): `site`, `unassessed`
+- [Dama de Wariwillka](topics/q109842735-dama-de-wariwillka.md): `other`, `unassessed`
+- [Descarnada](topics/q97175456-descarnada.md): `legend`, `unassessed`
+- [Dios de los báculos](topics/q7596551-dios-de-los-baculos.md): `legend`, `unassessed`
+- [El Brujo](topics/q2603112-el-brujo.md): `site`, `unassessed`
+- [El Castillo de Huarmey](topics/q14954327-el-castillo-de-huarmey.md): `site`, `unassessed`
+- [El Paraíso (Peru)](topics/q4717894-el-paraiso-peru.md): `site`, `unassessed`
+- [Época preincaica](topics/q2837789-epoca-preincaica.md): `other`, `unassessed`
+- [Etnografía del Perú](topics/q2889714-etnografia-del-peru.md): `other`, `unassessed`
+- [Federico Kauffmann Doig](topics/q5441022-federico-kauffmann-doig.md): `culture`, `unassessed`
+- [Garagay](topics/q4133519-garagay.md): `site`, `unassessed`
+- [Geoglifo](topics/q45791-geoglifo.md): `landscape`, `unassessed`
+- [Gran Pajatén](topics/q581566-gran-pajaten.md): `site`, `archaeologically-corroborated`
+- [Gran Saposoa](topics/q4147685-gran-saposoa.md): `site`, `unassessed`
+- [Gran Vilaya](topics/q2497374-gran-vilaya.md): `site`, `unassessed`
+- [Guellayhuasin](topics/q16898993-guellayhuasin.md): `site`, `unassessed`
+- [Guerra chimú-inca](topics/q65119540-guerra-chimu-inca.md): `legend`, `unassessed`
+- [Guerra del Collao](topics/q24961265-guerra-del-collao.md): `legend`, `unassessed`
+- [Harákmbuts](topics/q3696210-harakmbuts.md): `other`, `unassessed`
+- [Hatun Machay](topics/q17021822-hatun-machay.md): `site`, `unassessed`
+- [Hatun Misapata](topics/q20717717-hatun-misapata.md): `site`, `unassessed`
+- [Hatun Rumiyoc](topics/q5892811-hatun-rumiyoc.md): `site`, `unassessed`
+- [Hatun Uchku](topics/q17021839-hatun-uchku.md): `site`, `unassessed`
+- [Hatun Usnu](topics/q20717718-hatun-usnu.md): `other`, `unassessed`
+- [Hatunmarka](topics/q17021855-hatunmarka.md): `site`, `unassessed`
+- [Historia del Ecuador](topics/q926416-historia-del-ecuador.md): `other`, `unassessed`
+- [History of the Incas](topics/q3410943-history-of-the-incas.md): `other`, `unassessed`
+- [Honcopampa](topics/q16892582-honcopampa.md): `site`, `unassessed`
+- [Horizonte cultural](topics/q5902097-horizonte-cultural.md): `culture`, `unassessed`
+- [Huaca de la Luna](topics/q1544441-huaca-de-la-luna.md): `site`, `unassessed`
+- [Huaca del Dragón](topics/q289725-huaca-del-dragon.md): `site`, `unassessed`
+- [Huaca del Sol](topics/q1632711-huaca-del-sol.md): `site`, `unassessed`
+- [Huaca Esmeralda](topics/q289583-huaca-esmeralda.md): `site`, `unassessed`
+- [Huaca Huallamarca](topics/q9005094-huaca-huallamarca.md): `site`, `unassessed`
+- [Huaca Prieta](topics/q1632701-huaca-prieta.md): `site`, `unassessed`
+- [Huaca Pucllana](topics/q677387-huaca-pucllana.md): `site`, `unassessed`
+- [Huaca Rajada](topics/q2716571-huaca-rajada.md): `site`, `unassessed`
+- [Huacramarca](topics/q15949873-huacramarca.md): `site`, `unassessed`
+- [Hualpayunca](topics/q17104382-hualpayunca.md): `site`, `unassessed`
+- [Huamanmarca, La Convención](topics/q3652807-huamanmarca-la-convencion.md): `site`, `unassessed`
+- [Huamboy](topics/q17104394-huamboy.md): `site`, `unassessed`
+- [Huankarán](topics/q17104409-huankaran.md): `site`, `unassessed`
+- [Huánuco Pampa](topics/q9005560-huanuco-pampa.md): `site`, `unassessed`
+- [Huaqueo](topics/q18236489-huaqueo.md): `other`, `unassessed`
+- [Huaricanga](topics/q5926178-huaricanga.md): `site`, `unassessed`
+- [Huaycán de Pariachi](topics/q27865990-huaycan-de-pariachi.md): `site`, `unassessed`
+- [Huayna Picchu](topics/q845427-huayna-picchu.md): `site`, `unassessed`
+- [Huayrapongo](topics/q15950071-huayrapongo.md): `site`, `unassessed`
+- [Huayuri](topics/q16576441-huayuri.md): `site`, `unassessed`
+- [Huchuy Qosqo](topics/q372515-huchuy-qosqo.md): `site`, `unassessed`
+- [Huichún](topics/q17104607-huichun.md): `site`, `unassessed`
+- [Huillca Raccay](topics/q15949897-huillca-raccay.md): `site`, `unassessed`
+- [Huiñao](topics/q16243243-huinao.md): `legend`, `unassessed`
+- [Huiracocha (dios)](topics/q209605-huiracocha-dios.md): `legend`, `unassessed`
+- [Inca architecture](topics/q2004258-inca-architecture.md): `site`, `unassessed`
+- [Inca complex at Písac](topics/q106298850-inca-complex-at-pisac.md): `site`, `unassessed`
+- [Inca kancha](topics/q13189593-inca-kancha.md): `site`, `unassessed`
+- [Inca Trail to Machu Picchu](topics/q6014019-inca-trail-to-machu-picchu.md): `site`, `unassessed`
+- [Incahuasi, Lima](topics/q1528509-incahuasi-lima.md): `site`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Ingatambo](topics/q15950072-ingatambo.md): `site`, `unassessed`
+- [Inka Huasi (Ayacucho)](topics/q4201106-inka-huasi-ayacucho.md): `site`, `unassessed`
+- [Inka Huasi (Huancavelica)](topics/q15228696-inka-huasi-huancavelica.md): `site`, `unassessed`
+- [Inka Mach'ay, Peru](topics/q15950029-inka-mach-ay-peru.md): `site`, `unassessed`
+- [Inka Raqay, Apurímac](topics/q15950020-inka-raqay-apurimac.md): `site`, `unassessed`
+- [Inka Raqay, Ayacucho](topics/q21044248-inka-raqay-ayacucho.md): `site`, `unassessed`
+- [Inka Tampu, Huayopata](topics/q15950035-inka-tampu-huayopata.md): `site`, `unassessed`
+- [Inka Tampu, Vilcabamba](topics/q15950037-inka-tampu-vilcabamba.md): `site`, `unassessed`
+- [Inka Tunuwiri](topics/q15949984-inka-tunuwiri.md): `site`, `unassessed`
+- [Inka Uyu](topics/q13638140-inka-uyu.md): `site`, `unassessed`
+- [Inkapintay](topics/q17073767-inkapintay.md): `site`, `unassessed`
+- [Inkarri](topics/q1663658-inkarri.md): `legend`, `unassessed`
+- [Inkilltambo](topics/q15950047-inkilltambo.md): `site`, `unassessed`
+- [Inti Punku](topics/q11120323-inti-punku.md): `site`, `unassessed`
+- [Inti Watana (Ayacucho)](topics/q13190356-inti-watana-ayacucho.md): `site`, `unassessed`
+- [Inti Watana, Calca](topics/q6057562-inti-watana-calca.md): `site`, `unassessed`
+- [Intihuatana de Machu Picchu](topics/q76737966-intihuatana-de-machu-picchu.md): `legend`, `unassessed`
+- [Intikancha (Puno)](topics/q17073978-intikancha-puno.md): `site`, `unassessed`
+- [Intini Uyu Pata](topics/q15949978-intini-uyu-pata.md): `site`, `unassessed`
+- [Intipanawin](topics/q17073990-intipanawin.md): `site`, `unassessed`
+- [Intiyuq K'uchu](topics/q17074001-intiyuq-k-uchu.md): `site`, `unassessed`
+- [Iquitos](topics/q193289-iquitos.md): `other`, `unassessed`
+- [Iskuqucha](topics/q25044834-iskuqucha.md): `site`, `unassessed`
+- [Isog](topics/q17074127-isog.md): `site`, `unassessed`
+- [Isolados do igarapé Xinane](topics/q131563298-isolados-do-igarape-xinane.md): `other`, `unassessed`
+- [Isolados do Rio Envira](topics/q131389244-isolados-do-rio-envira.md): `other`, `unassessed`
+- [Jinkiori](topics/q1449488-jinkiori.md): `site`, `unassessed`
+- [Jisk'a Iru Muqu](topics/q1496143-jisk-a-iru-muqu.md): `site`, `unassessed`
+- [Jorge C. Muelle](topics/q5934656-jorge-c-muelle.md): `person`, `unassessed`
+- [Juan Oso](topics/q2750219-juan-oso.md): `legend`, `unassessed`
+- [Jurupari](topics/q10313123-jurupari.md): `legend`, `unassessed`
+- [K'allapayuq Urqu](topics/q20085394-k-allapayuq-urqu.md): `site`, `unassessed`
+- [K'ipakhara](topics/q17074853-k-ipakhara.md): `site`, `unassessed`
+- [Kanamarca](topics/q13189691-kanamarca.md): `site`, `unassessed`
+- [Kenko](topics/q2351926-kenko.md): `site`, `unassessed`
+- [Kenko, Puno](topics/q15949971-kenko-puno.md): `site`, `unassessed`
+- [Khapia](topics/q5763064-khapia.md): `site`, `unassessed`
+- [Khichuqaqa](topics/q17074797-khichuqaqa.md): `site`, `unassessed`
+- [Killarumiyuq](topics/q17074808-killarumiyuq.md): `site`, `unassessed`
+- [Killke culture](topics/q6407873-killke-culture.md): `culture`, `unassessed`
+- [Kotosh](topics/q2669852-kotosh.md): `site`, `unassessed`
+- [Kuélap](topics/q1361820-kuelap.md): `site`, `unassessed`
+- [Kukuli, Arequipa](topics/q15991587-kukuli-arequipa.md): `site`, `unassessed`
+- [Kuntur Wasi](topics/q1792721-kuntur-wasi.md): `site`, `unassessed`
+- [Kunturmarka, Ayacucho](topics/q17074944-kunturmarka-ayacucho.md): `site`, `unassessed`
+- [Kunturmarka, Pasco](topics/q17074955-kunturmarka-pasco.md): `site`, `unassessed`
+- [Kuntuyuq](topics/q17074979-kuntuyuq.md): `site`, `unassessed`
+- [La Centinela](topics/q6461630-la-centinela.md): `site`, `unassessed`
+- [La Galgada (archaeological site)](topics/q5963500-la-galgada-archaeological-site.md): `site`, `unassessed`
+- [La Otra Banda](topics/q131320045-la-otra-banda.md): `site`, `unassessed`
+- [Lady of Cao](topics/q428969-lady-of-cao.md): `site`, `unassessed`
+- [Laguna de las Momias](topics/q380007-laguna-de-las-momias.md): `site`, `unassessed`
+- [Lámud](topics/q2475775-lamud.md): `site`, `unassessed`
+- [Las Aldas](topics/q5970465-las-aldas.md): `site`, `unassessed`
+- [Leticia (Colômbia)](topics/q214913-leticia-colombia.md): `expedition`, `unassessed`
+- [Líneas de Nazca](topics/q2620036-lineas-de-nazca.md): `landscape`, `mixed`
+- [List of Norte Chico archaeological sites](topics/q6592349-list-of-norte-chico-archaeological-sites.md): `site`, `unassessed`
+- [List of shell ring sites](topics/q6638332-list-of-shell-ring-sites.md): `site`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Llactan](topics/q17076938-llactan.md): `site`, `unassessed`
+- [Llamachayuq](topics/q21044266-llamachayuq.md): `site`, `unassessed`
+- [Llamuqa](topics/q16242532-llamuqa.md): `legend`, `unassessed`
+- [Llaqta Qulluy, Conayca](topics/q21044270-llaqta-qulluy-conayca.md): `site`, `unassessed`
+- [Llaqtapata](topics/q15242571-llaqtapata.md): `site`, `unassessed`
+- [Llorona](topics/q1866923-llorona.md): `legend`, `unassessed`
+- [Los Pinchudos](topics/q4267128-los-pinchudos.md): `site`, `unassessed`
+- [Machu Colca](topics/q15950079-machu-colca.md): `site`, `unassessed`
+- [Machu Picchu](topics/q676203-machu-picchu.md): `site`, `archaeologically-corroborated`
+- [Machu Pirqa](topics/q17077473-machu-pirqa.md): `site`, `unassessed`
+- [Machu Pitumarka](topics/q21044272-machu-pitumarka.md): `site`, `unassessed`
+- [Machu Q'inti](topics/q17077485-machu-q-inti.md): `site`, `unassessed`
+- [Mallkuamaya](topics/q15949975-mallkuamaya.md): `site`, `unassessed`
+- [Mameria](topics/q6745613-mameria.md): `site`, `unassessed`
+- [Maray Qalla](topics/q16473372-maray-qalla.md): `site`, `unassessed`
+- [Marayniyuq (Ayacucho)](topics/q15949853-marayniyuq-ayacucho.md): `site`, `unassessed`
+- [Marcahuamachuco](topics/q6755997-marcahuamachuco.md): `site`, `unassessed`
+- [Markahirka](topics/q16894681-markahirka.md): `site`, `unassessed`
+- [Markansaya](topics/q15950022-markansaya.md): `site`, `unassessed`
+- [Markapukyu](topics/q17078288-markapukyu.md): `site`, `unassessed`
+- [Marpa, Peru](topics/q6772445-marpa-peru.md): `site`, `unassessed`
+- [Mawk'allaqta, Castilla](topics/q15252211-mawk-allaqta-castilla.md): `site`, `unassessed`
+- [Mawk'allaqta, Espinar](topics/q15949707-mawk-allaqta-espinar.md): `site`, `unassessed`
+- [Mawk'allaqta, La Unión](topics/q15950057-mawk-allaqta-la-union.md): `site`, `unassessed`
+- [Mawk'allaqta, Melgar](topics/q15949967-mawk-allaqta-melgar.md): `site`, `unassessed`
+- [Mawk'allaqta, Paruro](topics/q15950042-mawk-allaqta-paruro.md): `site`, `unassessed`
+- [Mawk'allaqta, Sandia](topics/q15949970-mawk-allaqta-sandia.md): `site`, `unassessed`
+- [Mawk'ataray](topics/q17078468-mawk-ataray.md): `site`, `unassessed`
+- [Metalurgia sican](topics/q39080817-metalurgia-sican.md): `other`, `unassessed`
+- [Miculla petroglyphs](topics/q2045784-miculla-petroglyphs.md): `site`, `unassessed`
+- [Millka](topics/q21044276-millka.md): `site`, `unassessed`
+- [Mirq'imarka](topics/q15949982-mirq-imarka.md): `site`, `unassessed`
+- [Mitología de la Amazonía del Perú](topics/q5401473-mitologia-de-la-amazonia-del-peru.md): `legend`, `unassessed`
+- [Mitología incaica](topics/q629040-mitologia-incaica.md): `legend`, `unassessed`
+- [Miyu Pampa](topics/q17080062-miyu-pampa.md): `site`, `unassessed`
+- [Mojeque](topics/q929473-mojeque.md): `site`, `unassessed`
+- [Molloko](topics/q15949993-molloko.md): `site`, `unassessed`
+- [Mulinuyuq](topics/q21044281-mulinuyuq.md): `site`, `unassessed`
+- [Mullu Q'awa](topics/q21044282-mullu-q-awa.md): `site`, `unassessed`
+- [Muqui (mitología)](topics/q6032807-muqui-mitologia.md): `legend`, `unassessed`
+- [Muyu Muyu](topics/q21044283-muyu-muyu.md): `site`, `unassessed`
+- [Muyu Urqu](topics/q16895618-muyu-urqu.md): `site`, `unassessed`
+- [Muyuq Marka](topics/q600475-muyuq-marka.md): `site`, `unassessed`
+- [Naimlap](topics/q2410304-naimlap.md): `legend`, `unassessed`
+- [Nanchoc District](topics/q6319763-nanchoc-district.md): `site`, `unassessed`
+- [Narihualá](topics/q26823151-narihuala.md): `site`, `unassessed`
+- [Ñawpallaqta, Fajardo](topics/q21044284-nawpallaqta-fajardo.md): `site`, `unassessed`
+- [Ñawpallaqta, Huanca Sancos](topics/q15950015-nawpallaqta-huanca-sancos.md): `site`, `unassessed`
+- [Ñawpallaqta, Lucanas](topics/q20085456-nawpallaqta-lucanas.md): `site`, `unassessed`
+- [Nazca](topics/q1711521-nazca.md): `site`, `unassessed`
+- [Nina Kiru](topics/q21044285-nina-kiru.md): `site`, `unassessed`
+- [Ninamarca](topics/q15949937-ninamarca.md): `site`, `unassessed`
+- [Niño Compadrito](topics/q5660920-nino-compadrito.md): `legend`, `unassessed`
+- [Ñusta Hispana](topics/q13191401-nusta-hispana.md): `site`, `unassessed`
+- [Ocucaje](topics/q10340189-ocucaje.md): `other`, `unassessed`
+- [Ollantaytambo](topics/q916382-ollantaytambo.md): `site`, `unassessed`
+- [Pachacamac](topics/q430563-pachacamac.md): `other`, `unassessed`
+- [Pachatusan](topics/q16896350-pachatusan.md): `site`, `unassessed`
+- [Pacopampa](topics/q6056982-pacopampa.md): `site`, `unassessed`
+- [Paititi](topics/q1664177-paititi.md): `legend`, `legendary`
+- [Pakatnamú](topics/q16254649-pakatnamu.md): `site`, `unassessed`
+- [Paloma (archaeological site)](topics/q113298313-paloma-archaeological-site.md): `site`, `unassessed`
+- [Pampa Grande](topics/q17083679-pampa-grande.md): `site`, `unassessed`
+- [Pampas Gramalote](topics/q96398283-pampas-gramalote.md): `site`, `unassessed`
+- [Pañamarka](topics/q9057204-panamarka.md): `site`, `unassessed`
+- [Paracas Candelabra](topics/q2574847-paracas-candelabra.md): `landscape`, `archaeologically-corroborated`
+- [Paraccra (archaeological site)](topics/q16896441-paraccra-archaeological-site.md): `site`, `unassessed`
+- [Paramonga](topics/q2039561-paramonga.md): `other`, `unassessed`
+- [Pariacaca (dios)](topics/q3648017-pariacaca-dios.md): `legend`, `unassessed`
+- [Patallaqta](topics/q523609-patallaqta.md): `site`, `unassessed`
+- [Pernil Alto](topics/q106609902-pernil-alto.md): `site`, `unassessed`
+- [Pikillaqta](topics/q2665757-pikillaqta.md): `site`, `unassessed`
+- [Pilluchu](topics/q20085492-pilluchu.md): `site`, `unassessed`
+- [Pinkuylluna](topics/q15949898-pinkuylluna.md): `site`, `unassessed`
+- [Piquimachay](topics/q2989612-piquimachay.md): `site`, `unassessed`
+- [Pirca Pirca, Lima](topics/q18388733-pirca-pirca-lima.md): `site`, `unassessed`
+- [Pirhuaylla](topics/q20085495-pirhuaylla.md): `site`, `unassessed`
+- [Piruro](topics/q2045775-piruro.md): `site`, `unassessed`
+- [Pirwayuq](topics/q17102871-pirwayuq.md): `site`, `unassessed`
+- [Písac](topics/q950398-pisac.md): `site`, `unassessed`
+- [Pishtaco](topics/q607347-pishtaco.md): `legend`, `unassessed`
+- [Proyecto Especial Arqueológico Caral-Supe](topics/q9063424-proyecto-especial-arqueologico-caral-supe.md): `other`, `unassessed`
+- [Puca Pucara](topics/q2390374-puca-pucara.md): `site`, `unassessed`
+- [Pucará, Puno](topics/q11286696-pucara-puno.md): `site`, `unassessed`
+- [Puka Urqu (Ayacucho)](topics/q20085494-puka-urqu-ayacucho.md): `site`, `unassessed`
+- [Pukara (Sandia)](topics/q21044302-pukara-sandia.md): `site`, `unassessed`
+- [Pukara, Coporaque](topics/q17086526-pukara-coporaque.md): `site`, `unassessed`
+- [Pukara, Víctor Fajardo](topics/q19421334-pukara-victor-fajardo.md): `site`, `unassessed`
+- [Pukara, Vilcas Huamán](topics/q17086527-pukara-vilcas-huaman.md): `site`, `unassessed`
+- [Pukarani (Peru)](topics/q17086528-pukarani-peru.md): `site`, `unassessed`
+- [Pumamarka, San Sebastián](topics/q15950003-pumamarka-san-sebastian.md): `site`, `unassessed`
+- [Pumamarka, Urubamba](topics/q15949998-pumamarka-urubamba.md): `site`, `unassessed`
+- [Pumaq Hirka](topics/q15950068-pumaq-hirka.md): `site`, `unassessed`
+- [Pumawasi, Anta](topics/q18389642-pumawasi-anta.md): `site`, `unassessed`
+- [Punkurí](topics/q6092848-punkuri.md): `site`, `unassessed`
+- [Puntay Urqu](topics/q16898897-puntay-urqu.md): `site`, `unassessed`
+- [Puqin Kancha](topics/q18345872-puqin-kancha.md): `site`, `unassessed`
+- [Puquios](topics/q4383516-puquios.md): `site`, `unassessed`
+- [Puruchuco](topics/q2615433-puruchuco.md): `site`, `unassessed`
+- [Purunllacta (Cheto)](topics/q16898946-purunllacta-cheto.md): `site`, `unassessed`
+- [Purunllacta, Soloco](topics/q17086543-purunllacta-soloco.md): `site`, `unassessed`
+- [Pusharo](topics/q521572-pusharo.md): `site`, `unassessed`
+- [Pusuquy Pata](topics/q21044304-pusuquy-pata.md): `site`, `unassessed`
+- [Puyupatamarca](topics/q4383495-puyupatamarca.md): `site`, `unassessed`
+- [Q'asa Pata](topics/q21044306-q-asa-pata.md): `site`, `unassessed`
+- [Qaqapatan](topics/q17086594-qaqapatan.md): `site`, `unassessed`
+- [Qati qati](topics/q136238537-qati-qati.md): `legend`, `unassessed`
+- [Qhapaq Kancha](topics/q21044307-qhapaq-kancha.md): `site`, `unassessed`
+- [Qillqatani](topics/q6094026-qillqatani.md): `site`, `unassessed`
+- [Qollmay](topics/q85795226-qollmay.md): `site`, `unassessed`
+- [Quilca (arte rupestre)](topics/q5559964-quilca-arte-rupestre.md): `culture`, `unassessed`
+- [Quillamachay](topics/q21044255-quillamachay.md): `site`, `unassessed`
+- [Quillarumi](topics/q21044256-quillarumi.md): `site`, `unassessed`
+- [Quillcay Machay](topics/q15950052-quillcay-machay.md): `site`, `unassessed`
+- [Quishuar (archaeological site)](topics/q17074864-quishuar-archaeological-site.md): `site`, `unassessed`
+- [Quispiguanca](topics/q30066029-quispiguanca.md): `site`, `unassessed`
+- [Qullqa](topics/q3412510-qullqa.md): `site`, `unassessed`
+- [Qullqapampa](topics/q15950077-qullqapampa.md): `site`, `unassessed`
+- [Qunchamarka](topics/q13190500-qunchamarka.md): `site`, `unassessed`
+- [Qunchupata, Ayacucho](topics/q17625974-qunchupata-ayacucho.md): `site`, `unassessed`
+- [Quri Winchus](topics/q21044310-quri-winchus.md): `site`, `unassessed`
+- [Qurimarka, Apurímac](topics/q15950024-qurimarka-apurimac.md): `site`, `unassessed`
+- [Qurimarka, Cusco](topics/q15950041-qurimarka-cusco.md): `site`, `unassessed`
+- [Quriwayrachina, Anta](topics/q17086613-quriwayrachina-anta.md): `site`, `unassessed`
+- [Quriwayrachina, Ayacucho](topics/q17086614-quriwayrachina-ayacucho.md): `site`, `unassessed`
+- [Ranrapata](topics/q29641884-ranrapata.md): `other`, `unassessed`
+- [Raqch'i](topics/q2876258-raqch-i.md): `site`, `unassessed`
+- [Rebeca Carrión Cachot](topics/q6102277-rebeca-carrion-cachot.md): `person`, `unassessed`
+- [Red vial del Tahuantinsuyo](topics/q948975-red-vial-del-tahuantinsuyo.md): `site`, `unassessed`
+- [Revash](topics/q2088559-revash.md): `site`, `unassessed`
+- [Rumicolca](topics/q2503884-rumicolca.md): `site`, `unassessed`
+- [Rumiwasi](topics/q15949995-rumiwasi.md): `site`, `unassessed`
+- [Runayoc](topics/q21044313-runayoc.md): `site`, `unassessed`
+- [Ruta Moche](topics/q428510-ruta-moche.md): `site`, `unassessed`
+- [Sacerdote sin cabeza](topics/q6116658-sacerdote-sin-cabeza.md): `legend`, `unassessed`
+- [Sacsayhuamán](topics/q828336-sacsayhuaman.md): `site`, `unassessed`
+- [Salt Mines of Maras](topics/q31386827-salt-mines-of-maras.md): `site`, `unassessed`
+- [San Lorenzo Island (Peru)](topics/q926649-san-lorenzo-island-peru.md): `site`, `unassessed`
+- [Sara Sara](topics/q2652409-sara-sara.md): `site`, `unassessed`
+- [Sarita Colonia](topics/q6121928-sarita-colonia.md): `legend`, `unassessed`
+- [Sayacmarca](topics/q15949903-sayacmarca.md): `site`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Serra do Sabarabuçu](topics/q10370502-serra-do-sabarabucu.md): `legend`, `unassessed`
+- [Shuaras](topics/q1296766-shuaras.md): `other`, `unassessed`
+- [Siete Huacas](topics/q115916536-siete-huacas.md): `other`, `unassessed`
+- [Sillustani](topics/q2603118-sillustani.md): `site`, `unassessed`
+- [Sitio arqueológico de Alto Paranapura](topics/q105636011-sitio-arqueologico-de-alto-paranapura.md): `site`, `unassessed`
+- [Sítio Arqueológico de Moray](topics/q1814201-sitio-arqueologico-de-moray.md): `site`, `unassessed`
+- [Sitio arqueológico El Zapotal](topics/q106687218-sitio-arqueologico-el-zapotal.md): `site`, `unassessed`
+- [Sítio Arqueológico Toro Muerto](topics/q2475797-sitio-arqueologico-toro-muerto.md): `site`, `unassessed`
+- [Sítios arqueológicos do Peru](topics/q2497394-sitios-arqueologicos-do-peru.md): `site`, `unassessed`
+- [Soldado del Zigzag](topics/q30905469-soldado-del-zigzag.md): `other`, `unassessed`
+- [Sóndor](topics/q12070303-sondor.md): `site`, `unassessed`
+- [Soro Mik'aya Patjxa](topics/q60786349-soro-mik-aya-patjxa.md): `site`, `unassessed`
+- [Susupillo](topics/q17089203-susupillo.md): `site`, `unassessed`
+- [T'akaq](topics/q16901073-t-akaq.md): `site`, `unassessed`
+- [T'uqu T'uquyuq](topics/q17103554-t-uqu-t-uquyuq.md): `site`, `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): `other`, `unassessed`
+- [Tambo Colorado](topics/q1513848-tambo-colorado.md): `site`, `unassessed`
+- [Tambomachay](topics/q1360456-tambomachay.md): `site`, `unassessed`
+- [Tampu Mach'ay, Huancavelica](topics/q15950091-tampu-mach-ay-huancavelica.md): `site`, `unassessed`
+- [Tampukancha](topics/q7129078-tampukancha.md): `site`, `unassessed`
+- [Tanqa Tanqa](topics/q15950011-tanqa-tanqa.md): `site`, `unassessed`
+- [Taqrachullu](topics/q15950018-taqrachullu.md): `site`, `unassessed`
+- [Tarahuasi](topics/q4451905-tarahuasi.md): `site`, `unassessed`
+- [Tarmatampu](topics/q15949886-tarmatampu.md): `site`, `unassessed`
+- [Templo da Lua (Peru)](topics/q634026-templo-da-lua-peru.md): `site`, `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): `site`, `archaeologically-corroborated`
+- [Tikra](topics/q21044327-tikra.md): `site`, `unassessed`
+- [Tinyaq](topics/q20085581-tinyaq.md): `site`, `unassessed`
+- [Tipón](topics/q2003624-tipon.md): `site`, `unassessed`
+- [Titiqaqa (Cusco)](topics/q15949954-titiqaqa-cusco.md): `site`, `unassessed`
+- [Tormenta de Santa Rosa](topics/q7419933-tormenta-de-santa-rosa.md): `legend`, `unassessed`
+- [Tradição Religiosa Kotosh](topics/q6434200-tradicao-religiosa-kotosh.md): `culture`, `unassessed`
+- [Tucume](topics/q1677131-tucume.md): `site`, `unassessed`
+- [Tumshukayko](topics/q7852704-tumshukayko.md): `site`, `unassessed`
+- [Tunanmarca](topics/q12071621-tunanmarca.md): `site`, `unassessed`
+- [Tupu Inka](topics/q15950013-tupu-inka.md): `site`, `unassessed`
+- [Twelve-angled stone](topics/q16618903-twelve-angled-stone.md): `site`, `unassessed`
+- [Uchkus Inkañan](topics/q4479436-uchkus-inkanan.md): `site`, `unassessed`
+- [Urpish](topics/q63006653-urpish.md): `site`, `unassessed`
+- [Uskallaqta](topics/q16902432-uskallaqta.md): `site`, `unassessed`
+- [Usnu Muqu](topics/q25044778-usnu-muqu.md): `site`, `unassessed`
+- [Usnu, Ayacucho](topics/q15950026-usnu-ayacucho.md): `site`, `unassessed`
+- [Usnu, Huánuco](topics/q15950066-usnu-huanuco.md): `site`, `unassessed`
+- [Usqunta](topics/q20085596-usqunta.md): `site`, `unassessed`
+- [Uyu Uyu](topics/q15991649-uyu-uyu.md): `site`, `unassessed`
+- [Vale Sagrado dos Incas](topics/q2237464-vale-sagrado-dos-incas.md): `site`, `unassessed`
+- [Ventanillas de Otuzco](topics/q2045826-ventanillas-de-otuzco.md): `site`, `unassessed`
+- [Vilcabamba, Peru](topics/q827432-vilcabamba-peru.md): `legend`, `unassessed`
+- [Vilcashuamán](topics/q2475760-vilcashuaman.md): `site`, `unassessed`
+- [Viracochapampa](topics/q8026729-viracochapampa.md): `site`, `unassessed`
+- [Viru Valley](topics/q7935257-viru-valley.md): `site`, `unassessed`
+- [Vitcos](topics/q2045814-vitcos.md): `site`, `unassessed`
+- [Viuda (mitología)](topics/q6164109-viuda-mitologia.md): `legend`, `unassessed`
+- [Waman Pirqa](topics/q21044337-waman-pirqa.md): `site`, `unassessed`
+- [Wamanilla](topics/q20085597-wamanilla.md): `site`, `unassessed`
+- [Wamanmarka, Chumbivilcas](topics/q15950045-wamanmarka-chumbivilcas.md): `site`, `unassessed`
+- [Wamanmarka, Lima](topics/q25044865-wamanmarka-lima.md): `site`, `unassessed`
+- [Wanakawri (Cusco)](topics/q16902914-wanakawri-cusco.md): `legend`, `unassessed`
+- [Wanakawri, Huánuco](topics/q15950097-wanakawri-huanuco.md): `site`, `unassessed`
+- [Waqlamarka](topics/q17104420-waqlamarka.md): `site`, `unassessed`
+- [Waqrapukara](topics/q15949935-waqrapukara.md): `site`, `unassessed`
+- [Waqutu](topics/q17104431-waqutu.md): `site`, `unassessed`
+- [Warahirka](topics/q17104444-warahirka.md): `site`, `unassessed`
+- [Waraqayuq](topics/q16902923-waraqayuq.md): `site`, `unassessed`
+- [Waraqu Urqu](topics/q21044338-waraqu-urqu.md): `site`, `unassessed`
+- [Warawtampu](topics/q15949889-warawtampu.md): `site`, `unassessed`
+- [Wari (archaeological site)](topics/q3395231-wari-archaeological-site.md): `site`, `unassessed`
+- [Wari Kayan](topics/q128218233-wari-kayan.md): `site`, `unassessed`
+- [Wari Willka](topics/q9005122-wari-willka.md): `site`, `unassessed`
+- [Waruq](topics/q17107672-waruq.md): `site`, `unassessed`
+- [Wat'a, Cusco](topics/q16902999-wat-a-cusco.md): `site`, `unassessed`
+- [Wat'a, Huánuco](topics/q17104478-wat-a-huanuco.md): `site`, `unassessed`
+- [Wayna Q'inti](topics/q17104503-wayna-q-inti.md): `site`, `unassessed`
+- [Wayna Tawqaray](topics/q16903038-wayna-tawqaray.md): `site`, `unassessed`
+- [Wichqana](topics/q21044342-wichqana.md): `site`, `unassessed`
+- [Wila Wilani (Tacna)](topics/q19421525-wila-wilani-tacna.md): `site`, `unassessed`
+- [Wilamaya Patjxa](topics/q105487704-wilamaya-patjxa.md): `site`, `unassessed`
+- [Wilca](topics/q17104624-wilca.md): `site`, `unassessed`
+- [Wilcahuaín](topics/q469528-wilcahuain.md): `site`, `unassessed`
+- [Wiñay Wayna](topics/q1585056-winay-wayna.md): `site`, `unassessed`
+- [Wiraqucha (Cusco)](topics/q16903562-wiraqucha-cusco.md): `site`, `unassessed`
+- [Wiraqucha Pirqa](topics/q17104644-wiraqucha-pirqa.md): `site`, `unassessed`
+- [Yanaca](topics/q3068867-yanaca.md): `site`, `unassessed`
+- [Yanaque - Quilcamarca](topics/q16903978-yanaque-quilcamarca.md): `site`, `unassessed`
+- [Yaynu](topics/q16904040-yaynu.md): `site`, `unassessed`
+- [Yuraq Mach'ay](topics/q17104858-yuraq-mach-ay.md): `site`, `unassessed`
+- [Zaña Valley (archaeology)](topics/q16979766-zana-valley-archaeology.md): `site`, `unassessed`
+
+### Suriname
+
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Loma](topics/q5069269-loma.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Werehpai](topics/q25044915-werehpai.md): `site`, `unassessed`
+- [Wonotobo Falls](topics/q2568588-wonotobo-falls.md): `site`, `unassessed`
+
+### Unlocalized
+
+- [Acervo do Centro para a Preservação da Arte, da Cultura e da Ciência Indígena](topics/q108399429-acervo-do-centro-para-a-preservacao-da-arte-da-cultura-e-da-ciencia-indi.md): `culture`, `unassessed`
+- [Achachila](topics/q65088509-achachila.md): `legend`, `unassessed`
+- [Amaru (mitología)](topics/q137823217-amaru-mitologia.md): `legend`, `unassessed`
+- [Amaru (mythology)](topics/q4063971-amaru-mythology.md): `legend`, `unassessed`
+- [Amazonas (mitologia)](topics/q134154-amazonas-mitologia.md): `legend`, `unassessed`
+- [Antahualla](topics/q120523502-antahualla.md): `legend`, `unassessed`
+- [Apolimas-araras](topics/q12627140-apolimas-araras.md): `other`, `unassessed`
+- [Apu (divinidad)](topics/q622300-apu-divinidad.md): `legend`, `unassessed`
+- [Ariquéns](topics/q16493574-ariquens.md): `other`, `unassessed`
+- [Aristé culture](topics/q123456212-ariste-culture.md): `culture`, `unassessed`
+- [Arqueologia amazônica](topics/q139969529-arqueologia-amazonica.md): `other`, `unassessed`
+- [Arqueología de Ecuador](topics/q21512922-arqueologia-de-ecuador.md): `other`, `unassessed`
+- [Arte marajoara](topics/q16494170-arte-marajoara.md): `other`, `unassessed`
+- [Artesanato](topics/q877729-artesanato.md): `other`, `unassessed`
+- [Aruãs](topics/q134274586-aruas.md): `other`, `unassessed`
+- [Aspero](topics/q2475846-aspero.md): `other`, `unassessed`
+- [Ausangate](topics/q777794-ausangate.md): `legend`, `unassessed`
+- [Axo Mama](topics/q2874812-axo-mama.md): `legend`, `unassessed`
+- [Ayar Cachi](topics/q3631361-ayar-cachi.md): `legend`, `unassessed`
+- [Boraro](topics/q5732096-boraro.md): `legend`, `unassessed`
+- [Brazilian mythology](topics/q1811118-brazilian-mythology.md): `legend`, `unassessed`
+- [Cahuillaca](topics/q121933500-cahuillaca.md): `legend`, `unassessed`
+- [Cambebas](topics/q1483997-cambebas.md): `other`, `unassessed`
+- [Carabayo](topics/q3513491-carabayo.md): `other`, `unassessed`
+- [Catauixis](topics/q3512531-catauixis.md): `other`, `unassessed`
+- [Catuquinas](topics/q48854989-catuquinas.md): `other`, `unassessed`
+- [Chakana](topics/q490394-chakana.md): `legend`, `unassessed`
+- [Chanca (povo)](topics/q1062232-chanca-povo.md): `other`, `unassessed`
+- [Chasca Coillur](topics/q122949800-chasca-coillur.md): `legend`, `unassessed`
+- [Chaupiñamca](topics/q123486101-chaupinamca.md): `legend`, `unassessed`
+- [Chimor](topics/q581741-chimor.md): `culture`, `unassessed`
+- [Chinchaysuyo](topics/q2368572-chinchaysuyo.md): `other`, `unassessed`
+- [Chiribaya culture](topics/q959275-chiribaya-culture.md): `culture`, `unassessed`
+- [Cidade Perdida de Z](topics/q28130030-cidade-perdida-de-z.md): `legend`, `disputed`
+- [City of the Caesars](topics/q517669-city-of-the-caesars.md): `legend`, `legendary`
+- [Civilização Aquiry](topics/q140765836-civilizacao-aquiry.md): `culture`, `unassessed`
+- [Civilización incaica](topics/q3404008-civilizacion-incaica.md): `culture`, `unassessed`
+- [Coa (mitología incaica)](topics/q125216340-coa-mitologia-incaica.md): `legend`, `unassessed`
+- [Colla Kingdom](topics/q3647860-colla-kingdom.md): `culture`, `unassessed`
+- [Conquista del Imperio incaico](topics/q636771-conquista-del-imperio-incaico.md): `other`, `unassessed`
+- [Constelaciones oscuras andinas](topics/q140321396-constelaciones-oscuras-andinas.md): `legend`, `unassessed`
+- [Contactos transoceánicos precolombinos](topics/q2351803-contactos-transoceanicos-precolombinos.md): `other`, `unassessed`
+- [Contisuyo](topics/q740948-contisuyo.md): `other`, `unassessed`
+- [Coordenação das Organizações Indígenas da Bacia Amazônica](topics/q1129883-coordenacao-das-organizacoes-indigenas-da-bacia-amazonica.md): `other`, `unassessed`
+- [Copacabana (mitología)](topics/q138502801-copacabana-mitologia.md): `legend`, `unassessed`
+- [Copacati](topics/q121290092-copacati.md): `legend`, `unassessed`
+- [Cora Ocllo](topics/q5194598-cora-ocllo.md): `legend`, `unassessed`
+- [Cosmovisión incaica](topics/q5789970-cosmovision-incaica.md): `legend`, `unassessed`
+- [Cuchavira](topics/q22074302-cuchavira.md): `legend`, `unassessed`
+- [Cultura chimu](topics/q901198-cultura-chimu.md): `culture`, `unassessed`
+- [Cultura indígena do Brasil](topics/q129085184-cultura-indigena-do-brasil.md): `culture`, `unassessed`
+- [Cultura Tapajônica](topics/q137584832-cultura-tapajonica.md): `culture`, `unassessed`
+- [Cuniraya Huiracocha](topics/q122178445-cuniraya-huiracocha.md): `legend`, `unassessed`
+- [Diaguita](topics/q278944-diaguita.md): `culture`, `unassessed`
+- [Donald Lathrap](topics/q5294691-donald-lathrap.md): `other`, `unassessed`
+- [Eduardo Góes Neves](topics/q10270694-eduardo-goes-neves.md): `other`, `unassessed`
+- [El Dorado](topics/q192550-el-dorado.md): `legend`, `mixed`
+- [El Molle culture](topics/q5779887-el-molle-culture.md): `culture`, `unassessed`
+- [El Vergel culture](topics/q5779889-el-vergel-culture.md): `culture`, `unassessed`
+- [Encauchados de vegetais da Amazônia](topics/q121357376-encauchados-de-vegetais-da-amazonia.md): `other`, `unassessed`
+- [Erland Nordenskiöld](topics/q1355276-erland-nordenskiold.md): `other`, `unassessed`
+- [Etnias Indígenas na Amazônia História, Cultura e Desafios Contemporâneos](topics/q124167919-etnias-indigenas-na-amazonia-historia-cultura-e-desafios-contemporaneos.md): `culture`, `unassessed`
+- [Federação das Organizações Indígenas do Rio Negro](topics/q10279074-federacao-das-organizacoes-indigenas-do-rio-negro.md): `other`, `unassessed`
+- [Festival do Moqueado](topics/q119105111-festival-do-moqueado.md): `other`, `unassessed`
+- [Fortaleza incaica de Chena](topics/q3647895-fortaleza-incaica-de-chena.md): `other`, `unassessed`
+- [Francisco de Ávila](topics/q2034667-francisco-de-avila.md): `legend`, `unassessed`
+- [Francisco de Orellana](topics/q207901-francisco-de-orellana.md): `person`, `unassessed`
+- [Guerra chanca-inca](topics/q5643516-guerra-chanca-inca.md): `legend`, `unassessed`
+- [Guerra inca-mapuche](topics/q16242342-guerra-inca-mapuche.md): `legend`, `unassessed`
+- [Guerras de los Andes septentrionales](topics/q112805442-guerras-de-los-andes-septentrionales.md): `legend`, `unassessed`
+- [Hanan Pacha](topics/q2294755-hanan-pacha.md): `legend`, `unassessed`
+- [Hapiñuñu](topics/q138798048-hapinunu.md): `legend`, `unassessed`
+- [Helen Palmatary](topics/q140199057-helen-palmatary.md): `person`, `unassessed`
+- [Hombre-mosquito](topics/q5901126-hombre-mosquito.md): `legend`, `unassessed`
+- [Huaca](topics/q1354644-huaca.md): `legend`, `unassessed`
+- [Huallallo Carhuincho](topics/q117847894-huallallo-carhuincho.md): `legend`, `unassessed`
+- [Huamancantac](topics/q124322584-huamancantac.md): `legend`, `unassessed`
+- [Huarochirí Manuscript](topics/q498294-huarochiri-manuscript.md): `legend`, `unassessed`
+- [Huasicamayoc](topics/q124153264-huasicamayoc.md): `legend`, `unassessed`
+- [Human sacrifice in pre-Columbian cultures](topics/q1123239-human-sacrifice-in-pre-columbian-cultures.md): `culture`, `unassessed`
+- [Illa Tiqsi](topics/q138766917-illa-tiqsi.md): `legend`, `unassessed`
+- [Illapa](topics/q584318-illapa.md): `legend`, `unassessed`
+- [Imperio incaico](topics/q28573-imperio-incaico.md): `other`, `unassessed`
+- [Inca Hak](topics/q106704049-inca-hak.md): `other`, `unassessed`
+- [Ingarune](topics/q20310147-ingarune.md): `other`, `unassessed`
+- [Inti](topics/q213771-inti.md): `legend`, `unassessed`
+- [Inti Raymi](topics/q1165988-inti-raymi.md): `legend`, `unassessed`
+- [Jardín del Curupira](topics/q1759326-jardin-del-curupira.md): `legend`, `unassessed`
+- [Kãkwã](topics/q96740991-kakwa.md): `other`, `unassessed`
+- [Karafawyana](topics/q9696431-karafawyana.md): `other`, `unassessed`
+- [Karitiana](topics/q1091084-karitiana.md): `other`, `unassessed`
+- [Kay Pacha](topics/q2661360-kay-pacha.md): `legend`, `unassessed`
+- [Kon (mitología inca)](topics/q2248952-kon-mitologia-inca.md): `legend`, `unassessed`
+- [Kuychi](topics/q122388823-kuychi.md): `legend`, `unassessed`
+- [Laguna del Inca](topics/q6473009-laguna-del-inca.md): `legend`, `unassessed`
+- [Lake Guatavita](topics/q1552915-lake-guatavita.md): `other`, `unassessed`
+- [Lake Poopó](topics/q464945-lake-poopo.md): `culture`, `unassessed`
+- [Las Ánimas complex](topics/q5779910-las-animas-complex.md): `culture`, `unassessed`
+- [Las Vegas culture (archaeology)](topics/q2476344-las-vegas-culture-archaeology.md): `culture`, `unassessed`
+- [Lendas do folclore brasileiro](topics/q97378219-lendas-do-folclore-brasileiro.md): `legend`, `unassessed`
+- [Leyenda de los soldados Pururauca](topics/q5974460-leyenda-de-los-soldados-pururauca.md): `legend`, `unassessed`
+- [Leyenda de Yuruparí](topics/q5974446-leyenda-de-yurupari.md): `legend`, `unassessed`
+- [Leyendas sobre el origen del Imperio inca](topics/q73374645-leyendas-sobre-el-origen-del-imperio-inca.md): `legend`, `unassessed`
+- [Libiac](topics/q120789942-libiac.md): `legend`, `unassessed`
+- [Lima culture](topics/q2460861-lima-culture.md): `culture`, `unassessed`
+- [Língua nheengatu](topics/q34333-lingua-nheengatu.md): `other`, `unassessed`
+- [Llacsahuato y Mirahuato](topics/q138657174-llacsahuato-y-mirahuato.md): `legend`, `unassessed`
+- [Lupaca](topics/q3622142-lupaca.md): `culture`, `unassessed`
+- [Machalilla culture](topics/q3813607-machalilla-culture.md): `culture`, `unassessed`
+- [Macu-nadebes](topics/q3444063-macu-nadebes.md): `other`, `unassessed`
+- [Mallku](topics/q6744234-mallku.md): `legend`, `unassessed`
+- [Mama Coca](topics/q2517931-mama-coca.md): `legend`, `unassessed`
+- [Mama Cocha](topics/q599693-mama-cocha.md): `legend`, `unassessed`
+- [Mama Ocllo](topics/q1360531-mama-ocllo.md): `legend`, `unassessed`
+- [Mama Quilla](topics/q1137398-mama-quilla.md): `legend`, `unassessed`
+- [Mama Sara](topics/q138424519-mama-sara.md): `legend`, `unassessed`
+- [Mama Sara](topics/q3566331-mama-sara.md): `legend`, `unassessed`
+- [Mamacoca](topics/q121323917-mamacoca.md): `legend`, `unassessed`
+- [Mamacuna](topics/q594427-mamacuna.md): `legend`, `unassessed`
+- [Mamaindé](topics/q16112177-mamainde.md): `other`, `unassessed`
+- [Manañamca](topics/q120776664-mananamca.md): `legend`, `unassessed`
+- [Manco Cápac](topics/q165968-manco-capac.md): `legend`, `unassessed`
+- [Manguaré](topics/q5991430-manguare.md): `other`, `unassessed`
+- [Manteño-Huancavilca culture](topics/q961245-manteno-huancavilca-culture.md): `culture`, `unassessed`
+- [Manuscrito 512](topics/q2503683-manuscrito-512.md): `legend`, `mixed`
+- [Mapinguarí](topics/q605438-mapinguari.md): `legend`, `unassessed`
+- [Maraguás](topics/q135989558-maraguas.md): `other`, `unassessed`
+- [Marúbos](topics/q3508898-marubos.md): `other`, `unassessed`
+- [Mashco (Harakmbet)](topics/q5361158-mashco-harakmbet.md): `other`, `unassessed`
+- [Mashco-Piro](topics/q3850712-mashco-piro.md): `other`, `unassessed`
+- [Matinta-Pereira](topics/q10327400-matinta-pereira.md): `other`, `unassessed`
+- [Memorial do Porto e Arqueologia](topics/q56693532-memorial-do-porto-e-arqueologia.md): `other`, `unassessed`
+- [Memorial Verônica Tembé](topics/q118221172-memorial-veronica-tembe.md): `other`, `unassessed`
+- [Mingau de caribé](topics/q119820710-mingau-de-caribe.md): `other`, `unassessed`
+- [Mitología chilena](topics/q5098795-mitologia-chilena.md): `legend`, `unassessed`
+- [Montegrande (sitio arqueológico)](topics/q28147528-montegrande-sitio-arqueologico.md): `site`, `unassessed`
+- [Muisca mythology](topics/q2607155-muisca-mythology.md): `legend`, `unassessed`
+- [Muisca raft](topics/q1276292-muisca-raft.md): `other`, `unassessed`
+- [Muiscas](topics/q828578-muiscas.md): `other`, `unassessed`
+- [Museo Nacional de Arqueología (Bolivia)](topics/q1420258-museo-nacional-de-arqueologia-bolivia.md): `other`, `unassessed`
+- [Nukak](topics/q512665-nukak.md): `other`, `unassessed`
+- [Omapacha](topics/q138646152-omapacha.md): `legend`, `unassessed`
+- [Oro-uins](topics/q3509816-oro-uins.md): `other`, `unassessed`
+- [Pacahuara](topics/q3360017-pacahuara.md): `other`, `unassessed`
+- [Pacaritambo](topics/q1648413-pacaritambo.md): `legend`, `unassessed`
+- [Pacha (Inca mythology)](topics/q69123833-pacha-inca-mythology.md): `legend`, `unassessed`
+- [Pachacámac](topics/q13227945-pachacamac.md): `legend`, `unassessed`
+- [Pachacútec](topics/q213758-pachacutec.md): `other`, `unassessed`
+- [Pachacuti (mitología inca)](topics/q121438907-pachacuti-mitologia-inca.md): `legend`, `unassessed`
+- [Pachamama](topics/q266462-pachamama.md): `legend`, `unassessed`
+- [Paleo-Indians](topics/q888099-paleo-indians.md): `culture`, `unassessed`
+- [Paqarina](topics/q7133563-paqarina.md): `legend`, `unassessed`
+- [Paumaris](topics/q3898252-paumaris.md): `other`, `unassessed`
+- [Periodo precolombino en Colombia](topics/q2974899-periodo-precolombino-en-colombia.md): `other`, `unassessed`
+- [Pilauco Bajo](topics/q6075903-pilauco-bajo.md): `culture`, `unassessed`
+- [Piriutiti](topics/q12639748-piriutiti.md): `other`, `unassessed`
+- [Povos do Xingu](topics/q1418117-povos-do-xingu.md): `other`, `unassessed`
+- [Povos isolados na Amazônia](topics/q130983555-povos-isolados-na-amazonia.md): `other`, `unassessed`
+- [Pre-Columbian agriculture in the Amazon Basin](topics/q122397297-pre-columbian-agriculture-in-the-amazon-basin.md): `culture`, `unassessed`
+- [Pre-Columbian Peru](topics/q3273730-pre-columbian-peru.md): `other`, `unassessed`
+- [Pukara of La Compañía](topics/q3647970-pukara-of-la-compania.md): `other`, `unassessed`
+- [Pusikaqcha](topics/q124295901-pusikaqcha.md): `legend`, `unassessed`
+- [Pututo](topics/q19826868-pututo.md): `other`, `unassessed`
+- [Rucanacoto](topics/q123785837-rucanacoto.md): `legend`, `unassessed`
+- [Santa Rosa de Tastil](topics/q370723-santa-rosa-de-tastil.md): `other`, `unassessed`
+- [Sican culture](topics/q175801-sican-culture.md): `culture`, `unassessed`
+- [Sitio arqueológico de Tinyacc](topics/q134695227-sitio-arqueologico-de-tinyacc.md): `site`, `unassessed`
+- [Situa](topics/q6130163-situa.md): `legend`, `unassessed`
+- [Supay](topics/q1659436-supay.md): `legend`, `unassessed`
+- [Taki Unquy](topics/q5199117-taki-unquy.md): `legend`, `unassessed`
+- [Tapajó people](topics/q3515431-tapajo-people.md): `other`, `unassessed`
+- [Tenharins](topics/q1091659-tenharins.md): `other`, `unassessed`
+- [Tercera expansión incaica](topics/q6142431-tercera-expansion-incaica.md): `other`, `unassessed`
+- [Terra Indígena Alto Tarauacá](topics/q130983611-terra-indigena-alto-tarauaca.md): `other`, `unassessed`
+- [Terra Indígena do Vale do Javari](topics/q7909515-terra-indigena-do-vale-do-javari.md): `other`, `unassessed`
+- [Terra Indígena Hi Merimã](topics/q131244163-terra-indigena-hi-merima.md): `other`, `unassessed`
+- [Terra Indígena Kaxarari](topics/q131010783-terra-indigena-kaxarari.md): `other`, `unassessed`
+- [Terra Indígena Kaxinawá do Rio Humaitá](topics/q131068840-terra-indigena-kaxinawa-do-rio-humaita.md): `other`, `unassessed`
+- [Terra Indígena Mamoadate](topics/q131068871-terra-indigena-mamoadate.md): `other`, `unassessed`
+- [Terra Indígena Rio Muqui](topics/q131293992-terra-indigena-rio-muqui.md): `other`, `unassessed`
+- [Terra Indígena Rio Omerê](topics/q7335296-terra-indigena-rio-omere.md): `other`, `unassessed`
+- [Terra Indígena Tanaru](topics/q131010784-terra-indigena-tanaru.md): `other`, `unassessed`
+- [Terra Indígena Uru-Eu-Wau-Wau](topics/q7703096-terra-indigena-uru-eu-wau-wau.md): `other`, `unassessed`
+- [Terra Indígena Waimiri Atroari](topics/q28401941-terra-indigena-waimiri-atroari.md): `other`, `unassessed`
+- [Tradição polícroma da Amazônia](topics/q10384013-tradicao-policroma-da-amazonia.md): `expedition`, `unassessed`
+- [Tumaco-La Tolita culture](topics/q2658318-tumaco-la-tolita-culture.md): `culture`, `unassessed`
+- [Tumayricapac](topics/q120450877-tumayricapac.md): `legend`, `unassessed`
+- [Tunupa](topics/q10500058-tunupa.md): `legend`, `unassessed`
+- [Tutayquiri](topics/q138686001-tutayquiri.md): `legend`, `unassessed`
+- [Unu Pachacútec](topics/q4006102-unu-pachacutec.md): `legend`, `unassessed`
+- [Urcaguary](topics/q121536271-urcaguary.md): `legend`, `unassessed`
+- [Urcuchillay](topics/q7900304-urcuchillay.md): `legend`, `unassessed`
+- [Urpayhuáchac](topics/q122421820-urpayhuachac.md): `legend`, `unassessed`
+- [Vichama (dios)](topics/q4011174-vichama-dios.md): `legend`, `unassessed`
+- [Wari culture](topics/q605340-wari-culture.md): `culture`, `unassessed`
+- [Willka Raymi](topics/q16999618-willka-raymi.md): `legend`, `unassessed`
+- [Wirapuru](topics/q6168014-wirapuru.md): `legend`, `unassessed`
+- [Yacumama](topics/q8046484-yacumama.md): `legend`, `unassessed`
+- [Yakana](topics/q132110903-yakana.md): `legend`, `unassessed`
+- [Yanañamca y Tutañamca](topics/q120488309-yananamca-y-tutanamca.md): `legend`, `unassessed`
+- [Yanantin](topics/q8048261-yanantin.md): `legend`, `unassessed`
+- [Yanantin](topics/q13191328-yanantin.md): `legend`, `unassessed`
+- [Yoi](topics/q16648898-yoi.md): `legend`, `unassessed`
+
+### Venezuela
+
+- [Amazon basin](topics/q244451-amazon-basin.md): `other`, `unassessed`
+- [Brasil](topics/q155-brasil.md): `other`, `unassessed`
+- [Caicara del Orinoco](topics/q1290928-caicara-del-orinoco.md): `site`, `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): `legend`, `unassessed`
+- [Colômbia](topics/q739-colombia.md): `other`, `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): `other`, `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): `other`, `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): `other`, `unassessed`
+- [Loma](topics/q5069269-loma.md): `other`, `unassessed`
+- [Monte Roraima](topics/q4777-monte-roraima.md): `other`, `unassessed`
+- [Nueva Cádiz](topics/q985518-nueva-cadiz.md): `site`, `unassessed`
+- [Parque arqueológico Piedra Pintada](topics/q6062000-parque-arqueologico-piedra-pintada.md): `other`, `unassessed`
+- [Piaroas](topics/q1179410-piaroas.md): `other`, `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): `other`, `unassessed`
+- [Taima Taima](topics/q3514036-taima-taima.md): `site`, `unassessed`
+- [Urumaco](topics/q2096142-urumaco.md): `site`, `unassessed`
+
+## Alphabetical index
+
+- [1491: New Revelations of the Americas Before Columbus](topics/q2310343-1491-new-revelations-of-the-americas-before-columbus.md): en; `other`; `unassessed`
+- [A Emparedada da Rua Nova](topics/q9556994-a-emparedada-da-rua-nova.md): pt; `legend`; `unassessed`
+- [A História Sob a Terra](topics/q106542244-a-historia-sob-a-terra.md): pt; `other`; `unassessed`
+- [Abrigo de Santa Elina](topics/q98115650-abrigo-de-santa-elina.md): en, es; `site`; `unassessed`
+- [Acaray](topics/q2822644-acaray.md): pt; `site`; `unassessed`
+- [Acervo arqueológico de cerâmica marajoara](topics/q111920761-acervo-arqueologico-de-ceramica-marajoara.md): pt; `other`; `unassessed`
+- [Acervo do Centro para a Preservação da Arte, da Cultura e da Ciência Indígena](topics/q108399429-acervo-do-centro-para-a-preservacao-da-arte-da-cultura-e-da-ciencia-indi.md): pt; `culture`; `unassessed`
+- [Achachila](topics/q65088509-achachila.md): es; `legend`; `unassessed`
+- [Achikay](topics/q13189060-achikay.md): es; `legend`; `unassessed`
+- [Acre](topics/q40780-acre.md): en, pt; `other`; `unassessed`
+- [Acuntsus](topics/q423752-acuntsus.md): pt; `other`; `unassessed`
+- [Aguazuque](topics/q28163522-aguazuque.md): en; `site`; `unassessed`
+- [Akakor](topics/q2527244-akakor.md): en, pt; `legend`; `debunked-or-pseudoscientific`
+- [Alcaya](topics/q69385190-alcaya.md): es; `other`; `unassessed`
+- [Alenquer (Pará)](topics/q2289869-alenquer-para.md): pt; `other`; `unassessed`
+- [Alonso de Alvarado](topics/q1372895-alonso-de-alvarado.md): es; `person`; `unassessed`
+- [Amanaiés](topics/q1832976-amanaies.md): pt; `other`; `unassessed`
+- [Amaru (mitología)](topics/q137823217-amaru-mitologia.md): es; `legend`; `unassessed`
+- [Amaru (mythology)](topics/q4063971-amaru-mythology.md): en; `legend`; `unassessed`
+- [Amaru Aranway](topics/q5671908-amaru-aranway.md): es; `legend`; `unassessed`
+- [Amazon basin](topics/q244451-amazon-basin.md): en; `other`; `unassessed`
+- [Amazonas (mitologia)](topics/q134154-amazonas-mitologia.md): en, pt; `legend`; `unassessed`
+- [Amazônia Legal](topics/q4740925-amazonia-legal.md): pt; `other`; `unassessed`
+- [América precolombina](topics/q202390-america-precolombina.md): en, es, pt; `culture`; `unassessed`
+- [Ana Jansen](topics/q16489958-ana-jansen.md): pt; `legend`; `unassessed`
+- [Andira guazú](topics/q136327980-andira-guazu.md): es; `legend`; `unassessed`
+- [Anna Curtenius Roosevelt](topics/q560079-anna-curtenius-roosevelt.md): es, pt; `person`; `unassessed`
+- [Antahualla](topics/q120523502-antahualla.md): es; `legend`; `unassessed`
+- [Antes o Mundo Não Existia](topics/q122111395-antes-o-mundo-nao-existia.md): pt; `legend`; `unassessed`
+- [Antisuyo](topics/q546921-antisuyo.md): pt; `other`; `unassessed`
+- [Apolimas-araras](topics/q12627140-apolimas-araras.md): pt; `other`; `unassessed`
+- [Apu (divinidad)](topics/q622300-apu-divinidad.md): es, pt; `legend`; `unassessed`
+- [Araés](topics/q9627533-araes.md): pt; `legend`; `unassessed`
+- [Aramu Muru](topics/q10950151-aramu-muru.md): pt; `other`; `unassessed`
+- [Araracuara, Colombia](topics/q138720318-araracuara-colombia.md): en; `site`; `unassessed`
+- [Archaeology Museum, Pasca](topics/q3329453-archaeology-museum-pasca.md): en; `site`; `unassessed`
+- [Ariquéns](topics/q16493574-ariquens.md): pt; `other`; `unassessed`
+- [Aristé culture](topics/q123456212-ariste-culture.md): en; `culture`; `unassessed`
+- [Arqueologia amazônica](topics/q139969529-arqueologia-amazonica.md): pt; `other`; `unassessed`
+- [Arqueologia brasileira](topics/q19723627-arqueologia-brasileira.md): pt; `other`; `unassessed`
+- [Arqueología de Ecuador](topics/q21512922-arqueologia-de-ecuador.md): es; `other`; `unassessed`
+- [Arqueología del Perú](topics/q5705078-arqueologia-del-peru.md): es; `other`; `unassessed`
+- [Arte marajoara](topics/q16494170-arte-marajoara.md): pt; `other`; `unassessed`
+- [Arte pré-histórica no Brasil](topics/q9631167-arte-pre-historica-no-brasil.md): pt; `other`; `unassessed`
+- [Arte rupestre da Serra do Lenheiro](topics/q138546990-arte-rupestre-da-serra-do-lenheiro.md): pt; `other`; `unassessed`
+- [Artefatos arqueológicos no metrô de São Paulo](topics/q106542567-artefatos-arqueologicos-no-metro-de-sao-paulo.md): pt; `artifact`; `unassessed`
+- [Artefatos arqueológicos no metrô do Rio de Janeiro](topics/q106542572-artefatos-arqueologicos-no-metro-do-rio-de-janeiro.md): pt; `artifact`; `unassessed`
+- [Artesanato](topics/q877729-artesanato.md): pt; `other`; `unassessed`
+- [Aruãs](topics/q134274586-aruas.md): pt; `other`; `unassessed`
+- [Aspero](topics/q2475846-aspero.md): pt; `other`; `unassessed`
+- [Ataguju](topics/q137272770-ataguju.md): es; `legend`; `unassessed`
+- [Aullagas (centro arqueológico)](topics/q109313523-aullagas-centro-arqueologico.md): es; `other`; `unassessed`
+- [Ausangate](topics/q777794-ausangate.md): es; `legend`; `unassessed`
+- [Avantesma da Lagoinha](topics/q140299355-avantesma-da-lagoinha.md): pt; `legend`; `unassessed`
+- [Awkimarka (Apurímac)](topics/q19872903-awkimarka-apurimac.md): pt; `site`; `unassessed`
+- [Axo Mama](topics/q2874812-axo-mama.md): es, pt; `legend`; `unassessed`
+- [Ayar Cachi](topics/q3631361-ayar-cachi.md): en; `legend`; `unassessed`
+- [Azucena (leyenda urbana)](topics/q76848911-azucena-leyenda-urbana.md): es; `legend`; `unassessed`
+- [Band of Holes](topics/q16837586-band-of-holes.md): en; `site`; `unassessed`
+- [Bandurria (Peru)](topics/q2045821-bandurria-peru.md): pt; `site`; `unassessed`
+- [Barás](topics/q86731100-baras.md): pt; `other`; `unassessed`
+- [Batán Grande](topics/q13189531-batan-grande.md): en; `site`; `unassessed`
+- [Betty Meggers](topics/q4898926-betty-meggers.md): es, pt; `other`; `unassessed`
+- [Bicho da fortaleza](topics/q7011794-bicho-da-fortaleza.md): pt; `legend`; `unassessed`
+- [Boi Vaquim](topics/q9660336-boi-vaquim.md): pt; `legend`; `unassessed`
+- [Boitatá](topics/q3844911-boitata.md): es, pt; `legend`; `unassessed`
+- [Boraro](topics/q5732096-boraro.md): es; `legend`; `unassessed`
+- [Boyuna](topics/q3774458-boyuna.md): es, pt; `legend`; `unassessed`
+- [Brasil](topics/q155-brasil.md): en, pt; `other`; `unassessed`
+- [Brazilian mythology](topics/q1811118-brazilian-mythology.md): en; `legend`; `unassessed`
+- [Bruxa Silvina](topics/q140299351-bruxa-silvina.md): pt; `legend`; `unassessed`
+- [Buena Vista (Peru)](topics/q2038153-buena-vista-peru.md): en, pt; `site`; `unassessed`
+- [Bufeo colorado](topics/q5855508-bufeo-colorado.md): es, pt; `legend`; `unassessed`
+- [Caballo Muerto](topics/q5492342-caballo-muerto.md): en; `site`; `unassessed`
+- [Cabeça de Cuia](topics/q12350399-cabeca-de-cuia.md): pt; `legend`; `unassessed`
+- [Cabeza de Vaca, Tumbes](topics/q26823172-cabeza-de-vaca-tumbes.md): en; `site`; `unassessed`
+- [Caboclo de agua](topics/q8254552-caboclo-de-agua.md): es, pt; `legend`; `unassessed`
+- [Cabra Cabriola](topics/q12350459-cabra-cabriola.md): pt; `legend`; `unassessed`
+- [Cachiche](topics/q5015991-cachiche.md): es; `legend`; `unassessed`
+- [Cadejo](topics/q5016347-cadejo.md): es; `legend`; `unassessed`
+- [Cahuachi](topics/q1025802-cahuachi.md): en, es, pt; `site`; `unassessed`
+- [Cahuillaca](topics/q121933500-cahuillaca.md): es; `legend`; `unassessed`
+- [Caicara del Orinoco](topics/q1290928-caicara-del-orinoco.md): en; `site`; `unassessed`
+- [Caipora](topics/q1025905-caipora.md): en, es, pt; `legend`; `unassessed`
+- [Cajamarquilla](topics/q3394965-cajamarquilla.md): en; `site`; `unassessed`
+- [Cambebas](topics/q1483997-cambebas.md): en, pt; `other`; `unassessed`
+- [Cantalloc Aqueducts](topics/q3604727-cantalloc-aqueducts.md): en; `site`; `unassessed`
+- [Cantamarca](topics/q29047507-cantamarca.md): pt; `other`; `unassessed`
+- [Cantua buxifolia](topics/q290394-cantua-buxifolia.md): en; `legend`; `unassessed`
+- [Capelobo](topics/q9696177-capelobo.md): pt; `legend`; `unassessed`
+- [Capeta do Vilarinho](topics/q18242390-capeta-do-vilarinho.md): pt; `legend`; `unassessed`
+- [Carabayo](topics/q3513491-carabayo.md): pt; `other`; `unassessed`
+- [Carachupa](topics/q17086596-carachupa.md): en; `site`; `unassessed`
+- [Carajía](topics/q1728918-carajia.md): en, pt; `site`; `unassessed`
+- [Caral](topics/q219279-caral.md): en, es; `site`; `archaeologically-corroborated`
+- [Carbunclo (mitología)](topics/q17239653-carbunclo-mitologia.md): es; `legend`; `unassessed`
+- [Casa Matusita](topics/q3661126-casa-matusita.md): es; `legend`; `unassessed`
+- [Catalina Huanca](topics/q15617908-catalina-huanca.md): es; `legend`; `unassessed`
+- [Cataratas do Iguaçu](topics/q36332-cataratas-do-iguacu.md): pt; `legend`; `unassessed`
+- [Catauixis](topics/q3512531-catauixis.md): pt; `other`; `unassessed`
+- [Catequilla](topics/q5051882-catequilla.md): en, es; `site`; `unassessed`
+- [Catuquinas](topics/q48854989-catuquinas.md): pt; `other`; `unassessed`
+- [Cavalo-d'água](topics/q18242885-cavalo-d-agua.md): pt; `legend`; `unassessed`
+- [Caverna da Pedra Pintada](topics/q5055053-caverna-da-pedra-pintada.md): en, pt; `site`; `unassessed`
+- [Cementerio de Incahuasi](topics/q123408724-cementerio-de-incahuasi.md): es; `site`; `unassessed`
+- [Cerro Baú](topics/q8344227-cerro-bau.md): pt; `other`; `unassessed`
+- [Cerro Pátapo ruins](topics/q2660321-cerro-patapo-ruins.md): en; `site`; `unassessed`
+- [Cerro Sechín](topics/q2045790-cerro-sechin.md): en; `site`; `unassessed`
+- [Chacamarca Historic Sanctuary](topics/q5066053-chacamarca-historic-sanctuary.md): en; `site`; `unassessed`
+- [Chácara Rosane](topics/q124485506-chacara-rosane.md): pt; `other`; `unassessed`
+- [Chachapoia](topics/q752688-chachapoia.md): en, pt; `culture`; `unassessed`
+- [Chakana](topics/q490394-chakana.md): en, pt; `legend`; `unassessed`
+- [Chan Chan](topics/q277540-chan-chan.md): en, es, pt; `site`; `unassessed`
+- [Chanca (povo)](topics/q1062232-chanca-povo.md): pt; `other`; `unassessed`
+- [Chancho verde](topics/q136336743-chancho-verde.md): es; `legend`; `unassessed`
+- [Chankillo](topics/q1062357-chankillo.md): en, pt; `site`; `unassessed`
+- [Chasca Coillur](topics/q122949800-chasca-coillur.md): es; `legend`; `unassessed`
+- [Chauchilla Cemetery](topics/q2390928-chauchilla-cemetery.md): en; `site`; `unassessed`
+- [Chaupiñamca](topics/q123486101-chaupinamca.md): es; `legend`; `unassessed`
+- [Chavín de Huántar](topics/q732554-chavin-de-huantar.md): en, es, pt; `site`; `archaeologically-corroborated`
+- [Chawaytiri](topics/q16257841-chawaytiri.md): en; `site`; `unassessed`
+- [Checua (sitio arqueológico)](topics/q130101099-checua-sitio-arqueologico.md): en, es; `site`; `unassessed`
+- [Cheqollo](topics/q28163321-cheqollo.md): en; `site`; `unassessed`
+- [Chichakuri](topics/q16957440-chichakuri.md): en; `site`; `unassessed`
+- [Chimor](topics/q581741-chimor.md): en; `culture`; `unassessed`
+- [Chinchaysuyo](topics/q2368572-chinchaysuyo.md): pt; `other`; `unassessed`
+- [Chinkana](topics/q16957825-chinkana.md): en; `site`; `unassessed`
+- [Chipaw Marka](topics/q19879439-chipaw-marka.md): en; `site`; `unassessed`
+- [Chipaya (village)](topics/q1074525-chipaya-village.md): en; `site`; `unassessed`
+- [Chiribaya culture](topics/q959275-chiribaya-culture.md): en; `culture`; `unassessed`
+- [Chiribaya Dog](topics/q4353517-chiribaya-dog.md): en; `site`; `unassessed`
+- [Chivateros](topics/q5102577-chivateros.md): en; `site`; `unassessed`
+- [Choquepuquio](topics/q5103701-choquepuquio.md): en; `site`; `unassessed`
+- [Choquequirao](topics/q1076285-choquequirao.md): en, es, pt; `site`; `unassessed`
+- [Choquequirao Puquio](topics/q15950113-choquequirao-puquio.md): en; `site`; `unassessed`
+- [Chorrillos Itapalluni](topics/q117190524-chorrillos-itapalluni.md): en; `site`; `unassessed`
+- [Chorrito de San Camilo](topics/q124412760-chorrito-de-san-camilo.md): es; `site`; `unassessed`
+- [Chotuna-Chornancap](topics/q20014052-chotuna-chornancap.md): en; `site`; `unassessed`
+- [Chullachaqui](topics/q5116118-chullachaqui.md): es; `legend`; `unassessed`
+- [Chullpas del río Lauca](topics/q50685265-chullpas-del-rio-lauca.md): es; `other`; `unassessed`
+- [Chupacabras](topics/q183571-chupacabras.md): es, pt; `legend`; `unassessed`
+- [Cidade Perdida de Z](topics/q28130030-cidade-perdida-de-z.md): en, pt; `legend`; `disputed`
+- [City of the Caesars](topics/q517669-city-of-the-caesars.md): en; `legend`; `legendary`
+- [Ciudad Laberinto](topics/q5770672-ciudad-laberinto.md): es; `site`; `unassessed`
+- [Ciudad Perdida](topics/q1094367-ciudad-perdida.md): en, es; `legend`; `unassessed`
+- [Civilização Aquiry](topics/q140765836-civilizacao-aquiry.md): pt; `culture`; `unassessed`
+- [Civilización caral](topics/q153836-civilizacion-caral.md): en, es, pt; `culture`; `archaeologically-corroborated`
+- [Civilización incaica](topics/q3404008-civilizacion-incaica.md): es; `culture`; `unassessed`
+- [Civilizaciones andinas](topics/q3122657-civilizaciones-andinas.md): es, pt; `culture`; `unassessed`
+- [Coa (mitología incaica)](topics/q125216340-coa-mitologia-incaica.md): es; `legend`; `unassessed`
+- [Cobra Norato (folclore)](topics/q25446664-cobra-norato-folclore.md): pt; `legend`; `unassessed`
+- [Cochabamba (archaeological site)](topics/q17086599-cochabamba-archaeological-site.md): en; `site`; `unassessed`
+- [Cochapata](topics/q15950080-cochapata.md): en; `site`; `unassessed`
+- [Cochasquí](topics/q5103621-cochasqui.md): en, es; `site`; `unassessed`
+- [Cojines del Zaque](topics/q5776597-cojines-del-zaque.md): en; `site`; `unassessed`
+- [Cojitambo](topics/q5141675-cojitambo.md): en; `site`; `unassessed`
+- [Colcampata](topics/q5776671-colcampata.md): en; `site`; `unassessed`
+- [Colla Kingdom](topics/q3647860-colla-kingdom.md): en; `culture`; `unassessed`
+- [Collor (Peru)](topics/q17086615-collor-peru.md): en, pt; `site`; `unassessed`
+- [Colo Colo (Lupaca)](topics/q5662935-colo-colo-lupaca.md): en, pt; `site`; `unassessed`
+- [Colômbia](topics/q739-colombia.md): en, pt; `other`; `unassessed`
+- [Comadre Fulozinha](topics/q9822617-comadre-fulozinha.md): pt; `legend`; `unassessed`
+- [Complejo Arqueológico de Caniche](topics/q13189747-complejo-arqueologico-de-caniche.md): en, es; `site`; `unassessed`
+- [Complejo arqueológico San José de Moro](topics/q16491296-complejo-arqueologico-san-jose-de-moro.md): en, es; `site`; `unassessed`
+- [Cóndor Amaya](topics/q17074933-condor-amaya.md): en, es; `site`; `unassessed`
+- [Condorcaga](topics/q17074967-condorcaga.md): en; `site`; `unassessed`
+- [Conquest of Chile](topics/q1055950-conquest-of-chile.md): en; `other`; `unassessed`
+- [Conquista del Imperio incaico](topics/q636771-conquista-del-imperio-incaico.md): es; `other`; `unassessed`
+- [Conquistador](topics/q126236-conquistador.md): en; `other`; `unassessed`
+- [Constelaciones oscuras andinas](topics/q140321396-constelaciones-oscuras-andinas.md): en, es; `legend`; `unassessed`
+- [Contactos transoceánicos precolombinos](topics/q2351803-contactos-transoceanicos-precolombinos.md): en, es; `other`; `unassessed`
+- [Contisuyo](topics/q740948-contisuyo.md): pt; `other`; `unassessed`
+- [Coordenação das Organizações Indígenas da Amazônia Brasileira](topics/q5168036-coordenacao-das-organizacoes-indigenas-da-amazonia-brasileira.md): pt; `other`; `unassessed`
+- [Coordenação das Organizações Indígenas da Bacia Amazônica](topics/q1129883-coordenacao-das-organizacoes-indigenas-da-bacia-amazonica.md): pt; `other`; `unassessed`
+- [Copacabana (mitología)](topics/q138502801-copacabana-mitologia.md): es; `legend`; `unassessed`
+- [Copacati](topics/q121290092-copacati.md): es; `legend`; `unassessed`
+- [Cora Ocllo](topics/q5194598-cora-ocllo.md): es; `legend`; `unassessed`
+- [Coricancha](topics/q817594-coricancha.md): en, es, pt; `site`; `unassessed`
+- [Corpo-seco](topics/q8351120-corpo-seco.md): es, pt; `legend`; `unassessed`
+- [Cosmovisión incaica](topics/q5789970-cosmovision-incaica.md): es; `legend`; `unassessed`
+- [Cotapachi](topics/q119157458-cotapachi.md): es; `other`; `unassessed`
+- [Crómlech de Calçoene](topics/q1855906-cromlech-de-calcoene.md): en, es, pt; `site`; `unassessed`
+- [Cuca](topics/q30491044-cuca.md): pt; `legend`; `unassessed`
+- [Cuchavira](topics/q22074302-cuchavira.md): es; `legend`; `unassessed`
+- [Cuchimachay](topics/q18388079-cuchimachay.md): en, es; `site`; `unassessed`
+- [Cueva del Guitarrero](topics/q1554172-cueva-del-guitarrero.md): en, pt; `site`; `unassessed`
+- [Cueva negra de Chobshi](topics/q138330725-cueva-negra-de-chobshi.md): es; `other`; `unassessed`
+- [Cuevas de Toquepala](topics/q568661-cuevas-de-toquepala.md): en, es, pt; `site`; `unassessed`
+- [Cultura cajamarca](topics/q5794450-cultura-cajamarca.md): es; `culture`; `unassessed`
+- [Cultura casma](topics/q96108113-cultura-casma.md): es; `culture`; `unassessed`
+- [Cultura Chancay](topics/q1061632-cultura-chancay.md): en, pt; `culture`; `unassessed`
+- [Cultura Chavín](topics/q13341477-cultura-chavin.md): en, pt; `culture`; `unassessed`
+- [Cultura chimu](topics/q901198-cultura-chimu.md): pt; `culture`; `unassessed`
+- [Cultura Chincha](topics/q2460357-cultura-chincha.md): en, pt; `culture`; `unassessed`
+- [Cultura chinchorro](topics/q775089-cultura-chinchorro.md): es; `culture`; `unassessed`
+- [Cultura chiripa](topics/q567752-cultura-chiripa.md): en, es; `culture`; `unassessed`
+- [Cultura cupisnique](topics/q212414-cultura-cupisnique.md): es, pt; `culture`; `unassessed`
+- [Cultura de Bolivia](topics/q3306313-cultura-de-bolivia.md): es; `culture`; `unassessed`
+- [Cultura de Ecuador](topics/q2668789-cultura-de-ecuador.md): es; `culture`; `unassessed`
+- [Cultura de Iquitos](topics/q5474959-cultura-de-iquitos.md): es; `culture`; `unassessed`
+- [Cultura del Perú](topics/q2739669-cultura-del-peru.md): es; `culture`; `unassessed`
+- [Cultura hidráulica de las Lomas](topics/q2035965-cultura-hidraulica-de-las-lomas.md): en, es; `culture`; `unassessed`
+- [Cultura huarpa](topics/q5412507-cultura-huarpa.md): es; `culture`; `unassessed`
+- [Cultura indígena do Brasil](topics/q129085184-cultura-indigena-do-brasil.md): pt; `culture`; `unassessed`
+- [Cultura Malagana](topics/q6740983-cultura-malagana.md): en, es; `culture`; `unassessed`
+- [Cultura manchay](topics/q128539304-cultura-manchay.md): es; `culture`; `unassessed`
+- [Cultura mayo-chinchipe-marañón](topics/q58216521-cultura-mayo-chinchipe-maranon.md): en, es; `culture`; `unassessed`
+- [Cultura mollo](topics/q2493437-cultura-mollo.md): en, es; `culture`; `unassessed`
+- [Cultura nazca](topics/q210570-cultura-nazca.md): en, es, pt; `culture`; `archaeologically-corroborated`
+- [Cultura paracas](topics/q1127723-cultura-paracas.md): en, es; `culture`; `archaeologically-corroborated`
+- [Cultura salinar](topics/q4246665-cultura-salinar.md): es; `culture`; `unassessed`
+- [Cultura sechín](topics/q10869329-cultura-sechin.md): en, es, pt; `culture`; `unassessed`
+- [Cultura Tapajônica](topics/q137584832-cultura-tapajonica.md): pt; `culture`; `unassessed`
+- [Cultura Tarija](topics/q96337601-cultura-tarija.md): es; `culture`; `unassessed`
+- [Cultura Tumpis](topics/q136214399-cultura-tumpis.md): es; `culture`; `unassessed`
+- [Cultura wankarani](topics/q2065259-cultura-wankarani.md): en, es; `culture`; `unassessed`
+- [Cumacanga](topics/q8352644-cumacanga.md): es, pt; `legend`; `unassessed`
+- [Cumbe Mayo](topics/q973833-cumbe-mayo.md): pt; `other`; `unassessed`
+- [Cuniraya Huiracocha](topics/q122178445-cuniraya-huiracocha.md): es; `legend`; `unassessed`
+- [Curupira](topics/q38419-curupira.md): en, es, pt; `legend`; `unassessed`
+- [Cusco](topics/q5582862-cusco.md): en; `site`; `unassessed`
+- [Cusichaca River](topics/q3408326-cusichaca-river.md): en; `site`; `unassessed`
+- [Cutimbo](topics/q13189900-cutimbo.md): en; `site`; `unassessed`
+- [Dama de Wariwillka](topics/q109842735-dama-de-wariwillka.md): es; `other`; `unassessed`
+- [Descarnada](topics/q97175456-descarnada.md): es; `legend`; `unassessed`
+- [Diaguita](topics/q278944-diaguita.md): en; `culture`; `unassessed`
+- [Dios de los báculos](topics/q7596551-dios-de-los-baculos.md): es; `legend`; `unassessed`
+- [Donald Lathrap](topics/q5294691-donald-lathrap.md): en, es, pt; `other`; `unassessed`
+- [Eduardo Góes Neves](topics/q10270694-eduardo-goes-neves.md): pt; `other`; `unassessed`
+- [Ekeko](topics/q544590-ekeko.md): es; `legend`; `unassessed`
+- [El Abra](topics/q2629521-el-abra.md): en, es; `site`; `unassessed`
+- [El Brujo](topics/q2603112-el-brujo.md): en, pt; `site`; `unassessed`
+- [El camino del Inca en Chile](topics/q7722511-el-camino-del-inca-en-chile.md): es; `person`; `unassessed`
+- [El Carretón de la Otra Vida](topics/q5821256-el-carreton-de-la-otra-vida.md): es; `legend`; `unassessed`
+- [El Castillo de Huarmey](topics/q14954327-el-castillo-de-huarmey.md): en; `site`; `unassessed`
+- [El Dorado](topics/q192550-el-dorado.md): en, es, pt; `legend`; `mixed`
+- [El Inga (sitio arqueológico)](topics/q123472465-el-inga-sitio-arqueologico.md): es; `site`; `unassessed`
+- [El Molle culture](topics/q5779887-el-molle-culture.md): en; `culture`; `unassessed`
+- [El Paraíso (Peru)](topics/q4717894-el-paraiso-peru.md): en, pt; `site`; `unassessed`
+- [El Vergel culture](topics/q5779889-el-vergel-culture.md): en; `culture`; `unassessed`
+- [Encauchados de vegetais da Amazônia](topics/q121357376-encauchados-de-vegetais-da-amazonia.md): pt; `other`; `unassessed`
+- [Engenho Murutucu](topics/q56346686-engenho-murutucu.md): pt; `other`; `unassessed`
+- [Época preincaica](topics/q2837789-epoca-preincaica.md): es; `other`; `unassessed`
+- [Erland Nordenskiöld](topics/q1355276-erland-nordenskiold.md): en, pt; `other`; `unassessed`
+- [Etnias Indígenas na Amazônia História, Cultura e Desafios Contemporâneos](topics/q124167919-etnias-indigenas-na-amazonia-historia-cultura-e-desafios-contemporaneos.md): pt; `culture`; `unassessed`
+- [Etnografía del Perú](topics/q2889714-etnografia-del-peru.md): es; `other`; `unassessed`
+- [Federação das Organizações Indígenas do Rio Negro](topics/q10279074-federacao-das-organizacoes-indigenas-do-rio-negro.md): pt; `other`; `unassessed`
+- [Federico Kauffmann Doig](topics/q5441022-federico-kauffmann-doig.md): es; `culture`; `unassessed`
+- [Festa de Iaci](topics/q10281772-festa-de-iaci.md): pt; `legend`; `unassessed`
+- [Festa do Boi Falô](topics/q10281792-festa-do-boi-falo.md): pt; `legend`; `unassessed`
+- [Festival do Moqueado](topics/q119105111-festival-do-moqueado.md): pt; `other`; `unassessed`
+- [Flecheiros](topics/q25238369-flecheiros.md): pt; `other`; `unassessed`
+- [Florencia (Caquetá)](topics/q849859-florencia-caqueta.md): es; `other`; `unassessed`
+- [Folclore brasileiro](topics/q140848798-folclore-brasileiro.md): pt; `tradition`; `unassessed`
+- [Fortaleza de Ixiamas](topics/q2076118-fortaleza-de-ixiamas.md): es; `site`; `unassessed`
+- [Fortaleza de Jachaphasa](topics/q38214-fortaleza-de-jachaphasa.md): en, es; `site`; `unassessed`
+- [Fortaleza del Río Madeira](topics/q5864182-fortaleza-del-rio-madeira.md): es; `site`; `unassessed`
+- [Fortaleza incaica de Chena](topics/q3647895-fortaleza-incaica-de-chena.md): es; `other`; `unassessed`
+- [Fortaleza Victoria](topics/q125253520-fortaleza-victoria.md): es; `site`; `unassessed`
+- [Frade e a Freira](topics/q10284424-frade-e-a-freira.md): pt; `legend`; `unassessed`
+- [Francisco de Ávila](topics/q2034667-francisco-de-avila.md): en; `legend`; `unassessed`
+- [Francisco de Orellana](topics/q207901-francisco-de-orellana.md): es; `person`; `unassessed`
+- [Fuente Magna](topics/q13140356-fuente-magna.md): es; `person`; `unassessed`
+- [Fuerte de Samaipata](topics/q876451-fuerte-de-samaipata.md): en, es, pt; `site`; `unassessed`
+- [Fundação Nacional dos Povos Indígenas](topics/q731206-fundacao-nacional-dos-povos-indigenas.md): pt; `other`; `unassessed`
+- [Gaín Pañan e a Origem da Pupunheira](topics/q110964209-gain-panan-e-a-origem-da-pupunheira.md): pt; `legend`; `unassessed`
+- [Garagay](topics/q4133519-garagay.md): pt; `site`; `unassessed`
+- [Gavião-mondé](topics/q10288535-gaviao-monde.md): pt; `other`; `unassessed`
+- [Geoglifo](topics/q45791-geoglifo.md): en, pt; `landscape`; `unassessed`
+- [Geoglifos do Acre](topics/q16571176-geoglifos-do-acre.md): en, pt; `landscape`; `archaeologically-corroborated`
+- [Gralha-azul](topics/q55119113-gralha-azul.md): pt; `legend`; `unassessed`
+- [Gran Pajatén](topics/q581566-gran-pajaten.md): en, es, pt; `site`; `archaeologically-corroborated`
+- [Gran Saposoa](topics/q4147685-gran-saposoa.md): en, pt; `site`; `unassessed`
+- [Gran Vilaya](topics/q2497374-gran-vilaya.md): en, pt; `site`; `unassessed`
+- [Grotto of the Gentio](topics/q4179464-grotto-of-the-gentio.md): en; `site`; `unassessed`
+- [Guacaris](topics/q10292342-guacaris.md): pt; `legend`; `unassessed`
+- [Guajupiá](topics/q140053830-guajupia.md): pt; `legend`; `unassessed`
+- [Guellayhuasin](topics/q16898993-guellayhuasin.md): en; `site`; `unassessed`
+- [Guerra chanca-inca](topics/q5643516-guerra-chanca-inca.md): en, es; `legend`; `unassessed`
+- [Guerra chimú-inca](topics/q65119540-guerra-chimu-inca.md): es; `legend`; `unassessed`
+- [Guerra del Collao](topics/q24961265-guerra-del-collao.md): es; `legend`; `unassessed`
+- [Guerra inca-mapuche](topics/q16242342-guerra-inca-mapuche.md): es; `legend`; `unassessed`
+- [Guerras de los Andes septentrionales](topics/q112805442-guerras-de-los-andes-septentrionales.md): es; `legend`; `unassessed`
+- [Hanan Pacha](topics/q2294755-hanan-pacha.md): es; `legend`; `unassessed`
+- [Hapiñuñu](topics/q138798048-hapinunu.md): es; `legend`; `unassessed`
+- [Harákmbuts](topics/q3696210-harakmbuts.md): pt; `other`; `unassessed`
+- [Hatun Machay](topics/q17021822-hatun-machay.md): en; `site`; `unassessed`
+- [Hatun Misapata](topics/q20717717-hatun-misapata.md): en; `site`; `unassessed`
+- [Hatun Rumiyoc](topics/q5892811-hatun-rumiyoc.md): en; `site`; `unassessed`
+- [Hatun Uchku](topics/q17021839-hatun-uchku.md): en; `site`; `unassessed`
+- [Hatun Usnu](topics/q20717718-hatun-usnu.md): pt; `other`; `unassessed`
+- [Hatunmarka](topics/q17021855-hatunmarka.md): en; `site`; `unassessed`
+- [Helen Palmatary](topics/q140199057-helen-palmatary.md): en; `person`; `unassessed`
+- [Historia de Colombia](topics/q1044401-historia-de-colombia.md): en, es; `other`; `unassessed`
+- [Historia del Ecuador](topics/q926416-historia-del-ecuador.md): en, es; `other`; `unassessed`
+- [Historia precabralina de Brasil](topics/q2511364-historia-precabralina-de-brasil.md): en, es, pt; `other`; `unassessed`
+- [History of the Incas](topics/q3410943-history-of-the-incas.md): en; `other`; `unassessed`
+- [Hombre-mosquito](topics/q5901126-hombre-mosquito.md): es; `legend`; `unassessed`
+- [Homem dos Pés de Louça](topics/q10297983-homem-dos-pes-de-louca.md): pt; `legend`; `unassessed`
+- [Honcopampa](topics/q16892582-honcopampa.md): en; `site`; `unassessed`
+- [Horizonte cultural](topics/q5902097-horizonte-cultural.md): es; `culture`; `unassessed`
+- [Huaca](topics/q1354644-huaca.md): en, pt; `legend`; `unassessed`
+- [Huaca de la Luna](topics/q1544441-huaca-de-la-luna.md): en, pt; `site`; `unassessed`
+- [Huaca del Dragón](topics/q289725-huaca-del-dragon.md): en, pt; `site`; `unassessed`
+- [Huaca del Sol](topics/q1632711-huaca-del-sol.md): en, pt; `site`; `unassessed`
+- [Huaca Esmeralda](topics/q289583-huaca-esmeralda.md): en; `site`; `unassessed`
+- [Huaca Huallamarca](topics/q9005094-huaca-huallamarca.md): en; `site`; `unassessed`
+- [Huaca Prieta](topics/q1632701-huaca-prieta.md): en, es; `site`; `unassessed`
+- [Huaca Pucllana](topics/q677387-huaca-pucllana.md): en, pt; `site`; `unassessed`
+- [Huaca Rajada](topics/q2716571-huaca-rajada.md): en; `site`; `unassessed`
+- [Huacramarca](topics/q15949873-huacramarca.md): en; `site`; `unassessed`
+- [Huallallo Carhuincho](topics/q117847894-huallallo-carhuincho.md): es; `legend`; `unassessed`
+- [Hualpayunca](topics/q17104382-hualpayunca.md): en; `site`; `unassessed`
+- [Huamancantac](topics/q124322584-huamancantac.md): es; `legend`; `unassessed`
+- [Huamanmarca, La Convención](topics/q3652807-huamanmarca-la-convencion.md): en; `site`; `unassessed`
+- [Huamboy](topics/q17104394-huamboy.md): en; `site`; `unassessed`
+- [Huankarán](topics/q17104409-huankaran.md): en; `site`; `unassessed`
+- [Huánuco Pampa](topics/q9005560-huanuco-pampa.md): en; `site`; `unassessed`
+- [Huaqueo](topics/q18236489-huaqueo.md): es; `other`; `unassessed`
+- [Huaricanga](topics/q5926178-huaricanga.md): en, pt; `site`; `unassessed`
+- [Huarochirí Manuscript](topics/q498294-huarochiri-manuscript.md): en; `legend`; `unassessed`
+- [Huasicamayoc](topics/q124153264-huasicamayoc.md): es; `legend`; `unassessed`
+- [Huaycán de Pariachi](topics/q27865990-huaycan-de-pariachi.md): en, pt; `site`; `unassessed`
+- [Huayna Picchu](topics/q845427-huayna-picchu.md): en; `site`; `unassessed`
+- [Huayrapongo](topics/q15950071-huayrapongo.md): en; `site`; `unassessed`
+- [Huayuri](topics/q16576441-huayuri.md): en; `site`; `unassessed`
+- [Huchuy Qosqo](topics/q372515-huchuy-qosqo.md): en, pt; `site`; `unassessed`
+- [Huichún](topics/q17104607-huichun.md): en; `site`; `unassessed`
+- [Huillca Raccay](topics/q15949897-huillca-raccay.md): en; `site`; `unassessed`
+- [Huiñao](topics/q16243243-huinao.md): en, pt; `legend`; `unassessed`
+- [Huiracocha (dios)](topics/q209605-huiracocha-dios.md): en, es, pt; `legend`; `unassessed`
+- [Human sacrifice in pre-Columbian cultures](topics/q1123239-human-sacrifice-in-pre-columbian-cultures.md): en; `culture`; `unassessed`
+- [Iara (folclore)](topics/q1518398-iara-folclore.md): en, es, pt; `legend`; `unassessed`
+- [Icamiabas](topics/q1656060-icamiabas.md): pt; `legend`; `unassessed`
+- [Ídolo de Iguape](topics/q10396389-idolo-de-iguape.md): pt; `other`; `unassessed`
+- [Igarapé das Almas](topics/q119186924-igarape-das-almas.md): pt; `legend`; `unassessed`
+- [Illa Tiqsi](topics/q138766917-illa-tiqsi.md): es; `legend`; `unassessed`
+- [Illapa](topics/q584318-illapa.md): es, pt; `legend`; `unassessed`
+- [Imperio incaico](topics/q28573-imperio-incaico.md): en, es; `other`; `unassessed`
+- [Iñaq Uyu](topics/q890380-inaq-uyu.md): en; `site`; `unassessed`
+- [Inca architecture](topics/q2004258-inca-architecture.md): en; `site`; `unassessed`
+- [Inca complex at Písac](topics/q106298850-inca-complex-at-pisac.md): en; `site`; `unassessed`
+- [Inca Hak](topics/q106704049-inca-hak.md): es; `other`; `unassessed`
+- [Inca kancha](topics/q13189593-inca-kancha.md): en; `site`; `unassessed`
+- [Inca Trail to Machu Picchu](topics/q6014019-inca-trail-to-machu-picchu.md): en; `site`; `unassessed`
+- [Inca-Caranqui](topics/q30622792-inca-caranqui.md): en; `site`; `unassessed`
+- [Incahuasi, Lima](topics/q1528509-incahuasi-lima.md): en; `site`; `unassessed`
+- [Incallajta](topics/q970713-incallajta.md): en, es, pt; `site`; `unassessed`
+- [Incamachay (Bolivia)](topics/q15702559-incamachay-bolivia.md): en, es; `site`; `unassessed`
+- [Incarracay (Bolivia)](topics/q13189605-incarracay-bolivia.md): en, es; `site`; `unassessed`
+- [Incas en Argentina](topics/q140771710-incas-en-argentina.md): es; `other`; `unassessed`
+- [Indígenas de América](topics/q36747-indigenas-de-america.md): en, es, pt; `other`; `unassessed`
+- [Indigenous peoples in Colombia](topics/q2258527-indigenous-peoples-in-colombia.md): en; `other`; `unassessed`
+- [Indigenous peoples of South America](topics/q1479328-indigenous-peoples-of-south-america.md): en; `other`; `unassessed`
+- [Ingapirca](topics/q1478056-ingapirca.md): en; `site`; `unassessed`
+- [Ingarune](topics/q20310147-ingarune.md): pt; `other`; `unassessed`
+- [Ingatambo](topics/q15950072-ingatambo.md): en; `site`; `unassessed`
+- [Inka Huasi (Ayacucho)](topics/q4201106-inka-huasi-ayacucho.md): en, pt; `site`; `unassessed`
+- [Inka Huasi (Huancavelica)](topics/q15228696-inka-huasi-huancavelica.md): en, pt; `site`; `unassessed`
+- [Inka Mach'ay, Peru](topics/q15950029-inka-mach-ay-peru.md): en; `site`; `unassessed`
+- [Inka Murata](topics/q17073756-inka-murata.md): en; `site`; `unassessed`
+- [Inka Raqay, Apurímac](topics/q15950020-inka-raqay-apurimac.md): en; `site`; `unassessed`
+- [Inka Raqay, Ayacucho](topics/q21044248-inka-raqay-ayacucho.md): en; `site`; `unassessed`
+- [Inka Tampu, Huayopata](topics/q15950035-inka-tampu-huayopata.md): en; `site`; `unassessed`
+- [Inka Tampu, Vilcabamba](topics/q15950037-inka-tampu-vilcabamba.md): en; `site`; `unassessed`
+- [Inka Tunuwiri](topics/q15949984-inka-tunuwiri.md): en; `site`; `unassessed`
+- [Inka Uyu](topics/q13638140-inka-uyu.md): en, pt; `site`; `unassessed`
+- [Inkachaka](topics/q13189603-inkachaka.md): en; `site`; `unassessed`
+- [Inkapintay](topics/q17073767-inkapintay.md): en; `site`; `unassessed`
+- [Inkarri](topics/q1663658-inkarri.md): en, es, pt; `legend`; `unassessed`
+- [Inkilltambo](topics/q15950047-inkilltambo.md): en; `site`; `unassessed`
+- [Instituto de Arqueologia Brasileira](topics/q56351515-instituto-de-arqueologia-brasileira.md): pt; `other`; `unassessed`
+- [Interesse arqueológico sobre a Pedra da Gávea](topics/q17985582-interesse-arqueologico-sobre-a-pedra-da-gavea.md): pt; `other`; `unassessed`
+- [Inti](topics/q213771-inti.md): es, pt; `legend`; `unassessed`
+- [Inti Punku](topics/q11120323-inti-punku.md): en, pt; `site`; `unassessed`
+- [Inti Raymi](topics/q1165988-inti-raymi.md): en; `legend`; `unassessed`
+- [Inti Watana (Ayacucho)](topics/q13190356-inti-watana-ayacucho.md): en, pt; `site`; `unassessed`
+- [Inti Watana, Calca](topics/q6057562-inti-watana-calca.md): en; `site`; `unassessed`
+- [Intihuatana de Machu Picchu](topics/q76737966-intihuatana-de-machu-picchu.md): en, es; `legend`; `unassessed`
+- [Intikancha (Puno)](topics/q17073978-intikancha-puno.md): en; `site`; `unassessed`
+- [Intini Uyu Pata](topics/q15949978-intini-uyu-pata.md): en; `site`; `unassessed`
+- [Intipanawin](topics/q17073990-intipanawin.md): en; `site`; `unassessed`
+- [Intiyuq K'uchu](topics/q17074001-intiyuq-k-uchu.md): en; `site`; `unassessed`
+- [Ipupiara (lenda)](topics/q4189308-ipupiara-lenda.md): pt; `legend`; `unassessed`
+- [Iquitos](topics/q193289-iquitos.md): en, es; `other`; `unassessed`
+- [Irapuru (lenda)](topics/q10303560-irapuru-lenda.md): pt; `legend`; `unassessed`
+- [Iskanwaya](topics/q1674009-iskanwaya.md): en, es; `site`; `unassessed`
+- [Iskuqucha](topics/q25044834-iskuqucha.md): en; `site`; `unassessed`
+- [Isla de la Plata](topics/q1548043-isla-de-la-plata.md): es; `other`; `unassessed`
+- [Isla del Sol](topics/q600282-isla-del-sol.md): en, es; `site`; `unassessed`
+- [Isog](topics/q17074127-isog.md): en; `site`; `unassessed`
+- [Isolados do igarapé Xinane](topics/q131563298-isolados-do-igarape-xinane.md): pt; `other`; `unassessed`
+- [Isolados do Rio Bóia](topics/q131310561-isolados-do-rio-boia.md): pt; `other`; `unassessed`
+- [Isolados do Rio Coari](topics/q131310567-isolados-do-rio-coari.md): pt; `other`; `unassessed`
+- [Isolados do Rio Envira](topics/q131389244-isolados-do-rio-envira.md): pt; `other`; `unassessed`
+- [Isolados do Rio Esquerdo](topics/q131310564-isolados-do-rio-esquerdo.md): pt; `other`; `unassessed`
+- [Isolados do Rio Itaquaí](topics/q131310566-isolados-do-rio-itaquai.md): pt; `other`; `unassessed`
+- [Isolados do Rio Jandiatuba](topics/q131310558-isolados-do-rio-jandiatuba.md): pt; `other`; `unassessed`
+- [Isolados do Rio Pedra](topics/q131310563-isolados-do-rio-pedra.md): pt; `other`; `unassessed`
+- [Isolados do Rio Quixito](topics/q131310562-isolados-do-rio-quixito.md): pt; `other`; `unassessed`
+- [Isolados do São José](topics/q131310557-isolados-do-sao-jose.md): pt; `other`; `unassessed`
+- [Ixiamas](topics/q2068157-ixiamas.md): en; `site`; `unassessed`
+- [Jaci](topics/q117086947-jaci.md): pt; `legend`; `unassessed`
+- [Jardín del Curupira](topics/q1759326-jardin-del-curupira.md): es; `legend`; `unassessed`
+- [Jichi](topics/q16581596-jichi.md): es; `legend`; `unassessed`
+- [Jinkiori](topics/q1449488-jinkiori.md): en; `site`; `unassessed`
+- [Jisk'a Iru Muqu](topics/q1496143-jisk-a-iru-muqu.md): pt; `site`; `unassessed`
+- [João Barbosa Rodrigues](topics/q45374-joao-barbosa-rodrigues.md): es; `person`; `unassessed`
+- [João Galafuz](topics/q10311535-joao-galafuz.md): pt; `legend`; `unassessed`
+- [Jorge C. Muelle](topics/q5934656-jorge-c-muelle.md): es; `person`; `unassessed`
+- [Juan Oso](topics/q2750219-juan-oso.md): es; `legend`; `unassessed`
+- [Jupi-pari](topics/q10313058-jupi-pari.md): pt; `legend`; `unassessed`
+- [Jurupari](topics/q10313123-jurupari.md): pt; `legend`; `unassessed`
+- [Jurupari (mitologia)](topics/q10313122-jurupari-mitologia.md): pt; `legend`; `unassessed`
+- [Justino (sítio arqueológico)](topics/q130458599-justino-sitio-arqueologico.md): pt; `site`; `unassessed`
+- [K'allapayuq Urqu](topics/q20085394-k-allapayuq-urqu.md): en; `site`; `unassessed`
+- [K'ipakhara](topics/q17074853-k-ipakhara.md): en; `site`; `unassessed`
+- [Kãkwã](topics/q96740991-kakwa.md): pt; `other`; `unassessed`
+- [Kalasasaya](topics/q1722063-kalasasaya.md): en; `site`; `unassessed`
+- [Kanamarca](topics/q13189691-kanamarca.md): en, pt; `site`; `unassessed`
+- [Karafawyana](topics/q9696431-karafawyana.md): pt; `other`; `unassessed`
+- [Karitiana](topics/q1091084-karitiana.md): pt; `other`; `unassessed`
+- [Kay Pacha](topics/q2661360-kay-pacha.md): pt; `legend`; `unassessed`
+- [Kenko](topics/q2351926-kenko.md): en, pt; `site`; `unassessed`
+- [Kenko, Puno](topics/q15949971-kenko-puno.md): en; `site`; `unassessed`
+- [Khapia](topics/q5763064-khapia.md): en; `site`; `unassessed`
+- [Khichuqaqa](topics/q17074797-khichuqaqa.md): en; `site`; `unassessed`
+- [Khonkho Wankane](topics/q868737-khonkho-wankane.md): en, es; `site`; `unassessed`
+- [Killarumiyuq](topics/q17074808-killarumiyuq.md): en; `site`; `unassessed`
+- [Killke culture](topics/q6407873-killke-culture.md): en; `culture`; `unassessed`
+- [Kon (mitología inca)](topics/q2248952-kon-mitologia-inca.md): es, pt; `legend`; `unassessed`
+- [Kotosh](topics/q2669852-kotosh.md): en; `site`; `unassessed`
+- [Kuélap](topics/q1361820-kuelap.md): en, es, pt; `site`; `unassessed`
+- [Kuhikugu](topics/q6442109-kuhikugu.md): en, pt; `site`; `archaeologically-corroborated`
+- [Kukuli, Arequipa](topics/q15991587-kukuli-arequipa.md): en; `site`; `unassessed`
+- [Kuntur Wasi](topics/q1792721-kuntur-wasi.md): en, pt; `site`; `unassessed`
+- [Kunturmarka, Ayacucho](topics/q17074944-kunturmarka-ayacucho.md): en; `site`; `unassessed`
+- [Kunturmarka, Pasco](topics/q17074955-kunturmarka-pasco.md): en; `site`; `unassessed`
+- [Kuntuyuq](topics/q17074979-kuntuyuq.md): en; `site`; `unassessed`
+- [Kuychi](topics/q122388823-kuychi.md): es; `legend`; `unassessed`
+- [La Centinela](topics/q6461630-la-centinela.md): en, pt; `site`; `unassessed`
+- [La Galgada (archaeological site)](topics/q5963500-la-galgada-archaeological-site.md): en; `site`; `unassessed`
+- [La La La (canción de Naughty Boy)](topics/q13631062-la-la-la-cancion-de-naughty-boy.md): es; `legend`; `unassessed`
+- [La Otra Banda](topics/q131320045-la-otra-banda.md): en; `site`; `unassessed`
+- [La Tolita (sitio arqueológico)](topics/q112819145-la-tolita-sitio-arqueologico.md): es; `site`; `unassessed`
+- [La Viudita (leyenda boliviana)](topics/q137927317-la-viudita-leyenda-boliviana.md): es; `legend`; `unassessed`
+- [Lady of Cao](topics/q428969-lady-of-cao.md): en; `site`; `unassessed`
+- [Lago Parima](topics/q6477288-lago-parima.md): es, pt; `legend`; `unassessed`
+- [Lagoa do Abaeté](topics/q10315780-lagoa-do-abaete.md): pt; `legend`; `unassessed`
+- [Lagoa Santa](topics/q178667-lagoa-santa.md): en, es; `site`; `unassessed`
+- [Laguna de las Momias](topics/q380007-laguna-de-las-momias.md): en; `site`; `unassessed`
+- [Laguna del Inca](topics/q6473009-laguna-del-inca.md): es; `legend`; `unassessed`
+- [Laguna Isireri](topics/q938500-laguna-isireri.md): es; `legend`; `unassessed`
+- [Lajedos de Corumbá](topics/q134304336-lajedos-de-corumba.md): pt; `other`; `unassessed`
+- [Lake Guatavita](topics/q1552915-lake-guatavita.md): en; `other`; `unassessed`
+- [Lake Poopó](topics/q464945-lake-poopo.md): en; `culture`; `unassessed`
+- [Lámud](topics/q2475775-lamud.md): es; `site`; `unassessed`
+- [Lapa do Boquete](topics/q134304334-lapa-do-boquete.md): pt; `other`; `unassessed`
+- [Lapa do Caboclo](topics/q134304333-lapa-do-caboclo.md): pt; `other`; `unassessed`
+- [Lapa do Santo](topics/q56678621-lapa-do-santo.md): en; `site`; `unassessed`
+- [Laqaya](topics/q17075425-laqaya.md): en, es; `site`; `unassessed`
+- [Las Aldas](topics/q5970465-las-aldas.md): en, pt; `site`; `unassessed`
+- [Las Ánimas complex](topics/q5779910-las-animas-complex.md): en; `culture`; `unassessed`
+- [Las Vegas culture (archaeology)](topics/q2476344-las-vegas-culture-archaeology.md): en; `culture`; `unassessed`
+- [Lenda da Amorosa](topics/q10317170-lenda-da-amorosa.md): pt; `legend`; `unassessed`
+- [Lenda da vitória-régia](topics/q10317196-lenda-da-vitoria-regia.md): pt; `legend`; `unassessed`
+- [Lenda de Nossa Senhora da Luz](topics/q10317207-lenda-de-nossa-senhora-da-luz.md): pt; `legend`; `unassessed`
+- [Lenda do Minhocão](topics/q4295304-lenda-do-minhocao.md): pt; `legend`; `unassessed`
+- [Lenda do pássaro azul](topics/q18470670-lenda-do-passaro-azul.md): pt; `legend`; `unassessed`
+- [Lendas de Mairiporã](topics/q48876972-lendas-de-mairipora.md): pt; `legend`; `unassessed`
+- [Lendas do folclore brasileiro](topics/q97378219-lendas-do-folclore-brasileiro.md): pt; `legend`; `unassessed`
+- [Leticia (Colômbia)](topics/q214913-leticia-colombia.md): en, pt; `expedition`; `unassessed`
+- [Leyenda de los soldados Pururauca](topics/q5974460-leyenda-de-los-soldados-pururauca.md): es; `legend`; `unassessed`
+- [Leyenda de Yuruparí](topics/q5974446-leyenda-de-yurupari.md): es; `legend`; `unassessed`
+- [Leyendas sobre el origen del Imperio inca](topics/q73374645-leyendas-sobre-el-origen-del-imperio-inca.md): es; `legend`; `unassessed`
+- [Libiac](topics/q120789942-libiac.md): es; `legend`; `unassessed`
+- [Lima culture](topics/q2460861-lima-culture.md): en; `culture`; `unassessed`
+- [Líneas de Nazca](topics/q2620036-lineas-de-nazca.md): es, pt; `landscape`; `mixed`
+- [Líneas de Sajama](topics/q3832880-lineas-de-sajama.md): es; `other`; `unassessed`
+- [Língua nheengatu](topics/q34333-lingua-nheengatu.md): pt; `other`; `unassessed`
+- [List of archaeological sites in Colombia](topics/q3485477-list-of-archaeological-sites-in-colombia.md): en; `site`; `unassessed`
+- [List of Norte Chico archaeological sites](topics/q6592349-list-of-norte-chico-archaeological-sites.md): en; `site`; `unassessed`
+- [List of shell ring sites](topics/q6638332-list-of-shell-ring-sites.md): en; `site`; `unassessed`
+- [Lista de bens tombados pelo IPHAN](topics/q45823285-lista-de-bens-tombados-pelo-iphan.md): pt; `other`; `unassessed`
+- [Lista de bens tombados pelo IPHAN na Região Norte do Brasil](topics/q48865681-lista-de-bens-tombados-pelo-iphan-na-regiao-norte-do-brasil.md): pt; `other`; `unassessed`
+- [Lista de culturas pré-colombianas](topics/q16821484-lista-de-culturas-pre-colombianas.md): pt; `culture`; `unassessed`
+- [Lista de povos indígenas do Brasil](topics/q578208-lista-de-povos-indigenas-do-brasil.md): pt; `other`; `unassessed`
+- [Lista do Património Mundial na América](topics/q324034-lista-do-patrimonio-mundial-na-america.md): pt; `other`; `unassessed`
+- [Lista do Patrimônio Mundial na América do Sul](topics/q840913-lista-do-patrimonio-mundial-na-america-do-sul.md): en, pt; `other`; `unassessed`
+- [Lista do Patrimônio Mundial no Brasil](topics/q94165-lista-do-patrimonio-mundial-no-brasil.md): en, pt; `other`; `unassessed`
+- [Llacsahuato y Mirahuato](topics/q138657174-llacsahuato-y-mirahuato.md): es; `legend`; `unassessed`
+- [Llactan](topics/q17076938-llactan.md): en; `site`; `unassessed`
+- [Llamachayuq](topics/q21044266-llamachayuq.md): en; `site`; `unassessed`
+- [Llamuqa](topics/q16242532-llamuqa.md): en; `legend`; `unassessed`
+- [Llaqta Qulluy, Conayca](topics/q21044270-llaqta-qulluy-conayca.md): en; `site`; `unassessed`
+- [Llaqtapata](topics/q15242571-llaqtapata.md): en, pt; `site`; `unassessed`
+- [Llorona](topics/q1866923-llorona.md): en, es; `legend`; `unassessed`
+- [Lobisón](topics/q2365859-lobison.md): es; `legend`; `unassessed`
+- [Loira do Bonfim](topics/q10319562-loira-do-bonfim.md): pt; `legend`; `unassessed`
+- [Loma](topics/q5069269-loma.md): pt; `other`; `unassessed`
+- [Los Pinchudos](topics/q4267128-los-pinchudos.md): en; `site`; `unassessed`
+- [Lupaca](topics/q3622142-lupaca.md): en; `culture`; `unassessed`
+- [Luzia](topics/q1815054-luzia.md): es, pt; `other`; `unassessed`
+- [Machalilla culture](topics/q3813607-machalilla-culture.md): en; `culture`; `unassessed`
+- [Machu Colca](topics/q15950079-machu-colca.md): en; `site`; `unassessed`
+- [Machu Picchu](topics/q676203-machu-picchu.md): en, es, pt; `site`; `archaeologically-corroborated`
+- [Machu Pirqa](topics/q17077473-machu-pirqa.md): en; `site`; `unassessed`
+- [Machu Pitumarka](topics/q21044272-machu-pitumarka.md): en; `site`; `unassessed`
+- [Machu Q'inti](topics/q17077485-machu-q-inti.md): en; `site`; `unassessed`
+- [Macu-hupdás](topics/q587300-macu-hupdas.md): pt; `other`; `unassessed`
+- [Macu-nadebes](topics/q3444063-macu-nadebes.md): pt; `other`; `unassessed`
+- [Mãe do ouro](topics/q10334648-mae-do-ouro.md): es, pt; `legend`; `unassessed`
+- [Mallku](topics/q6744234-mallku.md): es; `legend`; `unassessed`
+- [Mallkuamaya](topics/q15949975-mallkuamaya.md): en; `site`; `unassessed`
+- [Mama Coca](topics/q2517931-mama-coca.md): es; `legend`; `unassessed`
+- [Mama Cocha](topics/q599693-mama-cocha.md): es, pt; `legend`; `unassessed`
+- [Mama Ocllo](topics/q1360531-mama-ocllo.md): en, es, pt; `legend`; `unassessed`
+- [Mama Quilla](topics/q1137398-mama-quilla.md): es, pt; `legend`; `unassessed`
+- [Mama Sara](topics/q138424519-mama-sara.md): es; `legend`; `unassessed`
+- [Mama Sara](topics/q3566331-mama-sara.md): pt; `legend`; `unassessed`
+- [Mamacoca](topics/q121323917-mamacoca.md): es; `legend`; `unassessed`
+- [Mamacuna](topics/q594427-mamacuna.md): es, pt; `legend`; `unassessed`
+- [Mamaindé](topics/q16112177-mamainde.md): pt; `other`; `unassessed`
+- [Mameria](topics/q6745613-mameria.md): en; `site`; `unassessed`
+- [Manañamca](topics/q120776664-mananamca.md): es; `legend`; `unassessed`
+- [Manco Cápac](topics/q165968-manco-capac.md): en, es, pt; `legend`; `unassessed`
+- [Manguaré](topics/q5991430-manguare.md): es; `other`; `unassessed`
+- [Manteño-Huancavilca culture](topics/q961245-manteno-huancavilca-culture.md): en; `culture`; `unassessed`
+- [Manuscrito 512](topics/q2503683-manuscrito-512.md): en, pt; `legend`; `mixed`
+- [Mão de Luva](topics/q10334657-mao-de-luva.md): pt; `legend`; `unassessed`
+- [Mão Pelada](topics/q10334655-mao-pelada.md): pt; `legend`; `unassessed`
+- [Mapinguarí](topics/q605438-mapinguari.md): en, es, pt; `legend`; `unassessed`
+- [Maraguás](topics/q135989558-maraguas.md): pt; `other`; `unassessed`
+- [Marajoaras](topics/q2624476-marajoaras.md): en, pt; `culture`; `archaeologically-corroborated`
+- [Maray Qalla](topics/q16473372-maray-qalla.md): en; `site`; `unassessed`
+- [Marayniyuq (Ayacucho)](topics/q15949853-marayniyuq-ayacucho.md): en, pt; `site`; `unassessed`
+- [Marcahuamachuco](topics/q6755997-marcahuamachuco.md): en, es; `site`; `unassessed`
+- [Maria Caninana](topics/q131698205-maria-caninana.md): pt; `legend`; `unassessed`
+- [Maria Papuda](topics/q112078886-maria-papuda.md): pt; `legend`; `unassessed`
+- [Maria Perpétua](topics/q20048214-maria-perpetua.md): pt; `legend`; `unassessed`
+- [Markahirka](topics/q16894681-markahirka.md): en; `site`; `unassessed`
+- [Markansaya](topics/q15950022-markansaya.md): en; `site`; `unassessed`
+- [Markapukyu](topics/q17078288-markapukyu.md): en; `site`; `unassessed`
+- [Marpa, Peru](topics/q6772445-marpa-peru.md): en; `site`; `unassessed`
+- [Marúbos](topics/q3508898-marubos.md): pt; `other`; `unassessed`
+- [Mashco (Harakmbet)](topics/q5361158-mashco-harakmbet.md): pt; `other`; `unassessed`
+- [Mashco-Piro](topics/q3850712-mashco-piro.md): pt; `other`; `unassessed`
+- [Matinta-Pereira](topics/q10327400-matinta-pereira.md): pt; `other`; `unassessed`
+- [Mawk'allaqta, Castilla](topics/q15252211-mawk-allaqta-castilla.md): en; `site`; `unassessed`
+- [Mawk'allaqta, Espinar](topics/q15949707-mawk-allaqta-espinar.md): en; `site`; `unassessed`
+- [Mawk'allaqta, La Unión](topics/q15950057-mawk-allaqta-la-union.md): en; `site`; `unassessed`
+- [Mawk'allaqta, Melgar](topics/q15949967-mawk-allaqta-melgar.md): en; `site`; `unassessed`
+- [Mawk'allaqta, Paruro](topics/q15950042-mawk-allaqta-paruro.md): en; `site`; `unassessed`
+- [Mawk'allaqta, Sandia](topics/q15949970-mawk-allaqta-sandia.md): en; `site`; `unassessed`
+- [Mawk'ataray](topics/q17078468-mawk-ataray.md): en; `site`; `unassessed`
+- [Mazagão (Amapá)](topics/q1800704-mazagao-amapa.md): pt; `other`; `unassessed`
+- [Memorial do Porto e Arqueologia](topics/q56693532-memorial-do-porto-e-arqueologia.md): pt; `other`; `unassessed`
+- [Memorial Verônica Tembé](topics/q118221172-memorial-veronica-tembe.md): pt; `other`; `unassessed`
+- [Metalurgia sican](topics/q39080817-metalurgia-sican.md): es; `other`; `unassessed`
+- [Miculla petroglyphs](topics/q2045784-miculla-petroglyphs.md): en; `site`; `unassessed`
+- [Millka](topics/q21044276-millka.md): en; `site`; `unassessed`
+- [Mingau de caribé](topics/q119820710-mingau-de-caribe.md): pt; `other`; `unassessed`
+- [Mirq'imarka](topics/q15949982-mirq-imarka.md): en; `site`; `unassessed`
+- [Mito do Ataíde](topics/q122850700-mito-do-ataide.md): pt; `legend`; `unassessed`
+- [Mitología chilena](topics/q5098795-mitologia-chilena.md): es; `legend`; `unassessed`
+- [Mitología de la Amazonía del Perú](topics/q5401473-mitologia-de-la-amazonia-del-peru.md): es; `legend`; `unassessed`
+- [Mitologia guarani](topics/q2748289-mitologia-guarani.md): en, pt; `legend`; `unassessed`
+- [Mitología incaica](topics/q629040-mitologia-incaica.md): en, es, pt; `legend`; `unassessed`
+- [Miyu Pampa](topics/q17080062-miyu-pampa.md): en; `site`; `unassessed`
+- [Mojeque](topics/q929473-mojeque.md): en; `site`; `unassessed`
+- [Mojón con cara](topics/q61998130-mojon-con-cara.md): es; `legend`; `unassessed`
+- [Molloko](topics/q15949993-molloko.md): en; `site`; `unassessed`
+- [Momias de Coqueza](topics/q123422963-momias-de-coqueza.md): es; `other`; `unassessed`
+- [Monge João Maria](topics/q10331823-monge-joao-maria.md): pt; `legend`; `unassessed`
+- [Monte de Teso dos Bichos](topics/q10332069-monte-de-teso-dos-bichos.md): en, pt; `site`; `unassessed`
+- [Monte Roraima](topics/q4777-monte-roraima.md): pt; `other`; `unassessed`
+- [Monte Verde](topics/q975775-monte-verde.md): en; `site`; `unassessed`
+- [Montegrande (sitio arqueológico)](topics/q28147528-montegrande-sitio-arqueologico.md): en, es; `site`; `unassessed`
+- [Monumento Natural dos Monólitos de Quixadá](topics/q10332136-monumento-natural-dos-monolitos-de-quixada.md): pt; `other`; `unassessed`
+- [Morro del Tulcán](topics/q3050102-morro-del-tulcan.md): en, es; `site`; `unassessed`
+- [Movimentos indígenas na Amazônia](topics/q131914490-movimentos-indigenas-na-amazonia.md): pt; `other`; `unassessed`
+- [Muelle de Valongo](topics/q20048515-muelle-de-valongo.md): en, es, pt; `site`; `unassessed`
+- [Muiraquitã](topics/q589111-muiraquita.md): pt; `legend`; `unassessed`
+- [Muisca mythology](topics/q2607155-muisca-mythology.md): en; `legend`; `unassessed`
+- [Muisca raft](topics/q1276292-muisca-raft.md): en; `other`; `unassessed`
+- [Muiscas](topics/q828578-muiscas.md): es; `other`; `unassessed`
+- [Mula sin cabeza](topics/q3847470-mula-sin-cabeza.md): es, pt; `legend`; `unassessed`
+- [Mulinuyuq](topics/q21044281-mulinuyuq.md): en; `site`; `unassessed`
+- [Mullu Q'awa](topics/q21044282-mullu-q-awa.md): en; `site`; `unassessed`
+- [Múmias do Mosteiro da Luz](topics/q97183933-mumias-do-mosteiro-da-luz.md): pt; `other`; `unassessed`
+- [Muqui (mitología)](topics/q6032807-muqui-mitologia.md): es; `legend`; `unassessed`
+- [Museo de sitio La Florida](topics/q122840060-museo-de-sitio-la-florida.md): es; `other`; `unassessed`
+- [Museo Nacional de Arqueología (Bolivia)](topics/q1420258-museo-nacional-de-arqueologia-bolivia.md): es; `other`; `unassessed`
+- [Museo Necrópolis Kausay Wasi](topics/q123436665-museo-necropolis-kausay-wasi.md): es; `other`; `unassessed`
+- [Museu Arqueológico, Histórico, Cultural e Ambiental de Conceição dos Ouros](topics/q139922178-museu-arqueologico-historico-cultural-e-ambiental-de-conceicao-dos-ouros.md): pt; `culture`; `unassessed`
+- [Museu de Arqueologia e Etnologia da Universidade de São Paulo](topics/q2046360-museu-de-arqueologia-e-etnologia-da-universidade-de-sao-paulo.md): pt; `artifact`; `unassessed`
+- [Museu do Homem Americano](topics/q10333901-museu-do-homem-americano.md): en, pt; `site`; `unassessed`
+- [Museu do Ipiranga](topics/q371803-museu-do-ipiranga.md): pt; `other`; `unassessed`
+- [Museu Nacional (Rio de Janeiro)](topics/q1850416-museu-nacional-rio-de-janeiro.md): en, pt; `other`; `unassessed`
+- [Museu Paraense Emílio Goeldi](topics/q3328425-museu-paraense-emilio-goeldi.md): pt; `other`; `unassessed`
+- [Muyu Muyu](topics/q21044283-muyu-muyu.md): en; `site`; `unassessed`
+- [Muyu Urqu](topics/q16895618-muyu-urqu.md): en; `site`; `unassessed`
+- [Muyuq Marka](topics/q600475-muyuq-marka.md): en; `site`; `unassessed`
+- [Naimlap](topics/q2410304-naimlap.md): es; `legend`; `unassessed`
+- [Nanchoc District](topics/q6319763-nanchoc-district.md): en; `site`; `unassessed`
+- [Narihualá](topics/q26823151-narihuala.md): en; `site`; `unassessed`
+- [Ñawpallaqta, Fajardo](topics/q21044284-nawpallaqta-fajardo.md): en; `site`; `unassessed`
+- [Ñawpallaqta, Huanca Sancos](topics/q15950015-nawpallaqta-huanca-sancos.md): en; `site`; `unassessed`
+- [Ñawpallaqta, Lucanas](topics/q20085456-nawpallaqta-lucanas.md): en; `site`; `unassessed`
+- [Nazca](topics/q1711521-nazca.md): en; `site`; `unassessed`
+- [Necrópolis del Macizo colombiano](topics/q5392541-necropolis-del-macizo-colombiano.md): es; `other`; `unassessed`
+- [Negão do Caixão](topics/q10335999-negao-do-caixao.md): pt; `legend`; `unassessed`
+- [Negrito pastor](topics/q3892942-negrito-pastor.md): es, pt; `legend`; `unassessed`
+- [Negro-d'Água](topics/q10335992-negro-d-agua.md): pt; `legend`; `unassessed`
+- [Nereyana](topics/q12638670-nereyana.md): pt; `other`; `unassessed`
+- [Nhamini-wi](topics/q7023330-nhamini-wi.md): en; `site`; `unassessed`
+- [Nhanderequeí](topics/q120334894-nhanderequei.md): pt; `legend`; `unassessed`
+- [Nina Kiru](topics/q21044285-nina-kiru.md): en; `site`; `unassessed`
+- [Ninamarca](topics/q15949937-ninamarca.md): en; `site`; `unassessed`
+- [Niño Compadrito](topics/q5660920-nino-compadrito.md): es; `legend`; `unassessed`
+- [Noiva entre túmulos: a história da Loira do Bonfim](topics/q130716727-noiva-entre-tumulos-a-historia-da-loira-do-bonfim.md): pt; `legend`; `unassessed`
+- [Nueva Cádiz](topics/q985518-nueva-cadiz.md): en; `site`; `unassessed`
+- [Nukak](topics/q512665-nukak.md): pt; `other`; `unassessed`
+- [Ñusta Hispana](topics/q13191401-nusta-hispana.md): en; `site`; `unassessed`
+- [Obirici](topics/q135397840-obirici.md): pt; `legend`; `unassessed`
+- [Ocucaje](topics/q10340189-ocucaje.md): pt; `other`; `unassessed`
+- [Ollantaytambo](topics/q916382-ollantaytambo.md): en, pt; `site`; `unassessed`
+- [Omapacha](topics/q138646152-omapacha.md): es; `legend`; `unassessed`
+- [Ondemar Dias](topics/q125523646-ondemar-dias.md): pt; `other`; `unassessed`
+- [Oro-uins](topics/q3509816-oro-uins.md): pt; `other`; `unassessed`
+- [Oroncota](topics/q13191074-oroncota.md): en, es; `site`; `unassessed`
+- [Pacahuara](topics/q3360017-pacahuara.md): pt; `other`; `unassessed`
+- [Pacaritambo](topics/q1648413-pacaritambo.md): en, pt; `legend`; `unassessed`
+- [Pacha (Inca mythology)](topics/q69123833-pacha-inca-mythology.md): en; `legend`; `unassessed`
+- [Pachacamac](topics/q430563-pachacamac.md): en, pt; `other`; `unassessed`
+- [Pachacámac](topics/q13227945-pachacamac.md): en, es, pt; `legend`; `unassessed`
+- [Pachacútec](topics/q213758-pachacutec.md): en, es; `other`; `unassessed`
+- [Pachacuti (mitología inca)](topics/q121438907-pachacuti-mitologia-inca.md): es; `legend`; `unassessed`
+- [Pachakutic](topics/q3888469-pachakutic.md): en, pt; `legend`; `unassessed`
+- [Pachamama](topics/q266462-pachamama.md): en, es, pt; `legend`; `unassessed`
+- [Pachataka](topics/q13190190-pachataka.md): en, es; `site`; `unassessed`
+- [Pachatusan](topics/q16896350-pachatusan.md): en; `site`; `unassessed`
+- [Pacopampa](topics/q6056982-pacopampa.md): en; `site`; `unassessed`
+- [Pai do mato](topics/q10343548-pai-do-mato.md): pt; `legend`; `unassessed`
+- [Paititi](topics/q1664177-paititi.md): en, es; `legend`; `legendary`
+- [Pakatnamú](topics/q16254649-pakatnamu.md): en, es; `site`; `unassessed`
+- [Palaspata](topics/q135428388-palaspata.md): es; `culture`; `unassessed`
+- [Paleo-Indians](topics/q888099-paleo-indians.md): en; `culture`; `unassessed`
+- [Paloma (archaeological site)](topics/q113298313-paloma-archaeological-site.md): en; `site`; `unassessed`
+- [Pambamarca](topics/q7129059-pambamarca.md): en; `site`; `unassessed`
+- [Pambamarca Fortress Complex](topics/q30624955-pambamarca-fortress-complex.md): en; `site`; `unassessed`
+- [Pampa Grande](topics/q17083679-pampa-grande.md): en, es; `site`; `unassessed`
+- [Pampas Gramalote](topics/q96398283-pampas-gramalote.md): en; `site`; `unassessed`
+- [Pañamarka](topics/q9057204-panamarka.md): en, pt; `site`; `unassessed`
+- [Papa-figo](topics/q10344281-papa-figo.md): pt; `legend`; `unassessed`
+- [Paqarina](topics/q7133563-paqarina.md): en, pt; `legend`; `unassessed`
+- [Paracas Candelabra](topics/q2574847-paracas-candelabra.md): en; `landscape`; `archaeologically-corroborated`
+- [Paraccra (archaeological site)](topics/q16896441-paraccra-archaeological-site.md): en; `site`; `unassessed`
+- [Parajás](topics/q10344572-parajas.md): pt; `legend`; `unassessed`
+- [Paramonga](topics/q2039561-paramonga.md): pt; `other`; `unassessed`
+- [Paria, Oruro](topics/q2052242-paria-oruro.md): en; `site`; `unassessed`
+- [Pariacaca (dios)](topics/q3648017-pariacaca-dios.md): es; `legend`; `unassessed`
+- [Parque Arqueológico da Serra de Santo Antônio](topics/q10344887-parque-arqueologico-da-serra-de-santo-antonio.md): pt; `other`; `unassessed`
+- [Parque Arqueológico de Monquirá](topics/q1987940-parque-arqueologico-de-monquira.md): es; `other`; `unassessed`
+- [Parque arqueológico de San Agustín](topics/q2887224-parque-arqueologico-de-san-agustin.md): en, es; `site`; `unassessed`
+- [Parque Arqueológico Nacional de Tierradentro](topics/q179506-parque-arqueologico-nacional-de-tierradentro.md): en, es; `site`; `unassessed`
+- [Parque arqueológico Piedra Pintada](topics/q6062000-parque-arqueologico-piedra-pintada.md): es; `other`; `unassessed`
+- [Parque Indígena do Xingu](topics/q183444-parque-indigena-do-xingu.md): pt; `other`; `unassessed`
+- [Parque Nacional da Tijuca construções e ruínas históricas](topics/q97182535-parque-nacional-da-tijuca-construcoes-e-ruinas-historicas.md): pt; `site`; `unassessed`
+- [Parque Nacional do Catimbau](topics/q2043976-parque-nacional-do-catimbau.md): pt; `site`; `unassessed`
+- [Parque Nacional Serra da Capivara](topics/q267394-parque-nacional-serra-da-capivara.md): en, pt; `site`; `mixed`
+- [Pasaje Santa Teresa](topics/q136333199-pasaje-santa-teresa.md): es; `legend`; `unassessed`
+- [Patallaqta](topics/q523609-patallaqta.md): en, pt; `site`; `unassessed`
+- [Paumaris](topics/q3898252-paumaris.md): pt; `other`; `unassessed`
+- [Pedra do Ingá](topics/q3076249-pedra-do-inga.md): es, pt; `other`; `unassessed`
+- [Pedra Furada](topics/q2473573-pedra-furada.md): en, es, pt; `site`; `unassessed`
+- [Pedra Pintada](topics/q1397385-pedra-pintada.md): en, es, pt; `site`; `unassessed`
+- [Pedra Ramalhuda](topics/q136053019-pedra-ramalhuda.md): pt; `site`; `unassessed`
+- [Peña Roja](topics/q18418038-pena-roja.md): es; `other`; `unassessed`
+- [Percy Fawcett](topics/q370705-percy-fawcett.md): es, pt; `other`; `unassessed`
+- [Periodo precolombino en Colombia](topics/q2974899-periodo-precolombino-en-colombia.md): en, es; `other`; `unassessed`
+- [Pernil Alto](topics/q106609902-pernil-alto.md): en; `site`; `unassessed`
+- [Peter Paul Hilbert](topics/q10348955-peter-paul-hilbert.md): pt; `person`; `unassessed`
+- [Petroglifo de Anganuma](topics/q16618504-petroglifo-de-anganuma.md): es; `other`; `unassessed`
+- [Petroglifos de Catazho](topics/q110998514-petroglifos-de-catazho.md): es; `other`; `unassessed`
+- [Piaroas](topics/q1179410-piaroas.md): pt; `other`; `unassessed`
+- [Pikillaqta](topics/q2665757-pikillaqta.md): en, pt; `site`; `unassessed`
+- [Pilauco Bajo](topics/q6075903-pilauco-bajo.md): en; `culture`; `unassessed`
+- [Pilkokaina](topics/q18388603-pilkokaina.md): en, es; `site`; `unassessed`
+- [Pilluchu](topics/q20085492-pilluchu.md): en; `site`; `unassessed`
+- [Pinkuylluna](topics/q15949898-pinkuylluna.md): en, pt; `site`; `unassessed`
+- [Piquimachay](topics/q2989612-piquimachay.md): en, pt; `site`; `unassessed`
+- [Pirámide Circular de Mairana](topics/q24938832-piramide-circular-de-mairana.md): es; `other`; `unassessed`
+- [Pirámide de Akapana](topics/q9060091-piramide-de-akapana.md): en, es, pt; `site`; `unassessed`
+- [Pirca Pirca, Lima](topics/q18388733-pirca-pirca-lima.md): en; `site`; `unassessed`
+- [Pirhuaylla](topics/q20085495-pirhuaylla.md): en; `site`; `unassessed`
+- [Piriutiti](topics/q12639748-piriutiti.md): pt; `other`; `unassessed`
+- [Piruro](topics/q2045775-piruro.md): en; `site`; `unassessed`
+- [Pirwayuq](topics/q17102871-pirwayuq.md): en; `site`; `unassessed`
+- [Písac](topics/q950398-pisac.md): en, pt; `site`; `unassessed`
+- [Pisadeira](topics/q9060100-pisadeira.md): es, pt; `legend`; `unassessed`
+- [Pishtaco](topics/q607347-pishtaco.md): es, pt; `legend`; `unassessed`
+- [Pombero](topics/q2639209-pombero.md): es; `legend`; `unassessed`
+- [Porta do Sol (Tiauanaco)](topics/q2669375-porta-do-sol-tiauanaco.md): en, pt; `site`; `unassessed`
+- [Porto Belo (sítio arqueológico)](topics/q130467990-porto-belo-sitio-arqueologico.md): pt; `site`; `unassessed`
+- [Potira](topics/q131634400-potira.md): pt; `legend`; `unassessed`
+- [Povos do Xingu](topics/q1418117-povos-do-xingu.md): pt; `other`; `unassessed`
+- [Povos isolados na Amazônia](topics/q130983555-povos-isolados-na-amazonia.md): pt; `other`; `unassessed`
+- [Pre-Columbian agriculture in the Amazon Basin](topics/q122397297-pre-columbian-agriculture-in-the-amazon-basin.md): en; `culture`; `unassessed`
+- [Pre-Columbian painting](topics/q3533292-pre-columbian-painting.md): en; `other`; `unassessed`
+- [Pre-Columbian Peru](topics/q3273730-pre-columbian-peru.md): en; `other`; `unassessed`
+- [Projeto Arqueológico de Xingó](topics/q130458598-projeto-arqueologico-de-xingo.md): pt; `other`; `unassessed`
+- [Proyecto Especial Arqueológico Caral-Supe](topics/q9063424-proyecto-especial-arqueologico-caral-supe.md): es; `other`; `unassessed`
+- [Puca Pucara](topics/q2390374-puca-pucara.md): en, pt; `site`; `unassessed`
+- [Pucará del cerro La Muralla](topics/q3649412-pucara-del-cerro-la-muralla.md): es; `other`; `unassessed`
+- [Pucará, Puno](topics/q11286696-pucara-puno.md): en; `site`; `unassessed`
+- [Pueblo colla](topics/q1779257-pueblo-colla.md): es; `other`; `unassessed`
+- [Pueblos indígenas de Brasil](topics/q1363781-pueblos-indigenas-de-brasil.md): es, pt; `other`; `unassessed`
+- [Puerto Hormiga](topics/q762517-puerto-hormiga.md): en, es; `site`; `unassessed`
+- [Puka Urqu (Ayacucho)](topics/q20085494-puka-urqu-ayacucho.md): en; `site`; `unassessed`
+- [Pukara (Sandia)](topics/q21044302-pukara-sandia.md): en; `site`; `unassessed`
+- [Pukará de Quitor](topics/q2988995-pukara-de-quitor.md): en; `site`; `unassessed`
+- [Pukara of La Compañía](topics/q3647970-pukara-of-la-compania.md): en; `other`; `unassessed`
+- [Pukara, Coporaque](topics/q17086526-pukara-coporaque.md): en; `site`; `unassessed`
+- [Pukara, Víctor Fajardo](topics/q19421334-pukara-victor-fajardo.md): en; `site`; `unassessed`
+- [Pukara, Vilcas Huamán](topics/q17086527-pukara-vilcas-huaman.md): en; `site`; `unassessed`
+- [Pukarani (Peru)](topics/q17086528-pukarani-peru.md): en; `site`; `unassessed`
+- [Puma Punku](topics/q665223-puma-punku.md): en, es, pt; `site`; `unassessed`
+- [Pumamarka, San Sebastián](topics/q15950003-pumamarka-san-sebastian.md): en; `site`; `unassessed`
+- [Pumamarka, Urubamba](topics/q15949998-pumamarka-urubamba.md): en; `site`; `unassessed`
+- [Pumaq Hirka](topics/q15950068-pumaq-hirka.md): en; `site`; `unassessed`
+- [Pumawasi, Anta](topics/q18389642-pumawasi-anta.md): en; `site`; `unassessed`
+- [Puñay](topics/q7262719-punay.md): en; `site`; `unassessed`
+- [Punkurí](topics/q6092848-punkuri.md): en; `site`; `unassessed`
+- [Puntay Urqu](topics/q16898897-puntay-urqu.md): en; `site`; `unassessed`
+- [Puqin Kancha](topics/q18345872-puqin-kancha.md): en; `site`; `unassessed`
+- [Puquios](topics/q4383516-puquios.md): en; `site`; `unassessed`
+- [Puruchuco](topics/q2615433-puruchuco.md): en, pt; `site`; `unassessed`
+- [Purunllacta (Cheto)](topics/q16898946-purunllacta-cheto.md): en; `site`; `unassessed`
+- [Purunllacta, Soloco](topics/q17086543-purunllacta-soloco.md): en; `site`; `unassessed`
+- [Pusharo](topics/q521572-pusharo.md): en; `site`; `unassessed`
+- [Pusikaqcha](topics/q124295901-pusikaqcha.md): es; `legend`; `unassessed`
+- [Pusuquy Pata](topics/q21044304-pusuquy-pata.md): en; `site`; `unassessed`
+- [Pututo](topics/q19826868-pututo.md): es; `other`; `unassessed`
+- [Puyupatamarca](topics/q4383495-puyupatamarca.md): en, pt; `site`; `unassessed`
+- [Q'asa Pata](topics/q21044306-q-asa-pata.md): en; `site`; `unassessed`
+- [Qala Qala](topics/q15704620-qala-qala.md): en; `site`; `unassessed`
+- [Qaqapatan](topics/q17086594-qaqapatan.md): en; `site`; `unassessed`
+- [Qati qati](topics/q136238537-qati-qati.md): es; `legend`; `unassessed`
+- [Qhapaq Kancha](topics/q21044307-qhapaq-kancha.md): en; `site`; `unassessed`
+- [Qillqatani](topics/q6094026-qillqatani.md): en; `site`; `unassessed`
+- [Qollmay](topics/q85795226-qollmay.md): en; `site`; `unassessed`
+- [Quilca (arte rupestre)](topics/q5559964-quilca-arte-rupestre.md): es; `culture`; `unassessed`
+- [Quillamachay](topics/q21044255-quillamachay.md): en, es; `site`; `unassessed`
+- [Quillarumi](topics/q21044256-quillarumi.md): en; `site`; `unassessed`
+- [Quillcay Machay](topics/q15950052-quillcay-machay.md): en; `site`; `unassessed`
+- [Quillusara](topics/q138422448-quillusara.md): es; `other`; `unassessed`
+- [Quishuar (archaeological site)](topics/q17074864-quishuar-archaeological-site.md): en; `site`; `unassessed`
+- [Quispiguanca](topics/q30066029-quispiguanca.md): en; `site`; `unassessed`
+- [Quito](topics/q2900-quito.md): es; `other`; `unassessed`
+- [Qullqa](topics/q3412510-qullqa.md): en; `site`; `unassessed`
+- [Qullqapampa](topics/q15950077-qullqapampa.md): en; `site`; `unassessed`
+- [Qunchamarka](topics/q13190500-qunchamarka.md): en; `site`; `unassessed`
+- [Qunchupata, Ayacucho](topics/q17625974-qunchupata-ayacucho.md): en; `site`; `unassessed`
+- [Quri Winchus](topics/q21044310-quri-winchus.md): en; `site`; `unassessed`
+- [Qurimarka, Apurímac](topics/q15950024-qurimarka-apurimac.md): en; `site`; `unassessed`
+- [Qurimarka, Cusco](topics/q15950041-qurimarka-cusco.md): en; `site`; `unassessed`
+- [Quriwayrachina, Anta](topics/q17086613-quriwayrachina-anta.md): en; `site`; `unassessed`
+- [Quriwayrachina, Ayacucho](topics/q17086614-quriwayrachina-ayacucho.md): en; `site`; `unassessed`
+- [Ranrapata](topics/q29641884-ranrapata.md): es; `other`; `unassessed`
+- [Raqch'i](topics/q2876258-raqch-i.md): en, pt; `site`; `unassessed`
+- [Ratanabá](topics/q112683795-ratanaba.md): en, pt; `other`; `unassessed`
+- [Real Alto](topics/q122746372-real-alto.md): en; `site`; `unassessed`
+- [Real Alto](topics/q56394705-real-alto.md): es; `other`; `unassessed`
+- [Rebeca Carrión Cachot](topics/q6102277-rebeca-carrion-cachot.md): es; `person`; `unassessed`
+- [Rebordello](topics/q140157631-rebordello.md): en; `site`; `unassessed`
+- [Red vial del Tahuantinsuyo](topics/q948975-red-vial-del-tahuantinsuyo.md): en, es; `site`; `unassessed`
+- [Religión incaica](topics/q3238302-religion-incaica.md): en, es; `legend`; `unassessed`
+- [Revash](topics/q2088559-revash.md): en; `site`; `unassessed`
+- [Romãozinho](topics/q3892862-romaozinho.md): pt; `legend`; `unassessed`
+- [Rucanacoto](topics/q123785837-rucanacoto.md): es; `legend`; `unassessed`
+- [Rudá](topics/q10365186-ruda.md): pt; `legend`; `unassessed`
+- [Rumicolca](topics/q2503884-rumicolca.md): en, pt; `site`; `unassessed`
+- [Rumicucho](topics/q6090782-rumicucho.md): en; `site`; `unassessed`
+- [Rumiwasi](topics/q15949995-rumiwasi.md): en; `site`; `unassessed`
+- [Runayoc](topics/q21044313-runayoc.md): en, pt; `site`; `unassessed`
+- [Ruta Moche](topics/q428510-ruta-moche.md): en, es; `site`; `unassessed`
+- [Sacerdote sin cabeza](topics/q6116658-sacerdote-sin-cabeza.md): es; `legend`; `unassessed`
+- [Sací](topics/q1760117-saci.md): es, pt; `legend`; `unassessed`
+- [Sacsayhuamán](topics/q828336-sacsayhuaman.md): en, es, pt; `site`; `unassessed`
+- [Sagrada serranía de los urus](topics/q6116835-sagrada-serrania-de-los-urus.md): es; `legend`; `unassessed`
+- [Salt Mines of Maras](topics/q31386827-salt-mines-of-maras.md): en; `site`; `unassessed`
+- [Samaipata, Bolivia](topics/q1014461-samaipata-bolivia.md): en; `site`; `unassessed`
+- [Sambaqui](topics/q1152199-sambaqui.md): pt; `other`; `unassessed`
+- [Sambaqui de Monte Castelo](topics/q135456528-sambaqui-de-monte-castelo.md): pt; `site`; `unassessed`
+- [Sambaqui do Pindai](topics/q134446199-sambaqui-do-pindai.md): pt; `site`; `unassessed`
+- [Sambaquieiros](topics/q135668101-sambaquieiros.md): pt; `artifact`; `unassessed`
+- [Sambaquis no Brasil](topics/q56350558-sambaquis-no-brasil.md): pt; `other`; `unassessed`
+- [San Agustín, Huila](topics/q1010129-san-agustin-huila.md): en; `site`; `unassessed`
+- [San Lorenzo Island (Peru)](topics/q926649-san-lorenzo-island-peru.md): en; `site`; `unassessed`
+- [Santa Ana-La Florida](topics/q25247942-santa-ana-la-florida.md): en, es; `site`; `unassessed`
+- [Santa Cruz la Vieja](topics/q16628736-santa-cruz-la-vieja.md): es; `other`; `unassessed`
+- [Santa María la Antigua del Darién](topics/q2573380-santa-maria-la-antigua-del-darien.md): en; `site`; `unassessed`
+- [Santa Rosa de Tastil](topics/q370723-santa-rosa-de-tastil.md): es; `other`; `unassessed`
+- [Sara Sara](topics/q2652409-sara-sara.md): en; `site`; `unassessed`
+- [Sarita Colonia](topics/q6121928-sarita-colonia.md): es; `legend`; `unassessed`
+- [Sateré](topics/q10368504-satere.md): pt; `other`; `unassessed`
+- [Sayacmarca](topics/q15949903-sayacmarca.md): en; `site`; `unassessed`
+- [Selva amazónica](topics/q177567-selva-amazonica.md): en, es, pt; `other`; `unassessed`
+- [Serra das Esmeraldas](topics/q139969821-serra-das-esmeraldas.md): pt; `legend`; `unassessed`
+- [Serra do Sabarabuçu](topics/q10370502-serra-do-sabarabucu.md): pt; `legend`; `unassessed`
+- [Shuaras](topics/q1296766-shuaras.md): pt; `other`; `unassessed`
+- [Sican culture](topics/q175801-sican-culture.md): en; `culture`; `unassessed`
+- [Siete Huacas](topics/q115916536-siete-huacas.md): es; `other`; `unassessed`
+- [Silbaco](topics/q135326106-silbaco.md): es; `legend`; `unassessed`
+- [Sillustani](topics/q2603118-sillustani.md): en, pt; `site`; `unassessed`
+- [Silos de Tukipaya](topics/q88775723-silos-de-tukipaya.md): es; `other`; `unassessed`
+- [Sirianos](topics/q2259852-sirianos.md): pt; `other`; `unassessed`
+- [Sitio arqueológico de Alto Paranapura](topics/q105636011-sitio-arqueologico-de-alto-paranapura.md): es; `site`; `unassessed`
+- [Sítio Arqueológico de Hatahara](topics/q108167985-sitio-arqueologico-de-hatahara.md): pt; `site`; `unassessed`
+- [Sítio Arqueológico de Moray](topics/q1814201-sitio-arqueologico-de-moray.md): en, pt; `site`; `unassessed`
+- [Sitio arqueológico de San Miguel Arcángel](topics/q503828-sitio-arqueologico-de-san-miguel-arcangel.md): es, pt; `site`; `unassessed`
+- [Sítio Arqueológico de Santarém](topics/q113332088-sitio-arqueologico-de-santarem.md): pt; `site`; `unassessed`
+- [Sitio arqueológico de Tequendama](topics/q3485396-sitio-arqueologico-de-tequendama.md): es; `site`; `unassessed`
+- [Sitio arqueológico de Tinyacc](topics/q134695227-sitio-arqueologico-de-tinyacc.md): es; `site`; `unassessed`
+- [Sítio Arqueológico do Bisnau](topics/q10376488-sitio-arqueologico-do-bisnau.md): pt; `site`; `unassessed`
+- [Sitio arqueológico El Zapotal](topics/q106687218-sitio-arqueologico-el-zapotal.md): es; `site`; `unassessed`
+- [Sítio Arqueológico Fazenda Santa Dalmácia](topics/q10376481-sitio-arqueologico-fazenda-santa-dalmacia.md): pt; `site`; `unassessed`
+- [Sítio Arqueológico Rio Ivinhema 1](topics/q108124311-sitio-arqueologico-rio-ivinhema-1.md): pt; `site`; `unassessed`
+- [Sítio arqueológico Teotônio](topics/q94848191-sitio-arqueologico-teotonio.md): pt; `site`; `unassessed`
+- [Sítio Arqueológico Toro Muerto](topics/q2475797-sitio-arqueologico-toro-muerto.md): en, pt; `site`; `unassessed`
+- [Sítios arqueológicos de Lagoa Santa](topics/q120740054-sitios-arqueologicos-de-lagoa-santa.md): pt; `other`; `unassessed`
+- [Sítios arqueológicos do Peru](topics/q2497394-sitios-arqueologicos-do-peru.md): en, pt; `site`; `unassessed`
+- [Sítios Rupestres de Alcinópolis](topics/q94706799-sitios-rupestres-de-alcinopolis.md): pt; `other`; `unassessed`
+- [Situa](topics/q6130163-situa.md): en; `legend`; `unassessed`
+- [Sociedade de Arqueologia Brasileira](topics/q10372822-sociedade-de-arqueologia-brasileira.md): pt; `person`; `unassessed`
+- [Soldado del Zigzag](topics/q30905469-soldado-del-zigzag.md): es; `other`; `unassessed`
+- [Sóndor](topics/q12070303-sondor.md): en; `site`; `unassessed`
+- [Sonia Alconini](topics/q22003065-sonia-alconini.md): es; `culture`; `unassessed`
+- [Soro Mik'aya Patjxa](topics/q60786349-soro-mik-aya-patjxa.md): en; `site`; `unassessed`
+- [SS Prinz August Wilhelm](topics/q124608896-ss-prinz-august-wilhelm.md): en; `site`; `unassessed`
+- [Supay](topics/q1659436-supay.md): en, es, pt; `legend`; `unassessed`
+- [Susupillo](topics/q17089203-susupillo.md): en; `site`; `unassessed`
+- [T'akaq](topics/q16901073-t-akaq.md): en; `site`; `unassessed`
+- [T'uqu T'uquyuq](topics/q17103554-t-uqu-t-uquyuq.md): en; `site`; `unassessed`
+- [Tableta de rapé](topics/q29384360-tableta-de-rape.md): es; `other`; `unassessed`
+- [Taima Taima](topics/q3514036-taima-taima.md): en, es; `site`; `unassessed`
+- [Taki Unquy](topics/q5199117-taki-unquy.md): en; `legend`; `unassessed`
+- [Tama Chullpa](topics/q123417149-tama-chullpa.md): es; `site`; `unassessed`
+- [Tambo Colorado](topics/q1513848-tambo-colorado.md): en, pt; `site`; `unassessed`
+- [Tambomachay](topics/q1360456-tambomachay.md): en, pt; `site`; `unassessed`
+- [Tampu Mach'ay, Huancavelica](topics/q15950091-tampu-mach-ay-huancavelica.md): en; `site`; `unassessed`
+- [Tampukancha](topics/q7129078-tampukancha.md): en; `site`; `unassessed`
+- [Tanqa Tanqa](topics/q15950011-tanqa-tanqa.md): en; `site`; `unassessed`
+- [Tapajó people](topics/q3515431-tapajo-people.md): en; `other`; `unassessed`
+- [Taqrachullu](topics/q15950018-taqrachullu.md): en; `site`; `unassessed`
+- [Tarahuasi](topics/q4451905-tarahuasi.md): en; `site`; `unassessed`
+- [Tarmatampu](topics/q15949886-tarmatampu.md): en, pt; `site`; `unassessed`
+- [Teiniaguá](topics/q10379114-teiniagua.md): pt; `legend`; `unassessed`
+- [Teju Jagua](topics/q3318877-teju-jagua.md): pt; `legend`; `unassessed`
+- [Templo da Lua (Peru)](topics/q634026-templo-da-lua-peru.md): en, pt; `site`; `unassessed`
+- [Tenharins](topics/q1091659-tenharins.md): pt; `other`; `unassessed`
+- [Teoria da presença de fenícios no Brasil](topics/q7782427-teoria-da-presenca-de-fenicios-no-brasil.md): pt; `other`; `unassessed`
+- [Tercera expansión incaica](topics/q6142431-tercera-expansion-incaica.md): es; `other`; `unassessed`
+- [Terra Indígena Alto Tarauacá](topics/q130983611-terra-indigena-alto-tarauaca.md): pt; `other`; `unassessed`
+- [Terra Indígena do Vale do Javari](topics/q7909515-terra-indigena-do-vale-do-javari.md): pt; `other`; `unassessed`
+- [Terra Indígena Hi Merimã](topics/q131244163-terra-indigena-hi-merima.md): pt; `other`; `unassessed`
+- [Terra Indígena Kaxarari](topics/q131010783-terra-indigena-kaxarari.md): pt; `other`; `unassessed`
+- [Terra Indígena Kaxinawá do Rio Humaitá](topics/q131068840-terra-indigena-kaxinawa-do-rio-humaita.md): pt; `other`; `unassessed`
+- [Terra Indígena Mamoadate](topics/q131068871-terra-indigena-mamoadate.md): pt; `other`; `unassessed`
+- [Terra Indígena Rio Muqui](topics/q131293992-terra-indigena-rio-muqui.md): pt; `other`; `unassessed`
+- [Terra Indígena Rio Omerê](topics/q7335296-terra-indigena-rio-omere.md): pt; `other`; `unassessed`
+- [Terra Indígena Tanaru](topics/q131010784-terra-indigena-tanaru.md): pt; `other`; `unassessed`
+- [Terra Indígena Uru-Eu-Wau-Wau](topics/q7703096-terra-indigena-uru-eu-wau-wau.md): pt; `other`; `unassessed`
+- [Terra Indígena Waimiri Atroari](topics/q28401941-terra-indigena-waimiri-atroari.md): pt; `other`; `unassessed`
+- [Terra preta](topics/q1807448-terra-preta.md): en, pt; `landscape`; `unassessed`
+- [Terra sem males](topics/q10394811-terra-sem-males.md): pt; `legend`; `unassessed`
+- [Terras indígenas do Brasil](topics/q6024666-terras-indigenas-do-brasil.md): pt; `other`; `unassessed`
+- [Tesoro de la Llanganatis](topics/q2400516-tesoro-de-la-llanganatis.md): es; `legend`; `unassessed`
+- [Tiahuanaco](topics/q61750-tiahuanaco.md): en, es, pt; `site`; `archaeologically-corroborated`
+- [Tikra](topics/q21044327-tikra.md): en; `site`; `unassessed`
+- [Tinyaq](topics/q20085581-tinyaq.md): en; `site`; `unassessed`
+- [Tío Pachamama](topics/q6154569-tio-pachamama.md): es; `legend`; `unassessed`
+- [Tipón](topics/q2003624-tipon.md): en, pt; `site`; `unassessed`
+- [Titiqaqa (Cusco)](topics/q15949954-titiqaqa-cusco.md): en; `site`; `unassessed`
+- [Toca da Onça (Goiás)](topics/q10382832-toca-da-onca-goias.md): pt; `other`; `unassessed`
+- [Toca da Tira Peia](topics/q17054520-toca-da-tira-peia.md): en; `site`; `unassessed`
+- [Tokjuaj](topics/q136238534-tokjuaj.md): es; `legend`; `unassessed`
+- [Tormenta de Santa Rosa](topics/q7419933-tormenta-de-santa-rosa.md): es; `legend`; `unassessed`
+- [Tradição Aratu](topics/q112982645-tradicao-aratu.md): pt; `landscape`; `unassessed`
+- [Tradição Humaitá](topics/q25935853-tradicao-humaita.md): pt; `other`; `unassessed`
+- [Tradição polícroma da Amazônia](topics/q10384013-tradicao-policroma-da-amazonia.md): pt; `expedition`; `unassessed`
+- [Tradição Religiosa Kotosh](topics/q6434200-tradicao-religiosa-kotosh.md): en, pt; `culture`; `unassessed`
+- [Tradição Umbu](topics/q18281137-tradicao-umbu.md): pt; `other`; `unassessed`
+- [Tradição Vieira](topics/q10390537-tradicao-vieira.md): pt; `other`; `unassessed`
+- [Tucume](topics/q1677131-tucume.md): en, pt; `site`; `unassessed`
+- [Tulipe](topics/q116753992-tulipe.md): es; `other`; `unassessed`
+- [Tumaco-La Tolita culture](topics/q2658318-tumaco-la-tolita-culture.md): en; `culture`; `unassessed`
+- [Tumayricapac](topics/q120450877-tumayricapac.md): es; `legend`; `unassessed`
+- [Tumbas de Chacoma](topics/q123439766-tumbas-de-chacoma.md): es; `other`; `unassessed`
+- [Tumebamba](topics/q1014957-tumebamba.md): en; `site`; `unassessed`
+- [Tumshukayko](topics/q7852704-tumshukayko.md): en; `site`; `unassessed`
+- [Tunanmarca](topics/q12071621-tunanmarca.md): en; `site`; `unassessed`
+- [Tuncahuán](topics/q17090554-tuncahuan.md): en; `site`; `unassessed`
+- [Tunupa](topics/q10500058-tunupa.md): es; `legend`; `unassessed`
+- [Tupu Inka](topics/q15950013-tupu-inka.md): en; `site`; `unassessed`
+- [Tutayquiri](topics/q138686001-tutayquiri.md): es; `legend`; `unassessed`
+- [Twelve-angled stone](topics/q16618903-twelve-angled-stone.md): en; `site`; `unassessed`
+- [Uchkus Inkañan](topics/q4479436-uchkus-inkanan.md): en; `site`; `unassessed`
+- [Uirapuru (mito)](topics/q10387184-uirapuru-mito.md): pt; `legend`; `unassessed`
+- [Unu Pachacútec](topics/q4006102-unu-pachacutec.md): en, es; `legend`; `unassessed`
+- [Urcaguary](topics/q121536271-urcaguary.md): es; `legend`; `unassessed`
+- [Urcuchillay](topics/q7900304-urcuchillay.md): es; `legend`; `unassessed`
+- [Urpayhuáchac](topics/q122421820-urpayhuachac.md): es; `legend`; `unassessed`
+- [Urpish](topics/q63006653-urpish.md): en; `site`; `unassessed`
+- [Urumaco](topics/q2096142-urumaco.md): en; `site`; `unassessed`
+- [Ururau da Lapa (lenda)](topics/q10388317-ururau-da-lapa-lenda.md): pt; `legend`; `unassessed`
+- [Uskallaqta](topics/q16902432-uskallaqta.md): en; `site`; `unassessed`
+- [Usnu Muqu](topics/q25044778-usnu-muqu.md): en; `site`; `unassessed`
+- [Usnu, Ayacucho](topics/q15950026-usnu-ayacucho.md): en; `site`; `unassessed`
+- [Usnu, Huánuco](topics/q15950066-usnu-huanuco.md): en; `site`; `unassessed`
+- [Uso de plantas medicinais](topics/q131426581-uso-de-plantas-medicinais.md): pt; `other`; `unassessed`
+- [Usqunta](topics/q20085596-usqunta.md): en; `site`; `unassessed`
+- [Uyu Uyu](topics/q15991649-uyu-uyu.md): en; `site`; `unassessed`
+- [Vale Sagrado dos Incas](topics/q2237464-vale-sagrado-dos-incas.md): en, pt; `site`; `unassessed`
+- [Velho do saco](topics/q3267913-velho-do-saco.md): pt; `legend`; `unassessed`
+- [Ventanillas de Otuzco](topics/q2045826-ventanillas-de-otuzco.md): en; `site`; `unassessed`
+- [Vichama (dios)](topics/q4011174-vichama-dios.md): es; `legend`; `unassessed`
+- [Vila Bela da Santíssima Trindade](topics/q732088-vila-bela-da-santissima-trindade.md): pt; `other`; `unassessed`
+- [Vilcabamba, Peru](topics/q827432-vilcabamba-peru.md): en; `legend`; `unassessed`
+- [Vilcashuamán](topics/q2475760-vilcashuaman.md): en; `site`; `unassessed`
+- [Vinhais Velho](topics/q56352128-vinhais-velho.md): pt; `site`; `unassessed`
+- [Viracochapampa](topics/q8026729-viracochapampa.md): en; `site`; `unassessed`
+- [Viru Valley](topics/q7935257-viru-valley.md): en; `site`; `unassessed`
+- [Visagens e Assombrações de Belém](topics/q10391792-visagens-e-assombracoes-de-belem.md): pt; `legend`; `unassessed`
+- [Vitcos](topics/q2045814-vitcos.md): en; `site`; `unassessed`
+- [Viuda (mitología)](topics/q6164109-viuda-mitologia.md): es; `legend`; `unassessed`
+- [Waman Pirqa](topics/q21044337-waman-pirqa.md): en; `site`; `unassessed`
+- [Wamanilla](topics/q20085597-wamanilla.md): en; `site`; `unassessed`
+- [Wamanmarka, Chumbivilcas](topics/q15950045-wamanmarka-chumbivilcas.md): en; `site`; `unassessed`
+- [Wamanmarka, Lima](topics/q25044865-wamanmarka-lima.md): en; `site`; `unassessed`
+- [Wanakawri (Cusco)](topics/q16902914-wanakawri-cusco.md): en; `legend`; `unassessed`
+- [Wanakawri, Huánuco](topics/q15950097-wanakawri-huanuco.md): en; `site`; `unassessed`
+- [Waqlamarka](topics/q17104420-waqlamarka.md): en; `site`; `unassessed`
+- [Waqrapukara](topics/q15949935-waqrapukara.md): en; `site`; `unassessed`
+- [Waqutu](topics/q17104431-waqutu.md): en; `site`; `unassessed`
+- [Warahirka](topics/q17104444-warahirka.md): en; `site`; `unassessed`
+- [Waraqayuq](topics/q16902923-waraqayuq.md): en; `site`; `unassessed`
+- [Waraqu Urqu](topics/q21044338-waraqu-urqu.md): en; `site`; `unassessed`
+- [Warawtampu](topics/q15949889-warawtampu.md): en; `site`; `unassessed`
+- [Wari (archaeological site)](topics/q3395231-wari-archaeological-site.md): en; `site`; `unassessed`
+- [Wari culture](topics/q605340-wari-culture.md): en; `culture`; `unassessed`
+- [Wari Kayan](topics/q128218233-wari-kayan.md): en; `site`; `unassessed`
+- [Wari Willka](topics/q9005122-wari-willka.md): en; `site`; `unassessed`
+- [Waruq](topics/q17107672-waruq.md): en; `site`; `unassessed`
+- [Wat'a, Cusco](topics/q16902999-wat-a-cusco.md): en; `site`; `unassessed`
+- [Wat'a, Huánuco](topics/q17104478-wat-a-huanuco.md): en; `site`; `unassessed`
+- [Wayna Q'inti](topics/q17104503-wayna-q-inti.md): en; `site`; `unassessed`
+- [Wayna Tawqaray](topics/q16903038-wayna-tawqaray.md): en; `site`; `unassessed`
+- [Werehpai](topics/q25044915-werehpai.md): en; `site`; `unassessed`
+- [Wichqana](topics/q21044342-wichqana.md): en; `site`; `unassessed`
+- [Wila Wilani (Tacna)](topics/q19421525-wila-wilani-tacna.md): en; `site`; `unassessed`
+- [Wilamaya Patjxa](topics/q105487704-wilamaya-patjxa.md): en; `site`; `unassessed`
+- [Wilca](topics/q17104624-wilca.md): en; `site`; `unassessed`
+- [Wilcahuaín](topics/q469528-wilcahuain.md): en; `site`; `unassessed`
+- [Willka Raymi](topics/q16999618-willka-raymi.md): en; `legend`; `unassessed`
+- [Wiñay Wayna](topics/q1585056-winay-wayna.md): en; `site`; `unassessed`
+- [Wirapuru](topics/q6168014-wirapuru.md): es; `legend`; `unassessed`
+- [Wiraqucha (Cusco)](topics/q16903562-wiraqucha-cusco.md): en; `site`; `unassessed`
+- [Wiraqucha Pirqa](topics/q17104644-wiraqucha-pirqa.md): en; `site`; `unassessed`
+- [Wonotobo Falls](topics/q2568588-wonotobo-falls.md): en; `site`; `unassessed`
+- [Yacimientos arqueológicos del valle de Upano](topics/q124260053-yacimientos-arqueologicos-del-valle-de-upano.md): en, es, pt; `site`; `archaeologically-corroborated`
+- [Yacumama](topics/q8046484-yacumama.md): es; `legend`; `unassessed`
+- [Yakana](topics/q132110903-yakana.md): en; `legend`; `unassessed`
+- [Yanaca](topics/q3068867-yanaca.md): en; `site`; `unassessed`
+- [Yanañamca y Tutañamca](topics/q120488309-yananamca-y-tutanamca.md): es; `legend`; `unassessed`
+- [Yanantin](topics/q8048261-yanantin.md): en; `legend`; `unassessed`
+- [Yanantin](topics/q13191328-yanantin.md): pt; `legend`; `unassessed`
+- [Yanaque - Quilcamarca](topics/q16903978-yanaque-quilcamarca.md): en; `site`; `unassessed`
+- [Yaynu](topics/q16904040-yaynu.md): en; `site`; `unassessed`
+- [Yebá Bëló](topics/q28680471-yeba-belo.md): pt; `legend`; `unassessed`
+- [Yirogüee](topics/q136333264-yiroguee.md): es; `legend`; `unassessed`
+- [Yoi](topics/q16648898-yoi.md): es; `legend`; `unassessed`
+- [Yorixiriamori](topics/q48871636-yorixiriamori.md): pt; `legend`; `unassessed`
+- [Yuraq Mach'ay](topics/q17104858-yuraq-mach-ay.md): en; `site`; `unassessed`
+- [Zaña Valley (archaeology)](topics/q16979766-zana-valley-archaeology.md): en; `site`; `unassessed`
+- [Zaori](topics/q133462555-zaori.md): pt; `legend`; `unassessed`
+- [Zoólito](topics/q6171765-zoolito.md): pt; `other`; `unassessed`

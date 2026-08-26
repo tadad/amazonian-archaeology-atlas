@@ -1,0 +1,13 @@
+filters:
+  and:
+    - 'type == "culture"'
+    - 'file.inFolder("Cultures")'
+properties:
+  name:
+    displayName: Culture, tradition, or people
+  aliases:
+    displayName: Aliases
+views:
+  - type: table
+    name: Cultures
+    order: [name, aliases]

@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+output/
+
+# Local source archive. Keep source URLs, hashes, and page-addressable
+# Markdown derivatives in Git without duplicating the downloaded PDFs.
+sources/documents/
+
+# Next.js and local browser output.
+app/node_modules/
+app/.next/
+app/out/
+app/*.log
+app/*.tsbuildinfo
+app/.playwright-cli/
+app/output/
+
+# Local deployment and environment state.
+app/.vercel/
+.vercel/
+.env
+.env.*
+!.env.example
