@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   agentRules: false,
   outputFileTracingRoot: path.join(process.cwd(), ".."),
   outputFileTracingIncludes: {
-    "/api/atlas-search": ["../_data/*.json", "../vault/**/*.md"],
+    "/*": ["../_data/*.json", "../vault/**/*.md"],
   },
   reactStrictMode: true,
 };
