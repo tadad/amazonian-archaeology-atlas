@@ -1,12 +1,19 @@
-export type CoordinateMethod = "reconstructed";
-export type LocationStatus = "approximate";
+export type CoordinateMethod = "mapped" | "reconstructed";
+export type LocationStatus = "located" | "approximate";
+export type AtlasMarkerRole = "research" | "expedition";
 
-export const locationStatusOrder: readonly LocationStatus[] = ["approximate"];
+export const atlasMarkerRoleOrder: readonly AtlasMarkerRole[] = ["research", "expedition"];
+
+export const locationStatusOrder: readonly LocationStatus[] = ["located", "approximate"];
 
 export const locationStatusMeta: Record<
   LocationStatus,
   { label: string; description: string }
 > = {
+  located: {
+    label: "Located",
+    description: "Anchored to a known modern community, confluence, or geographic feature.",
+  },
   approximate: {
     label: "Generalized",
     description:
@@ -18,6 +25,11 @@ export const coordinateMethodMeta: Record<
   CoordinateMethod,
   { label: string; description: string }
 > = {
+  mapped: {
+    label: "Mapped reference point",
+    description:
+      "The marker is fixed to a known modern community, confluence, or geographic feature.",
+  },
   reconstructed: {
     label: "Generalized research placement",
     description:
@@ -25,8 +37,8 @@ export const coordinateMethodMeta: Record<
   },
 };
 
-export function locationStatusFor(_method: CoordinateMethod): LocationStatus {
-  return "approximate";
+export function locationStatusFor(method: CoordinateMethod): LocationStatus {
+  return method === "mapped" ? "located" : "approximate";
 }
 
 export type AtlasPlace = {
@@ -35,6 +47,7 @@ export type AtlasPlace = {
   lat: number;
   lon: number;
   coordinateMethod: CoordinateMethod;
+  markerRole: AtlasMarkerRole;
   kind: string;
   basis: string;
   note: string;
@@ -168,6 +181,7 @@ export type AtlasData = {
   lidarFootprints: readonly AtlasLidarFootprint[];
   lidarCoordinatePolicy: string;
   lidarFootprintPolicy: string;
+  routePositions: readonly [number, number][];
 };
 
 export type AtlasSearchTarget =

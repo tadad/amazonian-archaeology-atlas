@@ -2,16 +2,30 @@
 
 ## Acre knowledge graph ontology
 
-The curated Acre vault under `vault/` uses the same ontology and top-level
-property names as the El Salvador graph. Its six linked record types are
-`Places`, `Periods`, `Cultures`, `Papers`, `Authors`, and `Organizations`.
-Places own links to their periods, cultural classifications, finds, and directly
-supporting papers. Papers own canonical author links and bibliographic,
+The curated Amazonian vault under `vault/` uses typed Markdown records for
+`LiDAR Scans`, `Investigations`, `Expeditions`, `Route Locations`,
+`Archaeological Sites`, `Periods`, `Cultures`, `Papers`, `Authors`, and
+`Organizations`. Archaeological Sites are named entities linked to fieldwork;
+Route Locations are separate public geographic or interpretive anchors for a
+documented journey. Papers own canonical author links and bibliographic,
 provenance, access, and extraction status. Backlinks supply reverse edges.
 
 The older `topics/` discovery records documented below remain intact. They are
 a broad machine-discovery layer, not a replacement ontology for the curated
 Acre graph.
+
+## Route-location coordinates
+
+Route Locations use `location_visibility: public-reference`. A `landmark`
+coordinate is a modern mapped community, confluence, or feature; it does not
+make the associated sixteenth-century event exact. An `approximate` coordinate
+is a best-fit historical area with at least 8 km display uncertainty. Neither
+class permits publishing a protected archaeological-site coordinate. The
+schematic river centerline in `_data/orellana-route.json` likewise represents a
+modern navigation corridor, not camps, daily positions, or historical channels.
+The `marker_role` field separates `research` anchors from `expedition` events.
+Where a report and an archaeological study share one public anchor, the record
+remains a research marker and carries the report in an Expedition event section.
 
 Each file in `topics/` is a discovery record. YAML front matter makes the
 collection easy to import into SQLite later while keeping every record readable

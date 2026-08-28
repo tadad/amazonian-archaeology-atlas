@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 COLLECTIONS = (
     "LiDAR Scans",
     "Investigations",
+    "Expeditions",
+    "Route Locations",
     "Archaeological Sites",
     "Periods",
     "Cultures",

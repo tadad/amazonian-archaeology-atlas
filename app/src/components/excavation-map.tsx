@@ -19,6 +19,7 @@ import {
   MapContainer,
   Marker,
   Polygon,
+  Polyline,
   Rectangle,
   ScaleControl,
   TileLayer,
@@ -28,6 +29,7 @@ import {
 } from "react-leaflet";
 import {
   type AtlasAncientFeatureCell,
+  type AtlasMarkerRole,
   type AtlasLidarFootprint,
   type AtlasLidarGeometryProvenance,
   type AtlasLidarReviewClass,
@@ -53,6 +55,7 @@ type ExcavationMapProps = {
   onSelectLidar: (surveys: AtlasLidarSurvey[], footprints: AtlasLidarFootprint[]) => void;
   onSelectAncientFeature: (cell: AtlasAncientFeatureCell) => void;
   messages: Dictionary;
+  routePositions?: readonly [number, number][];
 };
 
 const lidarStyles: Record<
@@ -89,13 +92,14 @@ const lidarProvenanceOrder: Record<AtlasLidarGeometryProvenance, number> = {
 
 function makeIcon(
   status: LocationStatus,
+  markerRole: AtlasMarkerRole,
   selected: boolean,
   recordsLabel: string,
   count = 1,
 ): DivIcon {
   return divIcon({
     className: "dig-marker-wrap",
-    html: `<span class="dig-marker location-${status}${selected ? " is-selected" : ""}"><span></span>${count > 1 ? `<b class="marker-count" aria-label="${count} ${recordsLabel}">${count}</b>` : ""}</span>`,
+    html: `<span class="dig-marker marker-${markerRole} location-${status}${selected ? " is-selected" : ""}"><span></span>${count > 1 ? `<b class="marker-count" aria-label="${count} ${recordsLabel}">${count}</b>` : ""}</span>`,
     iconSize: selected ? [34, 34] : [26, 26],
     iconAnchor: selected ? [17, 17] : [13, 13],
   });
@@ -393,6 +397,7 @@ export default function ExcavationMap({
   onSelectLidar,
   onSelectAncientFeature,
   messages,
+  routePositions = [],
 }: ExcavationMapProps) {
   const markerGroups = useMemo(() => {
     const groups = new Map<string, AtlasPlace[]>();
@@ -449,6 +454,18 @@ export default function ExcavationMap({
         <ZoomControl position="bottomright" />
         <ScaleControl position="bottomleft" imperial={false} />
         <MapViewport selected={selected} focusBounds={focusBounds} />
+        {routePositions.length ? (
+          <Polyline
+            positions={[...routePositions]}
+            interactive={false}
+            pathOptions={{
+              color: "#8f4d32",
+              dashArray: "8 7",
+              opacity: 0.76,
+              weight: 3,
+            }}
+          />
+        ) : null}
         {showLidar
           ? orderedLidarFootprints.map((footprint) => {
               const surveys = footprint.surveyIds
@@ -484,8 +501,12 @@ export default function ExcavationMap({
             radius={dig.uncertaintyKm * 1000}
             interactive={false}
             pathOptions={{
-              color: dig.id === selected?.id ? "#9f4b2f" : "#8b6e55",
-              fillColor: dig.id === selected?.id ? "#c76b48" : "#b89b7e",
+              color: dig.id === selected?.id
+                ? "#9f4b2f"
+                : dig.markerRole === "expedition" ? "#70506f" : "#8b6e55",
+              fillColor: dig.id === selected?.id
+                ? "#c76b48"
+                : dig.markerRole === "expedition" ? "#9d739c" : "#b89b7e",
               fillOpacity: dig.id === selected?.id ? 0.13 : 0.035,
               opacity: dig.id === selected?.id ? 0.7 : 0.22,
               weight: dig.id === selected?.id ? 2 : 1,
@@ -495,11 +516,14 @@ export default function ExcavationMap({
         {markerGroups.map((colocatedDigs) => {
           const selectedIndex = colocatedDigs.findIndex((dig) => dig.id === selected?.id);
           const isSelected = selectedIndex >= 0;
-          const activeDig = isSelected ? colocatedDigs[selectedIndex] : colocatedDigs[0];
+          const primaryDig =
+            colocatedDigs.find((dig) => dig.markerRole === "research") ?? colocatedDigs[0];
+          const activeDig = isSelected ? colocatedDigs[selectedIndex] : primaryDig;
           const hasAlternates = colocatedDigs.length > 1;
           const locationStatus = locationStatusFor(activeDig.coordinateMethod);
           const markerIcon = makeIcon(
             locationStatus,
+            activeDig.markerRole,
             isSelected,
             messages.map.records,
             colocatedDigs.length,
@@ -518,13 +542,15 @@ export default function ExcavationMap({
               key={colocatedDigs.map((dig) => dig.id).join(":")}
               position={[activeDig.lat, activeDig.lon]}
               icon={markerIcon}
+              title={activeDig.name}
+              alt={activeDig.name}
               zIndexOffset={isSelected ? 1000 : 0}
               eventHandlers={{ click: selectNextDig }}
             />
           );
         })}
       </MapContainer>
-      <div className="lidar-review-key" aria-label={messages.map.reviewLegendLabel}>
+      {lidarFootprints.length ? <div className="lidar-review-key" aria-label={messages.map.reviewLegendLabel}>
         <strong>{messages.map.reviewLegendTitle}</strong>
         <span>
           <i className="lidar-review-line review-reviewed" aria-hidden="true" />
@@ -547,7 +573,7 @@ export default function ExcavationMap({
           <i className="survey-coverage-swatch provenance-derived" aria-hidden="true" />
           {messages.map.reconstructed}
         </span>
-      </div>
+      </div> : null}
     </>
   );
 }

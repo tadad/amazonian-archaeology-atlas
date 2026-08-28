@@ -23,10 +23,14 @@ import {
   type AtlasLidarGeometryProvenance,
   type AtlasLidarReviewClass,
   type AtlasLidarSurvey,
+  type AtlasMarkerRole,
   type AtlasPlace,
   type AtlasSearchResult,
+  type LocationStatus,
+  atlasMarkerRoleOrder,
   lidarReviewClassForStatus,
   lidarReviewClassForSurveys,
+  locationStatusOrder,
   locationStatusFor,
 } from "@/lib/atlas-types";
 
@@ -202,6 +206,7 @@ type AtlasExplorerProps = {
 export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
   const router = useRouter();
   const ui = messages.atlas;
+  const isRouteAtlas = data.routePositions.length > 0;
   const lidarReviewClasses = (["reviewed", "partial", "unreviewed"] as const).map(
     (id): LidarReviewOption => ({ id, ...messages.atlas.reviewClasses[id] }),
   );
@@ -240,6 +245,23 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
   const [visibleLidarReviews, setVisibleLidarReviews] = useState<
     Record<AtlasLidarReviewClass, boolean>
   >({ reviewed: true, partial: true, unreviewed: true });
+  const [activeLocationStatus, setActiveLocationStatus] = useState<Record<LocationStatus, boolean>>({
+    located: true,
+    approximate: true,
+  });
+  const [activeMarkerRoles, setActiveMarkerRoles] = useState<Record<AtlasMarkerRole, boolean>>({
+    research: true,
+    expedition: true,
+  });
+
+  const visibleDigs = useMemo(
+    () => digs.filter(
+      (dig) =>
+        activeLocationStatus[locationStatusFor(dig.coordinateMethod)] &&
+        activeMarkerRoles[dig.markerRole],
+    ),
+    [activeLocationStatus, activeMarkerRoles, digs],
+  );
 
   const mappedLidarSurveyIds = useMemo(
     () => new Set(
@@ -294,7 +316,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
   );
 
   const selected = selectedId
-    ? digs.find((dig) => dig.id === selectedId) ?? null
+    ? visibleDigs.find((dig) => dig.id === selectedId) ?? null
     : null;
   const selectedLocationStatus = selected ? locationStatusFor(selected.coordinateMethod) : null;
   const selectedLidarSurveys = filteredLidarSurveys.filter((survey) =>
@@ -421,6 +443,22 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
     setSelectedLidarFootprintIds([]);
   }
 
+  function toggleLocationStatus(status: LocationStatus) {
+    setActiveLocationStatus((current) => {
+      const enabledCount = Object.values(current).filter(Boolean).length;
+      if (current[status] && enabledCount === 1) return current;
+      return { ...current, [status]: !current[status] };
+    });
+  }
+
+  function toggleMarkerRole(role: AtlasMarkerRole) {
+    setActiveMarkerRoles((current) => {
+      const enabledCount = Object.values(current).filter(Boolean).length;
+      if (current[role] && enabledCount === 1) return current;
+      return { ...current, [role]: !current[role] };
+    });
+  }
+
   function selectSearchResult(result: AtlasSearchResult) {
     const target = result.target;
     if (target.kind === "knowledge-record") {
@@ -459,18 +497,77 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
   return (
     <main className="atlas-shell">
       <header className="masthead">
-        <h1>{messages.nav.siteName}</h1>
+        <h1>{isRouteAtlas ? messages.orellana.siteName : messages.nav.siteName}</h1>
         <nav className="masthead-nav" aria-label={messages.nav.primaryLabel}>
-          <span aria-current="page">{messages.nav.atlas}</span>
+          {isRouteAtlas ? (
+            <Link href={localePath(locale, "/")}>{messages.nav.atlas}</Link>
+          ) : (
+            <span aria-current="page">{messages.nav.atlas}</span>
+          )}
+          {isRouteAtlas ? (
+            <span aria-current="page">{messages.nav.orellana}</span>
+          ) : (
+            <Link href={localePath(locale, "/orellana")}>{messages.nav.orellana}</Link>
+          )}
           <Link href={localePath(locale, "/sources/lidar-scans")}>{messages.nav.wiki}</Link>
           <Link href={localePath(locale, "/about")}>{messages.nav.about}</Link>
           <LanguageToggle locale={locale} messages={messages.language} />
         </nav>
       </header>
 
-      <section className="atlas-workspace" aria-label={ui.workspaceLabel}>
+      <section className="atlas-workspace" aria-label={isRouteAtlas ? messages.orellana.workspaceLabel : ui.workspaceLabel}>
         <div className="map-column">
           <div className="map-toolbar">
+            {isRouteAtlas ? (
+              <div className="location-filters" aria-label={messages.orellana.mapControlsLabel}>
+                {locationStatusOrder.map((status) => {
+                  const count = digs.filter(
+                    (dig) => locationStatusFor(dig.coordinateMethod) === status,
+                  ).length;
+                  const meta = messages.locationStatuses[status];
+                  return (
+                    <button
+                      className={`location-filter location-${status}`}
+                      type="button"
+                      key={status}
+                      aria-pressed={activeLocationStatus[status]}
+                      aria-label={formatMessage(messages.orellana.locationFilterLabel, {
+                        label: meta.label,
+                        count,
+                      })}
+                      onClick={() => toggleLocationStatus(status)}
+                      title={meta.description}
+                    >
+                      <span className="location-symbol" aria-hidden="true" />
+                      <span>{meta.label}</span>
+                      <span className="filter-count">{count}</span>
+                    </button>
+                  );
+                })}
+                {atlasMarkerRoleOrder.map((role) => {
+                  const count = digs.filter((dig) => dig.markerRole === role).length;
+                  const meta = messages.orellana.markerRoles[role];
+                  return (
+                    <button
+                      className={`location-filter marker-role-filter marker-${role}`}
+                      type="button"
+                      key={role}
+                      aria-pressed={activeMarkerRoles[role]}
+                      aria-label={formatMessage(messages.orellana.markerRoleFilterLabel, {
+                        label: meta.label,
+                        count,
+                      })}
+                      onClick={() => toggleMarkerRole(role)}
+                      title={meta.description}
+                    >
+                      <span className="marker-role-symbol" aria-hidden="true" />
+                      <span>{meta.label}</span>
+                      <span className="filter-count">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : (
               <div className="location-filters" aria-label={ui.mapControlsLabel}>
                 <button
                   className="location-filter layer-filter"
@@ -509,24 +606,29 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </button>
                 ))}
               </div>
+            )}
             <p className="visible-count" aria-live="polite">
-              {formatMessage(ui.visibleSummary, {
-                footprints: filteredLidarFootprints.length.toLocaleString(localeTag(locale)),
-                studies: filteredLidarSurveys.length.toLocaleString(localeTag(locale)),
-              })}
+              {isRouteAtlas
+                ? formatMessage(messages.orellana.visibleSummary, {
+                    visible: visibleDigs.length.toLocaleString(localeTag(locale)),
+                  })
+                : formatMessage(ui.visibleSummary, {
+                    footprints: filteredLidarFootprints.length.toLocaleString(localeTag(locale)),
+                    studies: filteredLidarSurveys.length.toLocaleString(localeTag(locale)),
+                  })}
             </p>
           </div>
 
           <div className="map-frame">
             <AtlasLoadingContext.Provider value={ui}>
               <ExcavationMap
-                digs={noMapSites}
+                digs={isRouteAtlas ? visibleDigs : noMapSites}
                 ancientFeatureCells={data.ancientFeatureCells}
                 lidarSurveys={filteredLidarSurveys}
                 lidarFootprints={filteredLidarFootprints}
                 showAncientFeatures={showAncientFeatures}
                 showLidar={filteredLidarFootprints.length > 0}
-                selected={null}
+                selected={isRouteAtlas ? selected : null}
                 selectedLidarFootprintIds={selectedLidarFootprintIds}
                 selectedAncientFeatureId={selectedAncientFeatureId}
                 focusBounds={focusBounds}
@@ -534,6 +636,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                 onSelectLidar={selectLidarSurveys}
                 onSelectAncientFeature={selectAncientFeature}
                 messages={messages}
+                routePositions={data.routePositions}
               />
             </AtlasLoadingContext.Provider>
           </div>
@@ -545,7 +648,9 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
           className="research-panel"
           aria-label={ui.selectedDetails}
         >
-          <AtlasSearchBox onSelect={selectSearchResult} messages={messages} />
+          {isRouteAtlas ? null : (
+            <AtlasSearchBox onSelect={selectSearchResult} messages={messages} />
+          )}
 
           {selected && selectedLocationStatus ? (
             <article className="site-record" key={selected.id}>
@@ -586,7 +691,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
 
               <dl className="record-classification">
                 <div>
-                  <dt>{ui.chronology}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.chronology : ui.chronology}</dt>
                   <dd>
                     {selected.periods.length ? (
                       selected.periods.map((period) => (
@@ -598,7 +703,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </dd>
                 </div>
                 <div>
-                  <dt>{ui.traditionModel}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.historicalAssociation : ui.traditionModel}</dt>
                   <dd>
                     {selected.cultures.length ? (
                       selected.cultures.map((culture) => (
@@ -610,7 +715,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </dd>
                 </div>
                 <div>
-                  <dt>{ui.whatWasFound}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.reportedInvestigated : ui.whatWasFound}</dt>
                   <dd>
                     {selected.finds.length ? (
                       selected.finds.map((find) => findLabels[find]).join(", ")
@@ -620,7 +725,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </dd>
                 </div>
                 <div>
-                  <dt>{ui.placeType}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.pointType : ui.placeType}</dt>
                   <dd>
                     {selected.techniques.length ? (
                       selected.techniques
@@ -632,7 +737,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </dd>
                 </div>
                 <div>
-                  <dt>{ui.latestStudy}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.latestSource : ui.latestStudy}</dt>
                   <dd>
                     {selected.latestStudyLabel ? (
                       selected.latestStudyLabel
@@ -643,7 +748,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                   </dd>
                 </div>
                 <div>
-                  <dt>{ui.lastFieldInvestigation}</dt>
+                  <dt>{isRouteAtlas ? messages.orellana.fieldwork : ui.lastFieldInvestigation}</dt>
                   <dd>
                     {selected.lastFieldworkLabel ??
                       ui.notDocumented}
@@ -655,7 +760,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
                 <VaultMarkdown locale={locale}>{selected.body}</VaultMarkdown>
               </div>
               <p className="place-record-link">
-                <Link href={localePath(locale, `/sources/archaeological-sites/${encodeURIComponent(selected.id)}`)}>
+                <Link href={localePath(locale, `/sources/${isRouteAtlas ? "route-locations" : "archaeological-sites"}/${encodeURIComponent(selected.id)}`)}>
                   {ui.openWikiRecord}
                 </Link>
               </p>
@@ -836,7 +941,7 @@ export function AtlasExplorer({ data, locale, messages }: AtlasExplorerProps) {
           ) : (
             <div className="no-site-selected">
               <span aria-hidden="true">◎</span>
-              <p>{ui.selectPrompt}</p>
+              <p>{isRouteAtlas ? messages.orellana.selectPrompt : ui.selectPrompt}</p>
             </div>
           )}
 

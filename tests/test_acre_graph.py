@@ -46,6 +46,18 @@ class AcreGraphTests(unittest.TestCase):
             manifest["counts"]["archaeological_sites"],
             len(list((ROOT / "vault" / "Archaeological Sites").glob("*.md"))),
         )
+        self.assertEqual(
+            manifest["counts"]["authors"],
+            len(list((ROOT / "vault" / "Authors").glob("*.md"))),
+        )
+        self.assertEqual(
+            manifest["counts"]["expeditions"],
+            len(list((ROOT / "vault" / "Expeditions").glob("*.md"))),
+        )
+        self.assertEqual(
+            manifest["counts"]["route_locations"],
+            len(list((ROOT / "vault" / "Route Locations").glob("*.md"))),
+        )
 
     def test_graph_has_no_unresolved_typed_links(self) -> None:
         result = self.audit_module.audit(ROOT / "vault")
@@ -69,6 +81,53 @@ class AcreGraphTests(unittest.TestCase):
             self.assertIn(field, template)
         self.assertTrue((ROOT / "vault" / "Templates" / "Investigation.md").is_file())
         self.assertTrue((ROOT / "vault" / "Templates" / "LiDAR Scan.md").is_file())
+        self.assertTrue((ROOT / "vault" / "Templates" / "Expedition.md").is_file())
+        self.assertTrue((ROOT / "vault" / "Templates" / "Route Location.md").is_file())
+
+    def test_orellana_route_locations_have_public_reference_policy(self) -> None:
+        records = list((ROOT / "vault" / "Route Locations").glob("*.md"))
+        self.assertEqual(22, len(records))
+        precisions = {frontmatter_value(record, "coordinate_precision") for record in records}
+        self.assertEqual({"landmark", "approximate"}, precisions)
+        marker_roles = {frontmatter_value(record, "marker_role") for record in records}
+        self.assertEqual({"research", "expedition"}, marker_roles)
+        self.assertGreaterEqual(
+            sum(frontmatter_value(record, "marker_role") == "expedition" for record in records),
+            8,
+        )
+        for record in records:
+            self.assertEqual("route-location", frontmatter_value(record, "type"), record)
+            self.assertEqual("public-reference", frontmatter_value(record, "location_visibility"), record)
+            float(frontmatter_value(record, "latitude"))
+            float(frontmatter_value(record, "longitude"))
+            uncertainty = float(frontmatter_value(record, "coordinate_uncertainty_km"))
+            minimum = 8 if frontmatter_value(record, "coordinate_precision") == "approximate" else 1
+            self.assertGreaterEqual(uncertainty, minimum, record)
+
+        required_research_anchors = {
+            "leticia-quebrada-tacana",
+            "itacoatiara-pedra-chata",
+            "parintins-macurany",
+            "juruti-terra-preta-2",
+            "monte-alegre-archaeology",
+            "macapa-estuary-archaeology",
+        }
+        self.assertTrue(
+            required_research_anchors.issubset({record.stem for record in records})
+        )
+
+    def test_orellana_route_layer_is_schematic_and_complete(self) -> None:
+        layer = json.loads((ROOT / "_data" / "orellana-route.json").read_text(encoding="utf-8"))
+        self.assertEqual(1, layer["schema_version"])
+        self.assertIn("not a reconstruction of day-by-day positions", layer["coordinate_policy"])
+        self.assertGreaterEqual(len(layer["positions"]), 200)
+        self.assertIn("OpenStreetMap", layer["geometry_source"]["provider"])
+        start_lat, start_lon = layer["positions"][0]
+        end_lat, end_lon = layer["positions"][-1]
+        self.assertTrue(math.isclose(start_lat, -0.965077, abs_tol=0.001))
+        self.assertTrue(math.isclose(start_lon, -75.196269, abs_tol=0.001))
+        self.assertGreater(end_lon, -50)
+        self.assertLess(abs(end_lat), 0.1)
 
     def test_research_collection_views_use_current_schema(self) -> None:
         lidar_view = (ROOT / "vault" / "Views" / "LiDAR Scans.base").read_text(

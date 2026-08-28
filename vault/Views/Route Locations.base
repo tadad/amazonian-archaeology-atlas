@@ -1,0 +1,19 @@
+filters:
+  and:
+    - 'type == "route-location"'
+    - 'file.inFolder("Route Locations")'
+properties:
+  name:
+    displayName: Route location
+  route_order:
+    displayName: Order
+  coordinate_precision:
+    displayName: Certainty
+  historical_associations:
+    displayName: Historical association
+  papers:
+    displayName: Papers
+views:
+  - type: table
+    name: Route locations
+    order: [route_order, name, location_kind, coordinate_precision, historical_associations, latest_study_year, papers]

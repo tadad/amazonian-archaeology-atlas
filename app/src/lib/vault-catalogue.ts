@@ -47,6 +47,8 @@ type VaultCatalogue = {
 const preferredCollectionOrder = [
   "lidar-scans",
   "investigations",
+  "expeditions",
+  "route-locations",
   "archaeological-sites",
   "papers",
   "authors",

@@ -189,6 +189,22 @@ h1 {
   border-radius: 50%;
 }
 
+.marker-role-symbol {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  flex: 0 0 auto;
+  background: var(--moss);
+  transform: rotate(45deg) scale(0.72);
+}
+.marker-role-filter.marker-expedition .marker-role-symbol {
+  width: 11px;
+  height: 9px;
+  background: #70506f;
+  clip-path: polygon(0 0, 100% 18%, 72% 52%, 100% 86%, 0 100%);
+  transform: none;
+}
+
 .location-located .location-symbol,
 .list-symbol.location-located {
   width: 8px;
@@ -813,6 +829,28 @@ h1 {
   border-radius: 50%;
 }
 
+.dig-marker.marker-expedition::before {
+  inset: 3px auto 2px 7px;
+  width: 2px;
+  border: 0;
+  border-radius: 0;
+  background: #ffffff;
+  transform: none;
+}
+.dig-marker.marker-expedition > span {
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 13px;
+  height: 10px;
+  background: #70506f;
+  border: 1px solid #ffffff;
+  clip-path: polygon(0 0, 100% 18%, 72% 52%, 100% 86%, 0 100%);
+}
+.dig-marker.marker-expedition.location-approximate > span {
+  background: #9d739c;
+}
+
 .dig-marker.is-selected {
   transform: scale(1.08);
   filter: none;
@@ -864,8 +902,17 @@ h1 {
   }
 
   .masthead {
+    flex-wrap: wrap;
+    gap: 10px 16px;
     min-height: 46px;
     padding: 13px 14px;
+  }
+
+  .masthead-nav {
+    margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
   }
 
   h1 {

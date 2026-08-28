@@ -14,6 +14,7 @@ import type {
 import { vaultRouteSlug } from "@/lib/vault-catalogue";
 
 let atlasCache: AtlasData | undefined;
+let orellanaAtlasCache: AtlasData | undefined;
 const collator = new Intl.Collator("pt", { sensitivity: "base", numeric: true });
 
 function vaultRoot(): string {
@@ -126,6 +127,7 @@ function placeRecord(filename: string): AtlasPlace | null {
     lat,
     lon,
     coordinateMethod: "reconstructed",
+    markerRole: "research",
     kind: humanize(kind),
     basis: String(parsed.data.coordinate_basis || "Generalized public research geography"),
     note: String(parsed.data.coordinate_note || ""),
@@ -142,6 +144,78 @@ function placeRecord(filename: string): AtlasPlace | null {
       : optionalYear(parsed.data.last_fieldwork_year)?.toString() ?? null,
     body: webMarkdown(stripLeadingTitle(parsed.content)),
   };
+}
+
+function routeLocationRecord(filename: string): AtlasPlace | null {
+  const parsed = matter(fs.readFileSync(filename, "utf8"));
+  if (parsed.data.type !== "route-location") {
+    throw new Error(`Expected route-location record in ${filename}`);
+  }
+
+  const id = String(parsed.data.route_location_id || path.basename(filename, ".md"));
+  const coordinatePrecision = String(parsed.data.coordinate_precision || "withheld");
+  const locationVisibility = String(parsed.data.location_visibility || "withheld");
+  const lat = typeof parsed.data.latitude === "number" ? parsed.data.latitude : null;
+  const lon = typeof parsed.data.longitude === "number" ? parsed.data.longitude : null;
+  const uncertaintyKm =
+    typeof parsed.data.coordinate_uncertainty_km === "number"
+      ? parsed.data.coordinate_uncertainty_km
+      : null;
+  const approvedPrecision = coordinatePrecision === "landmark" || coordinatePrecision === "approximate";
+
+  if (locationVisibility !== "public-reference" || !approvedPrecision || lat === null || lon === null) {
+    throw new Error(`Refusing to publish unapproved route location ${id}`);
+  }
+  if (uncertaintyKm === null || uncertaintyKm < (coordinatePrecision === "approximate" ? 8 : 1)) {
+    throw new Error(`Route location ${id} has insufficient coordinate uncertainty`);
+  }
+  if (!strings(parsed.data.atlas_views).includes("orellana")) return null;
+
+  const kind = String(parsed.data.location_kind || "route-location");
+  const markerRole = String(parsed.data.marker_role || "");
+  if (markerRole !== "research" && markerRole !== "expedition") {
+    throw new Error(`Route location ${id} has invalid marker role ${markerRole}`);
+  }
+  return {
+    id,
+    name: String(parsed.data.name || id),
+    lat,
+    lon,
+    coordinateMethod: coordinatePrecision === "landmark" ? "mapped" : "reconstructed",
+    markerRole,
+    kind: humanize(kind),
+    basis: String(parsed.data.coordinate_basis || "Modern geographic reference"),
+    note: String(parsed.data.coordinate_note || ""),
+    uncertaintyKm,
+    periods: strings(parsed.data.expedition_context),
+    cultures: strings(parsed.data.historical_associations),
+    finds: strings(parsed.data.reported_or_investigated),
+    techniques: [kind],
+    latestStudyYear: optionalYear(parsed.data.latest_study_year),
+    latestStudyLabel: parsed.data.latest_study_label ? String(parsed.data.latest_study_label) : null,
+    lastFieldworkYear: optionalYear(parsed.data.last_fieldwork_year),
+    lastFieldworkLabel: parsed.data.last_fieldwork_label
+      ? String(parsed.data.last_fieldwork_label)
+      : optionalYear(parsed.data.last_fieldwork_year)?.toString() ?? null,
+    body: webMarkdown(stripLeadingTitle(parsed.content)),
+  };
+}
+
+function orellanaRouteLayer(root: string): readonly [number, number][] {
+  const filename = path.join(path.dirname(root), "_data", "orellana-route.json");
+  const parsed = JSON.parse(fs.readFileSync(filename, "utf8")) as {
+    positions?: unknown;
+  };
+  if (
+    !Array.isArray(parsed.positions) ||
+    parsed.positions.length < 20 ||
+    !parsed.positions.every(
+      (position) => Array.isArray(position) && position.length === 2 && position.every(Number.isFinite),
+    )
+  ) {
+    throw new Error(`Invalid Orellana route layer in ${filename}`);
+  }
+  return parsed.positions as [number, number][];
 }
 
 function facets(values: string[], label: (value: string) => string): TaxonomyEntry[] {
@@ -625,8 +699,34 @@ export function getAtlasData(): AtlasData {
     lidarFootprints: atlasLidarFootprints,
     lidarCoordinatePolicy: lidar.coordinatePolicy,
     lidarFootprintPolicy: lidarFootprints.coordinatePolicy,
+    routePositions: [],
   };
   validateAtlas(data);
   if (process.env.NODE_ENV === "production") atlasCache = data;
+  return data;
+}
+
+export function getOrellanaAtlasData(): AtlasData {
+  if (process.env.NODE_ENV === "production" && orellanaAtlasCache) return orellanaAtlasCache;
+  const root = vaultRoot();
+  const places = markdownFiles(path.join(root, "Route Locations"))
+    .map(routeLocationRecord)
+    .filter((place): place is AtlasPlace => place !== null)
+    .sort((left, right) => collator.compare(left.name, right.name));
+  const data: AtlasData = {
+    places,
+    periods: facets(places.flatMap((place) => place.periods), (value) => value),
+    cultures: facets(places.flatMap((place) => place.cultures), (value) => value),
+    finds: facets(places.flatMap((place) => place.finds), humanize),
+    techniques: facets(places.flatMap((place) => place.techniques), humanize),
+    ancientFeatureCells: [],
+    lidarSurveys: [],
+    lidarFootprints: [],
+    lidarCoordinatePolicy: "Not used on the Orellana route atlas.",
+    lidarFootprintPolicy: "Not used on the Orellana route atlas.",
+    routePositions: orellanaRouteLayer(root),
+  };
+  if (!places.length) throw new Error("Orellana route atlas requires route-location records");
+  if (process.env.NODE_ENV === "production") orellanaAtlasCache = data;
   return data;
 }

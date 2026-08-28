@@ -6,39 +6,57 @@ This bibliography is an exhaustive first-pass discovery set, not a claim that ev
 | ---: | --- | --- | --- | --- |
 | 2026 | [[Papers/2026-lopes-campos-geoglifos-acre-amazonas|Os geoglifos no Acre e sul do Amazonas: paisagem, território e territorialidade na Amazônia pré-colonial]] | pt | article | open-access |
 | 2026 | [[Papers/2026-parssinen-et-al-over-20000-earthworks|Over 20,000 Precolonial Earthworks in the Southwest Amazonia]] | en | article | local-pdf-restricted |
+| 2025 | [[Papers/2025-gomes-urban-archaeology-santarem|Urban Archaeology in the Lower Amazon: Fieldwork Uncovering Large Pre-Colonial Villages in Santarém City, Brazil]] | en | article | publisher-record |
+| 2025 | [[Papers/2025-cabrero-aparia|A terra do ‘grande senhor Aparia’ e seus descendentes: sobre os Omágua/Kambeba à margem da História]] | pt, en | article | open-access |
+| 2024 | [[Papers/2024-frazao-et-al-amapa-seasonal-sites|Sítios arqueológicos de ocupação sazonal na Costa Estuarina do Amapá]] | pt | article | open-access |
+| 2024 | [[Papers/2024-ellis-et-al-macurany|A Port by Any Other Name: A Preliminary Spatial Analysis of Ancient Infrastructural Landscapes and Settlement Organization at Macurany, Brazil]] | en | article | open-access |
+| 2024 | [[Papers/2024-lopes-et-al-medio-solimoes|Entre a história antiga amazônica e seu presente etnográfico: colonialismo e persistências nas trajetórias indígenas de longa duração do médio Solimões, Amazonas]] | pt, en | article | open-access |
 | 2024 | [[Papers/2024-kalliola-et-al-geography-earthworks|Geography of Ancient Geometric Earthworks and Their Builders in Southwestern Amazonia]] | en, pt | article | local-pdf-restricted |
 | 2024 | [[Papers/2024-watling-et-al-paleoecological-anthropocene|O que os dados paleoecológicos nos dizem sobre o Antropoceno na Amazônia?]] | pt | article | open-access |
 | 2024 | [[Papers/2024-de-souza-tequinho-roads|The Pre-Colombian Roads of Geoglyph Sites in the State of Acre: The Tequinho Site Road Complex]] | en | article | open-access |
 | 2023 | [[Papers/2023-peripato-et-al-hidden-earthworks|More than 10,000 Pre-Columbian Earthworks Are Still Hidden throughout Amazonia]] | en | article | local-pdf-restricted |
+| 2023 | [[Papers/2023-machado-tupinambarana|Os antigos habitantes da Ilha de Tupinambarana: apontamentos a partir das cerâmicas arqueológicas]] | pt | master-dissertation | open-access |
+| 2022 | [[Papers/2022-xavier-et-al-ap-ma-05|Aspectos morfológicos, texturais e a conservação de antrossolos no sítio arqueológico AP-MA-05, Macapá–Amapá]] | pt | article | open-access |
 | 2022 | [[Papers/2022-wagner-et-al-fast-dtm-geoglyph-detection|Fast Computation of Digital Terrain Model Anomalies Based on LiDAR Data for Geoglyph Detection in the Amazon]] | en | article | publisher-record |
 | 2022 | [[Papers/2022-pessoa-geoglifos-acre-passado-profundo|Geoglifos do Acre: passado profundo]] | pt | book-review | open-access |
 | 2021 | [[Papers/2021-ranzi-parssinen-geoglifos-civilizacao-aquiry|Amazônia: os geoglifos e a civilização Aquiry]] | pt | book | open-access |
+| 2021 | [[Papers/2021-lopes-cronicas-medio-solimoes|Crônicas amazônicas e trocas indígenas: caminhos para uma Arqueologia documental do Médio Solimões nos séculos XVI e XVII]] | pt | article | open-access |
 | 2021 | [[Papers/2021-parssinen-et-al-domestication-motion|Domestication in Motion: Macrofossils of Pre-Colonial Brazilian Nuts, Palms and Other Amazonian Planted Tree Species Found in the Upper Purus]] | en | article | publisher-record |
 | 2021 | [[Papers/2021-saunaluoma-et-al-patterned-villagescapes|Patterned Villagescapes and Road Networks in Ancient Southwestern Amazonia]] | en | article | open-access |
 | 2021 | [[Papers/2021-iriarte-et-al-mound-village-chronology|Refining the Chronology and Occupation Dynamics of the Mound Villages of South-Eastern Acre, Brazil]] | en | article | open-access |
 | 2021 | [[Papers/2021-parssinen-tequinho-polychrome-horizon|Tequinho Geoglyph Site and Early Polychrome Horizon BC 500/300-AD 300/500 in the Brazilian State of Acre]] | en | article | open-access |
 | 2020 | [[Papers/2020-silva-etnogeometria-geoglifos-acre|Etnogeometria: geometrias das antigas civilizações e os geoglifos dos povos ancestrais que viveram no estado do Acre]] | pt | thesis | open-access |
+| 2020 | [[Papers/2020-oliveira-et-al-conjunto-vilas-sao-joao|Archeometric study of pottery shards from Conjunto Vilas and São João, Amazon]] | en | article | open-access |
+| 2020 | [[Papers/2020-costa-et-al-terra-preta-2-juruti|Geoarqueologia de antrossolos do Sítio Terra Preta 2, Vale do Baixo Amazonas, Juruti-Pará, Brasil]] | pt | article | open-access |
+| 2020 | [[Papers/2020-lima-moraes-sa-tapajonico|Os discos perfurados do período Tapajônico: análise tecnológica e questões contextuais]] | pt, en | article | open-access |
 | 2020 | [[Papers/2020-iriarte-et-al-geometry-by-design|Geometry by Design: Contribution of LiDAR to the Understanding of Settlement Patterns of the Mound Villages in SW Amazonia]] | en | article | open-access |
 | 2020 | [[Papers/2020-riris-spatial-structure-earthworks|Spatial Structure among the Geometric Earthworks of Western Amazonia (Acre, Brazil)]] | en | article | publisher-record |
 | 2020 | [[Papers/2020-parssinen-balee-ranzi-barbosa-ten-thousand-years|The Geoglyph Sites of Acre, Brazil: 10,000-Year-Old Land-Use Practices and Climate Change in Amazonia]] | en | article | open-access |
 | 2019 | [[Papers/2019-saunaluoma-anttiroiko-moat-uav|UAV Survey at Archaeological Earthwork Sites in the Brazilian State of Acre, Southwestern Amazonia]] | en | article | publisher-record |
+| 2019 | [[Papers/2019-arroyo-kalin-rivas-napo|La arqueología del río Napo: noticias recientes y desafíos futuros]] | es | article | open-access |
 | 2018 | [[Papers/2018-silva-micromorfologia-sol-campinas|Análise micromorfológica do processo de formação do sítio arqueológico Sol de Campinas do Acre - AC]] | pt | thesis | open-access |
 | 2018 | [[Papers/2018-saunaluoma-parssinen-schaan-diversity|Diversity of Pre-Colonial Earthworks in the Brazilian State of Acre, Southwestern Amazonia]] | en | article | open-access |
 | 2018 | [[Papers/2018-watling-mayle-schaan-historical-ecology|Historical Ecology, Human Niche Construction and Landscape in Pre-Columbian Amazonia: A Case Study of the Geoglyph Builders of Acre, Brazil]] | en | article | open-access |
 | 2018 | [[Papers/2018-desouza-southern-amazon-earth-builders|Pre-Columbian Earth-Builders Settled along the Entire Southern Rim of the Amazon]] | en | article | local-pdf-restricted |
 | 2017 | [[Papers/2017-khan-aragao-iriarte-uav-lidar-system|A UAV-LiDAR System to Map Amazonian Rainforest and Its Ancient Landscape Transformations]] | en | article | publisher-record |
+| 2017 | [[Papers/2017-gama-pedra-chata-itacoatiara|Análise tecno-estilística do material cerâmico pré-colonial proveniente do Sítio AM-IT-30 Pedra Chata (Itacoatiara-AM)]] | pt | undergraduate-thesis | open-access |
 | 2017 | [[Papers/2017-watling-impact-geoglyph-builders|Impact of Pre-Columbian 'Geoglyph' Builders on Amazonian Forests]] | en | article | local-pdf-restricted |
 | 2017 | [[Papers/2017-silva-sobre-sujeitos-lugares-patrimonio|Sobre sujeitos, lugares e patrimônio: um olhar reflexivo a partir do caso da Vila Pia, no estado do Acre]] | pt | thesis | open-access |
 | 2017 | [[Papers/2017-virtanen-saunaluoma-visualization-movement|Visualization and Movement as Configurations of Human-Nonhuman Engagements: Precolonial Geometric Earthwork Landscapes of the Upper Purus, Brazil]] | en | article | publisher-record |
 | 2016 | [[Papers/2016-neves-et-al-pesc-final-report|Pesquisa e formação nos sítios arqueológicos Espinhara e Sol de Campinas do Acre - PESC: relatório final]] | pt | report | unpublished-report |
+| 2016 | [[Papers/2016-barreto-nascimento-monte-alegre-ceramics|As cerâmicas dos sítios a céu aberto de Monte Alegre: subsídios para a arqueologia do Baixo Amazonas]] | pt | book-chapter | open-access |
 | 2015 | [[Papers/2015-watling-et-al-subsistence-phytoliths|Subsistence Practices among Earthwork Builders: Phytolith Evidence from Archaeological Sites in the Southwest Amazonian Interfluves]] | en | article | publisher-record |
 | 2014 | [[Papers/2014-barbosa-analise-espacial-sitios-monumentais|Análise espacial dos sítios monumentais do leste da Amazônia Ocidental]] | pt | thesis | open-access |
 | 2014 | [[Papers/2014-balee-et-al-tres-vertentes|Florestas antrópicas no Acre: inventário florestal no geoglifo Três Vertentes, Acrelândia]] | pt | article | open-access |
+| 2012 | [[Papers/2012-tamanaha-ocupacao-policroma-solimoes|Ocupação polícroma no baixo e médio rio Solimões, estado do Amazonas]] | pt | master-dissertation | open-access |
 | 2012 | [[Papers/2012-saunaluoma-fazenda-atlantica-quinaua|Geometric Earthworks in the State of Acre, Brazil: Excavations at the Fazenda Atlântica and Quinauá Sites]] | en | article | publisher-record |
 | 2012 | [[Papers/2012-saunaluoma-schaan-monumentality|Monumentality in Western Amazonian Formative Societies: Geometric Ditched Enclosures in the Brazilian State of Acre]] | en | article | open-access |
 | 2012 | [[Papers/2012-schaan-et-al-new-radiometric-dates|New Radiometric Dates for Precolumbian (2000-700 B.P.) Earthworks in Western Amazonia, Brazil]] | en | article | publisher-record |
 | 2012 | [[Papers/2012-carmo-relacoes-geoambientais-geoglifos|Relações geoambientais nos geoglifos do sudeste do estado do Acre]] | pt | thesis | open-access |
 | 2012 | [[Papers/2012-asner-colombia-carbon-mapping|High-resolution mapping of forest carbon stocks in the Colombian Amazon]] | en | article | open-access |
+| 2012 | [[Papers/2012-guapindaia-lopes-porto-trombetas|Estudos arqueológicos na região de Porto Trombetas, PA]] | pt, en | article | open-access |
+| 2011 | [[Papers/2011-lima-neves-incised-rim-central-amazon|Incised Rim/Barrancoid Ceramics in the Central Amazon]] | pt, en | article | open-access |
+| 2011 | [[Papers/2011-costa-et-al-quebrada-tacana|Mineralogy and chemistry of archaeological ceramic fragments from archaeological Dark Earth site in Colombian Amazon]] | en, pt | article | open-access |
 | 2010 | [[Papers/2010-schaan-et-al-construindo-paisagens|Construindo paisagens como espaços sociais: o caso dos geoglifos do Acre]] | pt | article | open-access |
 | 2010 | [[Papers/2010-asner-peru-carbon-mapping|High-resolution forest carbon stocks and emissions in the Amazon]] | en | article | open-access |
 | 2009 | [[Papers/2009-parssinen-schaan-ranzi-upper-purus|Pre-Columbian Geometric Earthworks in the Upper Purús: A Complex Society in Western Amazonia]] | en | article | open-access |
@@ -51,4 +69,6 @@ This bibliography is an exhaustive first-pass discovery set, not a claim that ev
 | 2003 | [[Papers/2003-ranzi-geoglifos-patrimonio-cultural-acre|Geoglifos: patrimônio cultural do Acre]] | pt | book-chapter | bibliographic-lead |
 | 2003 | [[Papers/2003-parssinen-ranzi-saunaluoma-siiriainen-rio-branco|Geometrically Patterned Ancient Earthworks in the Rio Branco Region of Acre, Brazil]] | en | book-chapter | bibliographic-lead |
 | 2001 | [[Papers/2001-ranzi-aguiar-registro-geoglifos|Registro de geoglifos na região Amazônica - Brasil]] | pt | article | bibliographic-lead |
+| 1996 | [[Papers/1996-roosevelt-et-al-pedra-pintada|Paleoindian Cave Dwellers in the Amazon: The Peopling of the Americas]] | en | article | open-access |
 | 1988 | [[Papers/1988-dias-carvalho-estruturas-terra-acre|As estruturas de terra na arqueologia do Acre]] | pt | article | bibliographic-lead |
+| 1859 | [[Papers/1859-markham-orellana-voyage|The Voyage of Francisco de Orellana]] | en | primary-source-edition | open-access |

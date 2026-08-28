@@ -2,6 +2,8 @@
   "metadata": {
     "siteTitle": "Atlas de Arqueologia Amazônica",
     "siteDescription": "Um atlas de pesquisas arqueológicas com LiDAR na Amazônia, vinculado às fontes e a um grafo de conhecimento sobre a arqueologia do Acre.",
+    "orellanaTitle": "A Amazônia de Orellana, 1542",
+    "orellanaDescription": "Um atlas da rota de Orellana em 1542, dos relatos históricos e da arqueologia moderna ao longo do corredor fluvial, vinculado às fontes.",
     "wikiTitle": "Wiki de Arqueologia Amazônica",
     "collectionDescription": "Consulte {count} registros de {collection} no acervo arqueológico.",
     "recordDescription": "Registro de {type} gerado a partir do acervo arqueológico.",
@@ -14,6 +16,7 @@
     "siteName": "Arqueologia da Amazônia",
     "primaryLabel": "Navegação principal",
     "atlas": "Atlas",
+    "orellana": "Orellana 1542",
     "wiki": "Wiki",
     "about": "Sobre"
   },
@@ -109,6 +112,31 @@
       "context": "Apenas contexto"
     }
   },
+  "orellana": {
+    "siteName": "A Amazônia de Orellana, 1542",
+    "workspaceLabel": "Atlas arqueológico da rota de Orellana",
+    "mapControlsLabel": "Filtrar pontos da rota por certeza de localização e tipo de marcador",
+    "locationFilterLabel": "{label}: {count} pontos da rota",
+    "markerRoleFilterLabel": "{label}: {count} pontos no mapa",
+    "markerRoles": {
+      "research": {
+        "label": "Nós de pesquisa",
+        "description": "Âncoras de pesquisa arqueológica ou documental moderna; os relatos da expedição são incluídos quando se sobrepõem."
+      },
+      "expedition": {
+        "label": "Eventos da expedição",
+        "description": "Eventos aproximados da viagem reconstruídos a partir da narrativa da expedição e de estudos modernos da rota."
+      }
+    },
+    "visibleSummary": "{visible} pontos da rota",
+    "chronology": "Contexto da expedição",
+    "historicalAssociation": "Associação histórica",
+    "reportedInvestigated": "Relatado / investigado",
+    "pointType": "Ponto no mapa",
+    "latestSource": "Fonte incluída mais recente",
+    "fieldwork": "Pesquisa arqueológica de campo",
+    "selectPrompt": "Selecione um ponto da rota para consultar o relato histórico e a arqueologia associada. A linha tracejada é uma reconstrução esquemática do corredor fluvial, não um itinerário diário."
+  },
   "map": {
     "contributors": "colaboradores",
     "records": "registros",
@@ -135,22 +163,32 @@
       "Archaeological sites": "Sítios arqueológicos",
       "Authors": "Autores",
       "Cultures": "Culturas",
+      "Expeditions": "Expedições",
       "Investigations": "Investigações",
       "LiDAR scans": "Varreduras LiDAR",
       "LiDAR surveys": "Levantamentos LiDAR",
       "Organizations": "Organizações",
       "Papers": "Documentos",
       "Periods": "Períodos",
+      "Route locations": "Locais da rota",
       "Ancient works": "Estruturas antigas"
     }
   },
   "locationStatuses": {
+    "located": {
+      "label": "Localizado",
+      "description": "Ancorado em uma comunidade, confluência ou feição geográfica moderna conhecida; o evento de 1542 ainda pode ser menos exato."
+    },
     "approximate": {
-      "label": "Generalizado",
+      "label": "Aproximado",
       "description": "Uma localização pública aproximada para pesquisa, nunca uma coordenada ou um ponto de acesso de sítio arqueológico."
     }
   },
   "coordinateMethods": {
+    "mapped": {
+      "label": "Ponto de referência mapeado",
+      "description": "O marcador está fixado em uma comunidade, confluência ou feição geográfica moderna conhecida."
+    },
     "reconstructed": {
       "label": "Localização de pesquisa generalizada",
       "description": "O marcador é intencionalmente generalizado a partir da geografia das fontes para proteger os locais arqueológicos."
@@ -209,6 +247,8 @@
   "collections": {
     "lidar-scans": "Varreduras LiDAR",
     "investigations": "Investigações",
+    "expeditions": "Expedições",
+    "route-locations": "Locais da rota",
     "archaeological-sites": "Sítios arqueológicos",
     "papers": "Documentos",
     "authors": "Autores",
@@ -219,6 +259,8 @@
   "recordTypes": {
     "lidar-scan": "varredura LiDAR",
     "investigation": "investigação",
+    "expedition": "expedição",
+    "route-location": "local da rota",
     "archaeological-site": "sítio arqueológico",
     "paper": "documento",
     "author": "autor",

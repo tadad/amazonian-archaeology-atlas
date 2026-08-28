@@ -14,11 +14,13 @@ const categoryLabels: Record<string, string> = {
   "archaeological-sites": "Archaeological sites",
   authors: "Authors",
   cultures: "Cultures",
+  expeditions: "Expeditions",
   investigations: "Investigations",
   "lidar-scans": "LiDAR scans",
   organizations: "Organizations",
   papers: "Papers",
   periods: "Periods",
+  "route-locations": "Route locations",
 };
 
 function normalizeSearchText(value: string): string {
@@ -151,7 +153,7 @@ function atlasSearchCandidates(): RankedCandidate[] {
       },
     },
     searchText: record.searchText,
-    priority: ["lidar-scans", "investigations", "archaeological-sites", "papers"]
+    priority: ["lidar-scans", "investigations", "expeditions", "route-locations", "archaeological-sites", "papers"]
       .includes(record.collectionSlug) ? 8 : 14,
   }));
   return [...lidar, ...ancientFeatures, ...knowledgeGraph];

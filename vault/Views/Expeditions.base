@@ -1,0 +1,17 @@
+filters:
+  and:
+    - 'type == "expedition"'
+    - 'file.inFolder("Expeditions")'
+properties:
+  name:
+    displayName: Expedition
+  start_year:
+    displayName: Start
+  end_year:
+    displayName: End
+  route_locations:
+    displayName: Route locations
+views:
+  - type: table
+    name: Expeditions
+    order: [name, start_year, end_year, leader, route_locations, papers]

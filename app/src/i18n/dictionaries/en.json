@@ -2,6 +2,8 @@
   "metadata": {
     "siteTitle": "Amazonian Archaeology Atlas",
     "siteDescription": "A source-linked atlas of Amazonian LiDAR research with an Acre archaeology knowledge graph.",
+    "orellanaTitle": "Orellana's Amazon, 1542",
+    "orellanaDescription": "A source-linked atlas of Orellana's 1542 route, historical reports, and modern archaeology along the river corridor.",
     "wikiTitle": "Amazonian Archaeology Wiki",
     "collectionDescription": "Browse {count} {collection} records from the archaeology vault.",
     "recordDescription": "{type} record generated from the archaeology vault.",
@@ -14,6 +16,7 @@
     "siteName": "Archaeology of Amazonia",
     "primaryLabel": "Primary navigation",
     "atlas": "Atlas",
+    "orellana": "Orellana 1542",
     "wiki": "Wiki",
     "about": "About"
   },
@@ -109,6 +112,31 @@
       "context": "Context only"
     }
   },
+  "orellana": {
+    "siteName": "Orellana's Amazon, 1542",
+    "workspaceLabel": "Orellana route archaeology atlas",
+    "mapControlsLabel": "Filter route points by location certainty and marker type",
+    "locationFilterLabel": "{label}: {count} route points",
+    "markerRoleFilterLabel": "{label}: {count} map points",
+    "markerRoles": {
+      "research": {
+        "label": "Research nodes",
+        "description": "Modern archaeological or documentary research anchors; expedition reports are included when they overlap."
+      },
+      "expedition": {
+        "label": "Expedition events",
+        "description": "Approximate journey events reconstructed from the expedition narrative and modern route scholarship."
+      }
+    },
+    "visibleSummary": "{visible} route points",
+    "chronology": "Expedition context",
+    "historicalAssociation": "Historical association",
+    "reportedInvestigated": "Reported / investigated",
+    "pointType": "Map point",
+    "latestSource": "Latest included source",
+    "fieldwork": "Archaeological fieldwork",
+    "selectPrompt": "Select a route point to read the historical report and associated archaeology. The dashed line is a schematic river-corridor reconstruction, not a day-by-day itinerary."
+  },
   "map": {
     "contributors": "contributors",
     "records": "records",
@@ -135,22 +163,32 @@
       "Archaeological sites": "Archaeological sites",
       "Authors": "Authors",
       "Cultures": "Cultures",
+      "Expeditions": "Expeditions",
       "Investigations": "Investigations",
       "LiDAR scans": "LiDAR scans",
       "LiDAR surveys": "LiDAR surveys",
       "Organizations": "Organizations",
       "Papers": "Papers",
       "Periods": "Periods",
+      "Route locations": "Route locations",
       "Ancient works": "Ancient works"
     }
   },
   "locationStatuses": {
+    "located": {
+      "label": "Located",
+      "description": "Anchored to a known modern community, confluence, or geographic feature; the 1542 event may still be less exact."
+    },
     "approximate": {
-      "label": "Generalized",
+      "label": "Approximate",
       "description": "A coarse public research placement, never an archaeological-site coordinate or access point."
     }
   },
   "coordinateMethods": {
+    "mapped": {
+      "label": "Mapped reference point",
+      "description": "The marker is fixed to a known modern community, confluence, or geographic feature."
+    },
     "reconstructed": {
       "label": "Generalized research placement",
       "description": "The marker is intentionally generalized from source geography to protect archaeological locations."
@@ -209,6 +247,8 @@
   "collections": {
     "lidar-scans": "LiDAR scans",
     "investigations": "Investigations",
+    "expeditions": "Expeditions",
+    "route-locations": "Route locations",
     "archaeological-sites": "Archaeological sites",
     "papers": "Papers",
     "authors": "Authors",
@@ -219,6 +259,8 @@
   "recordTypes": {
     "lidar-scan": "LiDAR scan",
     "investigation": "investigation",
+    "expedition": "expedition",
+    "route-location": "route location",
     "archaeological-site": "archaeological site",
     "paper": "paper",
     "author": "author",
